@@ -14,20 +14,11 @@
 		diffDirectory = config.sys_config.diffDirectory || "/diffs/",
 		rawDirectory = config.sys_config.rawDirectory || "/raw/",
 		storeDirectory = config.sys_config.storeDirectory || "/store/",
-		where = config.sys_config.system,
 		category = config.category,
 		categoryName = category.name,
 		categoryDirectory = categoryName  + "/",
 		location = "local",
 		util = {};
-
-	util.fetchPage = fetchPage;
-	util.getFileName = getFileName;
-	util.getRawDataPath = getRawDataPath;
-	util.getRequestObject = getRequestObject;
-	util.logger = logger;
-	util.save = save;
-	util.generateUID = generateUID;
 
 	function fetchPage(options){
 		var deferred = Q.defer(),
@@ -66,7 +57,7 @@
 	}
 
 	function getFileName(suffix){
-		var suffix =  suffix || "json"
+		var suffix =  suffix || "json";
 		return categoryName + "." + suffix;
 	}
 
@@ -82,7 +73,7 @@
 
 	function getRawDataPath(fileOverwrite){
 		var root = config[location].dataRoot;
-		return  root + categoryDirectory  + config.sys_config.rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+		return  root + categoryDirectory  + rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
 	}
 
 	function makePathFromDateString(dateStr){
@@ -121,6 +112,14 @@
 		logger.log("saving: " + file);
 	}
 
+	function fileExists(filePath){
+	    try {
+	        return fs.statSync(filePath).isFile();
+	    } catch (err) {
+	        return false;
+	    }
+	}
+
 	function makeDirectories(path){
 		nodefs.mkdirSync(path, "41777", true);
 	}
@@ -147,6 +146,14 @@
 		return options;
 	}
 
+	util.fetchPage = fetchPage;
+	util.getFileName = getFileName;
+	util.getRawDataPath = getRawDataPath;
+	util.getRequestObject = getRequestObject;
+	util.logger = logger;
+	util.save = save;
+	util.generateUID = generateUID;
+
 	module.exports = util;
 
-})()
+})();

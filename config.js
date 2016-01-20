@@ -25,6 +25,6 @@
 		pageUrlTemplate: pageUrlTemplate,
 		local: local,
 		contentType: contentType
-	}
+	};
 
 })();

@@ -2,7 +2,6 @@
 
 (function(){
 	var util = require('./util.js'),
-		program = require('commander'),
 		parser = require('./parser.js'),
 		requestObject = util.getRequestObject();
 

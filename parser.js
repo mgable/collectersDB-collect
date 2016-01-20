@@ -8,11 +8,6 @@
 
 	require('datejs');
 
-	make.float = makeFloat;
-	make.date = makeDate;
-	make.integer = makeInteger;
-	make.string = makeString;
-
 	function parse(data){
 		util.logger.log("parsing: " + requestObject.path);
 
@@ -88,6 +83,12 @@
 		}
 	}
 
+	make.float = makeFloat;
+	make.date = makeDate;
+	make.integer = makeInteger;
+	make.string = makeString;
+
 	parser.parse = parse;
+	
 	module.exports = parser;
 })();

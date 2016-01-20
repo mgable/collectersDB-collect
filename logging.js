@@ -6,7 +6,6 @@
 	winston.level = 'debug';
 
 	function addLogFile(filename){
-		console.info("adding log file " + filename);
 		winston.add(winston.transports.File, { filename: filename });
 	}
 
