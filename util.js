@@ -11,9 +11,10 @@
 		logger = require('./logging.js'),
 		config = require('./config.js'),
 		today = new Date(), 
-		diffDirectory = config.sys_config.diffDirectory || "/diffs/",
-		rawDirectory = config.sys_config.rawDirectory || "/raw/",
-		storeDirectory = config.sys_config.storeDirectory || "/store/",
+		diffDirectory = config.sys_config.diffDirectory || "diffs/",
+		rawDirectory = config.sys_config.rawDirectory || "raw/",
+		storeDirectory = config.sys_config.storeDirectory || "store/",
+		indexDirectory = config.sys_config.indexDirectory || "index/",
 		category = config.category,
 		categoryName = category.name,
 		categoryDirectory = categoryName  + "/",
@@ -96,6 +97,10 @@
 		return getRoot() + diffDirectory;
 	}
 
+	function getFormattedFile(){
+		return getRoot() + indexDirectory;
+	}
+
 	function getRoot(){
 		var root = config[location].dataRoot;
 		return root + categoryDirectory;
@@ -172,6 +177,7 @@
 		return options;
 	}
 
+	util.getFormattedFile = getFormattedFile;
 	util.fetchPage = fetchPage;
 	util.fileExists = fileExists;
 	util.readDirectory = readDirectory;

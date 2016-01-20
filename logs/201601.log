@@ -85,3 +85,7 @@
 {"level":"info","message":"saving: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/store/advertising_tins.json","timestamp":"2016-01-20T19:33:03.272Z"}
 {"level":"info","message":"making FULL index","timestamp":"2016-01-20T19:33:29.701Z"}
 {"level":"info","message":"saving: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/store/advertising_tins.json","timestamp":"2016-01-20T19:33:29.706Z"}
+{"level":"info","message":"saving: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins//index/advertising_tins.formatted.jsonadvertising_tins.formatted.json","timestamp":"2016-01-20T19:54:37.383Z"}
+{"level":"info","message":"saving bulk import file: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins//index/advertising_tins.formatted.jsonadvertising_tins.formatted.json","timestamp":"2016-01-20T19:54:37.387Z"}
+{"level":"info","message":"saving: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/index/advertising_tins.formatted.json","timestamp":"2016-01-20T20:02:21.928Z"}
+{"level":"info","message":"saving bulk import file: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/index/advertising_tins.formatted.json","timestamp":"2016-01-20T20:02:21.932Z"}
