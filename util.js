@@ -72,8 +72,24 @@
 		};
 	}
 
+	function makeLocalImagePath(dateStr, id, filename){
+		return makePathFromDateString(dateStr) + "/" + id + "/" + filename;
+	}
+
 	function getRawDataPath(fileOverwrite){
 		return  getRoot() + rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+	}
+
+	function getStoreFilePath(){
+		return getRoot()  + categoryDirectory + storeDirectory;
+	}
+
+	function getImagePath(fileOverwrite){
+		return getStoreFilePath() + "images/" +  makePathFromDateString(fileOverwrite || getDateString()) + "/";
+	}
+
+	function getDiffPath(fileOverwrite){
+		return getRoot() + diffDirectory + makePathFromDateString(fileOverwrite || getDateString()) + "/";
 	}
 
 	function getRoot(){
@@ -152,12 +168,19 @@
 	}
 
 	util.fetchPage = fetchPage;
+	util.makeOptions = makeOptions;
+	util.getDateString = getDateString;
+	util.getFileContents = getFileContents;
 	util.getFileName = getFileName;
 	util.getRawDataPath = getRawDataPath;
+	util.getStoreFilePath = getStoreFilePath;
+	util.getDiffPath = getDiffPath;
+	util.getImagePath = getImagePath;
 	util.getRequestObject = getRequestObject;
 	util.logger = logger;
 	util.save = save;
 	util.generateUID = generateUID;
+	util.makeLocalImagePath = makeLocalImagePath;
 
 	module.exports = util;
 
