@@ -195,6 +195,7 @@
 	util.save = save;
 	util.generateUID = generateUID;
 	util.makeLocalImagePath = makeLocalImagePath;
+	util.makeDirectories = makeDirectories;
 
 	module.exports = util;
 
