@@ -1,3 +1,6 @@
 {"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-20T05:08:21.784Z"}
 {"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-20T05:08:22.542Z"}
 {"level":"info","message":"saving: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/raw/2016/01/19/advertising_tins.json","timestamp":"2016-01-20T05:08:22.649Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-20T05:24:07.156Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-20T05:24:07.943Z"}
+{"level":"info","message":"saving: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/raw/2016/01/19/advertising_tins.json","timestamp":"2016-01-20T05:24:08.042Z"}

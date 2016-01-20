@@ -21,6 +21,8 @@
 		util = {};
 
 	function fetchPage(options){
+		util.logger.log("fetching: " + options.path);
+
 		var deferred = Q.defer(),
 			container = "",
 			req = http.request(options, function(res) {
@@ -66,14 +68,17 @@
 			host: config.domain,
 			port: 80,
 			path: getPageTemplate(config.category.id),
-			method: 'POST',
-			contenType: config.contentType.json
+			method: 'POST'
 		};
 	}
 
 	function getRawDataPath(fileOverwrite){
+		return  getRoot() + rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+	}
+
+	function getRoot(){
 		var root = config[location].dataRoot;
-		return  root + categoryDirectory  + rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+		return root + categoryDirectory;
 	}
 
 	function makePathFromDateString(dateStr){

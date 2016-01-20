@@ -6,7 +6,6 @@
 		requestObject = util.getRequestObject();
 
 	function init(){
-		util.logger.log("fetching: " + requestObject.path);
 		// the meat of the matter
 		util.fetchPage(requestObject).then(function(data){_process(data);});
 	}
@@ -21,7 +20,7 @@
 			path = util.getRawDataPath(),
 			file = path + filename;
 
-		util.save(filename, path, file, data, requestObject.contentType);
+		util.save(filename, path, file, data);
 	}
 
 	init();
