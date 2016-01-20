@@ -77,11 +77,11 @@
 	}
 
 	function getRawDataPath(fileOverwrite){
-		return  getRoot() + rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+		return getRoot() + rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
 	}
 
 	function getStoreFilePath(){
-		return getRoot()  + categoryDirectory + storeDirectory;
+		return getRoot() + storeDirectory;
 	}
 
 	function getImagePath(fileOverwrite){
@@ -116,7 +116,8 @@
 		if (!filename) {return false;}
 			
 		if (fileExists(filename)){
-			return JSON.parse(fs.readFileSync(filename).toString());
+			var contents = fs.readFileSync(filename).toString();
+			return contents ? JSON.parse(contents): false;
 		} else {
 			return false;
 		}
