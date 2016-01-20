@@ -89,7 +89,11 @@
 	}
 
 	function getDiffPath(fileOverwrite){
-		return getRoot() + diffDirectory + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+		return getDiffDirectory() + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+	}
+
+	function getDiffDirectory(){
+		return getRoot() + diffDirectory;
 	}
 
 	function getRoot(){
@@ -169,6 +173,8 @@
 	}
 
 	util.fetchPage = fetchPage;
+	util.fileExists = fileExists;
+	util.readDirectory = readDirectory;
 	util.makeOptions = makeOptions;
 	util.getDateString = getDateString;
 	util.getFileContents = getFileContents;
@@ -176,6 +182,7 @@
 	util.getRawDataPath = getRawDataPath;
 	util.getStoreFilePath = getStoreFilePath;
 	util.getDiffPath = getDiffPath;
+	util.getDiffDirectory = getDiffDirectory;
 	util.getImagePath = getImagePath;
 	util.getRequestObject = getRequestObject;
 	util.logger = logger;
