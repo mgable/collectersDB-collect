@@ -97,7 +97,7 @@
 		return getRoot() + diffDirectory;
 	}
 
-	function getFormattedFile(){
+	function getFormattedFilePath(){
 		return getRoot() + indexDirectory;
 	}
 
@@ -177,7 +177,7 @@
 		return options;
 	}
 
-	util.getFormattedFile = getFormattedFile;
+	util.getFormattedFilePath = getFormattedFilePath;
 	util.fetchPage = fetchPage;
 	util.fileExists = fileExists;
 	util.readDirectory = readDirectory;

@@ -1,8 +1,8 @@
-curl -XDELETE "http://localhost:9200/collectors"
+curl -XDELETE "http://localhost:9200/collectorsdb"
 
-curl -XPUT "http://localhost:9200/collectors"
+curl -XPUT "http://localhost:9200/collectorsdb"
 
-curl -XPUT "http://localhost:9200/collectors/advertising_tins/_mapping" -d '
+curl -XPUT "http://localhost:9200/collectorsdb/advertising_tins/_mapping" -d '
 {
    "advertising_tins": {
       "properties": {
@@ -55,7 +55,7 @@ curl -XPUT "http://localhost:9200/collectors/advertising_tins/_mapping" -d '
    }
 }'
 
-curl -XPOST 'http://localhost:9200/collectors/advertising_tins/_bulk?pretty' --data-binary "@/Users/markgable/Sites/data/collectorsDB/advertising_tins/index/advertising_tins.formatted.json"
+curl -XPOST 'http://localhost:9200/collectorsdb/advertising_tins/_bulk?pretty' --data-binary "@/Users/markgable/Sites/data/collectorsDB/advertising_tins/index/advertising_tins.formatted.json"
 
 sleep 3
 
