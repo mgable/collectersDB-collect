@@ -21,7 +21,8 @@
 	getData();
 
 	function getData(){
-		getDataFromLocal();
+		//getDataFromLocal();
+		getDataFromS3();
 	}
 
 	function getDataFromLocal(){
@@ -38,6 +39,35 @@
 			save(store, data);
 		});
 	}
+
+/* START- AWS S3 */
+	function getDataFromS3(){
+		var todayPath = rawDataPath + storeFileName,
+			yesterdayPath = getYesterdayFileName(dateStr);
+
+			// console.info(todayPath);
+			// console.info(yesterdayPath);
+			// console.info(storeFile);
+
+		var todayPromise = util.getDataFromS3(util.makeOptions(todayPath)).then(parse),
+			yesterdayPromise = util.getDataFromS3(util.makeOptions(yesterdayPath)).then(parse);
+
+		Q.allSettled([todayPromise, yesterdayPromise]).then(function(data){
+			var today = data[0].value,
+				yesterday = data[1].value || [];
+
+			fetchImageData(diff(today, yesterday)).then(function(data){
+				save(data);
+			});
+		});
+	}
+
+	function parse(data){
+		var results = JSON.parse(data.toString());
+		return results;
+	}
+
+/* END- AWS S3 */
 
 	function fetchImageData(newest){
 		// getting thunbnail data
@@ -89,7 +119,7 @@
 		return results;
 	}
 
-	function save(store, data){
-		util.save(storeFileName, diffPath, diffFile, JSON.stringify(data));
+	function save(data){
+		util.save(storeFileName, diffPath, diffFile, JSON.stringify(data), util.config.contentType.json);
 	}
 })();

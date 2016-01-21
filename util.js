@@ -80,7 +80,11 @@
 	}
 
 	function getRawDataPath(fileOverwrite){
-		return getRoot() + rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+		return  getRawDirectory() + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+	}
+
+	function getRawDirectory(){
+		return getRoot() + rawDirectory;
 	}
 
 	function getStoreFilePath(){
@@ -200,6 +204,32 @@
 		return options;
 	}
 
+	function getDataFromS3(options){
+		var deferred = Q.defer(),
+			credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
+		AWS.config.credentials = credentials;
+
+		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
+
+		options.path = options.path.replace(/^\//,"");
+
+		console.info("getting data from " + options.path);
+
+		s3bucket.getObject({"Key": options.path,  ResponseContentType: config.contentType.json}, function(err, data) { // jshint ignore:line
+			if (err) {
+				util.logger.log("ERROR - S3: " + options.path + ": " + err, 'error');
+				return deferred.reject(err);
+			} else {
+				util.logger.log("getting - S3: " + options.path);
+				return deferred.resolve(data.Body.toString());
+			}
+		});
+
+		return deferred.promise;
+
+	}
+
+	util.getDataFromS3 = getDataFromS3;
 	util.getFormattedFilePath = getFormattedFilePath;
 	util.fetchPage = fetchPage;
 	util.fileExists = fileExists;
@@ -209,6 +239,7 @@
 	util.getFileContents = getFileContents;
 	util.getFileName = getFileName;
 	util.getRawDataPath = getRawDataPath;
+	util.getRawDirectory = getRawDirectory;
 	util.getStoreFilePath = getStoreFilePath;
 	util.getDiffPath = getDiffPath;
 	util.getDiffDirectory = getDiffDirectory;
@@ -219,6 +250,7 @@
 	util.generateUID = generateUID;
 	util.makeLocalImagePath = makeLocalImagePath;
 	util.makeDirectories = makeDirectories;
+	util.config = config;
 
 	module.exports = util;
 

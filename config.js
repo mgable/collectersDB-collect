@@ -7,7 +7,7 @@
 		categories = [category],
 		domain = 'www.collectorsweekly.com',
 		pageUrlTemplate = '/ajax/category-auctions.php?id= *** config.category.id *** &sort=completed&limit=1000&offset=0',
-		dataRoot = "/Users/markgable/Sites/data/TEST-collectorsDB/",
+		dataRoot = "/Users/markgable/Sites/data/collectorsDB/",
 		local = {},
 		aws = {},
 		contentType = {
