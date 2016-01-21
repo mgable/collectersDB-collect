@@ -116,3 +116,12 @@
 {"level":"info","message":"fetched 129 additional images for /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-20T21:42:27.166Z"}
 {"level":"info","message":"saving: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/index/advertising_tins.formatted.json","timestamp":"2016-01-20T21:42:27.337Z"}
 {"level":"info","message":"saving bulk import file: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/index/advertising_tins.formatted.json","timestamp":"2016-01-20T21:42:27.341Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:12:20.655Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:12:49.909Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:13:23.096Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:17:48.486Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:19:50.707Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:22:46.101Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:25:27.904Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:27:13.287Z"}
+{"level":"info","message":"making FULL index","timestamp":"2016-01-21T17:28:22.832Z"}

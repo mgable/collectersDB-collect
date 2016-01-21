@@ -78,7 +78,11 @@
 	}
 
 	function getRawDataPath(fileOverwrite){
-		return getRoot() + rawDirectory  + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+		return  getRawDirectory() + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+	}
+
+	function getRawDirectory(){
+		return getRoot() + rawDirectory;
 	}
 
 	function getStoreFilePath(){
@@ -186,6 +190,7 @@
 	util.getFileContents = getFileContents;
 	util.getFileName = getFileName;
 	util.getRawDataPath = getRawDataPath;
+	util.getRawDirectory = getRawDirectory;
 	util.getStoreFilePath = getStoreFilePath;
 	util.getDiffPath = getDiffPath;
 	util.getDiffDirectory = getDiffDirectory;

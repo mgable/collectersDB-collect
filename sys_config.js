@@ -2,7 +2,7 @@
 
 (function(){
 	var system = "local",
-		mode = "test",
+		mode = false,
 		diffDirectory = "diffs/",
 		rawDirectory = "raw/",
 		storeDirectory = "store/",
