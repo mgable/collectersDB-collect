@@ -116,3 +116,17 @@
 {"level":"info","message":"fetched 129 additional images for /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-20T21:42:27.166Z"}
 {"level":"info","message":"saving: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/index/advertising_tins.formatted.json","timestamp":"2016-01-20T21:42:27.337Z"}
 {"level":"info","message":"saving bulk import file: /Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/index/advertising_tins.formatted.json","timestamp":"2016-01-20T21:42:27.341Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:47:20.203Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:47:20.856Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:48:01.971Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:48:02.563Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:48:44.226Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:48:44.909Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:53:06.071Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:53:06.730Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:53:35.251Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:53:35.901Z"}
+{"level":"info","message":"saving - S3: advertising_tins/test/raw/2016/01/21/advertising_tins.json","timestamp":"2016-01-21T14:53:37.799Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:58:50.370Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-21T14:58:51.055Z"}
+{"level":"info","message":"saving - S3: advertising_tins/raw/2016/01/21/advertising_tins.json","timestamp":"2016-01-21T14:58:52.876Z"}

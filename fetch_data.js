@@ -20,7 +20,7 @@
 			path = util.getRawDataPath(),
 			file = path + filename;
 
-		util.save(filename, path, file, data);
+		util.save(filename, path, file, data, requestObject.contentType.json);
 	}
 
 	init();

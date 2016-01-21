@@ -3,7 +3,8 @@
 "use strict";
 
 (function(){
-	var fs  = require("fs"),
+	var AWS = require('aws-sdk'),
+		fs  = require("fs"),
 		nodefs = require("node-fs"),
 		Q = require("q"),
 		http = require("http"),
@@ -69,7 +70,8 @@
 			host: config.domain,
 			port: 80,
 			path: getPageTemplate(config.category.id),
-			method: 'POST'
+			method: 'POST',
+			contentType: config.contentType.json
 		};
 	}
 
@@ -103,7 +105,8 @@
 
 	function getRoot(){
 		var root = config[location].dataRoot;
-		return root + categoryDirectory;
+		return categoryDirectory;
+		//return root + categoryDirectory;
 	}
 
 	function makePathFromDateString(dateStr){
@@ -133,7 +136,8 @@
 	}
 
 	function save(filename, path, file, data, contentType){ //filename, path, file, data, config.contentType.json
-		saveLocal(filename, path, file, data, contentType);
+		//saveLocal(filename, path, file, data, contentType);
+		saveToS3(filename, path, file, data, contentType);
 	}
 
 
@@ -141,6 +145,25 @@
 		makeDirectories(path); 
 		fs.writeFileSync(file, data);
 		logger.log("saving: " + file);
+	}
+
+	function saveToS3(filename, path, file, data, contentType){
+		console.info("saving");
+		var credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
+		AWS.config.credentials = credentials;
+
+		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
+
+		console.info("upload to S3");
+		console.info(file);
+		
+		s3bucket.upload({"Key": file, "Body": data, "ContentType": contentType}, function(err, data) { // jshint ignore:line
+			if (err) {
+				util.logger.log("ERROR - S3: " + file + ": " + err, 'error');
+			} else {
+				util.logger.log("saving - S3: " + file);
+			}
+		});
 	}
 
 	function fileExists(filePath){

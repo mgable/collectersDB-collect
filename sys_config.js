@@ -1,8 +1,8 @@
 "use strict";
 
 (function(){
-	var system = "local",
-		mode = "test",
+	var system = "aws",
+		mode = false,
 		diffDirectory = "diffs/",
 		rawDirectory = "raw/",
 		storeDirectory = "store/",
