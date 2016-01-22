@@ -281,3 +281,224 @@
 {"level":"info","message":"fetching: /itm/172057612021","timestamp":"2016-01-22T04:29:03.732Z"}
 {"level":"info","message":"fetching: /itm/VINTAGE-PRINCE-ALBERT-CRIMP-CUT-TOBACCO-TIN-CAN-/172057612021?nma=true&si=%252BdEoCnzF7COxWhR5PzAQEgm7AH8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:29:04.539Z"}
 {"level":"info","message":"saving - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:29:05.739Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-22T16:15:05.910Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-22T16:15:06.473Z"}
+{"level":"info","message":"saving - S3: advertising_tins/raw/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:15:07.720Z"}
+{"level":"info","message":"getting - S3: advertising_tins/raw/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:15:33.851Z"}
+{"level":"info","message":"getting - S3: advertising_tins/raw/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T16:15:34.314Z"}
+{"level":"info","message":"diff - There are 84 new items added for 20160122","timestamp":"2016-01-22T16:15:34.381Z"}
+{"level":"info","message":"fetching: /itm/111875467458","timestamp":"2016-01-22T16:15:34.383Z"}
+{"level":"info","message":"fetching: /itm/Towles-Log-Cabin-Syrup-Tin-w-Comics-1-Quart-1-Pint-10-Ounces-58oz-size-/111875467458?nma=true&si=rmcywl8b2IHCbRImEBDy5wKY2lY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:35.535Z"}
+{"level":"info","message":"fetching: /itm/311514530310","timestamp":"2016-01-22T16:15:36.447Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-RED-BIRD-ALLSPICE-SPICE-TIN-MIDLAND-GROCERY-OHIO-CARDINAL-BIRD-CAN-OLD-/311514530310?nma=true&si=gGLtXg5YMSOBgYl04VuttTpHQUw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:37.137Z"}
+{"level":"info","message":"fetching: /itm/191769949797","timestamp":"2016-01-22T16:15:37.984Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-SAFE-OWL-THYME-SPICE-TIN-LITHO-CAN-BROOKLYN-NY-VINTAGE-COUNTRY-STORE-OLD-/191769949797?nma=true&si=it6ALR2AiW9Ulgg9dcyxeHrrWsI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:38.661Z"}
+{"level":"info","message":"fetching: /itm/191770061623","timestamp":"2016-01-22T16:15:39.413Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-BIG-HORN-ALLSPICE-SPICE-TIN-JOPLIN-MISSOURI-MO-CAN-SHEEP-RAM-VINTAGE-OLD-/191770061623?nma=true&si=XQmC24Ejot0AlLpgULnfMVNUEpo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:40.189Z"}
+{"level":"info","message":"fetching: /itm/191769951574","timestamp":"2016-01-22T16:15:41.017Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-SUNSHINE-CLOVES-SPICE-TIN-LITHO-CAN-FLACH-BRO-GROCERY-CINCINNATI-OHIO-OH-/191769951574?nma=true&si=UT0LQOsEyayGjoGuVy0PiBKcL5o%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:41.986Z"}
+{"level":"info","message":"fetching: /itm/311514512422","timestamp":"2016-01-22T16:15:43.024Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-AUNT-NELLIES-FARM-KITCHEN-CLOVES-SPICE-TIN-LITHO-CAN-HARTFORD-WISCONSIN-/311514512422?nma=true&si=hoUE2mUcaQkOV3hTFn1%252FdMmeqHc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:43.689Z"}
+{"level":"info","message":"fetching: /itm/311514513988","timestamp":"2016-01-22T16:15:44.426Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-WARD-SAVORY-SPICE-TIN-LITHO-CAN-CAMEL-GRAPHIC-ALBANY-NY-VINTAGE-GROCERY-/311514513988?nma=true&si=VhQDE%252B6uzaGbmq7wJTgKmv4whnA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:45.047Z"}
+{"level":"info","message":"fetching: /itm/311514435952","timestamp":"2016-01-22T16:15:46.069Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-CHAPIN-CELERY-SEED-SPICE-TIN-LITHO-CAN-SPRINGFIELD-MA-VINTAGE-GROCERY-/311514435952?nma=true&si=%252FmjqQ6szLzjK21HbWla4TG18n%252F0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:46.988Z"}
+{"level":"info","message":"fetching: /itm/401055224275","timestamp":"2016-01-22T16:15:47.723Z"}
+{"level":"info","message":"fetching: /itm/Nice-HAZARD-ELECTRIC-GUNPOWDER-TIN-Good-Graphics-NICE-PAPER-LABEL-HAZARD-CT-/401055224275?nma=true&si=p1njBfGOiLlfLxQk8jlO7HlPmhY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:48.590Z"}
+{"level":"info","message":"fetching: /itm/121865682446","timestamp":"2016-01-22T16:15:49.618Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-STEVENS-PEPPER-SPICE-TIN-WHEELER-STEVENS-GROCERY-ZANESVILLE-OHIO-/121865682446?nma=true&si=kF6ZUrEsd9QicpTokSA1yah4DNQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:50.362Z"}
+{"level":"info","message":"fetching: /itm/191770126738","timestamp":"2016-01-22T16:15:51.291Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-ROSE-BUD-RED-PEPPER-SPICE-TIN-LITHO-CAN-SYRACUSE-BINGHAMTON-NY-FLOWER-/191770126738?nma=true&si=pTfzheNV1sMGoZzhX4qR4rgVUU4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:52.168Z"}
+{"level":"info","message":"fetching: /itm/311514417847","timestamp":"2016-01-22T16:15:52.993Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-TEEN-QUEEN-SPICE-TIN-LITHO-CAN-LOUISVILLE-KENTUCKY-KY-VINTAGE-GIRL-CROWN-/311514417847?nma=true&si=rssMkpumyFxcavARgoqZkdEVqh8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:53.578Z"}
+{"level":"info","message":"fetching: /itm/311514507059","timestamp":"2016-01-22T16:15:54.284Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-BABY-ROSE-RED-PEPPER-SPICE-TIN-ARMSTRONG-GROCERY-SHARON-PENNSYLVANIA-PA-/311514507059?nma=true&si=rtaqy82GRpuOEvOlEPbrb4sXJOE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:55.058Z"}
+{"level":"info","message":"fetching: /itm/191769953848","timestamp":"2016-01-22T16:15:56.021Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-SAVOY-ALLSPICE-SPICE-TIN-LITHO-CAN-STEELE-WEDELES-CHICAGO-IL-VINTAGE-OLD-/191769953848?nma=true&si=KstP1%252FMxQiGzd%252BLO0C6NTm38rYU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:56.631Z"}
+{"level":"info","message":"fetching: /itm/131701308185","timestamp":"2016-01-22T16:15:57.911Z"}
+{"level":"info","message":"fetching: /itm/RARE-ANTIQUE-ENGLISH-FIGURAL-HALTON-TOFFEE-TIN-BEE-HIVE-C-1910-/131701308185?nma=true&si=j7zz4flgQmP6qsHywrjbHxZFgaM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:15:58.718Z"}
+{"level":"info","message":"fetching: /itm/191769947995","timestamp":"2016-01-22T16:15:59.481Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-LITTLE-ELF-PAPRIKA-SPICE-TIN-LITHO-CAN-ELKHART-IN-NILES-MI-VINTAGE-OLD-/191769947995?nma=true&si=qiVl8ETYOZda4Ri4T7BAB4624bM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:00.034Z"}
+{"level":"info","message":"fetching: /itm/311514587961","timestamp":"2016-01-22T16:16:00.722Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-FAMOUS-PAPRIKA-SPICE-TIN-BUFFALO-NY-WELL-DRESSED-GENTLEMAN-W-COFFEE-CAN-/311514587961?nma=true&si=osf5GzisP3UQLLyF0hgGxrR86M0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:01.239Z"}
+{"level":"info","message":"fetching: /itm/191769938953","timestamp":"2016-01-22T16:16:02.453Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-DEFIANCE-ALLSPICE-SPICE-TIN-LITHO-CAN-KNIGHT-HORSE-COLDWATER-MI-VINTAGE-/191769938953?nma=true&si=j0HCH6AwO3uHhXVevhS%252F%252FLK1eKY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:02.999Z"}
+{"level":"info","message":"fetching: /itm/191770053439","timestamp":"2016-01-22T16:16:04.251Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-WHITE-ROSE-GINGER-SPICE-TIN-LATSCH-SON-WINONA-MINNESOTA-MN-GROCER-CAN-/191770053439?nma=true&si=lPzlYvkei9G4zWSWIwv0WjCFWss%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:04.893Z"}
+{"level":"info","message":"fetching: /itm/131698843627","timestamp":"2016-01-22T16:16:05.631Z"}
+{"level":"info","message":"fetching: /itm/Antique-19thC-Tin-Toleware-Tole-Aesthetic-Orientalist-Tea-Tin-NR-/131698843627?nma=true&si=9qKVFkBV52ZFfWIpavNSktm%252FS40%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:06.440Z"}
+{"level":"info","message":"fetching: /itm/161940188866","timestamp":"2016-01-22T16:16:07.517Z"}
+{"level":"info","message":"fetching: /itm/Rare-Ensign-Mixture-Indian-Chief-Marburg-Bros-Tobacco-Tin-Ginna-Co-NY-/161940188866?nma=true&si=rQGKqBTYptRnmhATtO6u%252B1wka34%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:08.567Z"}
+{"level":"info","message":"fetching: /itm/161944794728","timestamp":"2016-01-22T16:16:09.653Z"}
+{"level":"info","message":"fetching: /itm/Rare-20s-30s-Vintage-Blue-Ribbon-Potato-Chip-Tin-Can-/161944794728?nma=true&si=NM5gaBjjqp8lA%252B53Xh2VKHq7NvE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:10.311Z"}
+{"level":"info","message":"fetching: /itm/262235377075","timestamp":"2016-01-22T16:16:11.448Z"}
+{"level":"info","message":"fetching: /itm/NICE-OLD-LORD-NEEDLES-GRAMOPHONE-NEEDLES-TIN-CASE-EMPTY-/262235377075?nma=true&si=Jdyj7IULtIOIPL2b7VSwXjhRE1w%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:12.063Z"}
+{"level":"info","message":"fetching: /itm/191770132116","timestamp":"2016-01-22T16:16:12.727Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-OLD-JUDGE-OWL-BLACK-PEPPER-SPICE-TIN-DAVID-G-EVANS-CAN-ST-LOUIS-MISSOURI-/191770132116?nma=true&si=CHRctvRx10aS07WYsDHdJBvrQws%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:13.420Z"}
+{"level":"info","message":"fetching: /itm/252250862211","timestamp":"2016-01-22T16:16:14.525Z"}
+{"level":"info","message":"fetching: /itm/Very-Rare-Chef-Brand-Cloves-Spice-Tin-Circa-1930s-/252250862211?nma=true&si=y5QX09VVOXA6%252ByY03YTTPd6EZHA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:15.364Z"}
+{"level":"info","message":"fetching: /itm/252250834782","timestamp":"2016-01-22T16:16:16.564Z"}
+{"level":"info","message":"fetching: /itm/Great-Condition-Spartan-Brand-Black-Pepper-Spice-Tin-Nice-Image-Of-Spartan-/252250834782?nma=true&si=zGpWl08ordgEot4Msi2sDMkgAmw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:17.204Z"}
+{"level":"info","message":"fetching: /itm/221995430897","timestamp":"2016-01-22T16:16:17.851Z"}
+{"level":"info","message":"fetching: /itm/vtg-1879-PIGS-on-FINGERS-Sommers-Bros-Candy-TIN-/221995430897?nma=true&si=6rDGnDm0kP6NicDP%252BtVRSAn7Rhs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:18.409Z"}
+{"level":"info","message":"fetching: /itm/161939230783","timestamp":"2016-01-22T16:16:19.044Z"}
+{"level":"info","message":"fetching: /itm/Antique-Camerons-Gold-Medal-Cut-Plug-Tobacco-Tin-Embossed-Bottom-/161939230783?nma=true&si=S3cEr4PseLHMj7eQsl0HmH9MkV4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:19.710Z"}
+{"level":"info","message":"fetching: /itm/172062800334","timestamp":"2016-01-22T16:16:20.643Z"}
+{"level":"info","message":"fetching: /itm/Antique-British-Huntley-Palmers-Tin-Travel-Suitcase-Biscuit-Tin-/172062800334?nma=true&si=5FBOGLCO4qkRga3TmQuej8zx8vI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:21.276Z"}
+{"level":"info","message":"fetching: /itm/252250818458","timestamp":"2016-01-22T16:16:22.105Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Best-Value-Brand-Ground-Sage-Spice-Tin-With-Heart-Image-Company-Logo-/252250818458?nma=true&si=AuHEoLdA1Pt5419puru895Zg6TY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:22.858Z"}
+{"level":"info","message":"fetching: /itm/191770084834","timestamp":"2016-01-22T16:16:23.951Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-FARMERS-PRIDE-MUSTARD-SPICE-TIN-TERRE-HAUTE-EVANSVILLE-IN-MATTOON-IL-CAN-/191770084834?nma=true&si=kfEF4%252BVNDKGglXZ9EMu4%252B7eiPBk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:24.653Z"}
+{"level":"info","message":"fetching: /itm/311514573764","timestamp":"2016-01-22T16:16:25.666Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-JACK-ROSE-CLOVES-SPICE-TIN-LITHO-CAN-ET-SMITH-WORCESTER-MA-VINTAGE-OLD-/311514573764?nma=true&si=CNRprtYdxLjA9n07KzTYMIj8nZI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:26.401Z"}
+{"level":"info","message":"fetching: /itm/141879460066","timestamp":"2016-01-22T16:16:27.239Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-14-OZ-MEADOW-SWEET-SUGAR-BUTTER-TIN-EXCELLENT-GRAPHICS-GREAT-CONDITION-/141879460066?nma=true&si=wvz64227UG2w92XZniJTQdacxqQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:27.960Z"}
+{"level":"info","message":"fetching: /itm/252251095022","timestamp":"2016-01-22T16:16:28.858Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Lot-Of-6-Coffee-Tins-Rusty-/252251095022?nma=true&si=u3RH47TB32c7sMtvLnZ7Ez5gVDE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:29.809Z"}
+{"level":"info","message":"fetching: /itm/191770063861","timestamp":"2016-01-22T16:16:30.717Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-YOUNG-AMERICA-SAGE-SPICE-TIN-VINTAGE-CAN-BOY-DOG-KANSAS-CITY-MISSOURI-MO-/191770063861?nma=true&si=vB9IsnavuAO4IBqr2pOlGevF9dQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:31.446Z"}
+{"level":"info","message":"fetching: /itm/331754625587","timestamp":"2016-01-22T16:16:32.057Z"}
+{"level":"info","message":"fetching: /itm/Antique-Vintage-D-F-Stauffer-Biscuit-Co-Tin-Large-Round-York-Pa-Paper-Label-/331754625587?nma=true&si=Nmw%252BLejTj2Y7FePGqgzfa7hKaiM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:32.814Z"}
+{"level":"info","message":"fetching: /itm/161939221957","timestamp":"2016-01-22T16:16:33.865Z"}
+{"level":"info","message":"fetching: /itm/Rare-Marburg-Bros-Hearts-Delight-Cut-Cave-Dish-Tin-Bright-Virginia-/161939221957?nma=true&si=bYz9ABbO%252BrRyS1vVIEUYRU3RLtU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:34.780Z"}
+{"level":"info","message":"fetching: /itm/191770121996","timestamp":"2016-01-22T16:16:35.640Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-DAINTY-DOT-CINNAMON-SPICE-TIN-MILLBROOK-CO-SOMERVILLE-MA-VINTAGE-CAN-OLD-/191770121996?nma=true&si=XOg53t5Vmg%252BMhfX6%252Btd4%252BiYLq7k%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:36.430Z"}
+{"level":"info","message":"fetching: /itm/311514585434","timestamp":"2016-01-22T16:16:37.182Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-BANNER-BOY-ALLSPICE-SPICE-TIN-VINTAGE-GROCERY-CAN-COUNTRY-STORE-CHICAGO-/311514585434?nma=true&si=%252FPmPS1VAJbzcRQJkHxL%252BFxYqKWc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:38.069Z"}
+{"level":"info","message":"fetching: /itm/252251141095","timestamp":"2016-01-22T16:16:38.738Z"}
+{"level":"info","message":"fetching: /itm/Rare-RED-LABEL-Vintage-Beekist-Pure-Honey-2LB-Tin-Toronto-/252251141095?nma=true&si=lMZl3Mzn3s5GYwtoFq7qCH6XdK0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:39.688Z"}
+{"level":"info","message":"fetching: /itm/191769943096","timestamp":"2016-01-22T16:16:40.572Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-PREMIER-CLOVES-SPICE-TIN-LITHO-CAN-SAILING-BOAT-SHIP-LEGGETT-NEW-YORK-NY-/191769943096?nma=true&si=1eX4O1SlKbTRcqRj8dmnq0ESsOo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:41.327Z"}
+{"level":"info","message":"fetching: /itm/191769944792","timestamp":"2016-01-22T16:16:42.292Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-FOLGERS-GOLDEN-GATE-MACE-SPICE-TIN-LITHO-CAN-SAN-FRANCISCO-KANSAS-CITY-/191769944792?nma=true&si=v1cj6i5%252F5ptfyNQy8UUx%252BxEToX8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:43.331Z"}
+{"level":"info","message":"fetching: /itm/311526666484","timestamp":"2016-01-22T16:16:44.197Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Large-Reismans-Philadelphia-Pretzel-Original-Tin-Metal-Can-5-gallon-size-/311526666484?nma=true&si=oHAmvVayqoU7ZjfHYbxIqivUn5o%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:45.307Z"}
+{"level":"info","message":"fetching: /itm/151950677380","timestamp":"2016-01-22T16:16:46.281Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Early-Armour-Co-Breakfast-Sausage-Tin-Chicago-5-by-3-by-2-/151950677380?nma=true&si=%252BTtU4pzRzfjYl8ORqt%252FDon6Bs24%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:46.886Z"}
+{"level":"info","message":"fetching: /itm/191770098350","timestamp":"2016-01-22T16:16:47.567Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-HARVEST-QUEEN-CREAM-TARTAR-SPICE-TIN-LITHO-CAN-RED-OWL-STORE-MINNEAPOLIS-/191770098350?nma=true&si=BUjQT6jhZpmJqdRJgLecyDlrODU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:48.222Z"}
+{"level":"info","message":"fetching: /itm/301848272752","timestamp":"2016-01-22T16:16:48.898Z"}
+{"level":"info","message":"fetching: /itm/Vintage-2-Pound-Wilkins-Coffee-Tin-Nice-Condition-Can-1950s-Scarce-/301848272752?nma=true&si=827jO2B4tNLsC7f%252BDCsDaOsOSu4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:49.514Z"}
+{"level":"info","message":"fetching: /itm/311514421156","timestamp":"2016-01-22T16:16:50.348Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-FAIRMONT-TURMERIC-SPICE-TIN-LITHO-CAN-TACOMA-WASHINGTON-WA-LION-CREST-/311514421156?nma=true&si=W2ExsYK3FgS1LaOBk0Qy9hleV5A%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:50.943Z"}
+{"level":"info","message":"fetching: /itm/141877701570","timestamp":"2016-01-22T16:16:51.798Z"}
+{"level":"info","message":"fetching: /itm/Quaker-PETTIJOHNS-Rolled-Wholewheat-Cereal-in-unopened-Canister-3-lbs-/141877701570?nma=true&si=AOXGK%252B6gYRb%252BkHxbBx%252FYJuah6SI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:52.669Z"}
+{"level":"info","message":"fetching: /itm/161947346656","timestamp":"2016-01-22T16:16:53.643Z"}
+{"level":"info","message":"fetching: /itm/2-Kentucky-Club-Pipe-Cigarette-Tobacco-Tins-w-Horse-Jockey-pocket-round-/161947346656?nma=true&si=T2pWNGlXtUvLmEJMQiZmXOQCxIc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:54.801Z"}
+{"level":"info","message":"fetching: /itm/161946819125","timestamp":"2016-01-22T16:16:55.459Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-ROUNDYS-COFFEE-TIN-CAN-/161946819125?nma=true&si=PNCNpkuIkFYLgnBRcKeR0iobKSU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:56.490Z"}
+{"level":"info","message":"fetching: /itm/191783120002","timestamp":"2016-01-22T16:16:57.606Z"}
+{"level":"info","message":"fetching: /itm/Antique-Droste-Haarlem-Holland-Chocolate-Candy-Tin-Boho-Decor-Circa-1930-/191783120002?nma=true&si=ZENumvl3loQmvhyzO%252F%252BvzwiYbXE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:16:58.248Z"}
+{"level":"info","message":"fetching: /itm/351627135355","timestamp":"2016-01-22T16:16:59.631Z"}
+{"level":"info","message":"fetching: /itm/Antique-NOS-MISS-PRINCINE-BAKING-POWDER-in-TIN-CUP-w-CONTENTS-Great-LITHOS-/351627135355?nma=true&si=QmQ3KJKeXm6cef3v80VRwAKu90A%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:00.564Z"}
+{"level":"info","message":"fetching: /itm/321976290343","timestamp":"2016-01-22T16:17:01.594Z"}
+{"level":"info","message":"fetching: /itm/Lot-of-8-pocket-tobacco-tins-Pocket-Tobacco-Tin-/321976290343?nma=true&si=HqRSQcG9ZteDCl4lQ%252BB6NC2s7p8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:02.456Z"}
+{"level":"info","message":"fetching: /itm/262236220391","timestamp":"2016-01-22T16:17:03.567Z"}
+{"level":"info","message":"fetching: /itm/Edison-Mazda-Lamps-Tin-/262236220391?nma=true&si=Qc1r0C%252BdG5PeOL6zq25XLyzizos%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:04.212Z"}
+{"level":"info","message":"fetching: /itm/252251052355","timestamp":"2016-01-22T16:17:05.119Z"}
+{"level":"info","message":"fetching: /itm/M-M-double-decker-bus-/252251052355?nma=true&si=IWcWpAvjJtlsWHDuylMuxYXBghc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:05.873Z"}
+{"level":"info","message":"fetching: /itm/191769956369","timestamp":"2016-01-22T16:17:06.659Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-OLD-MANSION-CLOVES-SPICE-TIN-LITHO-CAN-CW-ANTRIM-SONS-RICHMOND-VA-GROCER-/191769956369?nma=true&si=eldjF%252FkKtDhRHMthNnbMQzf2P40%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:07.340Z"}
+{"level":"info","message":"fetching: /itm/191770117304","timestamp":"2016-01-22T16:17:08.369Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-IGA-SPANISH-PAPRIKA-SPICE-TIN-GROCERY-STORE-CAN-VINTAGE-PATRIOTIC-EAGLE-/191770117304?nma=true&si=BosNBuZP7B11Y0wd%252FgKvqrEzl2M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:08.906Z"}
+{"level":"info","message":"fetching: /itm/351625299392","timestamp":"2016-01-22T16:17:09.671Z"}
+{"level":"info","message":"fetching: /itm/RARE-Small-Lucky-Strike-Half-Half-Smoking-Pipe-Cigarette-Tobacco-Pocket-Tin-/351625299392?nma=true&si=a1adYw3k40rTkZVV%252BrvIfiEv2lU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:10.480Z"}
+{"level":"info","message":"fetching: /itm/331755043059","timestamp":"2016-01-22T16:17:11.532Z"}
+{"level":"info","message":"fetching: /itm/Smiths-Rosebud-TALCUM-POWDER-Talc-Tin-w-Baby-Face-Girl-/331755043059?nma=true&si=PMyCpLI4UjXnb9%252FOP2uLyU7AI9Y%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:12.546Z"}
+{"level":"info","message":"fetching: /itm/401055285506","timestamp":"2016-01-22T16:17:13.601Z"}
+{"level":"info","message":"fetching: /itm/Rare-Early-L-M-Ligget-Myers-Tobacco-Advertising-Tin-Can-Sign-/401055285506?nma=true&si=6fixNdUZnYphfuTSoSj4NqYCLjg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:14.541Z"}
+{"level":"info","message":"fetching: /itm/371532762229","timestamp":"2016-01-22T16:17:15.331Z"}
+{"level":"info","message":"fetching: /itm/Large-M-M-Christmas-Collection-Dispensers-Nutcrackers-Tins-M-and-Ms-/371532762229?nma=true&si=%252FD8Y0h3SA%252Baj2kzI7mcEMbQq3h8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:16.195Z"}
+{"level":"info","message":"fetching: /itm/131703014482","timestamp":"2016-01-22T16:17:17.064Z"}
+{"level":"info","message":"fetching: /itm/1940s-SEALSHIPT-OYSTERS-FRESH-TODAY-WINDOW-SIGN-OYSTER-CO-N-Y-TIN-TINS-GO-WITH-/131703014482?nma=true&si=xyW8Np59rqi6vG9gywdIXTPw4ME%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:18.004Z"}
+{"level":"info","message":"fetching: /itm/141877363033","timestamp":"2016-01-22T16:17:19.228Z"}
+{"level":"info","message":"fetching: /itm/coffee-tin-antique-/141877363033?nma=true&si=W3W%252Fjobo5G9HzVzX6mS3a7frJnc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:19.763Z"}
+{"level":"info","message":"fetching: /itm/371532595440","timestamp":"2016-01-22T16:17:21.151Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Pastilles-Droste-Fijnste-Chocolade-Tin-Droste-Co-Haarlem-Holland-/371532595440?nma=true&si=YzggHcg1Pm2xEaxWaB8hFMQcMW8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:21.853Z"}
+{"level":"info","message":"fetching: /itm/221995488990","timestamp":"2016-01-22T16:17:22.776Z"}
+{"level":"info","message":"fetching: /itm/Very-nice-vintage-POMCO-1-lb-coffee-tin-can-drip-grind-McKeesport-Pa-old-rare-/221995488990?nma=true&si=gjH1GgNL2alpG5IEPuKd8Ip13pU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:23.432Z"}
+{"level":"info","message":"fetching: /itm/111875220853","timestamp":"2016-01-22T16:17:24.283Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Lot-7-Spice-Tins-Boxes-Shilling-Crescent-Scowcroft-Allspice-Thyme-Mace-/111875220853?nma=true&si=HwITJkQCbLX91awaFqicrn3qJuc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:25.039Z"}
+{"level":"info","message":"fetching: /itm/252250872055","timestamp":"2016-01-22T16:17:26.123Z"}
+{"level":"info","message":"fetching: /itm/Early-Paper-Label-Atlas-Allspice-1-lb-Tin-The-Woolson-Spice-Co-Toledo-Ohio-/252250872055?nma=true&si=r09IK5ZnMYxBqxaBrTtdded7ALo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:26.888Z"}
+{"level":"info","message":"fetching: /itm/371532440542","timestamp":"2016-01-22T16:17:27.798Z"}
+{"level":"info","message":"fetching: /itm/Vintage-SEA-LION-BRAND-Maine-Sardines-Advertising-Tin-Lubec-Maine-/371532440542?nma=true&si=lR4zUK3qQ7Medu72sXc3uO7sdfk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:28.440Z"}
+{"level":"info","message":"fetching: /itm/252251377838","timestamp":"2016-01-22T16:17:29.198Z"}
+{"level":"info","message":"fetching: /itm/Duncan-Hines-Ground-Turmeric-Toledo-Ohio-OH-O-Ithaca-N-Y-New-York-Spice-Tin-/252251377838?nma=true&si=2wJpuSnx3ksp3ve0v1oCxBHstSw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:29.905Z"}
+{"level":"info","message":"fetching: /itm/262240802452","timestamp":"2016-01-22T16:17:31.016Z"}
+{"level":"info","message":"fetching: /itm/Set-of-4-vintage-Asian-themed-Chinoiserie-tea-tins-/262240802452?nma=true&si=G7Ti1A6%252BZFDWZN1F2vaeuGD5iOk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:32.071Z"}
+{"level":"info","message":"fetching: /itm/351625302906","timestamp":"2016-01-22T16:17:33.017Z"}
+{"level":"info","message":"fetching: /itm/Vtg-Players-Navy-Cut-Gold-Leaf-Cigarettes-Tin-/351625302906?nma=true&si=y%252BAsC26EOjuIQL5q38wdTbqeEzY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:34.085Z"}
+{"level":"info","message":"fetching: /itm/201505115827","timestamp":"2016-01-22T16:17:35.245Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-TARGET-CIGARETTE-TOBACCO-TIN-/201505115827?nma=true&si=QpSNCp42Fc8R0G9g5aU6pg7CFqc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:36.062Z"}
+{"level":"info","message":"fetching: /itm/281909339782","timestamp":"2016-01-22T16:17:37.040Z"}
+{"level":"info","message":"fetching: /itm/half-and-half-tobacco-tin-/281909339782?nma=true&si=egzQiwNtoiKjAw5NyHc%252Fs1PUjhU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:37.746Z"}
+{"level":"info","message":"fetching: /itm/221995890315","timestamp":"2016-01-22T16:17:38.511Z"}
+{"level":"info","message":"fetching: /itm/JUST-SUITS-CUT-PLUG-TOBACCO-LUNCH-BOX-TIN-CAN-P-LORILLARD-BUCHANAN-/221995890315?nma=true&si=vgIbRWRbFklp07lgZi46AFvDgME%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:39.473Z"}
+{"level":"info","message":"fetching: /itm/121865493226","timestamp":"2016-01-22T16:17:40.260Z"}
+{"level":"info","message":"fetching: /itm/14-Vtg-Cigarette-Pipe-Tobacco-Tin-Lot-Piccadilly-Edgeworth-Van-Dyke-Mason-Dills-/121865493226?nma=true&si=rU5C63BaLlkEHUL1v0p%252BR1R8CkA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:40.982Z"}
+{"level":"info","message":"fetching: /itm/281907085899","timestamp":"2016-01-22T16:17:42.426Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GRANGER-PIPE-TOBACCO-TIN-/281907085899?nma=true&si=GegVO7hD1AnmiILaHod7NkpSye0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:44.092Z"}
+{"level":"info","message":"fetching: /itm/131701449630","timestamp":"2016-01-22T16:17:45.113Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Roly-Poly-Tabby-Kitty-Cat-1985-B-Shackman-Tobacco-Tin-40953-/131701449630?nma=true&si=G9h4LpyMYyLlV%252FV1s%252Feyi%252B9G25g%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:45.787Z"}
+{"level":"info","message":"fetching: /itm/121865692756","timestamp":"2016-01-22T16:17:46.637Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Roly-Poly-WISE-ASIAN-PROFESSOR-1982-B-Shackman-Tobacco-Tin-70403-/121865692756?nma=true&si=eecCFVvKMswMrkE3OgbADhe7pog%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:47.555Z"}
+{"level":"info","message":"fetching: /itm/131701453618","timestamp":"2016-01-22T16:17:48.786Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Roly-Poly-EASTER-BUNNY-B-Shackman-Tobacco-Tin-/131701453618?nma=true&si=5kHsz0BlM3nbDh9kul97kM3siAw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:49.538Z"}
+{"level":"info","message":"fetching: /itm/262240867838","timestamp":"2016-01-22T16:17:50.561Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Round-Silver-Tobacco-Tin-/262240867838?nma=true&si=jc4XCI6so%252F5EYErXdtitBaqRxSk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:51.715Z"}
+{"level":"info","message":"fetching: /itm/272105376723","timestamp":"2016-01-22T16:17:52.719Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Dills-Best-Smoking-Tobacco-Tin-/272105376723?nma=true&si=IHHd05Cq8z4bG1GRly6Lh%252F89dI0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:53.819Z"}
+{"level":"info","message":"fetching: /itm/272105381124","timestamp":"2016-01-22T16:17:54.950Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Piper-Heidsieck-Chewing-Tobacco-Champagne-Flavor-Pocket-Tin-/272105381124?nma=true&si=TQ3R90RiU%252BT0TDPLmjtHLj9tSnk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:55.803Z"}
+{"level":"info","message":"fetching: /itm/262240559820","timestamp":"2016-01-22T16:17:56.700Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-EARLY-1900S-PRINCE-ALBERT-CRIMP-CUT-TOBACCO-TIN-/262240559820?nma=true&si=xSsBEyv6lxPxtfaTehrUU1NqHQk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:57.473Z"}
+{"level":"info","message":"fetching: /itm/111872452402","timestamp":"2016-01-22T16:17:58.462Z"}
+{"level":"info","message":"fetching: /itm/VELVET-TOBACCO-TIN-VINTAGE-4-1-4-TALL-GOOD-CONDITION-/111872452402?nma=true&si=jaif9KPhGB%252FbiwAPQd%252BHpYTk7n8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T16:17:59.146Z"}
+{"level":"info","message":"saving - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:18:00.460Z"}
+{"level":"info","message":"making index","timestamp":"2016-01-22T16:20:58.494Z"}
+{"level":"info","message":"saving - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:20:58.770Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:24:26.783Z"}
+{"level":"info","message":"fetched 84 thumbnails for advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:24:26.807Z"}
+{"level":"info","message":"fetched 482 additional images for advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:25:59.726Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:35:00.681Z"}
+{"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:35:00.696Z"}
+{"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:35:00.863Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:37:12.628Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:37:38.752Z"}
+{"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:37:38.769Z"}
+{"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:37:38.920Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:39:23.450Z"}
+{"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:39:23.466Z"}
+{"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:39:23.637Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:40:55.268Z"}
+{"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:40:55.284Z"}
+{"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:40:55.434Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:41:38.153Z"}
+{"level":"info","message":"making index","timestamp":"2016-01-22T16:43:41.837Z"}
+{"level":"info","message":"saving - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:43:42.059Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:54:50.486Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:54:50.627Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-22T16:55:47.362Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:55:47.453Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-22T16:56:00.201Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:56:00.299Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-22T16:56:49.773Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:56:49.865Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-22T16:57:40.678Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-22T16:57:40.715Z"}
+{"level":"info","message":"making index","timestamp":"2016-01-22T16:57:40.717Z"}
+{"level":"info","message":"saving - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:57:40.936Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:58:25.386Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T16:58:49.074Z"}
+{"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:58:49.094Z"}
+{"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T16:58:49.676Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T17:00:04.620Z"}
+{"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T17:00:04.639Z"}
+{"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T17:00:04.879Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T17:00:28.018Z"}
+{"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T17:00:28.038Z"}
+{"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T17:00:28.776Z"}
+{"level":"info","message":"getting - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-22T17:01:02.473Z"}
+{"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T17:01:02.492Z"}
+{"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-22T17:01:03.065Z"}

@@ -3,12 +3,22 @@
 	var util = require('./util.js'),
 		storeFilePath = util.getStoreFilePath(),
 		storeFileName = util.getFileName(),
-		storeFile = storeFilePath + storeFileName,
-		document = util.getFileContents(storeFile);
+		storeFile = storeFilePath + storeFileName;
 
-	save(parse(document));
+	getStoreFile(storeFile).then(function(items){
+		save(makeIndex(items));
+	});
 
-	function parse(line){
+	function getStoreFile(storeFile){
+		return util.getDataFromS3(storeFile).then(parse);
+	}
+
+	function parse(data){
+		var results = JSON.parse(data.toString());
+		return results;
+	}
+
+	function makeIndex(line){
 		var results = '';
 
 		if (typeof line === "object"){
@@ -28,7 +38,7 @@
 			formattedFileName = util.getFileName("formatted.json"),
 			file = path + formattedFileName;
 
-		util.save(formattedFileName, path, file, data ); //filename, path, file, data, contentType
+		util.save(formattedFileName, path, file, data, util.config.contentType.json); //filename, path, file, data, contentType
 		util.logger.log("saving bulk import file: " + file);
 	}
 })();

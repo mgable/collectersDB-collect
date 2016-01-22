@@ -3,6 +3,7 @@
 (function(){
 	var program = require('commander'),
 		_ = require('underscore'),
+		Q = require("q"),
 		util = require("./util.js");
 
 	program
@@ -13,20 +14,43 @@
 	var	storeFilePath = util.getStoreFilePath(),
 		storeFileName = util.getFileName(),
 		storeFile = storeFilePath + storeFileName,
-		store = util.getFileContents(storeFile) || [],
+		// store = util.getFileContents(storeFile) || [],
 		diffFilePath = util.getDiffPath(),
 		diffFile = diffFilePath + storeFileName,
-		diff = util.getFileContents(diffFile) || [],
-		index = makeIndex();
+		// diff = util.getFileContents(diffFile) || [],
+		diff = [],
+		store = [];
 
-	saveIndex();
+
+	getData()
+
+	function getData(){
+		getDataFromS3();
+	}
+
+	function getDataFromS3(){
+		var diffPromise = util.getDataFromS3(diffFile).then(parse),
+			storePromise = util.getDataFromS3(storeFile).then(parse);
+
+		Q.allSettled([diffPromise, storePromise]).then(function(data){
+			diff = data[0].value,
+			store = data[1].value || [];
+
+			save(makeIndex());
+		});
+	}
+
+	function parse(data){
+		var results = JSON.parse(data.toString());
+		return results;
+	}
 
 	function makeIndex(){
 		return (program.full) ? fullIndex() : simpleIndex();
 	}
 	
-	function saveIndex(){
-		util.save(storeFileName, storeFilePath, storeFile, JSON.stringify(index)); //filename, path, file, data, contentType
+	function save(data){
+		util.save(storeFileName, storeFilePath, storeFile, JSON.stringify(data), util.config.contentType.json); //filename, path, file, data, contentType
 	}
 
 	function simpleIndex(){
