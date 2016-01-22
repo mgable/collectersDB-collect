@@ -1,8 +1,20 @@
-curl -XDELETE "http://localhost:9200/collectorsdb"
+#!/bin/bash
 
-curl -XPUT "http://localhost:9200/collectorsdb"
+#HOST="http://localhost:9200/"
+HOST="https://search-mgable-es-ht4qtiycv6v543iujwxk6q5n3u.us-west-2.es.amazonaws.com/"
+SOURCE="https://s3-us-west-1.amazonaws.com/test-collectors-db/advertising_tins/index/advertising_tins.formatted.json"
+BUCKET="collectorsdb"
+ACCOUNT="advertising_tins"
+INDEXFILE=$ACCOUNT".formatted.json"
+ROOT="/Users/markgable/Sites/projects/collectorsDB/collect/formatted/"
+#INDEXFILE="@/Users/markgable/Sites/data/collectorsDB/advertising_tins/index/advertising_tins.formatted.json"
+URL=$HOST$BUCKET
 
-curl -XPUT "http://localhost:9200/collectorsdb/advertising_tins/_mapping" -d '
+curl -XDELETE $URL
+
+curl -XPUT $URL
+
+curl -XPUT $URL/$ACCOUNT"/_mapping" -d '
 {
    "advertising_tins": {
       "properties": {
@@ -55,8 +67,10 @@ curl -XPUT "http://localhost:9200/collectorsdb/advertising_tins/_mapping" -d '
    }
 }'
 
-curl -XPOST 'http://localhost:9200/collectorsdb/advertising_tins/_bulk?pretty' --data-binary "@/Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/index/advertising_tins.formatted.json"
+curl -o  $ROOT$INDEXFILE $SOURCE
+
+curl -XPOST -H "Content-Type:application/json" $URL/$ACCOUNT'/_bulk' --data-binary "@"$ROOT$INDEXFILE
 
 sleep 3
 
-curl -XGET 'http://localhost:9200/_cat/indices?v'
+curl -XGET $HOST'/_cat/indices?v'

@@ -157,9 +157,6 @@
 		AWS.config.credentials = credentials;
 
 		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
-
-		console.info("upload to S3");
-		console.info(file);
 		
 		s3bucket.upload({"Key": file, "Body": data, "ContentType": contentType}, function(err, data) { // jshint ignore:line
 			if (err) {
