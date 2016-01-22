@@ -204,23 +204,21 @@
 		return options;
 	}
 
-	function getDataFromS3(options){
+	function getDataFromS3(uri){
 		var deferred = Q.defer(),
 			credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
 		AWS.config.credentials = credentials;
 
 		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
 
-		options.path = options.path.replace(/^\//,"");
+		console.info("getting data from " + uri);
 
-		console.info("getting data from " + options.path);
-
-		s3bucket.getObject({"Key": options.path,  ResponseContentType: config.contentType.json}, function(err, data) { // jshint ignore:line
+		s3bucket.getObject({"Key": uri,  ResponseContentType: config.contentType.json}, function(err, data) { // jshint ignore:line
 			if (err) {
-				util.logger.log("ERROR - S3: " + options.path + ": " + err, 'error');
+				util.logger.log("ERROR - S3: " + uri + ": " + err, 'error');
 				return deferred.reject(err);
 			} else {
-				util.logger.log("getting - S3: " + options.path);
+				util.logger.log("getting - S3: " + uri);
 				return deferred.resolve(data.Body.toString());
 			}
 		});

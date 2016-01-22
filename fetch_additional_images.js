@@ -7,22 +7,33 @@
 		diffFilePath = util.getDiffPath(),
 		fileName = util.getFileName(),
 		diffFile = diffFilePath + fileName,
-		diff = util.getFileContents(diffFile),
 		imagePath = util.getImagePath(),
-		totalItems = diff.length,
+		totalItems = 0,
 		filesReceived = 0,
-		totalAdditionalImages = 0;
+		totalAdditionalImages = 0,
+		diff = [];
 
-	util.makeDirectories(imagePath);
+	//util.makeDirectories(imagePath);
 
-	getThumbnailImages(diff, imagePath);
+	getDiff(diffFile).then(function(data){
+		diff = JSON.parse(data);
+		totalItems = diff.length;
+		getThumbnailImages(diff, imagePath);
+	});
+	
+
+	function getDiff(diffFile){
+		return util.getDataFromS3(diffFile);
+	}
 
 	function getThumbnailImages(items, imagePath){
 		// download thumbnails
+
 		items.forEach(function(item){
+			//console.info(item);
 			var itemImagePath = imagePath + item.id + "/",
 				filename = item.src.local.replace(/^\d{4}\/\d{2}\/\d{2}\//, "");
-			util.makeDirectories(itemImagePath);
+			//util.makeDirectories(itemImagePath);
 
 			fetch.download(item.src.original, imagePath, filename, thumbNailCallback);
 		});
@@ -31,8 +42,7 @@
 	}
 
 	function thumbNailCallback(uri, imagePath, filename){
-		console.info("getting callback " + (filesReceived + 1) + " out of " + diffFile.length);
-		console.info(uri, imagePath, filename);
+		console.info("getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
 			console.info("done getting " + totalItems + " thubmnails!");
 			additionalImagesCallback();

@@ -127,3 +127,157 @@
 {"level":"info","message":"fetching: /itm/172057612021","timestamp":"2016-01-21T19:01:20.012Z"}
 {"level":"info","message":"fetching: /itm/VINTAGE-PRINCE-ALBERT-CRIMP-CUT-TOBACCO-TIN-CAN-/172057612021?nma=true&si=bO8NRydve9ASO3DQQpZSgvTOUgk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-21T19:01:20.805Z"}
 {"level":"info","message":"saving - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-21T19:01:22.140Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T03:03:54.204Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T03:04:22.340Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:01:30.463Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:01:49.214Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:02:55.481Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:03:09.013Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:03:18.588Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:03:40.754Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:04:07.840Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:04:22.820Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:05:25.979Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:05:42.802Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:05:58.304Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:06:19.791Z"}
+{"level":"info","message":"fetched 0 thumbnails for advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:06:19.838Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:07:50.867Z"}
+{"level":"info","message":"fetched 0 thumbnails for advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:07:50.885Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.038Z\"}","timestamp":"2016-01-22T04:07:51.039Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.041Z\"}","timestamp":"2016-01-22T04:07:51.041Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.045Z\"}","timestamp":"2016-01-22T04:07:51.045Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.047Z\"}","timestamp":"2016-01-22T04:07:51.047Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.048Z\"}","timestamp":"2016-01-22T04:07:51.049Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.050Z\"}","timestamp":"2016-01-22T04:07:51.050Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.052Z\"}","timestamp":"2016-01-22T04:07:51.052Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.053Z\"}","timestamp":"2016-01-22T04:07:51.053Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.054Z\"}","timestamp":"2016-01-22T04:07:51.054Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.055Z\"}","timestamp":"2016-01-22T04:07:51.055Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.057Z\"}","timestamp":"2016-01-22T04:07:51.057Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.059Z\"}","timestamp":"2016-01-22T04:07:51.059Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.060Z\"}","timestamp":"2016-01-22T04:07:51.060Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.062Z\"}","timestamp":"2016-01-22T04:07:51.062Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.063Z\"}","timestamp":"2016-01-22T04:07:51.063Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.065Z\"}","timestamp":"2016-01-22T04:07:51.065Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.066Z\"}","timestamp":"2016-01-22T04:07:51.066Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.068Z\"}","timestamp":"2016-01-22T04:07:51.069Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.073Z\"}","timestamp":"2016-01-22T04:07:51.073Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.074Z\"}","timestamp":"2016-01-22T04:07:51.074Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.092Z\"}","timestamp":"2016-01-22T04:07:51.092Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.096Z\"}","timestamp":"2016-01-22T04:07:51.097Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.099Z\"}","timestamp":"2016-01-22T04:07:51.100Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.137Z\"}","timestamp":"2016-01-22T04:07:51.137Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.138Z\"}","timestamp":"2016-01-22T04:07:51.139Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.141Z\"}","timestamp":"2016-01-22T04:07:51.141Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.142Z\"}","timestamp":"2016-01-22T04:07:51.143Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.144Z\"}","timestamp":"2016-01-22T04:07:51.144Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.145Z\"}","timestamp":"2016-01-22T04:07:51.145Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.146Z\"}","timestamp":"2016-01-22T04:07:51.146Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.147Z\"}","timestamp":"2016-01-22T04:07:51.147Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.149Z\"}","timestamp":"2016-01-22T04:07:51.149Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.155Z\"}","timestamp":"2016-01-22T04:07:51.155Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.156Z\"}","timestamp":"2016-01-22T04:07:51.156Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.180Z\"}","timestamp":"2016-01-22T04:07:51.180Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.181Z\"}","timestamp":"2016-01-22T04:07:51.181Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.183Z\"}","timestamp":"2016-01-22T04:07:51.183Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.184Z\"}","timestamp":"2016-01-22T04:07:51.184Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.210Z\"}","timestamp":"2016-01-22T04:07:51.210Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.212Z\"}","timestamp":"2016-01-22T04:07:51.212Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.246Z\"}","timestamp":"2016-01-22T04:07:51.246Z"}
+{"level":"error","message":"Failed to create a multipart upload on S3: {\"message\":\"Missing required key 'Bucket' in params\",\"code\":\"MissingRequiredParameter\",\"time\":\"2016-01-22T04:07:51.828Z\"}","timestamp":"2016-01-22T04:07:51.829Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:08:47.278Z"}
+{"level":"info","message":"fetched 0 thumbnails for advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:08:47.296Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:15:02.596Z"}
+{"level":"info","message":"fetched 42 thumbnails for advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:15:02.614Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:16:25.372Z"}
+{"level":"info","message":"fetched 42 thumbnails for advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:16:25.389Z"}
+{"level":"info","message":"fetched 234 additional images for advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:17:21.659Z"}
+{"level":"info","message":"getting - S3: advertising_tins/raw/2016/01/20/advertising_tins.json","timestamp":"2016-01-22T04:27:57.176Z"}
+{"level":"info","message":"getting - S3: advertising_tins/raw/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:27:57.261Z"}
+{"level":"info","message":"diff - There are 42 new items added for 20160121","timestamp":"2016-01-22T04:27:57.323Z"}
+{"level":"info","message":"fetching: /itm/401054987128","timestamp":"2016-01-22T04:27:57.325Z"}
+{"level":"info","message":"fetching: /itm/Rare-Size-First-Pick-Spice-Ground-MACE-Tin-Top-Cardboard-Old-Antique-Vintage-/401054987128?nma=true&si=dk4arYj7QVkFkcvmlIEQ1j2ZVYE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:27:58.208Z"}
+{"level":"info","message":"fetching: /itm/281906741850","timestamp":"2016-01-22T04:27:59.125Z"}
+{"level":"info","message":"fetching: /itm/Buckingham-Cut-Plug-Tobacco-Advertising-Vertical-Pocket-Tin-w-Stamp-CLEAN-/281906741850?nma=true&si=C7L2lBeWs3BwXZBB37JD%252FmwYIPI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:27:59.918Z"}
+{"level":"info","message":"fetching: /itm/231815393773","timestamp":"2016-01-22T04:28:00.745Z"}
+{"level":"info","message":"fetching: /itm/Aspirin-Tin-12-Tablet-Size-BREWER-ASPIRIN-Drug-Store-Medicine-Pharmacy-/231815393773?nma=true&si=4hRjju6iV1m%252FpIq59EXvq7Eiu%252FM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:01.342Z"}
+{"level":"info","message":"fetching: /itm/151945920539","timestamp":"2016-01-22T04:28:01.990Z"}
+{"level":"info","message":"fetching: /itm/1940s-Philip-Morris-Co-Ltd-N-Y-HUMIDORPAC-50-Cigarette-Tin-w-LEVAaLIFT-/151945920539?nma=true&si=94mzb%252BAhvsvG8YAsIMO0NnIFSd8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:02.671Z"}
+{"level":"info","message":"fetching: /itm/262238784474","timestamp":"2016-01-22T04:28:03.538Z"}
+{"level":"info","message":"fetching: /itm/Vintage-5-Pound-Store-Bin-John-Sexton-Co-Coffee-and-Tea-Tin-Litho-/262238784474?nma=true&si=9wJcdx2XhBKER1tWrPt5KLZjmng%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:04.428Z"}
+{"level":"info","message":"fetching: /itm/281908493476","timestamp":"2016-01-22T04:28:05.269Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Scarce-Constitution-Worcester-MA-1lb-Smith-Advertising-Coffee-Tin-Can-/281908493476?nma=true&si=pjapYHKgO3vhmmqjuDcB5%252Bl29EM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:05.959Z"}
+{"level":"info","message":"fetching: /itm/221994428686","timestamp":"2016-01-22T04:28:06.907Z"}
+{"level":"info","message":"fetching: /itm/Vintage-1930s-Cracker-Jack-prize-tin-litho-Police-car-slider-toy-paddy-wagon-/221994428686?nma=true&si=NcohBHIfuSjoFM4jJDIdGudRxWE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:07.627Z"}
+{"level":"info","message":"fetching: /itm/281908735305","timestamp":"2016-01-22T04:28:08.337Z"}
+{"level":"info","message":"fetching: /itm/Nice-J-G-Dills-Best-tall-tobacco-pocket-tin-LADY-both-sides-1910-Tax-Stamp-1-/281908735305?nma=true&si=PvraZbp8b%252F%252F6L8GMOZ5NNkZsZgE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:09.358Z"}
+{"level":"info","message":"fetching: /itm/151951601622","timestamp":"2016-01-22T04:28:10.184Z"}
+{"level":"info","message":"fetching: /itm/GEORGE-WASHINGTON-LITHO-on-Tin-was-an-Advertising-Sign-Restoreable-/151951601622?nma=true&si=6GuZQDYrDNly24KnePAAmRzPjiw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:10.986Z"}
+{"level":"info","message":"fetching: /itm/262239063917","timestamp":"2016-01-22T04:28:11.838Z"}
+{"level":"info","message":"fetching: /itm/Original-MONARCH-COFFEE-Vintage-Tin-Litho-LION-Thermos-BEAUTIFUL-/262239063917?nma=true&si=4y%252FnGw54oepeQK41ci2yG1hRusE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:12.521Z"}
+{"level":"info","message":"fetching: /itm/262238777516","timestamp":"2016-01-22T04:28:13.494Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Folgers-Shasta-Steel-Cut-Coffee-Tin-HARD-TO-FIND-/262238777516?nma=true&si=BTtkg2kakCUpHD%252B3sIw5G0XaTx0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:14.255Z"}
+{"level":"info","message":"fetching: /itm/262238780258","timestamp":"2016-01-22T04:28:15.113Z"}
+{"level":"info","message":"fetching: /itm/Perfect-Brand-Coffee-Tin-Can-Vintage-Antique-Kitchen-Advertising-/262238780258?nma=true&si=LbKv2qqnKfByaVl8%252Fzb6X1nnheM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:15.894Z"}
+{"level":"info","message":"fetching: /itm/252249694181","timestamp":"2016-01-22T04:28:16.899Z"}
+{"level":"info","message":"fetching: /itm/2-Early-Litho-DE-LUXE-FIRESIDE-MARSHMALLOWS-Counter-Tins-10-lb-5-lb-/252249694181?nma=true&si=fZVZYO2NcBcDpN4O4Joyqb23Qw4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:17.731Z"}
+{"level":"info","message":"fetching: /itm/172061476309","timestamp":"2016-01-22T04:28:18.515Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PEP-BOYS-HANDY-BULB-KIT-TIN-/172061476309?nma=true&si=UNFoKoJfd5EFr5P3d3KJbMD7zQE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:19.160Z"}
+{"level":"info","message":"fetching: /itm/252249358842","timestamp":"2016-01-22T04:28:20.122Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Preferred-Stock-Cayenne-Pepper-Spice-Tin-Excellent-Condition-/252249358842?nma=true&si=kdAqf%252BfWCJkiNLGDBy%252FFfd2UJvw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:20.814Z"}
+{"level":"info","message":"fetching: /itm/262239334495","timestamp":"2016-01-22T04:28:21.579Z"}
+{"level":"info","message":"fetching: /itm/McCormick-Co-RELIABLE-Brand-Aspirin-Medicine-Tin-Baltimore-Md-12-Tablet-Size-/262239334495?nma=true&si=iO3Udm2tFGy7LOPSL9dMcaq2GCg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:22.245Z"}
+{"level":"info","message":"fetching: /itm/321975180942","timestamp":"2016-01-22T04:28:23.014Z"}
+{"level":"info","message":"fetching: /itm/Rare-Vintage-Ferndell-Baking-Powder-Tin-/321975180942?nma=true&si=q%252BoaLbUWb9dJMbKieSMjuml3McI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:23.873Z"}
+{"level":"info","message":"fetching: /itm/371531821948","timestamp":"2016-01-22T04:28:24.766Z"}
+{"level":"info","message":"fetching: /itm/POSTMASTER-CIGAR-TOBACCO-TIN-ANTIQUE-ADVERTISING-CAN-50-COUNT-ORANGE-/371531821948?nma=true&si=n1LKyKHuz%252FNOXabunIw%252BgpzuWN8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:25.430Z"}
+{"level":"info","message":"fetching: /itm/252252721975","timestamp":"2016-01-22T04:28:26.327Z"}
+{"level":"info","message":"fetching: /itm/Aspirin-Tin-12-Tablet-Size-WHITES-ASPIRIN-Drug-Store-Medicine-Pharmacy-/252252721975?nma=true&si=hndV9pJabww3pcEqf53JNSFNZjY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:26.998Z"}
+{"level":"info","message":"fetching: /itm/272103458831","timestamp":"2016-01-22T04:28:27.753Z"}
+{"level":"info","message":"fetching: /itm/White-Owl-Tin-Invincibles-General-Cigar-Imperial-Tobacco-Montreal-Canada-/272103458831?nma=true&si=AnUG29Kg6NWM4%252BsGFtN6K%252B6%252FsZg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:28.397Z"}
+{"level":"info","message":"fetching: /itm/231815392616","timestamp":"2016-01-22T04:28:29.471Z"}
+{"level":"info","message":"fetching: /itm/Aspirin-Tin-12-Tablet-Size-DAVIS-ASPIRIN-Drug-Store-Medicine-Pharmacy-/231815392616?nma=true&si=dgEseDkHTYjvyp8AuCXI1fVL3t4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:30.069Z"}
+{"level":"info","message":"fetching: /itm/281908735313","timestamp":"2016-01-22T04:28:30.879Z"}
+{"level":"info","message":"fetching: /itm/TWIN-OAKS-MIXTURE-POCKET-UPRIGHT-TOBACCO-TIN-/281908735313?nma=true&si=qvL9cXq15Xp%252BHT6HRSiujO4Igbs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:31.783Z"}
+{"level":"info","message":"fetching: /itm/121864464259","timestamp":"2016-01-22T04:28:33.250Z"}
+{"level":"info","message":"fetching: /itm/Old-Plantation-Golden-Coffee-tin-can-Black-Americana-/121864464259?nma=true&si=4EAFfUIl2byljNR3NhdOkb34SfQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:34.215Z"}
+{"level":"info","message":"fetching: /itm/111873781943","timestamp":"2016-01-22T04:28:35.314Z"}
+{"level":"info","message":"fetching: /itm/TEXIDE-brand-Old-original-Prophylatic-Tin-advertising-/111873781943?nma=true&si=OBFnfQCKiXxKK%252BP2UVKXx%252F5ts98%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:36.065Z"}
+{"level":"info","message":"fetching: /itm/321972265783","timestamp":"2016-01-22T04:28:36.708Z"}
+{"level":"info","message":"fetching: /itm/Vintage-1920s-Whitmans-Candy-Art-Nouveau-Hinged-Tin-Salmagundi-Alphonse-Mucha-/321972265783?nma=true&si=NLCLUrVXIxD5w4xYNeVVZ%252BTdXLQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:37.363Z"}
+{"level":"info","message":"fetching: /itm/172061689067","timestamp":"2016-01-22T04:28:38.176Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-HEDGES-BUCK-CO-SPICE-TIN-STOCKTON-CA-/172061689067?nma=true&si=K5hlwUqMlsusKYtXZT93JxxaM54%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:38.926Z"}
+{"level":"info","message":"fetching: /itm/172059651915","timestamp":"2016-01-22T04:28:39.815Z"}
+{"level":"info","message":"fetching: /itm/THORNTONS-CELEBRATED-SPICE-TIN-2-Oz-Ground-cinnamon-Louisville-Kentucky-/172059651915?nma=true&si=dcC%252BaWJY1VLsjv%252F5sDV8eLpa5JM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:40.647Z"}
+{"level":"info","message":"fetching: /itm/191779780884","timestamp":"2016-01-22T04:28:41.425Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Royal-Baking-Powder-Lithograph-Metal-Tin-copyright-1938-/191779780884?nma=true&si=qxBspV0rF2V8eAfGDhM6iKnPgZM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:42.204Z"}
+{"level":"info","message":"fetching: /itm/111874810031","timestamp":"2016-01-22T04:28:43.143Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Pioneer-Brand-Golden-Flake-Cavendish-Tobacco-Tin-/111874810031?nma=true&si=mJThFA4O3Mw2m0fF5D4EpLVz2Es%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:43.988Z"}
+{"level":"info","message":"fetching: /itm/172060746128","timestamp":"2016-01-22T04:28:44.745Z"}
+{"level":"info","message":"fetching: /itm/G-M-BRAND-JOSEPH-B-MICHAEL-SPICE-TIN-1-1-2-Oz-Covington-Kentucky-/172060746128?nma=true&si=Lo5y4Kgsyb827%252FAwOIL03rDCvx8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:45.481Z"}
+{"level":"info","message":"fetching: /itm/361467686204","timestamp":"2016-01-22T04:28:46.374Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Coffee-Tin-Old-Grisdale-Brand-1-pound-Screw-on-Top-/361467686204?nma=true&si=dyAD0Ai7j6NW2teZd82aFHCTFn4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:47.381Z"}
+{"level":"info","message":"fetching: /itm/181989194320","timestamp":"2016-01-22T04:28:48.245Z"}
+{"level":"info","message":"fetching: /itm/A-C-BRAND-ADAMSON-CO-SPICE-TIN-1-1-2-Oz-Cream-Tarter-Dayton-Ohio-/181989194320?nma=true&si=RkcEQVw9QTqCPlMwbY4%252Bv%252Fd6%252FMU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:49.086Z"}
+{"level":"info","message":"fetching: /itm/252249477301","timestamp":"2016-01-22T04:28:49.734Z"}
+{"level":"info","message":"fetching: /itm/TOBACCO-PAIL-tin-PAPER-Tax-Stamp-Label-Lids-Handles-/252249477301?nma=true&si=l0nb1s%252FMR2OuTtdVi5eK%252FKregSA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:50.306Z"}
+{"level":"info","message":"fetching: /itm/131697621480","timestamp":"2016-01-22T04:28:51.142Z"}
+{"level":"info","message":"fetching: /itm/Sinclair-Outboard-Oil-Quart-SAE-30-Motor-Oil-Empty-Nautical-Use-Vintage-/131697621480?nma=true&si=SK0BMaUWeK3MezttWnDcqqcEH1s%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:51.944Z"}
+{"level":"info","message":"fetching: /itm/311523257029","timestamp":"2016-01-22T04:28:52.776Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Cardboard-Spice-Box-Tin-Best-Made-Quality-Nutmeg-Favorite-Mfg-in-MN-/311523257029?nma=true&si=QFBVVfMxgle14aPUlo1PhGUmUCA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:53.371Z"}
+{"level":"info","message":"fetching: /itm/111876297746","timestamp":"2016-01-22T04:28:54.140Z"}
+{"level":"info","message":"fetching: /itm/DAN-PATCH-CUT-PLUG-VINTAGE-TOBACCO-TIN-SCOTTEN-DILLON-CO-DETROIT-MICH-/111876297746?nma=true&si=EnACOKwzsVooIDEak0WC8LC7Jk8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:54.925Z"}
+{"level":"info","message":"fetching: /itm/252245723241","timestamp":"2016-01-22T04:28:55.859Z"}
+{"level":"info","message":"fetching: /itm/Big-Ben-Tobacco-Tin-Excellent-/252245723241?nma=true&si=ZdmQ2Kiwj%252FJsyTpO50EIhGImTeY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:56.552Z"}
+{"level":"info","message":"fetching: /itm/121864658029","timestamp":"2016-01-22T04:28:57.430Z"}
+{"level":"info","message":"fetching: /itm/NICE-1940s-WWII-50-ARMY-CLUB-CIGARETTES-TOBACCO-TIN-CAN-SIGN-/121864658029?nma=true&si=T6tkAN4ULFF22jFZAaZTbqmtx3U%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:57.966Z"}
+{"level":"info","message":"fetching: /itm/221991525031","timestamp":"2016-01-22T04:28:58.625Z"}
+{"level":"info","message":"fetching: /itm/Vintage-antique-tobacco-empty-vertical-tin-box-Piccadilly-cigarette-1920s-/221991525031?nma=true&si=B5ZcDBOdLXjmxEm8snyGhw%252FArfc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:28:59.421Z"}
+{"level":"info","message":"fetching: /itm/181990512484","timestamp":"2016-01-22T04:29:00.269Z"}
+{"level":"info","message":"fetching: /itm/Prince-Albert-in-a-Can-Antique-Tobacco-Tin-/181990512484?nma=true&si=6Jv1cJrAf%252FhFa9UxtkbiboG8AUU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:29:01.046Z"}
+{"level":"info","message":"fetching: /itm/321975730354","timestamp":"2016-01-22T04:29:01.893Z"}
+{"level":"info","message":"fetching: /itm/NATURAL-AMERICAN-SPIRIT-ADVERTISE-TIN-/321975730354?nma=true&si=lWsGvnV6MrBnF1YmGYOprYYxJZw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:29:02.596Z"}
+{"level":"info","message":"fetching: /itm/172057612021","timestamp":"2016-01-22T04:29:03.732Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PRINCE-ALBERT-CRIMP-CUT-TOBACCO-TIN-CAN-/172057612021?nma=true&si=%252BdEoCnzF7COxWhR5PzAQEgm7AH8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-22T04:29:04.539Z"}
+{"level":"info","message":"saving - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-22T04:29:05.739Z"}

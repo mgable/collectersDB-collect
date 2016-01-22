@@ -49,8 +49,8 @@
 			// console.info(yesterdayPath);
 			// console.info(storeFile);
 
-		var todayPromise = util.getDataFromS3(util.makeOptions(todayPath)).then(parse),
-			yesterdayPromise = util.getDataFromS3(util.makeOptions(yesterdayPath)).then(parse);
+		var todayPromise = util.getDataFromS3(todayPath).then(parse),
+			yesterdayPromise = util.getDataFromS3(yesterdayPath).then(parse);
 
 		Q.allSettled([todayPromise, yesterdayPromise]).then(function(data){
 			var today = data[0].value,
