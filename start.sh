@@ -10,4 +10,4 @@
 
 /usr/local/bin/node /Users/markgable/Sites/projects/collectorsDB/collect/save_index.js
 
-/Users/markgable/Sites/projects/collectorsDB/collect/prime_elasticsearch.sh
+/Users/markgable/Sites/projects/collectorsDB/collect/prime_elasticsearch_aws.sh

@@ -49,7 +49,7 @@
 			var upload = s3Stream.upload({
 				"Bucket": util.config.aws.bucket,
 				"Key": imagePath + filename,
-				"ContentType": util.config.contentType.json
+				"ContentType": util.config.contentType.jpg
 			});
 
 			upload.on('error', function (error) {
