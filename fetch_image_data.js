@@ -9,9 +9,18 @@
 		url = require('url'),
 		util = require('./util.js'),
 		AdditionalImages = Q.defer(), 
-		results = [];
+		results = [],
+		AWS = require('aws-sdk'),
+		credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
+
+	AWS.config.credentials = credentials;
+	var s3Stream = require('s3-upload-stream')(new AWS.S3());
 
 	function download(uri, imagePath, filename, callback){
+		downloadToS3(uri, imagePath, filename, callback);
+	}
+
+	function downloadToLocal(uri, imagePath, filename, callback){
 		var callback = callback || _.noop; // jshint ignore:line
 
 		console.info("downloading: " + uri + " : " + imagePath + filename);
@@ -26,6 +35,41 @@
 			});
 		});
 	}
+
+
+	function downloadToS3(uri, imagePath, filename, callback){
+		var callback = callback || _.noop; // jshint ignore:line
+
+		console.info("downloading: " + uri + " : " + imagePath + filename);
+
+		request.head(uri, function(){
+	
+			imagePath = imagePath.replace(/(http.*\.com\/)/,"");
+
+			var upload = s3Stream.upload({
+				"Bucket": util.config.aws.bucket,
+				"Key": imagePath + filename,
+				"ContentType": util.config.ContentType.json
+			});
+
+			upload.on('error', function (error) {
+				console.log(error);
+			});
+
+			upload.on('uploaded', function (details) {
+				//console.log(details);
+				console.info("done!!!!");
+				callback(uri, imagePath, filename);
+			});
+
+		 	request(uri).pipe(upload).on('close', function(){console.info("pipe close callback");callback(uri, imagePath, filename);}).on('error', function(err){
+				util.logger.log(err, 'error');
+			});
+		});
+	}
+
+
+	
 
 	function getCompletedItemUrl(urlstr){
 		var urlObj = (url.parse(urlstr, true));

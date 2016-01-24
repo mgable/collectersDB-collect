@@ -9,12 +9,14 @@
 		pageUrlTemplate = '/ajax/category-auctions.php?id= *** config.category.id *** &sort=completed&limit=1000&offset=0',
 		dataRoot = "/Users/markgable/Sites/data/collectorsDB/",
 		local = {},
+		aws = {},
 		contentType = {
 			"json": "application/json; charset=UTF-8",
 			"jpg": "image/jpeg"
 		};
 	
 	local.dataRoot = dataRoot;
+	aws.bucket = "test-collectors-db";
 
 
 	module.exports = {
@@ -24,6 +26,7 @@
 		domain: domain,
 		pageUrlTemplate: pageUrlTemplate,
 		local: local,
+		aws: aws,
 		contentType: contentType
 	};
 
