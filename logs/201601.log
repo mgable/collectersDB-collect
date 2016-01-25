@@ -828,3 +828,844 @@
 {"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-25T18:19:52.483Z"}
 {"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-25T18:19:53.507Z"}
 {"level":"info","message":"saving - S3: advertising_tins/raw/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T18:19:55.001Z"}
+{"level":"info","message":"getting - S3: advertising_tins/raw/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T18:27:25.972Z"}
+{"level":"info","message":"getting - S3: advertising_tins/raw/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T18:27:26.043Z"}
+{"level":"info","message":"diff - There are 162 new items added for 20160125","timestamp":"2016-01-25T18:27:26.158Z"}
+{"level":"info","message":"fetching: /itm/191785294757","timestamp":"2016-01-25T18:27:26.162Z"}
+{"level":"info","message":"fetching: /itm/1890s-BLACK-AMERICANA-AFRICAN-AMERICAN-HAIR-TOBACCO-TIN-PAIL-TIN-LITHOGRAPH-/191785294757?nma=true&si=T6yiA%252FeGq2iTAbHzrokHJkbvguw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:27.140Z"}
+{"level":"info","message":"fetching: /itm/252249932417","timestamp":"2016-01-25T18:27:27.996Z"}
+{"level":"info","message":"fetching: /itm/Ultra-Rare-Early-1900s-Old-Abe-Chewing-Tobacco-Tin-Rarely-Seen-/252249932417?nma=true&si=c3HgmVAja%252BetCzWPI7WHmGetdvQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:28.776Z"}
+{"level":"info","message":"fetching: /itm/221998188194","timestamp":"2016-01-25T18:27:29.599Z"}
+{"level":"info","message":"fetching: /itm/Tilghman-Oyster-Tin-/221998188194?nma=true&si=z2rektBhXTcKsZdktM79%252BhES33E%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:30.424Z"}
+{"level":"info","message":"fetching: /itm/301850633817","timestamp":"2016-01-25T18:27:31.243Z"}
+{"level":"info","message":"fetching: /itm/3-lb-Turkey-Brand-Coffee-Tin-A-J-Kasper-Company-/301850633817?nma=true&si=ACwyRRddQWknUaKVsisUuknDD7g%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:31.831Z"}
+{"level":"info","message":"fetching: /itm/121868445531","timestamp":"2016-01-25T18:27:32.690Z"}
+{"level":"info","message":"fetching: /itm/RARE-Early-Winchester-Brand-Varnish-Stain-Golden-Oak-for-Wood-Stocks-/121868445531?nma=true&si=5SY86Xytfbbcc7Fa%252Fg7QV72Py4M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:33.788Z"}
+{"level":"info","message":"fetching: /itm/252248562362","timestamp":"2016-01-25T18:27:34.560Z"}
+{"level":"info","message":"fetching: /itm/Forest-Stream-Tobacco-Tin-Excellent-/252248562362?nma=true&si=oVj8oEzelUrxOArQRVsdnoUcyVM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:35.786Z"}
+{"level":"info","message":"fetching: /itm/371529849176","timestamp":"2016-01-25T18:27:36.656Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Santa-Fe-key-wind-coffee-tin-can-All-original-very-nice-condition-/371529849176?nma=true&si=c6bRUK5JXzAsLUauBF2GGkaHYTY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:37.348Z"}
+{"level":"info","message":"fetching: /itm/301850648906","timestamp":"2016-01-25T18:27:38.257Z"}
+{"level":"info","message":"fetching: /itm/Yankee-Boy-Plug-Cut-Pocket-Tobacco-Tin-S-D-Co-Factory-1-1st-Dist-Michigan-/301850648906?nma=true&si=%252FaSE2VPH2SjBOiNbRRqcs3ccsb4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:38.909Z"}
+{"level":"info","message":"fetching: /itm/371529855956","timestamp":"2016-01-25T18:27:39.558Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Jack-Sprat-key-wind-coffee-tin-can-All-original-very-nice-condition-/371529855956?nma=true&si=veFyhRgDac1AIhGyQZhwE8F%252BpPc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:40.510Z"}
+{"level":"info","message":"fetching: /itm/111882081223","timestamp":"2016-01-25T18:27:41.256Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Black-Swan-Oyster-Brand-Porcelain-Store-Advertising-Door-Push-Plate-Sign-/111882081223?nma=true&si=htKNrakHw6RZepUILYu%252B2QtU7bM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:41.962Z"}
+{"level":"info","message":"fetching: /itm/331756729759","timestamp":"2016-01-25T18:27:42.602Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Capitol-Heave-Distemper-Horse-Cure-Advertising-Veterinary-Box-Not-Tin-/331756729759?nma=true&si=BWhk3wl67CntFbby02aGjoitMVo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:43.411Z"}
+{"level":"info","message":"fetching: /itm/131703714382","timestamp":"2016-01-25T18:27:44.162Z"}
+{"level":"info","message":"fetching: /itm/Heysers-Oysters-Tin-w-handle-/131703714382?nma=true&si=ZtKPW3%252FydH5AqKbNQCr%252BlRhomcU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:44.865Z"}
+{"level":"info","message":"fetching: /itm/381522844451","timestamp":"2016-01-25T18:27:45.848Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Litho-Hand-Soldered-1-G-Ford-Anti-Freeze-Not-Oil-Advertising-Tin-Can-/381522844451?nma=true&si=kf%252FYUyjSEkBpY4Rket9p%252BmedkBg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:46.458Z"}
+{"level":"info","message":"fetching: /itm/131703845941","timestamp":"2016-01-25T18:27:47.309Z"}
+{"level":"info","message":"fetching: /itm/BLACK-AMERICANA-TIN-CANS-AUNT-DINAH-MOLASSES-1941-NEGRO-HEAD-OYSTERS-40s-50s-/131703845941?nma=true&si=NWg%252Fqor69Dzgt0Re7QIUPs93dG4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:48.618Z"}
+{"level":"info","message":"fetching: /itm/381520176173","timestamp":"2016-01-25T18:27:49.698Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-ADVERTISING-HOLLAND-SOCIETY-CIGARS-TIN-/381520176173?nma=true&si=Zl5tHgarlBpMR9z%252BGNYA%252B17R73M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:50.546Z"}
+{"level":"info","message":"fetching: /itm/262237724240","timestamp":"2016-01-25T18:27:51.388Z"}
+{"level":"info","message":"fetching: /itm/Continental-Cubes-Tobacco-Tin-/262237724240?nma=true&si=QDsMObO0gn1W9k1EFSJtleoOgS8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:52.674Z"}
+{"level":"info","message":"fetching: /itm/262237837634","timestamp":"2016-01-25T18:27:53.879Z"}
+{"level":"info","message":"fetching: /itm/Very-Nice-Three-Feathers-Plug-Cut-Tobacco-Tin-/262237837634?nma=true&si=D8numtUvFJTL2foiyrD65g0tPQo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:54.591Z"}
+{"level":"info","message":"fetching: /itm/331756633183","timestamp":"2016-01-25T18:27:55.266Z"}
+{"level":"info","message":"fetching: /itm/Antique-1800s-Bacon-Stickney-Co-Advertising-Tin-Box-With-Clock-Tartar-Sugar-/331756633183?nma=true&si=Fce1uTOy5FNS6KKcBLlKL6wce3g%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:55.826Z"}
+{"level":"info","message":"fetching: /itm/252248553577","timestamp":"2016-01-25T18:27:56.492Z"}
+{"level":"info","message":"fetching: /itm/Trout-Line-Smoking-Tobacco-Tin-/252248553577?nma=true&si=9UpqiE%252FRaEuV9wkL2%252BeJCvJMpBY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:57.119Z"}
+{"level":"info","message":"fetching: /itm/141880153321","timestamp":"2016-01-25T18:27:57.967Z"}
+{"level":"info","message":"fetching: /itm/RARE-Early-Zig-Zag-Rolling-Papers-Tobacco-Dispenser-store-display-Tin-Sign-/141880153321?nma=true&si=xib57cpf5Mp9H8VJfv2rlI%252ByoKk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:27:59.049Z"}
+{"level":"info","message":"fetching: /itm/201505948994","timestamp":"2016-01-25T18:27:59.680Z"}
+{"level":"info","message":"fetching: /itm/VERY-RARE-ADVO-GOLD-MEDALSTEEL-CUT-1-4lb-COFFEE-SAMPLE-LITHO-PAINTED-PRY-LID-TIN-/201505948994?nma=true&si=TcY%252FdbeO373YnsmSiJlu1NTNDuE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:00.485Z"}
+{"level":"info","message":"fetching: /itm/262245971105","timestamp":"2016-01-25T18:28:01.359Z"}
+{"level":"info","message":"fetching: /itm/Hand-Made-Flake-Cut-Pocket-Tobacco-Tin-Globe-Tobacco-Co-Detroit-Michigan-EARLY-/262245971105?nma=true&si=RaMNl8SbOW5w717Kl24gecbQRo0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:02.137Z"}
+{"level":"info","message":"fetching: /itm/262237814802","timestamp":"2016-01-25T18:28:02.871Z"}
+{"level":"info","message":"fetching: /itm/Ultra-Rare-Maryland-Club-Tobacco-Tin-Very-Collectible-and-Hard-to-Find-/262237814802?nma=true&si=xUMvZA6WAs%252FUfJ90f8LevfR2Qa8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:03.472Z"}
+{"level":"info","message":"fetching: /itm/321979709557","timestamp":"2016-01-25T18:28:04.291Z"}
+{"level":"info","message":"fetching: /itm/Antique-Arsenal-Turmeric-Spice-Tin-Rock-Island-Illinois-/321979709557?nma=true&si=OsV0Ysf1g2zyr1IWNJAtAHpV7os%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:05.224Z"}
+{"level":"info","message":"fetching: /itm/262237604047","timestamp":"2016-01-25T18:28:06.681Z"}
+{"level":"info","message":"fetching: /itm/Maryland-Club-Mixture-Tobacco-Tin-Rare-Size-/262237604047?nma=true&si=fpjJGYplbTZsyw5oHZxD75EgEHA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:07.473Z"}
+{"level":"info","message":"fetching: /itm/381522722336","timestamp":"2016-01-25T18:28:08.409Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Cardboard-Farmers-Pride-Rolled-Oats-1lb-Advertising-Container-Not-Tin-/381522722336?nma=true&si=eLjMmuYspSirzx2yuHFl0KRC3tk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:09.494Z"}
+{"level":"info","message":"fetching: /itm/252248327761","timestamp":"2016-01-25T18:28:10.382Z"}
+{"level":"info","message":"fetching: /itm/Cornell-Mixture-Tobacco-Tin-/252248327761?nma=true&si=2nZV20uRqtGsdVhMa0K9oxCzObo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:11.195Z"}
+{"level":"info","message":"fetching: /itm/181989771194","timestamp":"2016-01-25T18:28:12.187Z"}
+{"level":"info","message":"fetching: /itm/Gallon-Crescent-Brand-Salt-Water-Oyster-Tin-Can-Baltimore-MD-26-Old-Bail-Handle-/181989771194?nma=true&si=qne40M5dKZjkOzpgMvxEpsI29pE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:12.970Z"}
+{"level":"info","message":"fetching: /itm/262237722046","timestamp":"2016-01-25T18:28:13.713Z"}
+{"level":"info","message":"fetching: /itm/Rarest-Version-Edgeworth-Pocket-Tobacco-Tin-/262237722046?nma=true&si=Z42bLZM%252F4BChRacuW29Tvch5xfg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:14.636Z"}
+{"level":"info","message":"fetching: /itm/381522749486","timestamp":"2016-01-25T18:28:15.387Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Paper-Label-Stuarts-Brand-Advertising-Baking-Soda-Tin-Can-/381522749486?nma=true&si=DTiY58PMKmSmylu1EQe%252F4c1%252BpQg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:16.096Z"}
+{"level":"info","message":"fetching: /itm/252254726872","timestamp":"2016-01-25T18:28:16.779Z"}
+{"level":"info","message":"fetching: /itm/Early-Angelus-5-lb-Marshmallow-Hinged-Glass-Top-General-Store-Counter-Tin-/252254726872?nma=true&si=VkGWqUgBFHP9ASv2LDDwGQlm1rc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:17.358Z"}
+{"level":"info","message":"fetching: /itm/351632996437","timestamp":"2016-01-25T18:28:18.233Z"}
+{"level":"info","message":"fetching: /itm/VERY-OLD-RUNKELS-BREAKFAT-COCOA-4-SIDED-TIN-G-501-/351632996437?nma=true&si=ChHtChMJkRBwLXsnVnRSyX5YVhU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:18.816Z"}
+{"level":"info","message":"fetching: /itm/281909432918","timestamp":"2016-01-25T18:28:19.501Z"}
+{"level":"info","message":"fetching: /itm/Very-RARE-Little-Kirkwood-Tobacco-Tin-VZuelta-Abajo-Factory-25-Dist-Iowa-Antique-/281909432918?nma=true&si=8fHp44lGzyF0%252BQnhJ7dQkf2MdsQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:20.229Z"}
+{"level":"info","message":"fetching: /itm/321981906280","timestamp":"2016-01-25T18:28:21.121Z"}
+{"level":"info","message":"fetching: /itm/OLD-CHERITON-VA-OYSTER-TIN-E-J-STEELMANS-TOUGH-TO-FIND-/321981906280?nma=true&si=eqKmZr0%252BgO5TsCnMvVQ7AksnNys%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:21.890Z"}
+{"level":"info","message":"fetching: /itm/201505950204","timestamp":"2016-01-25T18:28:22.712Z"}
+{"level":"info","message":"fetching: /itm/RARE-ANTIQUE-TIN-LITHO-WHITE-HOUSE-SAMPLE-COFFEE-ADVERTISING-MOCHA-JAVA-TIN-/201505950204?nma=true&si=MVEmPRvtWliyOkhr36uZnl9wndU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:23.445Z"}
+{"level":"info","message":"fetching: /itm/272108133025","timestamp":"2016-01-25T18:28:24.233Z"}
+{"level":"info","message":"fetching: /itm/Antique-Peachey-Double-Cut-Tobacco-Advertising-Pocket-Tin-Cigar-Smoke-Litho-/272108133025?nma=true&si=kee1P59ozSdOsU2FgFbV5nr7hJ0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:25.108Z"}
+{"level":"info","message":"fetching: /itm/272108069375","timestamp":"2016-01-25T18:28:25.988Z"}
+{"level":"info","message":"fetching: /itm/Vintage-U-S-Marine-Flake-Cut-1910-Advertising-Smoking-Tobacco-Pocket-Tin-/272108069375?nma=true&si=yzLN5NxemnFk7B1gqTdFUzOYlBo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:27.035Z"}
+{"level":"info","message":"fetching: /itm/201506039501","timestamp":"2016-01-25T18:28:27.836Z"}
+{"level":"info","message":"fetching: /itm/Scarce-Antique-Pilot-Tobacco-Tin-with-CF-ARO-Helicopter-W-C-Macdonald-Montreal-/201506039501?nma=true&si=6%252B%252Fr2UdH8mJvIyD6bqK4g1xZzYA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:28.437Z"}
+{"level":"info","message":"fetching: /itm/262237686821","timestamp":"2016-01-25T18:28:29.666Z"}
+{"level":"info","message":"fetching: /itm/Rare-Handsome-Dan-Tobacco-Tin-Very-Nice-No-Reserve-/262237686821?nma=true&si=mN1ydMMvhezraTLZiLyjbZyY77g%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:30.405Z"}
+{"level":"info","message":"fetching: /itm/381522723770","timestamp":"2016-01-25T18:28:31.058Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Cardboard-Farmers-Pride-Rolled-Oats-3lb-Advertising-Container-Not-Tin-/381522723770?nma=true&si=%252BLqk4P7gaHJT%252FJ2%252F5G4AwwF4ud8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:31.982Z"}
+{"level":"info","message":"fetching: /itm/331756721316","timestamp":"2016-01-25T18:28:32.917Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Tin-Litho-Omar-Biscuits-Cakes-Pies-Crackers-Advertising-Cracker-Tin-Can-/331756721316?nma=true&si=SnQDqfZAaXzc70sa9%252Bg3WbHICYU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:33.539Z"}
+{"level":"info","message":"fetching: /itm/381522705453","timestamp":"2016-01-25T18:28:34.505Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Tin-Litho-Mrs-Brookes-Cloves-Advertising-Spice-Tin-Can-/381522705453?nma=true&si=hp41bhAr3HZ%252FPhUlU3COFQopMNI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:35.117Z"}
+{"level":"info","message":"fetching: /itm/301850769599","timestamp":"2016-01-25T18:28:35.993Z"}
+{"level":"info","message":"fetching: /itm/Vintage-BAY-SHORE-Chester-MD-OYSTER-CAN-And-Briny-Deep-Herring-Can-/301850769599?nma=true&si=cxr2%252FxgeB2FV9tzBTh50cO6o5Uc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:36.790Z"}
+{"level":"info","message":"fetching: /itm/151953987813","timestamp":"2016-01-25T18:28:37.661Z"}
+{"level":"info","message":"fetching: /itm/OWL-HONEY-TIN-/151953987813?nma=true&si=oS3O0zaNImJpHvf8qmvrfKfxNL4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:38.260Z"}
+{"level":"info","message":"fetching: /itm/331756675970","timestamp":"2016-01-25T18:28:39.103Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Cardboard-Large-1lb-Polar-Bear-Pepper-Coffee-Advertising-Spice-Tin-Can-/331756675970?nma=true&si=GAipKLQT%252BmBSnr3wyWm1bzs8XHI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:39.815Z"}
+{"level":"info","message":"fetching: /itm/272108003469","timestamp":"2016-01-25T18:28:40.420Z"}
+{"level":"info","message":"fetching: /itm/Antique-EXTREMELY-RARE-Red-Cross-Coffee-Tin-by-C-A-Cross-Co-Inc-/272108003469?nma=true&si=PvSz7inhcK3hZg78aviSdcwSVOY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:41.072Z"}
+{"level":"info","message":"fetching: /itm/252254787491","timestamp":"2016-01-25T18:28:41.849Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-MOJO-PERFECT-COFFEE-1-LB-TIN-MOSEL-JOHNSON-STEUBENVILLE-NY-/252254787491?nma=true&si=APjFQUXRBGt4oAM6sNaqmCzDaoA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:42.520Z"}
+{"level":"info","message":"fetching: /itm/321979703952","timestamp":"2016-01-25T18:28:43.411Z"}
+{"level":"info","message":"fetching: /itm/Antique-Summer-Girl-Ginger-Spice-Tin-Salina-Kansas-/321979703952?nma=true&si=nv8O26oPFY7iEJPg1slc9awyBZo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:44.167Z"}
+{"level":"info","message":"fetching: /itm/381522804348","timestamp":"2016-01-25T18:28:45.146Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Cardboard-Lees-Dri-Rub-Advertising-Medical-Pig-Veterinary-Tin-Can-/381522804348?nma=true&si=Zmb0XvrnyaMdI0XdGY%252F5XH5S6KU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:46.271Z"}
+{"level":"info","message":"fetching: /itm/331756670928","timestamp":"2016-01-25T18:28:46.934Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Tin-Cardboard-Small-1-Oz-Fairway-Mace-Advertising-Spice-Tin-Can-/331756670928?nma=true&si=bZQ0lNO0ZHCQ24I%252BzBS9t8Nf35g%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:47.744Z"}
+{"level":"info","message":"fetching: /itm/331756719213","timestamp":"2016-01-25T18:28:48.404Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Paper-Label-Tall-Blackstone-Advertising-Coffee-Tin-Can-/331756719213?nma=true&si=uUoEOjbnnajucnSTbXqb2sLzWTU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:49.115Z"}
+{"level":"info","message":"fetching: /itm/281912286943","timestamp":"2016-01-25T18:28:49.961Z"}
+{"level":"info","message":"fetching: /itm/vintage-GORDONS-POTATO-CHIP-TIN-31-2-POUND-/281912286943?nma=true&si=Nt4dvo8NeITt6rRkDZImkoajgtk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:50.788Z"}
+{"level":"info","message":"fetching: /itm/161945115012","timestamp":"2016-01-25T18:28:51.631Z"}
+{"level":"info","message":"fetching: /itm/RARE-J-W-Ferguson-Choice-of-the-Chesapeake-Bay-One-Gallon-Oyster-Tin-Remlik-/161945115012?nma=true&si=JiMH1qBmCog84f%252B8lEgsp0jqCBI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:52.342Z"}
+{"level":"info","message":"fetching: /itm/291662332048","timestamp":"2016-01-25T18:28:53.208Z"}
+{"level":"info","message":"fetching: /itm/Rare-Vintage-Luzianne-Coffee-Black-Mammy-Americana-Salesman-Sample-Metal-Can-Tin-/291662332048?nma=true&si=e0pDGnary5u2y01vqJGCUeWw2b4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:54.063Z"}
+{"level":"info","message":"fetching: /itm/181994821679","timestamp":"2016-01-25T18:28:54.765Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-800-FINE-SILVER-GOLD-CIGARETTE-TOBACCO-CIG-TOBACCIANA-SMOKE-CASE-TIN-/181994821679?nma=true&si=1Wv7DpSIImkIR7ix23uXRTKtniY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:55.399Z"}
+{"level":"info","message":"fetching: /itm/321979694951","timestamp":"2016-01-25T18:28:56.024Z"}
+{"level":"info","message":"fetching: /itm/Antique-Old-Judge-Owl-Spice-Tin-St-Louis-/321979694951?nma=true&si=LoT4Q%252BgYTMbWWby7QwMsudJplqw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:56.635Z"}
+{"level":"info","message":"fetching: /itm/231814286708","timestamp":"2016-01-25T18:28:57.478Z"}
+{"level":"info","message":"fetching: /itm/Rare-Buster-Brown-Allspice-Tin-Round-Steinwender-Stoffregen-Coffee-Co-St-Loui-/231814286708?nma=true&si=wvPIAc%252BPuYIkyHYAGd6b1NTp20E%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:58.310Z"}
+{"level":"info","message":"fetching: /itm/321979702356","timestamp":"2016-01-25T18:28:59.098Z"}
+{"level":"info","message":"fetching: /itm/Rare-Antique-Dolly-Varden-Spice-Tin-Fargo-North-Dakota-/321979702356?nma=true&si=bCrNh9dNJ%252Bfhfy3OvKOdzWdvBZA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:28:59.913Z"}
+{"level":"info","message":"fetching: /itm/191785213604","timestamp":"2016-01-25T18:29:00.816Z"}
+{"level":"info","message":"fetching: /itm/Angelus-Marshmallows-The-Cracker-Jack-Co-Vintage-Tin-w-Lid-/191785213604?nma=true&si=%252F%252BBMih0TsjJYSQxkEzPWmFn6Wps%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:01.706Z"}
+{"level":"info","message":"fetching: /itm/252258248372","timestamp":"2016-01-25T18:29:02.403Z"}
+{"level":"info","message":"fetching: /itm/Aspirin-Saffron-Tin-Approx-Size-12-Tablet-Aspirin-Tin-FRANKS-CINCINNATI-OH-/252258248372?nma=true&si=OmhBY%252BDkIH0IGTbFHNfngIaFVDU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:03.048Z"}
+{"level":"info","message":"fetching: /itm/222000119155","timestamp":"2016-01-25T18:29:03.916Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Parkes-Spice-Tin-PURE-CLOVES-All-Metal-Philadelphia-Pittsburgh-/222000119155?nma=true&si=QskbDEfjx9tONbTj6Oz9O%252FNQRNc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:04.681Z"}
+{"level":"info","message":"fetching: /itm/121868091473","timestamp":"2016-01-25T18:29:05.321Z"}
+{"level":"info","message":"fetching: /itm/NATIONAL-SPICE-TIN-ROUND-TUMERIC-1-1-2-OZ-/121868091473?nma=true&si=sQ3rC9jU4KtqgvADfYIbRhEPXLE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:06.235Z"}
+{"level":"info","message":"fetching: /itm/381522753861","timestamp":"2016-01-25T18:29:06.987Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Paper-Label-Tall-3-F-3-Fishbacks-Advertising-Coffee-Tin-Can-/381522753861?nma=true&si=3gUYvwll5Kl3H7yoB9YDjKO6B4o%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:07.806Z"}
+{"level":"info","message":"fetching: /itm/272108227416","timestamp":"2016-01-25T18:29:08.699Z"}
+{"level":"info","message":"fetching: /itm/KRUN-CHEE-POTATO-CHIP-TIN-CAN-OLD-ANTIQUE-VINTAGE-COUNTRY-KITCHEN-DECOR-/272108227416?nma=true&si=Hh0Det6w5LrxmoTY3l4Wi6jtEfA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:09.480Z"}
+{"level":"info","message":"fetching: /itm/231817361657","timestamp":"2016-01-25T18:29:10.242Z"}
+{"level":"info","message":"fetching: /itm/scarce-Lg-full-1-lb-size-Dale-Bros-monk-logo-nutmeg-spice-tin-Fresno-California-/231817361657?nma=true&si=j89oqoH8k%252Bbchx6iuidwzaRStCw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:11.280Z"}
+{"level":"info","message":"fetching: /itm/321979699126","timestamp":"2016-01-25T18:29:12.250Z"}
+{"level":"info","message":"fetching: /itm/Antique-Teen-Queen-Spice-Tin-Litho-Louisville-Kentucky-/321979699126?nma=true&si=IVNJn7aBCdC4vnmDJaV%252B1HFdtGM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:12.924Z"}
+{"level":"info","message":"fetching: /itm/291661751883","timestamp":"2016-01-25T18:29:13.674Z"}
+{"level":"info","message":"fetching: /itm/Blankes-Happy-Thought-Coffee-Tin-C-F-Blanke-Tea-Coffee-Antique-Advertising-/291661751883?nma=true&si=%252F0ZuAT8oqEwbxRxcHWXSS3xJB14%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:14.427Z"}
+{"level":"info","message":"fetching: /itm/141877675331","timestamp":"2016-01-25T18:29:15.668Z"}
+{"level":"info","message":"fetching: /itm/LG-Antique-ROBERTSONS-PURE-CANDY-Pail-TIN-Litho-COUNTRY-STORE-Advertising-BUCKET-/141877675331?nma=true&si=KEy7jEqGzO4LAIJ4tqBY6z4U2qw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:16.461Z"}
+{"level":"info","message":"fetching: /itm/381522879478","timestamp":"2016-01-25T18:29:17.334Z"}
+{"level":"info","message":"fetching: /itm/FASHION-LUNCH-BOX-TOBACCO-TIN-/381522879478?nma=true&si=h8I47h64AC07YkQyjH%252FQvVXCh4s%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:18.672Z"}
+{"level":"info","message":"fetching: /itm/161952532874","timestamp":"2016-01-25T18:29:19.642Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-DENTAL-TOOTH-POWDER-TIN-EARLY-REXALL-W-TAX-STAMP-VICTORIAN-LADY-DRUGS-/161952532874?nma=true&si=C2c%252BmH%252FUgTEV6i2pNksxiDgn8hE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:20.473Z"}
+{"level":"info","message":"fetching: /itm/222000121338","timestamp":"2016-01-25T18:29:21.407Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Parkes-Spice-Tin-PURE-GINGER-All-Metal-Philadelphia-Pittsburgh-/222000121338?nma=true&si=NqOUCyQxTf%252BUHDp8RSq6Jlgdwtk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:22.121Z"}
+{"level":"info","message":"fetching: /itm/172066809508","timestamp":"2016-01-25T18:29:23.172Z"}
+{"level":"info","message":"fetching: /itm/Life-Savers-Lifesavers-Fruit-Tarts-4-Sealed-1-5oz-43g-Tins-Sugar-Free-/172066809508?nma=true&si=73NLoUJIyZIcoBm%252B6hLfbTsQOq8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:23.988Z"}
+{"level":"info","message":"fetching: /itm/272108092089","timestamp":"2016-01-25T18:29:24.788Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-STAG-TOBACCO-TIN-P-LORILLARD-CO-JERSEY-CITY-NJ-/272108092089?nma=true&si=bOaIfReARMcutsiW77CWKIyLoXQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:25.463Z"}
+{"level":"info","message":"fetching: /itm/311528700581","timestamp":"2016-01-25T18:29:26.742Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Wilkins-Coffee-Tin-1-Lb-Advertising-Can-Drip-Grind-/311528700581?nma=true&si=E5DwnSV6F14DaPPPwxYk2I5p%252B04%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:27.743Z"}
+{"level":"info","message":"fetching: /itm/252256306561","timestamp":"2016-01-25T18:29:28.503Z"}
+{"level":"info","message":"fetching: /itm/VTG-Metal-Paper-Original-Campfire-Marshmallows-3lbs-Tin-1930s-Lowney-Co-Canada-/252256306561?nma=true&si=6Aggdu8fTtcklWVLIWew2psMboA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:29.118Z"}
+{"level":"info","message":"fetching: /itm/331756712695","timestamp":"2016-01-25T18:29:29.871Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Paper-Label-Up-To-Date-Advertising-Baking-Soda-Tin-Can-/331756712695?nma=true&si=sH2UWBabOx6LEPW5EL35r%252F%252F6i84%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:30.533Z"}
+{"level":"info","message":"fetching: /itm/381522791888","timestamp":"2016-01-25T18:29:31.124Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Wood-Worcester-Brand-Salt-Counter-Advertising-Display-Box-Not-Tin-Can-/381522791888?nma=true&si=MQNLVEhbcMbuAobv9tNGYya7izk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:32.128Z"}
+{"level":"info","message":"fetching: /itm/272108118441","timestamp":"2016-01-25T18:29:33.131Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-ADVERTISING-GRANULATED-54-TOBACCO-VERTICAL-POCKET-TIN-TOBACCIANA-/272108118441?nma=true&si=WLZ2uyD91fbR%252FqnncqAdTqbkoog%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:34.014Z"}
+{"level":"info","message":"fetching: /itm/321976598204","timestamp":"2016-01-25T18:29:34.877Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-ADVERTISING-FLOR-DE-HAYNIE-CIGAR-TIN-TOBACCO-/321976598204?nma=true&si=NBT2b3s60wT7YCF11xK0dBhSIQY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:35.544Z"}
+{"level":"info","message":"fetching: /itm/121868430345","timestamp":"2016-01-25T18:29:36.569Z"}
+{"level":"info","message":"fetching: /itm/De-Laval-cow-and-calf-advertising-tin-/121868430345?nma=true&si=E2cn%252FUHtRURC9nYe7FGthA45QC0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:37.353Z"}
+{"level":"info","message":"fetching: /itm/331756659057","timestamp":"2016-01-25T18:29:38.116Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Paste-On-Label-Fowler-Turmeric-Advertising-Spice-Tin-Can-/331756659057?nma=true&si=k9eejfRp9H2EQwMU0Y67llbHAJE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:38.712Z"}
+{"level":"info","message":"fetching: /itm/351614639621","timestamp":"2016-01-25T18:29:39.492Z"}
+{"level":"info","message":"fetching: /itm/Rare-Advertising-Sewing-Flanges-BUTTERFLY-Tin-1900s-Nahe-Blechdose-1-/351614639621?nma=true&si=k5CB78NPXowe6NesaJL9gOMK%252BAg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:40.239Z"}
+{"level":"info","message":"fetching: /itm/381522725252","timestamp":"2016-01-25T18:29:40.953Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Paper-Label-Tally-Ho-Brand-AdvertisingBaking-Soda-Tin-Can-/381522725252?nma=true&si=OnQ3TpDhi7s8gNDNJaCHUs5t9tk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:41.666Z"}
+{"level":"info","message":"fetching: /itm/161950661591","timestamp":"2016-01-25T18:29:42.394Z"}
+{"level":"info","message":"fetching: /itm/1930S-ANGELUS-MARSHMALLOW-TIN-THE-CRACKER-JACK-CO-/161950661591?nma=true&si=VJMnGaRjoNkVwnQpBvjeamvWQ08%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:43.409Z"}
+{"level":"info","message":"fetching: /itm/121868413403","timestamp":"2016-01-25T18:29:44.171Z"}
+{"level":"info","message":"fetching: /itm/Vintage-H-D-Lee-ground-spice-tin-/121868413403?nma=true&si=%252F2cjSnJEqCHYgANAJoSLAYb1lAk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:44.989Z"}
+{"level":"info","message":"fetching: /itm/331753616182","timestamp":"2016-01-25T18:29:45.655Z"}
+{"level":"info","message":"fetching: /itm/JAHNCKES-TIN-BOX-AESTHETIC-VICTORIAN-BIRD-CACHOU-AROMATIC-BREATH-FRESHNER-SWEETS-/331753616182?nma=true&si=Z7gcc66G7v%252BXWdmw7boImjA2HO4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:46.253Z"}
+{"level":"info","message":"fetching: /itm/351614646847","timestamp":"2016-01-25T18:29:46.899Z"}
+{"level":"info","message":"fetching: /itm/Rare-Ad-Gramophone-Needles-Tin-VERA-1920s-Talking-Machines-Phono-Nadeldose-/351614646847?nma=true&si=%252B2j%252BwrFVrlXTw1YFlrXtrY0Hj78%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:47.598Z"}
+{"level":"info","message":"fetching: /itm/331756680313","timestamp":"2016-01-25T18:29:48.655Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Cardboard-Farmers-Pride-Pickling-Spice-Advertising-Spice-Tin-Can-/331756680313?nma=true&si=ysGwMD1GGB3CXvL0H66usE19eeQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:49.366Z"}
+{"level":"info","message":"fetching: /itm/131703704041","timestamp":"2016-01-25T18:29:50.235Z"}
+{"level":"info","message":"fetching: /itm/Vintage-5-lbs-Folgers-Coffee-tin-1931-never-opened-/131703704041?nma=true&si=0%252FYOqElh8Xgm8wIK7I70bDP4o%252FE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:50.827Z"}
+{"level":"info","message":"fetching: /itm/371536621428","timestamp":"2016-01-25T18:29:51.593Z"}
+{"level":"info","message":"fetching: /itm/1931-SHEIK-Condom-Tin-Prophylactic-/371536621428?nma=true&si=vO36cRkIleVVlr3SHJ7hN60Mz50%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:52.328Z"}
+{"level":"info","message":"fetching: /itm/252255063213","timestamp":"2016-01-25T18:29:53.151Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Kellams-Black-Pepper-Spice-Tin-Binghamton-New-York-/252255063213?nma=true&si=JYF4FFcdxs12TBt4AqJA1HV5QMA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:53.862Z"}
+{"level":"info","message":"fetching: /itm/272108149747","timestamp":"2016-01-25T18:29:54.508Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-RED-BELT-VERTICAL-POCKET-TOBACCO-TIN-LITHO-3-X-3-X-1-/272108149747?nma=true&si=yMvPcwXsbF8oh1Bh7dwmuoRuseI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:55.323Z"}
+{"level":"info","message":"fetching: /itm/172066269722","timestamp":"2016-01-25T18:29:56.437Z"}
+{"level":"info","message":"fetching: /itm/Williams-Saratoga-Potato-Chip-box-/172066269722?nma=true&si=DKRC11uiZqHam7TC69SaaLWXNGA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:57.228Z"}
+{"level":"info","message":"fetching: /itm/272108170052","timestamp":"2016-01-25T18:29:58.555Z"}
+{"level":"info","message":"fetching: /itm/Antique-Vintage-1920s-Original-Peter-Rabbit-Tindeco-Candy-or-Trinket-Tin-/272108170052?nma=true&si=ccriOMRwDLuGFHf7axx5pbdznUI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:29:59.202Z"}
+{"level":"info","message":"fetching: /itm/252255396077","timestamp":"2016-01-25T18:30:00.039Z"}
+{"level":"info","message":"fetching: /itm/Vintage-National-Biscuit-Company-Display-Tin-/252255396077?nma=true&si=cD%252BCTrLhMOJ5%252BgKAA%252FbyORUnLFY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:01.147Z"}
+{"level":"info","message":"fetching: /itm/172067239345","timestamp":"2016-01-25T18:30:02.629Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Charles-Chips-Metal-Delivery-Truck-Bank-Can-Ralstoy-/172067239345?nma=true&si=X1USEB7kfad1RoLg6ZWyzFJjGgA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:03.405Z"}
+{"level":"info","message":"fetching: /itm/381523424460","timestamp":"2016-01-25T18:30:04.535Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-GINNA-CO-A-P-SULTANA-ALLSPICE-VINTAGE-ADVERTISING-TIN-/381523424460?nma=true&si=Uc93PmZhObWPPIzK9rJy%252Bbwwc6A%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:05.358Z"}
+{"level":"info","message":"fetching: /itm/331756715188","timestamp":"2016-01-25T18:30:06.089Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Lot-of-Two-Cowboy-Brand-McCordsville-Advertising-Baking-Soda-Tin-Cans-/331756715188?nma=true&si=RS8vhSA82Nt6Fc4diecKcLV32lw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:06.740Z"}
+{"level":"info","message":"fetching: /itm/141879825368","timestamp":"2016-01-25T18:30:07.705Z"}
+{"level":"info","message":"fetching: /itm/Uncle-Same-Patriotic-Union-Leader-Tobacco-Pocket-Tin-yellow-background-/141879825368?nma=true&si=MY9e%252Bg8waKfQr6s6NVdolcXbcV0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:08.621Z"}
+{"level":"info","message":"fetching: /itm/391368281734","timestamp":"2016-01-25T18:30:09.330Z"}
+{"level":"info","message":"fetching: /itm/Vintage-AB-ARBUCKLE-Nutmeg-Spice-Tin-/391368281734?nma=true&si=BUU3o0c7QCk9hvqd9VMQhxNq8Ns%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:09.932Z"}
+{"level":"info","message":"fetching: /itm/222000122937","timestamp":"2016-01-25T18:30:10.579Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Parkes-Spice-Tin-PURE-NUTMEG-All-Metal-Philadelphia-/222000122937?nma=true&si=PBEWCTrloXUEQrI6TGGxdgU3x9A%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:11.202Z"}
+{"level":"info","message":"fetching: /itm/272107106135","timestamp":"2016-01-25T18:30:12.102Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Union-Leader-Redi-Cut-Tobacco-Tin-Uncle-Sam-/272107106135?nma=true&si=bScz4U4L1j5TBxw9l1pA92GUyEw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:12.683Z"}
+{"level":"info","message":"fetching: /itm/151954142759","timestamp":"2016-01-25T18:30:13.609Z"}
+{"level":"info","message":"fetching: /itm/Antique-A-P-CLOVES-Tin-SULTANA-SPICE-MILLS-19th-Century-Beauty-/151954142759?nma=true&si=8xEFtZ2VgL9J4WYQ3xlDBC3Zx5M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:14.265Z"}
+{"level":"info","message":"fetching: /itm/281912162159","timestamp":"2016-01-25T18:30:15.082Z"}
+{"level":"info","message":"fetching: /itm/GRANULATED-54-PLUG-TOBACCO-POCKET-TIN-WEISERT-CO-ST-LOUIS-/281912162159?nma=true&si=QK4HrzR1WoT%252BoiMWzpb3NAra%252BL8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:15.689Z"}
+{"level":"info","message":"fetching: /itm/252255399646","timestamp":"2016-01-25T18:30:16.760Z"}
+{"level":"info","message":"fetching: /itm/New-Orleans-JACOBS-Rare-MAMMY-PRALINE-TIN-30s-Restaurant-Hotel-China-GEM-/252255399646?nma=true&si=QaofH96AjqZ9UVvWGSCejrFCwgk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:17.497Z"}
+{"level":"info","message":"fetching: /itm/252250908633","timestamp":"2016-01-25T18:30:18.264Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Baci-Perugina-Chocolates-Tin-Chest-Empty-Made-In-Italy-/252250908633?nma=true&si=a7j6auyiQmZpUbD5NxcVs5qEI%252F0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:19.078Z"}
+{"level":"info","message":"fetching: /itm/141880708170","timestamp":"2016-01-25T18:30:19.995Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Tuxedo-Tobacco-Pocket-Tin-Full-/141880708170?nma=true&si=UBt8aEtw8ndofyA5qTBYIAdSkFQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:20.811Z"}
+{"level":"info","message":"fetching: /itm/121868085757","timestamp":"2016-01-25T18:30:21.557Z"}
+{"level":"info","message":"fetching: /itm/STRONG-HEART-COFFEE-TIN-1LB-VINTAGE-DES-MOINES-/121868085757?nma=true&si=N3%252FzGf5VDHgBL7L2ohJ1u9%252F86yo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:22.384Z"}
+{"level":"info","message":"fetching: /itm/222000094360","timestamp":"2016-01-25T18:30:23.248Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-ATWOODS-IMPERIAL-BRAND-1-LB-COFFEE-TIN-5-1-2-X-4-1-4-/222000094360?nma=true&si=w%252FV5XqshxrvZHIHK46q5MMZHgG0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:24.073Z"}
+{"level":"info","message":"fetching: /itm/361468604755","timestamp":"2016-01-25T18:30:25.322Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-WHITE-HOUSE-COFFEE-ONE-POUND-TIN-/361468604755?nma=true&si=6wXUM5L%252Fk183VGKug%252BsAYB1xz%252Fc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:26.034Z"}
+{"level":"info","message":"fetching: /itm/121868326551","timestamp":"2016-01-25T18:30:26.819Z"}
+{"level":"info","message":"fetching: /itm/Vintage-1925-Cracker-Jack-Tin-Litho-Toy-Horse-Wagon-Old-Prize-A273-PG-/121868326551?nma=true&si=Rf1zPtrpfGgvW3sQhEnDU2tZAVw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:27.552Z"}
+{"level":"info","message":"fetching: /itm/121868322210","timestamp":"2016-01-25T18:30:28.401Z"}
+{"level":"info","message":"fetching: /itm/CRACKER-JACK-ANGELUS-MARSHMALLOWS-1920s-TIN-TOY-DELIVERY-TRUCK-A272-PG-/121868322210?nma=true&si=2q9vv4UqeCvlrsMabXd9iHfHnLo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:29.081Z"}
+{"level":"info","message":"fetching: /itm/221995068700","timestamp":"2016-01-25T18:30:29.949Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-DEL-MONTE-COFFEE-ONE-POUND-TIN-/221995068700?nma=true&si=SK2H9dfYHtLrVaPcgg1bpUwxd5c%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:30.943Z"}
+{"level":"info","message":"fetching: /itm/221995261466","timestamp":"2016-01-25T18:30:31.726Z"}
+{"level":"info","message":"fetching: /itm/Set-of-2-Sailor-Jerry-Spiced-Rum-Mini-Posters-Prints-with-Canister-Tin-/221995261466?nma=true&si=XBo1SQofN0pN6IwWiSchltv02w8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:32.398Z"}
+{"level":"info","message":"fetching: /itm/172066264054","timestamp":"2016-01-25T18:30:33.161Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Quaker-Coffee-Tin-Can-Kitchen-Advertising-/172066264054?nma=true&si=hF6AysSoUk1%252F%252Bgb85QqJVRaoiCM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:34.161Z"}
+{"level":"info","message":"fetching: /itm/151954867304","timestamp":"2016-01-25T18:30:34.839Z"}
+{"level":"info","message":"fetching: /itm/US-Marine-Tobacco-Tin-/151954867304?nma=true&si=JRWmHpxUr2Gq32KbqnXCBMJnF8k%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:35.863Z"}
+{"level":"info","message":"fetching: /itm/262245490992","timestamp":"2016-01-25T18:30:36.916Z"}
+{"level":"info","message":"fetching: /itm/Vtg-STEWARTS-PRIVATE-BLEND-Coffee-Tin-1lb-Key-Wind-Can-Advertising-Americana-/262245490992?nma=true&si=9feaYaMnnGJmEk2HbWupJDRJn6w%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:37.729Z"}
+{"level":"info","message":"fetching: /itm/321976639698","timestamp":"2016-01-25T18:30:38.495Z"}
+{"level":"info","message":"fetching: /itm/VEUVE-CLIQUOT-2014-HOLIDAY-LIMITED-EDITION-MAIL-BOX-EMPTY-TIN-/321976639698?nma=true&si=R20ZC6FZ6lc81tC3b4KElDsj8Eg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:39.105Z"}
+{"level":"info","message":"fetching: /itm/181994601448","timestamp":"2016-01-25T18:30:40.176Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Union-Leader-Smoking-Tobacco-Half-and-Half-Tobacco-Tin-/181994601448?nma=true&si=1KAD1A25A%252BkHgpJ7U9D5cWrhmlU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:41.437Z"}
+{"level":"info","message":"fetching: /itm/111875403273","timestamp":"2016-01-25T18:30:42.255Z"}
+{"level":"info","message":"fetching: /itm/RARE-Vintage-U-S-Brand-Typewriter-Ribbon-Tin-with-SEALED-Ribbon-Never-Used-Old-/111875403273?nma=true&si=YEr6Myxcs8xiAr6BI1DTKWghANA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:42.962Z"}
+{"level":"info","message":"fetching: /itm/181994693955","timestamp":"2016-01-25T18:30:43.613Z"}
+{"level":"info","message":"fetching: /itm/Omega-tobacco-tin-Kentucky-plug-cut-Knob-top-/181994693955?nma=true&si=8qkq4LN72qoffUomgZozX%252BPWIW8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:44.318Z"}
+{"level":"info","message":"fetching: /itm/381522715784","timestamp":"2016-01-25T18:30:45.069Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Cardboard-Farmers-Pride-Cloves-Coffee-Back-Advertising-Spice-Tin-Can-/381522715784?nma=true&si=f6o0zWYk8%252FkSEUlEam5itNIc6Nk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:46.080Z"}
+{"level":"info","message":"fetching: /itm/191783607942","timestamp":"2016-01-25T18:30:46.926Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Dickinsons-Little-Buster-Popcorn-Cans-3-cans-/191783607942?nma=true&si=S%252Fj53JI6FFhDaE3XA2c2EaeEnwg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:47.716Z"}
+{"level":"info","message":"fetching: /itm/151953713540","timestamp":"2016-01-25T18:30:48.542Z"}
+{"level":"info","message":"fetching: /itm/Maxwell-House-Coffee-Tin-Cheek-Neal-Coffee-Company-2lb-1979-Vintage-/151953713540?nma=true&si=HizIYkRz7rdbVa1WjI117CYfkKk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:49.111Z"}
+{"level":"info","message":"fetching: /itm/331756682007","timestamp":"2016-01-25T18:30:49.814Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Cardboard-Farmers-Pride-Alum-Crystals-Advertising-Spice-Tin-Can-/331756682007?nma=true&si=V0iMPJKiHS6S3Sqb7QgjKpdWT%252B4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:50.514Z"}
+{"level":"info","message":"fetching: /itm/231817163364","timestamp":"2016-01-25T18:30:51.222Z"}
+{"level":"info","message":"fetching: /itm/Twin-Oaks-Mixture-Tobacco-Tin-Flat-Top-/231817163364?nma=true&si=mD9E5tqJXADJbNa7Yx2CDRg9mGo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:51.847Z"}
+{"level":"info","message":"fetching: /itm/181994813054","timestamp":"2016-01-25T18:30:52.599Z"}
+{"level":"info","message":"fetching: /itm/CRACKER-JACK-ANGELUS-MARSHMALLOWS-1920s-ANTIQUE-TIN-TOY-DELIVERY-TRUCK-/181994813054?nma=true&si=OaWI8Sn6Ga5H88nb7Fq82q7lFvc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:53.496Z"}
+{"level":"info","message":"fetching: /itm/121868379785","timestamp":"2016-01-25T18:30:54.487Z"}
+{"level":"info","message":"fetching: /itm/KIPPS-HANDMADE-QUALITY-AND-WORKMANSHIP-CIGAR-TOBACCO-TIN-VINTAGE-/121868379785?nma=true&si=WG61KTBKJzTS3aVSJ11h9lP6ibY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:55.108Z"}
+{"level":"info","message":"fetching: /itm/181995587873","timestamp":"2016-01-25T18:30:55.807Z"}
+{"level":"info","message":"fetching: /itm/Twin-Oaks-Tobacco-Tin-/181995587873?nma=true&si=tdqCCdhCEVayw%252BFAdz4qRy8Yuks%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:56.535Z"}
+{"level":"info","message":"fetching: /itm/191785344305","timestamp":"2016-01-25T18:30:57.280Z"}
+{"level":"info","message":"fetching: /itm/3-Vintage-Coffee-Tin-Banks-Eight-OClock-Red-Circle-/191785344305?nma=true&si=6oqV3w%252FmusfkpU3Gch%252FROLxwFAY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:58.124Z"}
+{"level":"info","message":"fetching: /itm/381522720249","timestamp":"2016-01-25T18:30:58.830Z"}
+{"level":"info","message":"fetching: /itm/Nice-Old-Cardboard-Farmers-Pride-Powdered-Borax-Advertising-Spice-Tin-Can-/381522720249?nma=true&si=tBVecxUZGymqTJo18iydoAVm7Bo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:30:59.456Z"}
+{"level":"info","message":"fetching: /itm/331754634431","timestamp":"2016-01-25T18:31:00.249Z"}
+{"level":"info","message":"fetching: /itm/Vintage-CANOVA-Pure-Ground-ALLSPICE-tin-3-4-oz-Maury-Cole-Co-Memphis-TN-/331754634431?nma=true&si=vtlbhcasTJqwbn8NBjcT%252BV1xSjM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:00.978Z"}
+{"level":"info","message":"fetching: /itm/252250918921","timestamp":"2016-01-25T18:31:01.778Z"}
+{"level":"info","message":"fetching: /itm/2-American-Spirit-Cigarette-Flip-Top-Tin-RED-/252250918921?nma=true&si=9OTnfpy%252BIhHMghDJhgdtJiWzlsY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:02.485Z"}
+{"level":"info","message":"fetching: /itm/381523500075","timestamp":"2016-01-25T18:31:03.239Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-VINTAGE-HOUDES-No-1-TOBACCO-CUT-PLUG-TIN-ADVERTISING-TRUNK-/381523500075?nma=true&si=FMlkEgx147wpsmqbeW4HiJMo8Ls%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:03.939Z"}
+{"level":"info","message":"fetching: /itm/151954175484","timestamp":"2016-01-25T18:31:04.792Z"}
+{"level":"info","message":"fetching: /itm/Vntg-Kitchen-Advertising-Tin-Calumet-Baking-Powder-4oz-Trial-Size-/151954175484?nma=true&si=bEF7byosb4E%252BwM10gU3CeWCnE8c%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:05.527Z"}
+{"level":"info","message":"fetching: /itm/181995438882","timestamp":"2016-01-25T18:31:06.397Z"}
+{"level":"info","message":"fetching: /itm/HI-PLANE-TOBACCO-TIN-/181995438882?nma=true&si=Ngd%252FYu7vLRVEUPs2VlKiQoO7lr4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:07.217Z"}
+{"level":"info","message":"fetching: /itm/121868763550","timestamp":"2016-01-25T18:31:07.944Z"}
+{"level":"info","message":"fetching: /itm/Eight-Brothers-smoke-chew-tobacco-tin-/121868763550?nma=true&si=OhWz1gMRTUiDYMD1QlKwslwIMwY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:08.648Z"}
+{"level":"info","message":"fetching: /itm/201503471410","timestamp":"2016-01-25T18:31:09.983Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Tin-4-1-2-oz-Mexican-Tostadas-/201503471410?nma=true&si=s5usbaW4GFVY4302akMgZcgNbW4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:10.707Z"}
+{"level":"info","message":"fetching: /itm/391368280618","timestamp":"2016-01-25T18:31:11.630Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Lehn-Finks-Pyramid-Brand-Spice-Tin-Allspice-/391368280618?nma=true&si=%252Bi%252F6VF%252BP%252BYJyN7Mkxa%252BlT6BFKpg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:12.286Z"}
+{"level":"info","message":"fetching: /itm/131703895620","timestamp":"2016-01-25T18:31:12.883Z"}
+{"level":"info","message":"fetching: /itm/Vintage-MJB-Coffee-1-Pound-Tin-Can-Key-Wind-No-Lid-Container-Canister-/131703895620?nma=true&si=qViWlXSmzMij8CIfYAtdlu%252FsGS0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:13.459Z"}
+{"level":"info","message":"fetching: /itm/252254703457","timestamp":"2016-01-25T18:31:14.416Z"}
+{"level":"info","message":"fetching: /itm/Wonder-Coffee-1-Lb-Tin-General-Foods-Sales-Company-/252254703457?nma=true&si=FZ0INOGTz3mTbrooVhfV%252FyIldMk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:15.227Z"}
+{"level":"info","message":"fetching: /itm/181994699069","timestamp":"2016-01-25T18:31:15.984Z"}
+{"level":"info","message":"fetching: /itm/Culture-tobacco-tin-crush-cut-for-pipe-or-cigaratte-/181994699069?nma=true&si=0o7KDJxitGZ%252Fm5qJYmZ52BVdbuY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:16.683Z"}
+{"level":"info","message":"fetching: /itm/121868362587","timestamp":"2016-01-25T18:31:17.463Z"}
+{"level":"info","message":"fetching: /itm/HICKEYS-PERIQUE-MIXTURE-TOBACCO-CIGAR-TIN-5-VINTAGE-/121868362587?nma=true&si=VZ3SQ9CTpUZ3KQdaKIHSg4ugsP4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:18.208Z"}
+{"level":"info","message":"fetching: /itm/281912213060","timestamp":"2016-01-25T18:31:18.809Z"}
+{"level":"info","message":"fetching: /itm/Colorful-Polar-Bear-Spice-Tin-Can-Muskogee-Oklahoma-Nice-Graphics-/281912213060?nma=true&si=Ym10dWNKA8GZOwkWPEhRE9yINRE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:19.437Z"}
+{"level":"info","message":"fetching: /itm/321979248058","timestamp":"2016-01-25T18:31:20.534Z"}
+{"level":"info","message":"fetching: /itm/Vintage-J-R-Watkins-Cocoa-Instant-Drink-Mix-Advertising-Tin-Cardboard-Can-/321979248058?nma=true&si=FbzQS1gd52bPl3wrJjkzCKdoL1E%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:21.312Z"}
+{"level":"info","message":"fetching: /itm/301851185249","timestamp":"2016-01-25T18:31:21.942Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Lucky-Strike-Cut-Plug-Tobacco-Tin-Nice-Condition-No-Reserve-/301851185249?nma=true&si=xlv31g%252BIBok3bGZxZLpQ22uxmNU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:22.656Z"}
+{"level":"info","message":"fetching: /itm/121868358010","timestamp":"2016-01-25T18:31:23.397Z"}
+{"level":"info","message":"fetching: /itm/WEBSTER-CIGAR-TOBACCO-VINTAGE-TIN-5-WIDE-/121868358010?nma=true&si=Ds%252FY7JuhEDd%252F1Apo%252BN%252BbvGdUMOw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:23.995Z"}
+{"level":"info","message":"fetching: /itm/291662468044","timestamp":"2016-01-25T18:31:24.689Z"}
+{"level":"info","message":"fetching: /itm/Presbyterian-Mixture-Vintage-Mid-Century-Tin-Cousins-Cigar-A-Gale-Co-Glasgow-/291662468044?nma=true&si=WC5%252F7F0gsVi1mLFYQYNBFxrBR7I%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:25.374Z"}
+{"level":"info","message":"fetching: /itm/191782822066","timestamp":"2016-01-25T18:31:26.126Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Dills-Best-Smoking-Tobacco-Tin-/191782822066?nma=true&si=n5X%252BWw2jAQKtczdN6DxcA%252Bm9e2Q%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:26.828Z"}
+{"level":"info","message":"fetching: /itm/381522882112","timestamp":"2016-01-25T18:31:27.764Z"}
+{"level":"info","message":"fetching: /itm/FOUNTAIN-CANISTER-TOBACCO-TIN-/381522882112?nma=true&si=SEGFB%252FiUBHn1e1ZPyu0UgKZQxEA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:28.597Z"}
+{"level":"info","message":"fetching: /itm/181994694818","timestamp":"2016-01-25T18:31:29.562Z"}
+{"level":"info","message":"fetching: /itm/Edgeworth-tobacco-box-not-tin-WWII-era-/181994694818?nma=true&si=1Kru7cOrqZShebDQh0Gf%252FP0cdRQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:30.276Z"}
+{"level":"info","message":"fetching: /itm/331756443020","timestamp":"2016-01-25T18:31:30.937Z"}
+{"level":"info","message":"fetching: /itm/Winner-Tobacco-Tin-/331756443020?nma=true&si=GpPxnSgPcpdGxzGbQ6mOPN5K0lY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:33.060Z"}
+{"level":"info","message":"fetching: /itm/252255394162","timestamp":"2016-01-25T18:31:34.775Z"}
+{"level":"info","message":"fetching: /itm/2-Great-Vintage-Velvet-Tobacco-Tin-Can-With-Lids-/252255394162?nma=true&si=2UWkglRsrUYuNrZUKau94zkaIe8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:35.622Z"}
+{"level":"info","message":"fetching: /itm/252256242267","timestamp":"2016-01-25T18:31:36.367Z"}
+{"level":"info","message":"fetching: /itm/EDGEWORTH-EXTRA-HIGH-GRADE-READY-RUBBED-TOBACCO-BOX-VINTAGE-ADVERTISING-NOT-TIN-/252256242267?nma=true&si=a87l%252FlB%252FsaS2zGFCPVMAo4x3vYE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:37.228Z"}
+{"level":"info","message":"fetching: /itm/151932379747","timestamp":"2016-01-25T18:31:38.213Z"}
+{"level":"info","message":"fetching: /itm/Lucky-Strike-Its-Toasted-Cigarette-Tin-With-Native-American-Chief-On-Inside-/151932379747?nma=true&si=1QBGHyNx6StVs62MjHBeMlLufcg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:39.036Z"}
+{"level":"info","message":"fetching: /itm/301847209886","timestamp":"2016-01-25T18:31:39.789Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Tobacco-Tin-Burley-and-Bright-Half-and-Half-Tax-Label-Advertising-Pocket-/301847209886?nma=true&si=PXj4FZp2s%252B6ZG4e%252FVox5mBG0Ctc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:40.635Z"}
+{"level":"info","message":"fetching: /itm/151954852340","timestamp":"2016-01-25T18:31:41.586Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-CIGARETTE-TOBACCO-TIN-GODFREY-PHILLIPS-THE-GREYS-SILK-CUT-wear-used-/151954852340?nma=true&si=4ADLjfv7s7alzoVYLmmGfDPttoQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:42.183Z"}
+{"level":"info","message":"fetching: /itm/111877790358","timestamp":"2016-01-25T18:31:42.849Z"}
+{"level":"info","message":"fetching: /itm/Craven-A-cigarette-tin-/111877790358?nma=true&si=%252B14%252FPKOfWZvU5hVx%252BuezGGQFWAc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:43.633Z"}
+{"level":"info","message":"fetching: /itm/111875092065","timestamp":"2016-01-25T18:31:44.717Z"}
+{"level":"info","message":"fetching: /itm/Natural-american-spirit-tobacco-tin-/111875092065?nma=true&si=HXKm%252F1M9MJr4H5E%252FzOxP%252B9dlYHI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:45.623Z"}
+{"level":"info","message":"fetching: /itm/181994822272","timestamp":"2016-01-25T18:31:46.512Z"}
+{"level":"info","message":"fetching: /itm/Vintage-tobacco-tin-Lucky-Strike-Half-and-Half-/181994822272?nma=true&si=6NJJG1KQEg1naNbN0pSX69vUvk0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:47.412Z"}
+{"level":"info","message":"fetching: /itm/331756774597","timestamp":"2016-01-25T18:31:48.269Z"}
+{"level":"info","message":"fetching: /itm/Union-Leader-Tobacco-Tin-/331756774597?nma=true&si=Cox%252BntQxNLUVZMWLSKxnsA1WGG4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:48.882Z"}
+{"level":"info","message":"fetching: /itm/181994973354","timestamp":"2016-01-25T18:31:49.535Z"}
+{"level":"info","message":"fetching: /itm/Half-And-Half-Burley-And-Bright-TOBACCO-ROUND-LITHO-TIN-Circa-1950-/181994973354?nma=true&si=Ogg5X9FZYqRrLEXHNxUeUC0di6s%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-25T18:31:50.114Z"}
+{"level":"info","message":"saving - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T18:31:51.072Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T18:43:18.123Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T18:43:18.301Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T18:46:14.103Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T18:46:14.263Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:01:14.108Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:01:14.243Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:03:23.412Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:03:23.581Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:03:48.252Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:03:48.460Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:05:14.730Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:05:14.822Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:05:47.853Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:05:47.964Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:06:59.689Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:06:59.875Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:09:24.680Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:09:24.850Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:09:58.280Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:09:58.451Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:10:23.987Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:10:24.138Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:13:28.524Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:13:28.680Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:13:42.724Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:13:42.887Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:22:05.089Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:22:05.254Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:26:21.708Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:26:22.578Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:27:09.358Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:27:09.605Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:28:35.719Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:28:35.864Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:29:15.350Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:29:15.533Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:29:49.184Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:29:49.455Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:33:58.435Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:33:58.922Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:35:00.585Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:35:00.871Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:36:28.852Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:36:29.060Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:37:19.058Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:37:19.345Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:37:34.574Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:37:34.670Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:37:49.202Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:37:49.220Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:40:57.211Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:40:57.429Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:41:22.908Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:41:23.076Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:43:18.198Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:43:18.361Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:43:55.486Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:43:55.634Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:44:52.775Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:44:53.170Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:48:38.349Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:48:38.532Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:48:56.129Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:48:56.475Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:49:52.806Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:49:52.979Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:51:23.928Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:51:24.161Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:54:34.976Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:54:35.281Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:55:23.331Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:55:23.468Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:58:33.860Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:58:34.259Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T19:58:39.088Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T19:58:39.231Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:05:27.309Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:05:27.575Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:07:41.156Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:07:41.348Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:08:11.254Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:08:11.399Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:08:32.775Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:08:32.912Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:08:49.758Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:08:49.928Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:09:11.397Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:09:11.537Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:09:48.883Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:09:49.118Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:18:15.776Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:18:15.891Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:19:54.974Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:55.254Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.127Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.272Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.282Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.299Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.308Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.322Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.333Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.341Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.361Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.370Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.381Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.387Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.400Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.409Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.418Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.423Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.434Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.461Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.472Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.484Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.492Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.500Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.516Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:19:56.616Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:20:19.752Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:19.866Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:21.442Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:21.455Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:21.537Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:21.576Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:21.611Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:21.616Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:21.646Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:21.673Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.201Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.219Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.229Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.244Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.246Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.248Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.249Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.255Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.261Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.265Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.272Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.290Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.305Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.332Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.345Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:20:22.375Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:21:21.160Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:21.246Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:21.970Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:21.991Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.042Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.060Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.119Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.166Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.186Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.194Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.198Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.205Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.207Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.209Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.247Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.262Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.299Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.313Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.353Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.370Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.375Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.382Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.385Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.541Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.568Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:21:22.650Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:22:07.691Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:22:07.840Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T20:22:08.335Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T20:22:08.542Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T20:22:08.552Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T20:22:08.555Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T20:22:08.758Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T20:22:08.785Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T20:22:08.786Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T20:22:08.792Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T20:22:08.833Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T20:22:09.001Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T20:22:09.066Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T20:22:09.112Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:22:09.175Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T20:22:09.205Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T20:22:09.250Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T20:22:09.254Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T20:22:09.296Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T20:22:09.309Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T20:22:09.331Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T20:22:09.362Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T20:22:09.364Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T20:22:09.397Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T20:22:09.473Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T20:22:09.713Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T20:41:46.079Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T20:41:46.136Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T20:41:46.139Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T20:41:46.166Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T20:41:46.220Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T20:41:46.232Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T20:41:46.259Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T20:41:46.261Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T20:41:46.264Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T20:41:46.274Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:41:46.297Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T20:41:46.299Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T20:41:46.358Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T20:41:46.363Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T20:41:46.378Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T20:41:46.385Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T20:41:46.387Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T20:41:46.390Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T20:41:46.400Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T20:41:46.440Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T20:41:46.466Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T20:41:46.470Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T20:41:46.480Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T20:41:46.581Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:41:52.512Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:41:52.851Z"}
+{"level":"info","message":"making simple index","timestamp":"2016-01-25T20:41:52.854Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T20:45:27.301Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:45:27.509Z"}
+{"level":"info","message":"making simple index","timestamp":"2016-01-25T20:45:27.512Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T20:45:34.846Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T20:45:34.872Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T20:45:34.941Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T20:45:34.960Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T20:45:35.065Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T20:45:35.079Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T20:45:35.136Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T20:45:35.154Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T20:45:35.173Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T20:45:35.188Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T20:45:35.232Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T20:45:35.245Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T20:45:35.258Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T20:45:35.274Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T20:45:35.289Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T20:45:35.308Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:45:35.327Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T20:45:35.359Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T20:45:35.373Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T20:45:35.391Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T20:45:35.417Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T20:45:35.439Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T20:45:35.454Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T20:45:35.921Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T20:47:16.969Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T20:47:17.000Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T20:47:17.035Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T20:47:17.059Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T20:47:17.075Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T20:47:17.096Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T20:47:17.104Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T20:47:17.111Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T20:47:17.153Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T20:47:17.160Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T20:47:17.165Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T20:47:17.194Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T20:47:17.213Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T20:47:17.214Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T20:47:17.251Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T20:47:17.253Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T20:47:17.297Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T20:47:17.301Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T20:47:17.314Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T20:47:17.318Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T20:47:17.322Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T20:47:17.323Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T20:47:17.324Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:47:17.326Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T20:53:31.902Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T20:53:31.997Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T20:53:32.061Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T20:53:32.376Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T20:53:32.449Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T20:53:32.560Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T20:53:32.612Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T20:53:32.730Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T20:53:32.740Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T20:53:32.818Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T20:53:32.825Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T20:53:32.841Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T20:53:32.846Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T20:53:32.848Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T20:53:32.884Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T20:53:32.886Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T20:53:32.893Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T20:53:32.906Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T20:53:32.919Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T20:53:32.944Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T20:53:32.959Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T20:53:33.080Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T20:53:33.150Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T20:53:33.155Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T21:00:30.138Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T21:00:30.185Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T21:00:30.207Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T21:00:30.211Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T21:00:30.222Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T21:00:30.246Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T21:00:30.288Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T21:00:30.290Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T21:00:30.349Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T21:00:30.377Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T21:00:30.390Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T21:00:30.394Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T21:00:30.395Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T21:00:30.408Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T21:00:30.449Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T21:00:30.455Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T21:00:30.486Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T21:00:30.491Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T21:00:30.495Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T21:00:30.501Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T21:00:30.511Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T21:00:30.519Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:00:30.534Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T21:00:30.541Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T21:01:16.170Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T21:01:16.336Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T21:01:16.341Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T21:01:16.442Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T21:01:16.451Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T21:01:16.469Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T21:01:16.473Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T21:01:16.478Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T21:01:16.508Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T21:01:16.554Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T21:01:16.575Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T21:01:16.577Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T21:01:16.579Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T21:01:16.595Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T21:01:16.603Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T21:01:16.616Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T21:01:16.618Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T21:01:16.619Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T21:01:16.630Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T21:01:16.632Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T21:01:16.652Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T21:01:16.659Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T21:01:16.668Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:01:16.694Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T21:07:15.370Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T21:07:15.526Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T21:07:15.529Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T21:07:15.596Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T21:07:15.600Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T21:07:15.627Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T21:07:15.629Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T21:07:15.631Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T21:07:15.638Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T21:07:15.648Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T21:07:15.651Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T21:07:15.668Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T21:07:15.680Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T21:07:15.686Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T21:07:15.706Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T21:07:15.727Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T21:07:15.729Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T21:07:15.735Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T21:07:15.736Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T21:07:15.752Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T21:07:15.755Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T21:07:15.771Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T21:07:15.867Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:07:15.869Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T21:08:52.056Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T21:08:52.081Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T21:08:52.104Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T21:08:52.137Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T21:08:52.156Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T21:08:52.163Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T21:08:52.212Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T21:08:52.234Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T21:08:52.262Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T21:08:52.394Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T21:08:52.404Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T21:08:52.406Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T21:08:52.421Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T21:08:52.439Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T21:08:52.441Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T21:08:52.456Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T21:08:52.471Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T21:08:52.480Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T21:08:52.507Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:08:52.512Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T21:08:52.582Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T21:08:52.586Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T21:08:52.599Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T21:08:52.625Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T21:09:38.830Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T21:09:38.840Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T21:09:38.845Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T21:09:38.906Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T21:09:38.917Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T21:09:38.955Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T21:09:38.976Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T21:09:38.998Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T21:09:39.019Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T21:09:39.031Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T21:09:39.049Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T21:09:39.051Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T21:09:39.058Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T21:09:39.097Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T21:09:39.100Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T21:09:39.103Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T21:09:39.111Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T21:09:39.115Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T21:09:39.119Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T21:09:39.124Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T21:09:39.127Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T21:09:39.156Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T21:09:39.173Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:09:39.180Z"}
+{"level":"error","message":"ERROR - S3: advertising_tins/store/advertising_tins.json: NoSuchKey: The specified key does not exist.","timestamp":"2016-01-25T21:09:46.463Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:09:46.581Z"}
+{"level":"info","message":"making simple index","timestamp":"2016-01-25T21:09:46.584Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T21:11:02.817Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T21:11:02.842Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T21:11:02.893Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T21:11:02.970Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T21:11:02.995Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T21:11:03.022Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T21:11:03.033Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T21:11:03.044Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T21:11:03.060Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T21:11:03.065Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T21:11:03.082Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T21:11:03.083Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T21:11:03.085Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T21:11:03.097Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T21:11:03.106Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T21:11:03.124Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T21:11:03.133Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T21:11:03.151Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:11:03.163Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T21:11:03.165Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T21:11:03.166Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T21:11:03.174Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T21:11:03.207Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T21:11:03.210Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T21:12:00.119Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T21:12:00.318Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T21:12:00.376Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T21:12:00.403Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T21:12:00.473Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T21:12:00.538Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T21:12:00.643Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T21:12:00.741Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T21:12:00.748Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T21:12:00.750Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T21:12:00.758Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T21:12:00.779Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T21:12:00.782Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T21:12:00.787Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T21:12:00.790Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T21:12:00.817Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T21:12:00.820Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T21:12:00.821Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:12:00.832Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T21:12:00.854Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T21:12:00.897Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T21:12:00.914Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T21:12:00.918Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T21:12:00.926Z"}
+{"level":"info","message":"saving - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-25T21:12:03.962Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/10/advertising_tins.json","timestamp":"2016-01-25T21:14:14.395Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/.DS_Store","timestamp":"2016-01-25T21:14:14.436Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/02/advertising_tins.json","timestamp":"2016-01-25T21:14:14.440Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/.DS_Store","timestamp":"2016-01-25T21:14:14.446Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/01/advertising_tins.json","timestamp":"2016-01-25T21:14:14.477Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/31/advertising_tins.json","timestamp":"2016-01-25T21:14:14.519Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/20/advertising_tins.json","timestamp":"2016-01-25T21:14:14.546Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/19/advertising_tins.json","timestamp":"2016-01-25T21:14:14.563Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/26/advertising_tins.json","timestamp":"2016-01-25T21:14:14.569Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/28/advertising_tins.json","timestamp":"2016-01-25T21:14:14.586Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/16/advertising_tins.json","timestamp":"2016-01-25T21:14:14.588Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/17/advertising_tins.json","timestamp":"2016-01-25T21:14:14.589Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/24/advertising_tins.json","timestamp":"2016-01-25T21:14:14.601Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/15/advertising_tins.json","timestamp":"2016-01-25T21:14:14.674Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/25/advertising_tins.json","timestamp":"2016-01-25T21:14:14.686Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/17/advertising_tins.json","timestamp":"2016-01-25T21:14:14.726Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/12/advertising_tins.json","timestamp":"2016-01-25T21:14:14.759Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/27/advertising_tins.json","timestamp":"2016-01-25T21:14:14.766Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/15/advertising_tins.json","timestamp":"2016-01-25T21:14:14.767Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/18/advertising_tins.json","timestamp":"2016-01-25T21:14:14.771Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/05/advertising_tins.json","timestamp":"2016-01-25T21:14:14.778Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/30/advertising_tins.json","timestamp":"2016-01-25T21:14:14.781Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/21/advertising_tins.json","timestamp":"2016-01-25T21:14:14.819Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/23/advertising_tins.json","timestamp":"2016-01-25T21:14:14.826Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/07/advertising_tins.json","timestamp":"2016-01-25T21:14:14.861Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/09/advertising_tins.json","timestamp":"2016-01-25T21:14:14.863Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/13/advertising_tins.json","timestamp":"2016-01-25T21:14:14.892Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/22/advertising_tins.json","timestamp":"2016-01-25T21:14:14.894Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/16/advertising_tins.json","timestamp":"2016-01-25T21:14:14.923Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/23/advertising_tins.json","timestamp":"2016-01-25T21:14:14.969Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/14/advertising_tins.json","timestamp":"2016-01-25T21:14:14.981Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/20/advertising_tins.json","timestamp":"2016-01-25T21:14:14.991Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/06/advertising_tins.json","timestamp":"2016-01-25T21:14:14.998Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/22/advertising_tins.json","timestamp":"2016-01-25T21:14:15.020Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/18/advertising_tins.json","timestamp":"2016-01-25T21:14:15.092Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/04/advertising_tins.json","timestamp":"2016-01-25T21:14:15.096Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/24/advertising_tins.json","timestamp":"2016-01-25T21:14:15.100Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/11/advertising_tins.json","timestamp":"2016-01-25T21:14:15.198Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/14/advertising_tins.json","timestamp":"2016-01-25T21:14:15.207Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/08/advertising_tins.json","timestamp":"2016-01-25T21:14:15.223Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2015/12/21/advertising_tins.json","timestamp":"2016-01-25T21:14:15.248Z"}
+{"level":"info","message":"getting - S3: advertising_tins/diffs/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T21:14:15.322Z"}
+{"level":"info","message":"saving - S3: advertising_tins/store/advertising_tins.json","timestamp":"2016-01-25T21:14:20.691Z"}

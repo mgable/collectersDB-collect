@@ -22,6 +22,10 @@
 		location = "local",
 		util = {};
 
+	var credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
+		AWS.config.credentials = credentials;
+	var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
+
 	function fetchPage(options){
 		util.logger.log("fetching: " + options.path);
 
@@ -153,10 +157,6 @@
 
 	function saveToS3(filename, path, file, data, contentType){
 		console.info("saving");
-		var credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
-		AWS.config.credentials = credentials;
-
-		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
 		
 		s3bucket.upload({"Key": file, "Body": data, "ContentType": contentType}, function(err, data) { // jshint ignore:line
 			if (err) {
@@ -183,6 +183,22 @@
 		return fs.readdirSync(path);
 	}
 
+	function readS3Bucket(params){
+		var deferred = Q.defer();
+
+		s3bucket.listObjects(params, function(err, data) {
+		  if (err) {
+		  	console.log(err, err.stack); // an error occurred
+		  	return deferred.reject(err);
+		  } else  {
+		  	//console.log(data);  
+		  	return deferred.resolve(data);         // successful response
+		  }    
+		});
+
+		return deferred.promise;
+	}
+
 	function getPageTemplate(id){
 		return config.pageUrlTemplate.replace(/( \*{3}) config\.category\.id (\*{3} )/, id);
 	}
@@ -202,12 +218,7 @@
 	}
 
 	function getDataFromS3(uri){
-		var deferred = Q.defer(),
-			credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
-		AWS.config.credentials = credentials;
-
-		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
-
+		var deferred = Q.defer();
 		console.info("getting data from " + uri);
 
 		s3bucket.getObject({"Key": uri,  ResponseContentType: config.contentType.json}, function(err, data) { // jshint ignore:line
@@ -225,6 +236,7 @@
 	}
 
 	util.getDataFromS3 = getDataFromS3;
+	util.readS3Bucket = readS3Bucket;
 	util.getFormattedFilePath = getFormattedFilePath;
 	util.fetchPage = fetchPage;
 	util.fileExists = fileExists;
