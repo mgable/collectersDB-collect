@@ -55,7 +55,7 @@ curl -XPUT "http://localhost:9200/collectorsdb/advertising_tins/_mapping" -d '
    }
 }'
 
-curl -XPOST 'http://localhost:9200/collectorsdb/advertising_tins/_bulk?pretty' --data-binary "@/Users/markgable/Sites/data/TEST-collectorsDB/advertising_tins/test/index/advertising_tins.formatted.json"
+curl -XPOST 'http://localhost:9200/collectorsdb/advertising_tins/_bulk?pretty' --data-binary "@/Users/markgable/Sites/data/collectorsDB/advertising_tins/index/advertising_tins.formatted.json"
 
 sleep 3
 

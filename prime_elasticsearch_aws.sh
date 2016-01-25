@@ -6,7 +6,8 @@ SOURCE="https://s3-us-west-1.amazonaws.com/test-collectors-db/advertising_tins/i
 BUCKET="collectorsdb"
 ACCOUNT="advertising_tins"
 INDEXFILE=$ACCOUNT".formatted.json"
-ROOT="/Users/markgable/Sites/projects/collectorsDB/collect/formatted/"
+#ROOT="/Users/markgable/Sites/projects/collectorsDB/collect/formatted/"
+ROOT="/home/ec2-user/data/formatted/"
 #INDEXFILE="@/Users/markgable/Sites/data/collectorsDB/advertising_tins/index/advertising_tins.formatted.json"
 URL=$HOST$BUCKET
 
