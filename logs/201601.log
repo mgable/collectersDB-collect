@@ -825,3 +825,6 @@
 {"level":"info","message":"saving bulk import file: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-24T15:54:59.242Z"}
 {"level":"info","message":"saving - S3: advertising_tins/index/advertising_tins.formatted.json","timestamp":"2016-01-24T15:54:59.792Z"}
 {"level":"info","message":"making index","timestamp":"2016-01-25T00:45:25.725Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-25T18:19:52.483Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-25T18:19:53.507Z"}
+{"level":"info","message":"saving - S3: advertising_tins/raw/2016/01/25/advertising_tins.json","timestamp":"2016-01-25T18:19:55.001Z"}
