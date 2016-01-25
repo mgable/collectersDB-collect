@@ -16,7 +16,7 @@
 		};
 	
 	local.dataRoot = dataRoot;
-	aws.bucket = "test-collectors-db";
+	aws.bucket = "collectors-db";
 
 
 	module.exports = {

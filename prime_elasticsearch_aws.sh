@@ -2,7 +2,7 @@
 
 #HOST="http://localhost:9200/"
 HOST="https://search-mgable-es-ht4qtiycv6v543iujwxk6q5n3u.us-west-2.es.amazonaws.com/"
-SOURCE="https://s3-us-west-1.amazonaws.com/test-collectors-db/advertising_tins/index/advertising_tins.formatted.json"
+SOURCE="https://s3-us-west-1.amazonaws.com/collectors-db/advertising_tins/index/advertising_tins.formatted.json"
 BUCKET="collectorsdb"
 ACCOUNT="advertising_tins"
 INDEXFILE=$ACCOUNT".formatted.json"
