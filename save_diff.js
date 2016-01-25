@@ -21,8 +21,8 @@
 	getData();
 
 	function getData(){
-		//getDataFromLocal();
-		getDataFromS3();
+		getDataFromLocal();
+		//getDataFromS3();
 	}
 
 	function getDataFromLocal(){

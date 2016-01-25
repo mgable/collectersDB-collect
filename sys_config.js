@@ -3,7 +3,7 @@
 (function(){
 	var system = "aws",
 
-		mode = false,
+		mode = "test",
 		diffDirectory = "diffs/",
 		rawDirectory = "raw/",
 		storeDirectory = "store/",

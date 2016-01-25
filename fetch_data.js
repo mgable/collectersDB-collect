@@ -23,5 +23,6 @@
 		util.save(filename, path, file, data, requestObject.contentType.json);
 	}
 
-	init();
+	//init();
+	console.info("DOES NOT WORK CORRECTLY DO NOT USE!!!!!");
 })();
