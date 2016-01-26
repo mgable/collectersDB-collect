@@ -16,11 +16,13 @@
 	}
 
 	function save(data){
-		var filename = util.getFileName(),
-			path = util.getRawDataPath(),
-			file = path + filename;
+		var key = util.getDateString(),
+			table = util.getRawDirectory();
 
-		util.save(filename, path, file, data, util.config.contentType.json);
+
+		console.info(table, key)
+
+		util.saveToDynamo(key, table, data); //key, table, data
 	}
 
 	init();

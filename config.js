@@ -16,7 +16,10 @@
 		};
 	
 	local.dataRoot = dataRoot;
-	aws.bucket = "collectors-db";
+
+	aws.bucket = "test-collectors-db";
+	aws.region = "us-west-2";
+    aws.dynamo = {endpoint: "http://localhost:8000"}
 
 
 	module.exports = {

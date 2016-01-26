@@ -7,7 +7,7 @@
 		require('datejs');
 
 	var	dateStr = process.argv[2] || util.getDateString(), // an optional date string e.g. '20151213' to retrieve historical data
-
+		key = dateStr,
 		// make all paths
 		rawDataPath = util.getRawDataPath(dateStr), // path to raw data (today or historical)
 		storeFilePath = util.getStoreFilePath(), //config.dataRoot + category + '/store/' ,
@@ -22,57 +22,84 @@
 
 	function getData(){
 		//getDataFromLocal();
-		getDataFromS3();
+		//getDataFromS3();
+		getDataFromDynamo();
 	}
 
-	function getDataFromLocal(){
-		// get data for today and yesterday
-		var todayPath = rawDataPath + storeFileName,
-			yesterdayPath = getYesterdayFileName(dateStr),
-			today = util.getFileContents(todayPath),
-			yesterday = util.getFileContents(yesterdayPath) || [],
+	// function getDataFromLocal(){
+	// 	// get data for today and yesterday
+	// 	var todayPath = rawDataPath + storeFileName,
+	// 		yesterdayPath = getYesterdayFileName(dateStr),
+	// 		today = util.getFileContents(todayPath),
+	// 		yesterday = util.getFileContents(yesterdayPath) || [],
 
-			// get existing information
-			store = util.getFileContents(storeFile) || [];
+	// 		// get existing information
+	// 		store = util.getFileContents(storeFile) || [];
 
-		fetchImageData(diff(today, yesterday)).then(function(data){
-			save(store, data);
+	// 	fetchImageData(diff(today, yesterday)).then(function(data){
+	// 		save(store, data);
+	// 	});
+	// }
+
+	function getDataFromDynamo(){
+
+		var todayKey = util.getDateString(),
+			yesterdayKey = getYesterdayFileName(todayKey),
+			rawTable = util.getRawDirectory(),
+			diffTable = util.getDiffDirectory(),
+			keys = [ {date: yesterdayKey},{date: todayKey}];
+
+
+
+		util.getFromDynamo(keys, rawTable).then(function(data){
+			console.info("got both raw files");
+			var yesterday = data.Responses[rawTable][0].items,
+				today = data.Responses[rawTable][1].items,
+				diffItems = diff(today, yesterday);
+			console.info("there are " + diffItems.length + " new items");
+
+			save(key, diffTable, diffItems);
+
+			// fetchImageData(diffItems).then(function(data){
+				
+			// });
+
 		});
 	}
 
 /* START- AWS S3 */
-	function getDataFromS3(){
-		var todayPath = rawDataPath + storeFileName,
-			yesterdayPath = getYesterdayFileName(dateStr);
+	// function getDataFromS3(){
+	// 	var todayPath = rawDataPath + storeFileName,
+	// 		yesterdayPath = getYesterdayFileName(dateStr);
 
-			// console.info(todayPath);
-			// console.info(yesterdayPath);
-			// console.info(storeFile);
+	// 		// console.info(todayPath);
+	// 		// console.info(yesterdayPath);
+	// 		// console.info(storeFile);
 
-		var todayPromise = util.getDataFromS3(todayPath).then(parse),
-			yesterdayPromise = util.getDataFromS3(yesterdayPath).then(parse);
+	// 	var todayPromise = util.getDataFromS3(todayPath).then(parse),
+	// 		yesterdayPromise = util.getDataFromS3(yesterdayPath).then(parse);
 
-		Q.allSettled([todayPromise, yesterdayPromise]).then(function(data){
-			var today = data[0].value,
-				yesterday = data[1].value || [];
+	// 	Q.allSettled([todayPromise, yesterdayPromise]).then(function(data){
+	// 		var today = data[0].value,
+	// 			yesterday = data[1].value || [];
 
-			fetchImageData(diff(today, yesterday)).then(function(data){
-				save(data);
-			});
-		});
-	}
+	// 		fetchImageData(diff(today, yesterday)).then(function(data){
+	// 			save(data);
+	// 		});
+	// 	});
+	// }
 
-	function parse(data){
-		var results = JSON.parse(data.toString());
-		return results;
-	}
+	// function parse(data){
+	// 	var results = JSON.parse(data.toString());
+	// 	return results;
+	// }
 
 /* END- AWS S3 */
 
 	function fetchImageData(newest){
+		console.info(newest.length);
 		// getting thunbnail data
 		var items = fetch.getThumbnailData(dateStr, imagePath, newest);
-
 		//getting additional images data
 		return fetch.fetchAdditionalImageData(dateStr, imagePath, items).then(function(data){
 			console.info("done receiving data");
@@ -96,7 +123,7 @@
 				correctedDate = uncorrectedDate.last().month().add(-1).days(),
 				dateStr = util.getDateString(correctedDate);
 
-			return util.getRawDataPath(dateStr) + storeFileName;
+			return (dateStr);
 		}
 	}
 
@@ -119,7 +146,8 @@
 		return results;
 	}
 
-	function save(data){
-		util.save(storeFileName, diffPath, diffFile, JSON.stringify(data), util.config.contentType.json);
+	function save(key, table, data){
+		util.saveToDynamo(key, table, data); //key, table, data
+		//util.save(storeFileName, diffPath, diffFile, JSON.stringify(data), util.config.contentType.json);
 	}
 })();

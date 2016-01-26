@@ -14,7 +14,7 @@
 		var $ = cheerio.load(data),
 			results = $("a").map(function(a,b){return myMap(b);}).get(),
 			filteredResults = results.filter(function(item){ if (item){return item;}});
-		return JSON.stringify(filteredResults);
+		return filteredResults;
 	}
 
 	function myMap(data){
