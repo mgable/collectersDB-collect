@@ -1,9 +1,8 @@
 "use strict";
 
 (function(){
-	var program = require('commander'),
-		_ = require('underscore'),
-		Q = require("q"),
+	var AWS = require('aws-sdk'),
+		program = require('commander'),
 		util = require("./util.js");
 
 	program
@@ -11,86 +10,55 @@
 		.option('-f, --full', 'make full index')
 		.parse(process.argv);
 
-	var	storeFilePath = util.getStoreFilePath(),
-		storeFileName = util.getFileName(),
-		storeFile = storeFilePath + storeFileName,
-		// store = util.getFileContents(storeFile) || [],
-		diffFilePath = util.getDiffPath(),
-		diffFile = diffFilePath + storeFileName,
-		// diff = util.getFileContents(diffFile) || [],
-		diff = [],
-		store = [];
+	var	storeTable = util.getStoreTable();
 
+	init();
 
-	getData()
-
-	function getData(){
-		getDataFromS3();
+	function init(){
+		getDataFromDynamo();
 	}
 
-	function getDataFromS3(){
-		var diffPromise = util.getDataFromS3(diffFile).then(parse),
-			storePromise = util.getDataFromS3(storeFile).then(parse);
+	function getDataFromDynamo(){
+		var todayKey = util.getDateString(),
+			keys = [ {date: todayKey}],
+			diffTable = util.getDiffTable();
 
-		Q.allSettled([diffPromise, storePromise]).then(function(data){
-			diff = data[0].value,
-			store = data[1].value || [];
 
-			save(makeIndex());
+		util.getFromDynamo(keys, diffTable).then(function(data){
+			console.info("got diff file");
+			var newItems = data.Responses[diffTable][0].items;
+
+			save(storeTable, newItems);
 		});
-	}
-
-	function parse(data){
-		var results = JSON.parse(data.toString());
-		return results;
-	}
-
-	function makeIndex(){
-		return (program.full) ? fullIndex() : simpleIndex();
 	}
 	
-	function save(data){
-		util.save(storeFileName, storeFilePath, storeFile, JSON.stringify(data), util.config.contentType.json); //filename, path, file, data, contentType
-	}
-
-	function simpleIndex(){
-		util.logger.log("making index");
-		return store.concat(diff);
-	}
-
-	function fullIndex(){
-		var results = [],
-			diffDirectory = util.getDiffDirectory(),
-			years = removeDotFiles(util.readDirectory(diffDirectory));
-
-
-		// cycle through years
-		years.forEach(function(year){
-			var yearPath = diffDirectory + year + "/",
-				months = removeDotFiles(util.readDirectory(yearPath));
-
-			// cycle through months
-			months.forEach(function(month){
-				var monthPath = yearPath + month + "/",
-					days = removeDotFiles(util.readDirectory(monthPath));
-
-				// cycle through days
-				days.forEach(function(day){
-					var dayPath = monthPath + day + "/" + storeFileName;
-					if (util.fileExists(dayPath)){
-						var file = util.getFileContents(dayPath);
-						results = results.concat(file);
-					} 
-				});
-			});
+	function save(table, items){
+		AWS.config.update({
+		    region: util.config.aws.region,
+		    endpoint: util.config.aws.dynamo.endpoint
 		});
 
-		util.logger.log("making FULL index");
+		var docClient = new AWS.DynamoDB.DocumentClient();
 
-		return results;
-	}
+		items.forEach(function(item) {
+			var date = parseInt(util.getDateString(item.meta.date.formatted),10),
+				params = {
+					TableName: table,
+					Item: {date: date, link:item.link, id:item.id, title:item.title, meta:item.meta, images: item.images, src: item.src},
+					ExpressionAttributeNames:{"#date":"date"},
+					ConditionExpression: 'attribute_not_exists(#date)'
+				};
 
-	function removeDotFiles(data){
-		return _.reject(data, function(name){ return /^\./.test(name);});
+			docClient.put(params, function(err, data) {
+				if (err) {
+					var errorMsg = JSON.stringify(err, null, 2);
+					console.error("Unable to add item. Error JSON:", errorMsg);
+					util.logger.log("Unable to add item. Error JSON: " + errorMsg, 'error');
+				} else {
+					console.log("PutItem succeeded:");
+					util.logger.log("PutItem succeeded: " + data.Item.id);
+				}
+			});
+		});
 	}
 })();

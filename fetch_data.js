@@ -17,10 +17,7 @@
 
 	function save(data){
 		var key = util.getDateString(),
-			table = util.getRawDirectory();
-
-
-		console.info(table, key)
+			table = util.getRawTable();
 
 		util.saveToDynamo(key, table, data); //key, table, data
 	}

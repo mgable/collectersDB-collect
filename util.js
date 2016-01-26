@@ -12,15 +12,27 @@
 		logger = require('./logging.js'),
 		config = require('./config.js'),
 		today = new Date(), 
-		diffDirectory = config.sys_config.diffDirectory || "_diffs",
-		rawDirectory = config.sys_config.rawDirectory || "_raw",
-		storeDirectory = config.sys_config.storeDirectory || "store/",
-		indexDirectory = config.sys_config.indexDirectory || "index/",
+		diffTable = config.sys_config.diffTable || "_diffs",
+		rawTable = config.sys_config.rawTable || "_raw",
+		storeTable = config.sys_config.storeTable || "_store",
+		indexDirectory = config.sys_config.indexDirectory || "formatted/",
+		imageDirectory = config.sys_config.imageDirectory || "store/images/",
 		category = config.category,
 		categoryName = category.name,
 		categoryDirectory = categoryName,
-		location = "local",
 		util = {};
+
+	// AWS Dynamo setup
+	AWS.config.credentials = credentials;
+	AWS.config.update({
+	    region: config.aws.region,
+	    endpoint: config.aws.dynamo.endpoint
+	});
+
+	var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}}),
+		docClient = new AWS.DynamoDB.DocumentClient(),
+		credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
+	// end setup
 
 	function fetchPage(options){
 		util.logger.log("fetching: " + options.path);
@@ -79,38 +91,29 @@
 		return makePathFromDateString(dateStr) + "/" + id + "/" + filename;
 	}
 
-	function getRawDataPath(fileOverwrite){
-		return  getRawDirectory() + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+	function getRawTable(){
+		return getRoot() + rawTable;
 	}
 
-	function getRawDirectory(){
-		return getRoot() + rawDirectory;
-	}
-
-	function getStoreFilePath(){
-		return getRoot() + storeDirectory;
+	function getStoreTable(){
+		return getRoot() + storeTable;
 	}
 
 	function getImagePath(fileOverwrite){
-		return getStoreFilePath() + "images/" +  makePathFromDateString(fileOverwrite || getDateString()) + "/";
+		return getRoot() + "/" + imageDirectory +  makePathFromDateString(fileOverwrite || getDateString()) + "/";
 	}
 
-	function getDiffPath(fileOverwrite){
-		return getDiffDirectory() + makePathFromDateString(fileOverwrite || getDateString()) + "/";
+	function getDiffTable(){
+		return getRoot() + diffTable;
 	}
 
-	function getDiffDirectory(){
-		return getRoot() + diffDirectory;
-	}
-
-	function getFormattedFilePath(){
-		return getRoot() + indexDirectory;
+	function getIndexPath(){
+		return "./" + indexDirectory;
+		//return getRoot() 
 	}
 
 	function getRoot(){
-		//var root = config[location].dataRoot;
 		return categoryDirectory;
-		//return root + categoryDirectory;
 	}
 
 	function makePathFromDateString(dateStr){
@@ -145,98 +148,37 @@
 	}
 
 
-	// function saveLocal(filename, path, file, data){
-	// 	makeDirectories(path); 
-	// 	fs.writeFileSync(file, data);
-	// 	logger.log("saving: " + file);
-	// }
-
-	function saveToDynamo(key, table, data){
-		console.info("saving to key: " + key);
-		console.info("saving to dynamo table: " + table);
-		AWS.config.update({
-		    region: config.aws.region,
-		    endpoint: config.aws.dynamo.endpoint
-		});
-
-		var docClient = new AWS.DynamoDB.DocumentClient(),
-			params = {
-		        TableName: table,
-		        Item: {date: key, items: data},
-		        ExpressionAttributeNames:{"#date":"date"},
-		        ConditionExpression: 'attribute_not_exists(#date)'
-		    };
-
-	    docClient.put(params, function(err, data) {
-	       if (err) {
-	           console.error("Unable to add item. Error JSON:", JSON.stringify(err, null, 2));
-	       } else {
-	           console.log("PutItem succeeded:");
-	       }
-	    });
-
+	function saveLocal(filename, path, file, data){
+		makeDirectories(path); 
+		fs.writeFileSync(file, data);
+		logger.log("saving: " + file);
 	}
 
-	function getFromDynamo(keys, table){
-		var deferred = Q.defer();
-		console.info("getting to dynamo");
-		AWS.config.update({
-		    region: config.aws.region,
-		    endpoint: config.aws.dynamo.endpoint
-		});
-
-		var docClient = new AWS.DynamoDB.DocumentClient();
-		// 	params = {
-		//     TableName: table,
-		//     Key: { // a map of attribute name to AttributeValue for all primary key attributes
-		    
-		//         date: key, //(string | number | boolean | null | Binary)
-		//         // more attributes...
-
-		//     },
-		//     //AttributesToGet: ['items'],
-		//     ConsistentRead: false, // optional (true | false)
-		//     ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
-		// };
-		// docClient.get(params, function(err, data) {
-		//     if (err) console.info(err); // an error occurred
-		//     else console.info(data); // successful response
-		// });
-	
-
+	function saveToDynamo(key, table, data){
 		var params = {
-		    RequestItems: { // map of TableName to list of Key to get from each table
-		        advertising_tins_raw: {
-		            Keys: keys,
-		            ConsistentRead: false, // optional (true | false)
-		        },
-		        // ... more tables and keys ...
-		    },
-		    ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
+			TableName: table,
+			Item: {date: key, items: data},
+			ExpressionAttributeNames:{"#date":"date"},
+			ConditionExpression: 'attribute_not_exists(#date)'
 		};
-		docClient.batchGet(params, function(err, data) {
-		    if (err) {
-		    	//console.info(err); // an error occurred
-		    	return deferred.reject(err)
+
+		docClient.put(params, function(err/*, data*/) {
+			if (err) {
+				var errorMsg = JSON.stringify(err, null, 2);
+				console.error("Unable to add item. Error JSON:", errorMsg);
+				util.logger.log("unable to save: " + table + ":" + key , 'error');
+				util.logger.log("unable to save to data: " + errorMsg, 'error');
 			} else {
-				//console.info(data); // successful response
-				return deferred.resolve(data)
+				console.log("PutItem succeeded:");
+				util.logger.log("saving to key: " + key);
+				util.logger.log("saving to dynamo table: " + table);
 			}
-
 		});
-
-		return deferred.promise;
-
-}
-
+	}
 
 	function saveToS3(filename, path, file, data, contentType){
-		console.info("saving");
-		var credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
-		AWS.config.credentials = credentials;
+		console.info("saving to S3");
 
-		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
-		
 		s3bucket.upload({"Key": file, "Body": data, "ContentType": contentType}, function(err, data) { // jshint ignore:line
 			if (err) {
 				util.logger.log("ERROR - S3: " + file + ": " + err, 'error');
@@ -244,6 +186,50 @@
 				util.logger.log("saving - S3: " + file);
 			}
 		});
+	}
+
+	function getDataFromS3(uri){
+		var deferred = Q.defer();
+		console.info("getting S3 data from " + uri);
+
+		s3bucket.getObject({"Key": uri,  ResponseContentType: config.contentType.json}, function(err, data) { // jshint ignore:line
+			if (err) {
+				util.logger.log("ERROR - S3: " + uri + ": " + err, 'error');
+				return deferred.reject(err);
+			} else {
+				util.logger.log("getting - S3: " + uri);
+				return deferred.resolve(data.Body.toString());
+			}
+		});
+
+		return deferred.promise;
+
+	}
+
+	function getFromDynamo(keys, table){
+		var deferred = Q.defer(),
+			RequestItems = {};
+
+		console.info("getting from dynamo");
+		
+		RequestItems[table] = {Keys: keys, ConsistentRead: false};
+
+		var params = {
+		    RequestItems: RequestItems,
+		    ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
+		};
+		
+		docClient.batchGet(params, function(err, data) {
+		    if (err) {
+		    	//console.info(err); // an error occurred
+		    	return deferred.reject(err);
+			} else {
+				//console.info(data); // successful response
+				return deferred.resolve(data);
+			}
+		});
+
+		return deferred.promise;
 	}
 
 	function fileExists(filePath){
@@ -280,33 +266,11 @@
 		return options;
 	}
 
-	function getDataFromS3(uri){
-		var deferred = Q.defer(),
-			credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
-		AWS.config.credentials = credentials;
-
-		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
-
-		console.info("getting data from " + uri);
-
-		s3bucket.getObject({"Key": uri,  ResponseContentType: config.contentType.json}, function(err, data) { // jshint ignore:line
-			if (err) {
-				util.logger.log("ERROR - S3: " + uri + ": " + err, 'error');
-				return deferred.reject(err);
-			} else {
-				util.logger.log("getting - S3: " + uri);
-				return deferred.resolve(data.Body.toString());
-			}
-		});
-
-		return deferred.promise;
-
-	}
-
+	util.saveLocal = saveLocal;
 	util.saveToDynamo = saveToDynamo;
 	util.getFromDynamo = getFromDynamo;
 	util.getDataFromS3 = getDataFromS3;
-	util.getFormattedFilePath = getFormattedFilePath;
+	util.getIndexPath = getIndexPath;
 	util.fetchPage = fetchPage;
 	util.fileExists = fileExists;
 	util.readDirectory = readDirectory;
@@ -314,11 +278,9 @@
 	util.getDateString = getDateString;
 	util.getFileContents = getFileContents;
 	util.getFileName = getFileName;
-	util.getRawDataPath = getRawDataPath;
-	util.getRawDirectory = getRawDirectory;
-	util.getStoreFilePath = getStoreFilePath;
-	util.getDiffPath = getDiffPath;
-	util.getDiffDirectory = getDiffDirectory;
+	util.getRawTable = getRawTable;
+	util.getStoreTable = getStoreTable;
+	util.getDiffTable = getDiffTable;
 	util.getImagePath = getImagePath;
 	util.getRequestObject = getRequestObject;
 	util.logger = logger;

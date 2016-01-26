@@ -4,44 +4,45 @@
 	var util = require('./util.js'),
 		fetch = require('./fetch_image_data.js'),
 		Q = require("q"),
-		diffFilePath = util.getDiffPath(),
-		fileName = util.getFileName(),
-		diffFile = diffFilePath + fileName,
 		imagePath = util.getImagePath(),
+		todayKey = util.getDateString(),
 		totalItems = 0,
 		filesReceived = 0,
 		totalAdditionalImages = 0,
 		diff = [];
 
-	//util.makeDirectories(imagePath);
-
-	getDiff(diffFile).then(function(data){
+	getDataFromDynamo(todayKey).then(function(data){
 		diff = JSON.parse(data);
 		totalItems = diff.length;
 		getThumbnailImages(diff, imagePath);
 	});
-	
 
-	function getDiff(diffFile){
-		return util.getDataFromS3(diffFile);
+
+	function getDataFromDynamo(todayKey){
+		var keys = [ {date: todayKey}],
+			diffTable = util.getDiffTable();
+
+		return util.getFromDynamo(keys, diffTable).then(function(data){
+			console.info("got diff file");
+			var newItems = data.Responses[diffTable][0].items;
+
+			return newItems;
+		});
 	}
 
 	function getThumbnailImages(items, imagePath){
 		// download thumbnails
-
 		items.forEach(function(item){
 			//console.info(item);
-			var itemImagePath = imagePath + item.id + "/",
-				filename = item.src.local.replace(/^\d{4}\/\d{2}\/\d{2}\//, "");
-			//util.makeDirectories(itemImagePath);
+			var filename = item.src.local.replace(/^\d{4}\/\d{2}\/\d{2}\//, "");
 
 			fetch.download(item.src.original, imagePath, filename, thumbNailCallback);
 		});
 
-		util.logger.log("fetched " + totalItems + " thumbnails for " + diffFile);
+		util.logger.log("fetched " + totalItems + " thumbnails for " + todayKey);
 	}
 
-	function thumbNailCallback(uri, imagePath, filename){
+	function thumbNailCallback(/* uri, imagePath, filename */){
 		console.info("getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
 			console.info("done getting " + totalItems + " thubmnails!");
@@ -79,7 +80,7 @@
 
 		 } else {
 		 	console.info("TOTALLY DONE");
-		 	util.logger.log("fetched " + totalAdditionalImages + " additional images for " + diffFile);
+		 	util.logger.log("fetched " + totalAdditionalImages + " additional images for " + todayKey);
 		 }
 	}
 })();
