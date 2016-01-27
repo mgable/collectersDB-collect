@@ -7,7 +7,7 @@
 		categories = [category],
 		domain = 'www.collectorsweekly.com',
 		pageUrlTemplate = '/ajax/category-auctions.php?id= *** config.category.id *** &sort=completed&limit=1000&offset=0',
-		dataRoot = "/Users/markgable/Sites/data/collectorsDB/",
+		dataRoot = "/Users/markgable/Sites/data/TEST-collectorsDB/",
 		local = {},
 		aws = {},
 		contentType = {
@@ -16,7 +16,7 @@
 		};
 	
 	local.dataRoot = dataRoot;
-	aws.bucket = "collectors-db";
+	aws.bucket = "test-collectors-db";
 
 
 	module.exports = {
