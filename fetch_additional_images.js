@@ -12,9 +12,13 @@
 		diff = [];
 
 	getDataFromDynamo(todayKey).then(function(data){
-		diff = JSON.parse(data);
-		totalItems = diff.length;
-		getThumbnailImages(diff, imagePath);
+		console.info("hello");
+		console.info(typeof data);
+		//diff = JSON.parse(data);
+		//console.info(diff);
+		totalItems = data.length;
+		console.info("hey!" + totalItems);
+		getThumbnailImages(data, imagePath);
 	});
 
 
@@ -24,6 +28,7 @@
 
 		return util.getFromDynamo(keys, diffTable).then(function(data){
 			console.info("got diff file");
+			console.info(data);
 			var newItems = data.Responses[diffTable][0].items;
 
 			return newItems;
@@ -42,7 +47,7 @@
 		util.logger.log("fetched " + totalItems + " thumbnails for " + todayKey);
 	}
 
-	function thumbNailCallback(/* uri, imagePath, filename */){
+	function thumbNailCallback(uri, imagePath, filename){
 		console.info("getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
 			console.info("done getting " + totalItems + " thubmnails!");
