@@ -1971,3 +1971,19 @@
 {"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-26T23:08:36.051Z\",\n  \"requestId\": \"0b6894b4-f537-41b5-9523-965f31fc42c9\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-26T23:08:36.051Z"}
 {"level":"info","message":"saving: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-26T23:11:57.862Z"}
 {"level":"info","message":"saving bulk import file: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-26T23:11:57.864Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:20:56.417Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:20:56.938Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:21:20.351Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:21:20.741Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:21:51.530Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:21:51.993Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:23:02.511Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:23:02.975Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:23:30.373Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:23:30.782Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:24:34.369Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:24:34.800Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:25:29.094Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T01:25:29.591Z"}
+{"level":"info","message":"saving to key: 20160126","timestamp":"2016-01-27T01:25:30.027Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_raw","timestamp":"2016-01-27T01:25:30.027Z"}

@@ -72,6 +72,10 @@
 		return ("0000" + (Math.random()*Math.pow(36,4) << 0).toString(36)).slice(-4); // jshint ignore:line
 	}
 
+	function generateHashCode(s){
+		return Math.abs(s.split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0));
+	}
+
 	function getFileName(suffix){
 		var suffix =  suffix || "json";
 		return categoryName + "." + suffix;
@@ -286,6 +290,7 @@
 	util.logger = logger;
 	util.save = save;
 	util.generateUID = generateUID;
+	util.generateHashCode = generateHashCode;
 	util.makeLocalImagePath = makeLocalImagePath;
 	util.makeDirectories = makeDirectories;
 	util.config = config;
