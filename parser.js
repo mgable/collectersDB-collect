@@ -27,7 +27,7 @@
 		obj.src = decodeLink(data.children[0].attribs.src); // image src
 
 		obj.meta.date = {
-			"formatted": getDate(obj.meta.date.replace(/^\-/,'').toLowerCase()),
+			"formatted": getDate(obj.meta.date.replace(/^\-/,'').toLowerCase()).toISOString(),
 			"origin": obj.meta.date
 		};
 

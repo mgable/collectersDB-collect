@@ -2447,3 +2447,999 @@
 {"level":"info","message":"saving: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T16:03:55.687Z"}
 {"level":"info","message":"cotal count is: 3545","timestamp":"2016-01-27T16:03:55.689Z"}
 {"level":"info","message":"saving bulk import file: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T16:03:55.689Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T16:53:34.127Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T16:53:34.692Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T16:54:18.629Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T16:54:19.068Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T16:54:28.080Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T16:54:28.546Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:02:11.103Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:02:11.694Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T17:02:12.175Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_raw","timestamp":"2016-01-27T17:02:12.176Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:06:18.446Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:06:19.069Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:08:10.650Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:08:11.216Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:08:50.008Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:08:50.528Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T17:08:50.959Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_raw","timestamp":"2016-01-27T17:08:50.959Z"}
+{"level":"info","message":"diff - There are 60 new items added for 20160127","timestamp":"2016-01-27T17:10:07.528Z"}
+{"level":"info","message":"fetching: /itm/201507407771","timestamp":"2016-01-27T17:10:07.532Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Mustard-Spice-Tin-Marion-Indiana-Spencer-Hogin-/201507407771?nma=true&si=Q3ZH8AvuX0AqS8UuMWUGV%252FleUGI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:08.432Z"}
+{"level":"info","message":"fetching: /itm/381524750843","timestamp":"2016-01-27T17:10:09.028Z"}
+{"level":"info","message":"fetching: /itm/Vintage-H-and-B-Brand-1-Gallon-Oyster-Can-C-W-Howeth-Crisfield-MD-VG-/381524750843?nma=true&si=SzwmDNRhfPlMEhFwuD1MXOPAYEc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:09.631Z"}
+{"level":"info","message":"fetching: /itm/381524773105","timestamp":"2016-01-27T17:10:10.399Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Cream-Tartar-Spice-Tin-Marion-Indiana-Spencer-Hogin-/381524773105?nma=true&si=3IsRJvus7DzFOtZebU7oaS7Fjhc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:11.096Z"}
+{"level":"info","message":"fetching: /itm/381524787977","timestamp":"2016-01-27T17:10:11.860Z"}
+{"level":"info","message":"fetching: /itm/Antique-Acorn-Brand-Ginger-Spice-Tin-Harnit-Hewitt-Co-Toledo-Ohio-Litho-Label-/381524787977?nma=true&si=5iQd3TN1nt%252FCCcennAfwdDRksfQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:12.561Z"}
+{"level":"info","message":"fetching: /itm/141882443578","timestamp":"2016-01-27T17:10:13.412Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-JUICY-FRUIT-TIN-MATCH-HOLDER-/141882443578?nma=true&si=GroPvwDSGNviV%252B3L0CzbZPjc458%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:14.114Z"}
+{"level":"info","message":"fetching: /itm/201507400634","timestamp":"2016-01-27T17:10:14.881Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Allspice-Spice-Tin-Marion-Indiana-Spencer-Hogin-/201507400634?nma=true&si=buU69gFeulxMQ5B50F%252FO8Hq0P1k%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:15.673Z"}
+{"level":"info","message":"fetching: /itm/231816439582","timestamp":"2016-01-27T17:10:16.342Z"}
+{"level":"info","message":"fetching: /itm/Nice-Black-Bird-Brand-Golden-Table-Syrup-5-Pound-Tin-Can-Advertising-Nebraska-/231816439582?nma=true&si=hQGi%252F%252FrKqhqDzETo88bHUfveJI8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:17.030Z"}
+{"level":"info","message":"fetching: /itm/231819651993","timestamp":"2016-01-27T17:10:17.908Z"}
+{"level":"info","message":"fetching: /itm/ROBERT-A-JOHNSTON-FULL-PAPER-LABEL-LARGE-WAFER-FLAKES-SALTED-BISCUIT-TIN-/231819651993?nma=true&si=ZVPz7Hwdt4w%252BxmIRzJ18gp2bMAg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:18.518Z"}
+{"level":"info","message":"fetching: /itm/201507400204","timestamp":"2016-01-27T17:10:19.294Z"}
+{"level":"info","message":"fetching: /itm/Antique-Arbuckles-Pure-Cream-Tartar-Spice-Tin-Chicago-New-York-Kansas-City-Pitts-/201507400204?nma=true&si=NWhCYaDJvYqMRYNFvzAiFELVMRc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:19.984Z"}
+{"level":"info","message":"fetching: /itm/291661715394","timestamp":"2016-01-27T17:10:20.845Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Stag-Cigarette-Pipe-Tobacco-Oval-Tin-w-Striker-P-Lorillard-Jersey-City-/291661715394?nma=true&si=3s4RcotDD8aqDyyyqcg2fiSyZjM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:21.656Z"}
+{"level":"info","message":"fetching: /itm/381524786960","timestamp":"2016-01-27T17:10:22.491Z"}
+{"level":"info","message":"fetching: /itm/Antique-Forbes-Brand-Mace-Spice-Tin-St-Louis-Mo-Full-Tin-/381524786960?nma=true&si=VP34gQ%252BFx15vEJ%252BrRurZasbzjsw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:23.217Z"}
+{"level":"info","message":"fetching: /itm/172069824347","timestamp":"2016-01-27T17:10:23.975Z"}
+{"level":"info","message":"fetching: /itm/SAKAI-brand-gramophone-needle-tin-POLYDOR-COLUMBIA-VICTOR-JAPANESE-/172069824347?nma=true&si=aGt%252FEa0pteTsUiLNpp6QsHV%252Bz6Y%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:24.669Z"}
+{"level":"info","message":"fetching: /itm/301852779667","timestamp":"2016-01-27T17:10:25.417Z"}
+{"level":"info","message":"fetching: /itm/RARE-HTF-EARLY-1900s-BRACHS-SUPREME-MARSHMALLOW-5LB-TIN-/301852779667?nma=true&si=4qjZ6LFdQ2z3Wt8OcpPtn2eK4Gk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:26.343Z"}
+{"level":"info","message":"fetching: /itm/191787377998","timestamp":"2016-01-27T17:10:27.233Z"}
+{"level":"info","message":"fetching: /itm/Skippy-Peanut-Butter-EARLY-Glass-Jar-not-Tin-RARE-w-Label-Alameda-CA-RARE-/191787377998?nma=true&si=80VHBkOh8OhFvJ0t%252BpbWUIDjjCs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:27.895Z"}
+{"level":"info","message":"fetching: /itm/331759956622","timestamp":"2016-01-27T17:10:28.675Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-EARLY-4-LBS-HONEY-TIN-CAN-PAIL-WITH-NICE-BEEHIVE-AND-BEES-GRAPHICS-NICE-/331759956622?nma=true&si=vHcgf8Xq5CXtwi6RgOXA2VaMLGg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:29.573Z"}
+{"level":"info","message":"fetching: /itm/172069820305","timestamp":"2016-01-27T17:10:30.331Z"}
+{"level":"info","message":"fetching: /itm/GRAND-OPERA-brand-gramophone-needle-tin-/172069820305?nma=true&si=QejQq7Rqjk8kjC91MoNhaE3JCcY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:31.061Z"}
+{"level":"info","message":"fetching: /itm/111880453462","timestamp":"2016-01-27T17:10:32.007Z"}
+{"level":"info","message":"fetching: /itm/PARROT-brand-gramophone-needle-tin-SHAPED-TRIANGLE-JAPANESE-/111880453462?nma=true&si=h2NOIhYjTTqRB6IbqGDfEv2sZNI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:32.598Z"}
+{"level":"info","message":"fetching: /itm/191787372922","timestamp":"2016-01-27T17:10:33.470Z"}
+{"level":"info","message":"fetching: /itm/Dr-RS-Parkers-Sure-Kidney-Pills-Circa-1906-Medicine-Tin-Dr-Earl-Sloan-Boston-Ma-/191787372922?nma=true&si=2duXFY8KuDbpcskOtkn6r%252FmITFc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:34.098Z"}
+{"level":"info","message":"fetching: /itm/201482529630","timestamp":"2016-01-27T17:10:34.913Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Fishing-Collectables-Lot-Tins-Rod-Reel-Lure-/201482529630?nma=true&si=KOaK3L5XOYbo1r%252BklfqTJoeZwMY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:35.531Z"}
+{"level":"info","message":"fetching: /itm/172069819528","timestamp":"2016-01-27T17:10:36.354Z"}
+{"level":"info","message":"fetching: /itm/APOLLON-brand-gramophone-needle-tin-JAPANESE-FIBRE-NEEDLES-/172069819528?nma=true&si=chmsnWcRJFIWCBMgZ%252F1zprm2Whg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:36.987Z"}
+{"level":"info","message":"fetching: /itm/172069824082","timestamp":"2016-01-27T17:10:37.732Z"}
+{"level":"info","message":"fetching: /itm/PEACOCK-brand-gramophone-needle-tin-JAPANESE-/172069824082?nma=true&si=ugj4%252FtO9T%252F9TJDDwxMX9mjb3KEQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:38.455Z"}
+{"level":"info","message":"fetching: /itm/262249702295","timestamp":"2016-01-27T17:10:39.094Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Bacorns-Spice-Tin-Bacorn-Company-Paper-Label-Ginger-/262249702295?nma=true&si=TDATz71AmNbmzE4jzb%252FTRVXutZo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:39.698Z"}
+{"level":"info","message":"fetching: /itm/291664232222","timestamp":"2016-01-27T17:10:40.461Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rose-Bud-Sage-Spice-Tin-Litho-Can-Widlar-Products-Cleveland-Ohio-Oh-Rare-/291664232222?nma=true&si=glJUSxex4gWCZS6kBzy596364Ew%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:41.373Z"}
+{"level":"info","message":"fetching: /itm/201507398951","timestamp":"2016-01-27T17:10:42.231Z"}
+{"level":"info","message":"fetching: /itm/Antique-Little-Elf-Brand-Cream-Tartar-Spice-Tin-G-E-Bursley-Fort-Wayne-Indiana-/201507398951?nma=true&si=1J%252FzQtd7hPe0KtUDKkCZMveBTQg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:43.072Z"}
+{"level":"info","message":"fetching: /itm/172069818250","timestamp":"2016-01-27T17:10:43.905Z"}
+{"level":"info","message":"fetching: /itm/1000-size-PEACOCK-brand-gramophone-needle-tin-JAPANESE-/172069818250?nma=true&si=P1YE09orrFDAIG09UC0PryBYmYE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:44.504Z"}
+{"level":"info","message":"fetching: /itm/262249698352","timestamp":"2016-01-27T17:10:45.366Z"}
+{"level":"info","message":"fetching: /itm/j-w-ferguson-chesapeake-bay-gallon-oyster-tin-lid-remlik-virginia-/262249698352?nma=true&si=z7JJXhJZgT7rrV1XNOcEGh9veIM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:46.103Z"}
+{"level":"info","message":"fetching: /itm/172069819826","timestamp":"2016-01-27T17:10:46.814Z"}
+{"level":"info","message":"fetching: /itm/BEE-brand-gramophone-needle-tin-JAPANESE-/172069819826?nma=true&si=jTHt6GMeOb1A8094l8IHRfRSVHQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:47.450Z"}
+{"level":"info","message":"fetching: /itm/141883791082","timestamp":"2016-01-27T17:10:48.115Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-BAGDAD-SHORT-CUT-PIPE-SMOKING-TOBACCO-SHORT-POCKET-TIN-3-5-8-TALL-N-R-/141883791082?nma=true&si=7OY3p3MNnr1J6RUMegRKA6LiGeM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:48.983Z"}
+{"level":"info","message":"fetching: /itm/191787377158","timestamp":"2016-01-27T17:10:49.649Z"}
+{"level":"info","message":"fetching: /itm/Purifina-Cut-Bruise-Bites-Ointment-Medicine-Remedy-Tin-w-Org-Box-RARE-EARLY-/191787377158?nma=true&si=v7rTpQ2x16mLZOG3y5CAwZC32ho%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:50.284Z"}
+{"level":"info","message":"fetching: /itm/172069967212","timestamp":"2016-01-27T17:10:50.900Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PHILLIES-PHILADELPHIA-PERFECTO-CIGAR-TOBACCO-TIN-BOX-/172069967212?nma=true&si=G8PvaPkT3AsQh0C%252B6B0wC8Nq3Kw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:51.814Z"}
+{"level":"info","message":"fetching: /itm/262249701831","timestamp":"2016-01-27T17:10:52.679Z"}
+{"level":"info","message":"fetching: /itm/CENTURY-POCKET-TOBACCO-ANTIQUE-RARE-TIN-P-LORILLARD-CO-JERSEY-CITY-NJ-/262249701831?nma=true&si=0SL06akq9fdCmG3OlOD8H2SH2vM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:53.531Z"}
+{"level":"info","message":"fetching: /itm/172069820109","timestamp":"2016-01-27T17:10:54.636Z"}
+{"level":"info","message":"fetching: /itm/BON-AMI-brand-gramophone-needle-tin-/172069820109?nma=true&si=5w9OFLpjmFE%252F3%252FcnumJStui5rnE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:55.565Z"}
+{"level":"info","message":"fetching: /itm/351634161423","timestamp":"2016-01-27T17:10:56.467Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Tin-Quality-Biscuit-Griggs-Cooper-Co-St-Paul-Minnesota-48-oz-/351634161423?nma=true&si=gASU7PeamHkduiJgdDBBrHx%252BX8E%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:57.045Z"}
+{"level":"info","message":"fetching: /itm/252261373658","timestamp":"2016-01-27T17:10:57.882Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-WHITE-VILLA-BRAND-2-OUNCE-CINNAMON-SPICE-TIN-CINCINNATI-DAYTON-OHIO-/252261373658?nma=true&si=oTXcoafLOiNGXtAnoKoBSOA5tIE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:10:58.615Z"}
+{"level":"info","message":"fetching: /itm/201507406801","timestamp":"2016-01-27T17:10:59.272Z"}
+{"level":"info","message":"fetching: /itm/Antique-Delicious-Brand-Cloves-Spice-Tin-Muncie-Indiana-Jos-A-Goddard-Co-/201507406801?nma=true&si=Gzm5O0hVQ6CQ3pEL76g5JqOJGKI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:00.105Z"}
+{"level":"info","message":"fetching: /itm/181997146625","timestamp":"2016-01-27T17:11:01.100Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-SUAREZ-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-SHELL-IMAGE-NOT-TIN-/181997146625?nma=true&si=asehDMyFEASIhGjBV1oWfNU2IiE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:01.762Z"}
+{"level":"info","message":"fetching: /itm/361472260626","timestamp":"2016-01-27T17:11:02.665Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Ben-Hur-Drip-Coffee-Can-Tin-/361472260626?nma=true&si=IUwuQAyW7h2x1NoVDTluURJM5O8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:03.431Z"}
+{"level":"info","message":"fetching: /itm/172071868296","timestamp":"2016-01-27T17:11:04.308Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Grisdale-Coffee-Tin-Antique-Advertising-Gristede-Brothers-New-York-/172071868296?nma=true&si=1%252BRs1yyr0WtbVDURMo3RXX438bs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:05.029Z"}
+{"level":"info","message":"fetching: /itm/311530415307","timestamp":"2016-01-27T17:11:05.876Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GULF-PRIDE-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-BOAT-IMAGE-NOT-TIN-/311530415307?nma=true&si=%252FgzDdLq7h%252BSrztJS7aAj%252Bu%252FziMU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:06.568Z"}
+{"level":"info","message":"fetching: /itm/331756405099","timestamp":"2016-01-27T17:11:07.443Z"}
+{"level":"info","message":"fetching: /itm/Dunhill-Tobacco-Tin-Three-Year-Matured-Virginia-Mfg-Blended-in-England-/331756405099?nma=true&si=oy04PtLWKM%252FEsIOPnLmQ1EAsp5M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:08.170Z"}
+{"level":"info","message":"fetching: /itm/321986606732","timestamp":"2016-01-27T17:11:08.978Z"}
+{"level":"info","message":"fetching: /itm/Tin-Sign-Green-Mountain-Coffee-Sign-/321986606732?nma=true&si=L5jHFyXFOpAveXXz5hpnjVr6c9M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:09.675Z"}
+{"level":"info","message":"fetching: /itm/191787376985","timestamp":"2016-01-27T17:11:10.342Z"}
+{"level":"info","message":"fetching: /itm/Parrot-Monkey-Baking-Powder-Tin-dated-1898-Super-Graphic-Paper-Label-Full-Seal-/191787376985?nma=true&si=1nFb1CQ%252FeX9S8IEQS6Mw40fWBUk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:11.165Z"}
+{"level":"info","message":"fetching: /itm/401058107205","timestamp":"2016-01-27T17:11:11.784Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Medicine-LAXATIVE-Tin-ZYLAX-Full-Paper-Insert-RARE-/401058107205?nma=true&si=6Nh1YfVP9OQ6Kqbcxc3tOWCjeH4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:12.612Z"}
+{"level":"info","message":"fetching: /itm/351634259545","timestamp":"2016-01-27T17:11:13.261Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Medicine-Tablets-ASPIRIN-Tin-ST-JOSEPHS-Empty-10-cents-Old-/351634259545?nma=true&si=2%252BZ66oHUeVxHb0eXZZ7VDZ0XJzM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:13.748Z"}
+{"level":"info","message":"fetching: /itm/252258351834","timestamp":"2016-01-27T17:11:14.605Z"}
+{"level":"info","message":"fetching: /itm/RARE-Alice-May-Ginger-Spice-Tin-Hudson-Grocery-Jersey-City-N-J-/252258351834?nma=true&si=1UY0Eei9laKpc9GE556ro4Wyx7I%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:15.320Z"}
+{"level":"info","message":"fetching: /itm/201508527845","timestamp":"2016-01-27T17:11:16.091Z"}
+{"level":"info","message":"fetching: /itm/RARE-Players-Navy-Cut-Cigarettes-Tin-Gold-with-King-and-Queen-Embossed-Front-/201508527845?nma=true&si=fngK1yhbiwMlPg8PpMr1B7WXIc0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:16.684Z"}
+{"level":"info","message":"fetching: /itm/262249370467","timestamp":"2016-01-27T17:11:17.555Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PRIDE-OF-VIRGINIA-CUT-PLUG-TOBACCO-TIN-/262249370467?nma=true&si=dkWwfd7MifwsL2Iarrh2c2WThWk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:18.358Z"}
+{"level":"info","message":"fetching: /itm/222000541382","timestamp":"2016-01-27T17:11:19.310Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-ADVERTISING-SPICE-TIN-BISTONS-COFFEE-CO-ST-LOUIS-NICE-/222000541382?nma=true&si=8f5yBZYjXt3oEfEdZmXHicz8sd4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:20.026Z"}
+{"level":"info","message":"fetching: /itm/262249700882","timestamp":"2016-01-27T17:11:20.667Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Iris-Spice-Tin-1-1-4-oz-Ground-Cayenne-/262249700882?nma=true&si=K54k%252Fg6oqgv5OdN3baXz4y2n8oA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:21.490Z"}
+{"level":"info","message":"fetching: /itm/311530398483","timestamp":"2016-01-27T17:11:22.150Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GOLLOTTS-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MISS-IMAGE-NOT-TIN-/311530398483?nma=true&si=eVwRjRf%252FOgTcGSJFv4fNLO7r%252FCE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:22.846Z"}
+{"level":"info","message":"fetching: /itm/181997139219","timestamp":"2016-01-27T17:11:23.573Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GOLLOTTS-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MS-BOAT-IMAGE-NOT-TIN-/181997139219?nma=true&si=YXq34GHU5RH5bpfXkjsfnW%252BvYLI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:24.231Z"}
+{"level":"info","message":"fetching: /itm/311530409582","timestamp":"2016-01-27T17:11:25.041Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-CAPN-GOLLOT-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MS-MAN-IMAGE-NOT-TIN-/311530409582?nma=true&si=F6QyyLM5FOuU6%252BplK%252BrhNOZWTgc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:25.653Z"}
+{"level":"info","message":"fetching: /itm/311530374822","timestamp":"2016-01-27T17:11:26.304Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-WEST-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MISS-LIGHT-HOUSE-NOT-TIN-/311530374822?nma=true&si=PI%252FITH6zeRCUD1rCizKLeMwqsmw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:27.029Z"}
+{"level":"info","message":"fetching: /itm/252258349540","timestamp":"2016-01-27T17:11:27.784Z"}
+{"level":"info","message":"fetching: /itm/Molers-Dairy-Dayton-Ohio-Wax-Tin-Cottage-Cheese-Container-w-Metal-Lid-/252258349540?nma=true&si=K2486S8BOAjfK6pU0F6Se%252Blr5oo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:28.485Z"}
+{"level":"info","message":"fetching: /itm/301852375862","timestamp":"2016-01-27T17:11:29.122Z"}
+{"level":"info","message":"fetching: /itm/Early-Blue-Ribbon-Pepper-Spice-Tin-Austin-Nichols-Co-N-Y-/301852375862?nma=true&si=zPVGT6OL%252FUEZwyTZboaRJSt9Yyw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:30.044Z"}
+{"level":"info","message":"fetching: /itm/321981981108","timestamp":"2016-01-27T17:11:30.795Z"}
+{"level":"info","message":"fetching: /itm/MJB-Vintage-1924-coffee-tin-Black-label-/321981981108?nma=true&si=tNlJkwNaWqRNmEeNOyM7WLR7RRg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:31.553Z"}
+{"level":"info","message":"fetching: /itm/161952946122","timestamp":"2016-01-27T17:11:32.378Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Rold-Gold-Butter-Tin-Cannister-Can-/161952946122?nma=true&si=3r3mb4caaJA9lD37hFulQKmri8U%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:33.090Z"}
+{"level":"info","message":"fetching: /itm/371538137944","timestamp":"2016-01-27T17:11:33.861Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Empty-3-lbs-Net-2-pc-Worlds-Navy-Plug-Smoking-Tobacco-Tin-/371538137944?nma=true&si=V5J2%252F6Kt6q8v%252B6fe6QngutKJYYo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:34.534Z"}
+{"level":"info","message":"fetching: /itm/321981782566","timestamp":"2016-01-27T17:11:35.228Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-LORILLARD-OLD-GOLD-CIGARETTES-TIN-TOBACCO-CARDS-/321981782566?nma=true&si=PGPA7LpRkwOhx8XIvkwHcH8vc0M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:36.316Z"}
+{"level":"info","message":"fetching: /itm/172069666069","timestamp":"2016-01-27T17:11:37.084Z"}
+{"level":"info","message":"fetching: /itm/drum-tobacco-can-tin-guyot-designs-nalgene-stainless-steel-bottle-/172069666069?nma=true&si=M8QFV60zhaieSQJ1T18OaZ%252F78xc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:11:37.895Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T17:11:38.971Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_diffs","timestamp":"2016-01-27T17:11:38.971Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:10.714Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:10.726Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:10.868Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:10.911Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:10.913Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:10.940Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:10.944Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:10.975Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.018Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.021Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.022Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.025Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.030Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.094Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.100Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.102Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.105Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.106Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.109Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.112Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.139Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.140Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.142Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.217Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.222Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.223Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.227Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.233Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.295Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.296Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.298Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.302Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.305Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.326Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.329Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.334Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.341Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.364Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.395Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.398Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.400Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.405Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.417Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.447Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.451Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.474Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.487Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.488Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.491Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.526Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.537Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.562Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.575Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.592Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.608Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.617Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.642Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.650Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.697Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:16:11.752Z"}
+{"level":"info","message":"saving: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T17:17:27.802Z"}
+{"level":"info","message":"cotal count is: 3550","timestamp":"2016-01-27T17:17:27.804Z"}
+{"level":"info","message":"saving bulk import file: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T17:17:27.804Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:34:44.324Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:34:44.869Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:35:30.793Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:35:31.321Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:36:54.752Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:36:55.213Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:39:28.247Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:39:28.749Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T17:39:29.258Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_raw","timestamp":"2016-01-27T17:39:29.258Z"}
+{"level":"info","message":"diff - There are 61 new items added for 20160127","timestamp":"2016-01-27T17:39:39.569Z"}
+{"level":"info","message":"fetching: /itm/201507407771","timestamp":"2016-01-27T17:39:39.573Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Mustard-Spice-Tin-Marion-Indiana-Spencer-Hogin-/201507407771?nma=true&si=sLlLFp5Ot44ZSmFncBIlSf1K%252F2I%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:40.329Z"}
+{"level":"info","message":"fetching: /itm/381524750843","timestamp":"2016-01-27T17:39:41.088Z"}
+{"level":"info","message":"fetching: /itm/Vintage-H-and-B-Brand-1-Gallon-Oyster-Can-C-W-Howeth-Crisfield-MD-VG-/381524750843?nma=true&si=RORQqcxee0%252BMwC5Xl3Jtkmn0rbU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:41.719Z"}
+{"level":"info","message":"fetching: /itm/381524773105","timestamp":"2016-01-27T17:39:42.579Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Cream-Tartar-Spice-Tin-Marion-Indiana-Spencer-Hogin-/381524773105?nma=true&si=L6BML0N8nDpG1TPedBqfvv%252B03Fw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:43.393Z"}
+{"level":"info","message":"fetching: /itm/381524787977","timestamp":"2016-01-27T17:39:44.453Z"}
+{"level":"info","message":"fetching: /itm/Antique-Acorn-Brand-Ginger-Spice-Tin-Harnit-Hewitt-Co-Toledo-Ohio-Litho-Label-/381524787977?nma=true&si=QhMYCQH8Htlp5OpCXKln9S50PA8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:45.473Z"}
+{"level":"info","message":"fetching: /itm/141882443578","timestamp":"2016-01-27T17:39:46.114Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-JUICY-FRUIT-TIN-MATCH-HOLDER-/141882443578?nma=true&si=VhwV2lB2jbFIkBIOym7jdy9OfPA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:46.714Z"}
+{"level":"info","message":"fetching: /itm/201507400634","timestamp":"2016-01-27T17:39:47.278Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Allspice-Spice-Tin-Marion-Indiana-Spencer-Hogin-/201507400634?nma=true&si=rnJIvLFRxb%252BHosamgnVlRFKD148%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:47.975Z"}
+{"level":"info","message":"fetching: /itm/231816439582","timestamp":"2016-01-27T17:39:48.754Z"}
+{"level":"info","message":"fetching: /itm/Nice-Black-Bird-Brand-Golden-Table-Syrup-5-Pound-Tin-Can-Advertising-Nebraska-/231816439582?nma=true&si=fsUI%252FFCy5BgRt5bSJxWEtl2xUJg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:49.551Z"}
+{"level":"info","message":"fetching: /itm/231819651993","timestamp":"2016-01-27T17:39:50.303Z"}
+{"level":"info","message":"fetching: /itm/ROBERT-A-JOHNSTON-FULL-PAPER-LABEL-LARGE-WAFER-FLAKES-SALTED-BISCUIT-TIN-/231819651993?nma=true&si=XgzJ3ex203A%252B8BF97owzhUABaNM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:50.896Z"}
+{"level":"info","message":"fetching: /itm/201507400204","timestamp":"2016-01-27T17:39:51.552Z"}
+{"level":"info","message":"fetching: /itm/Antique-Arbuckles-Pure-Cream-Tartar-Spice-Tin-Chicago-New-York-Kansas-City-Pitts-/201507400204?nma=true&si=6wGIW94EJ5OWK5skmzSiuKSAFs0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:52.271Z"}
+{"level":"info","message":"fetching: /itm/291661715394","timestamp":"2016-01-27T17:39:53.131Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Stag-Cigarette-Pipe-Tobacco-Oval-Tin-w-Striker-P-Lorillard-Jersey-City-/291661715394?nma=true&si=sKrLq2yX0qjdzqzMgMr6iJehFqA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:53.846Z"}
+{"level":"info","message":"fetching: /itm/381524786960","timestamp":"2016-01-27T17:39:54.599Z"}
+{"level":"info","message":"fetching: /itm/Antique-Forbes-Brand-Mace-Spice-Tin-St-Louis-Mo-Full-Tin-/381524786960?nma=true&si=PEJ9wsn3okBUmD446VxnxZNIZyY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:55.501Z"}
+{"level":"info","message":"fetching: /itm/172069824347","timestamp":"2016-01-27T17:39:56.155Z"}
+{"level":"info","message":"fetching: /itm/SAKAI-brand-gramophone-needle-tin-POLYDOR-COLUMBIA-VICTOR-JAPANESE-/172069824347?nma=true&si=CCpIeUP6FCxdAjSA7%252FovU6FU2Wg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:56.668Z"}
+{"level":"info","message":"fetching: /itm/301852779667","timestamp":"2016-01-27T17:39:57.421Z"}
+{"level":"info","message":"fetching: /itm/RARE-HTF-EARLY-1900s-BRACHS-SUPREME-MARSHMALLOW-5LB-TIN-/301852779667?nma=true&si=gZ8Ch2h5voLJkN%252BAUAnT%252FoXjcBk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:58.223Z"}
+{"level":"info","message":"fetching: /itm/191787377998","timestamp":"2016-01-27T17:39:59.111Z"}
+{"level":"info","message":"fetching: /itm/Skippy-Peanut-Butter-EARLY-Glass-Jar-not-Tin-RARE-w-Label-Alameda-CA-RARE-/191787377998?nma=true&si=x6wXiqCteUd%252FnMX08JRCSZVhV6s%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:39:59.681Z"}
+{"level":"info","message":"fetching: /itm/331759956622","timestamp":"2016-01-27T17:40:00.423Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-EARLY-4-LBS-HONEY-TIN-CAN-PAIL-WITH-NICE-BEEHIVE-AND-BEES-GRAPHICS-NICE-/331759956622?nma=true&si=jel74cUQqyBT7EtUpVkT%252FBnGE%252Fw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:01.132Z"}
+{"level":"info","message":"fetching: /itm/172069820305","timestamp":"2016-01-27T17:40:02.103Z"}
+{"level":"info","message":"fetching: /itm/GRAND-OPERA-brand-gramophone-needle-tin-/172069820305?nma=true&si=dN81Vjj6ZSxJ2WO9g4ivwR0QwTU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:02.910Z"}
+{"level":"info","message":"fetching: /itm/111880453462","timestamp":"2016-01-27T17:40:03.589Z"}
+{"level":"info","message":"fetching: /itm/PARROT-brand-gramophone-needle-tin-SHAPED-TRIANGLE-JAPANESE-/111880453462?nma=true&si=5a%252FXqYiNDUvxVaiM7n7sm4pz3VY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:04.281Z"}
+{"level":"info","message":"fetching: /itm/191787372922","timestamp":"2016-01-27T17:40:05.038Z"}
+{"level":"info","message":"fetching: /itm/Dr-RS-Parkers-Sure-Kidney-Pills-Circa-1906-Medicine-Tin-Dr-Earl-Sloan-Boston-Ma-/191787372922?nma=true&si=%252BWSwgniPd4z32tC%252Fe6Cdk9Q0lGs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:05.739Z"}
+{"level":"info","message":"fetching: /itm/201482529630","timestamp":"2016-01-27T17:40:06.491Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Fishing-Collectables-Lot-Tins-Rod-Reel-Lure-/201482529630?nma=true&si=TKJVvzLJJDh20YkZ%252FzoOpUFtFmo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:07.214Z"}
+{"level":"info","message":"fetching: /itm/172069819528","timestamp":"2016-01-27T17:40:08.297Z"}
+{"level":"info","message":"fetching: /itm/APOLLON-brand-gramophone-needle-tin-JAPANESE-FIBRE-NEEDLES-/172069819528?nma=true&si=SwNtSmooRtvaB79H282GHKu7QKo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:08.990Z"}
+{"level":"info","message":"fetching: /itm/172069824082","timestamp":"2016-01-27T17:40:09.567Z"}
+{"level":"info","message":"fetching: /itm/PEACOCK-brand-gramophone-needle-tin-JAPANESE-/172069824082?nma=true&si=1LvusxR%252BrXpHt%252BsqltGwZWXoXl8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:10.436Z"}
+{"level":"info","message":"fetching: /itm/262249702295","timestamp":"2016-01-27T17:40:11.614Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Bacorns-Spice-Tin-Bacorn-Company-Paper-Label-Ginger-/262249702295?nma=true&si=Dof1uidMMiiBLXPhWruYeR0D4SA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:12.204Z"}
+{"level":"info","message":"fetching: /itm/291664232222","timestamp":"2016-01-27T17:40:12.966Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rose-Bud-Sage-Spice-Tin-Litho-Can-Widlar-Products-Cleveland-Ohio-Oh-Rare-/291664232222?nma=true&si=0LODAIio15%252B8ddllRrN1Oci3MAI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:13.681Z"}
+{"level":"info","message":"fetching: /itm/201507398951","timestamp":"2016-01-27T17:40:14.755Z"}
+{"level":"info","message":"fetching: /itm/Antique-Little-Elf-Brand-Cream-Tartar-Spice-Tin-G-E-Bursley-Fort-Wayne-Indiana-/201507398951?nma=true&si=TrTXCiDOcCAyMvrwQt43UKpRBkk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:15.346Z"}
+{"level":"info","message":"fetching: /itm/172069818250","timestamp":"2016-01-27T17:40:16.521Z"}
+{"level":"info","message":"fetching: /itm/1000-size-PEACOCK-brand-gramophone-needle-tin-JAPANESE-/172069818250?nma=true&si=arH8tLvevsMAp%252Fb8d8JfWRdvCig%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:17.320Z"}
+{"level":"info","message":"fetching: /itm/262249698352","timestamp":"2016-01-27T17:40:18.516Z"}
+{"level":"info","message":"fetching: /itm/j-w-ferguson-chesapeake-bay-gallon-oyster-tin-lid-remlik-virginia-/262249698352?nma=true&si=qgSJGQ6WxzVXA4dhYAAY0jQ5Ibk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:19.343Z"}
+{"level":"info","message":"fetching: /itm/172069819826","timestamp":"2016-01-27T17:40:20.372Z"}
+{"level":"info","message":"fetching: /itm/BEE-brand-gramophone-needle-tin-JAPANESE-/172069819826?nma=true&si=WRsFh7jizZ6uWzcCUh%252FkTWzxllU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:20.897Z"}
+{"level":"info","message":"fetching: /itm/141883791082","timestamp":"2016-01-27T17:40:21.777Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-BAGDAD-SHORT-CUT-PIPE-SMOKING-TOBACCO-SHORT-POCKET-TIN-3-5-8-TALL-N-R-/141883791082?nma=true&si=iMtv0ezfcIDv1jAO20xPiirJNL0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:22.585Z"}
+{"level":"info","message":"fetching: /itm/191787377158","timestamp":"2016-01-27T17:40:23.449Z"}
+{"level":"info","message":"fetching: /itm/Purifina-Cut-Bruise-Bites-Ointment-Medicine-Remedy-Tin-w-Org-Box-RARE-EARLY-/191787377158?nma=true&si=vuJn6CiSEepcT5XW7fhkSGGCR7s%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:24.223Z"}
+{"level":"info","message":"fetching: /itm/172069967212","timestamp":"2016-01-27T17:40:25.080Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PHILLIES-PHILADELPHIA-PERFECTO-CIGAR-TOBACCO-TIN-BOX-/172069967212?nma=true&si=OUHCG3YllRKkDL3%252BbWKgrny%252BhfE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:25.707Z"}
+{"level":"info","message":"fetching: /itm/262249701831","timestamp":"2016-01-27T17:40:26.956Z"}
+{"level":"info","message":"fetching: /itm/CENTURY-POCKET-TOBACCO-ANTIQUE-RARE-TIN-P-LORILLARD-CO-JERSEY-CITY-NJ-/262249701831?nma=true&si=14UUGE6qPF06U2QOM2FC5zEybCw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:28.451Z"}
+{"level":"info","message":"fetching: /itm/172069820109","timestamp":"2016-01-27T17:40:29.257Z"}
+{"level":"info","message":"fetching: /itm/BON-AMI-brand-gramophone-needle-tin-/172069820109?nma=true&si=051JgfRSTJu2yfqVizlB9DAittI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:29.863Z"}
+{"level":"info","message":"fetching: /itm/351634161423","timestamp":"2016-01-27T17:40:30.732Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Tin-Quality-Biscuit-Griggs-Cooper-Co-St-Paul-Minnesota-48-oz-/351634161423?nma=true&si=JqifzDjzSeKjAxxbdpBTVyuSkUc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:31.585Z"}
+{"level":"info","message":"fetching: /itm/252261373658","timestamp":"2016-01-27T17:40:32.495Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-WHITE-VILLA-BRAND-2-OUNCE-CINNAMON-SPICE-TIN-CINCINNATI-DAYTON-OHIO-/252261373658?nma=true&si=NDs4OcQ2f7TW6Z%252BJ4mTWNP4A6zw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:33.322Z"}
+{"level":"info","message":"fetching: /itm/201507406801","timestamp":"2016-01-27T17:40:34.273Z"}
+{"level":"info","message":"fetching: /itm/Antique-Delicious-Brand-Cloves-Spice-Tin-Muncie-Indiana-Jos-A-Goddard-Co-/201507406801?nma=true&si=3fAQmsVUOCs53Hf%252BMxzQFbBjV1o%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:35.050Z"}
+{"level":"info","message":"fetching: /itm/181997146625","timestamp":"2016-01-27T17:40:35.951Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-SUAREZ-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-SHELL-IMAGE-NOT-TIN-/181997146625?nma=true&si=pr9ImVKpLoKsAzImKRNhSN%252FDzBo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:36.756Z"}
+{"level":"info","message":"fetching: /itm/361472260626","timestamp":"2016-01-27T17:40:37.726Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Ben-Hur-Drip-Coffee-Can-Tin-/361472260626?nma=true&si=jFK6qKl1RQvVY%252BJG8vsIDFJGY1M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:38.627Z"}
+{"level":"info","message":"fetching: /itm/172071868296","timestamp":"2016-01-27T17:40:39.490Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Grisdale-Coffee-Tin-Antique-Advertising-Gristede-Brothers-New-York-/172071868296?nma=true&si=RwU8RX1x6KXRK2mkPapqSHEArR8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:40.255Z"}
+{"level":"info","message":"fetching: /itm/311530415307","timestamp":"2016-01-27T17:40:41.081Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GULF-PRIDE-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-BOAT-IMAGE-NOT-TIN-/311530415307?nma=true&si=GxFnW4Kq81OkzNfmfN5FB%252BZ1hEM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:41.973Z"}
+{"level":"info","message":"fetching: /itm/331756405099","timestamp":"2016-01-27T17:40:42.837Z"}
+{"level":"info","message":"fetching: /itm/Dunhill-Tobacco-Tin-Three-Year-Matured-Virginia-Mfg-Blended-in-England-/331756405099?nma=true&si=QX5h1SND2l2iOlLGq8oGLiEE0Uw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:43.549Z"}
+{"level":"info","message":"fetching: /itm/321986606732","timestamp":"2016-01-27T17:40:44.299Z"}
+{"level":"info","message":"fetching: /itm/Tin-Sign-Green-Mountain-Coffee-Sign-/321986606732?nma=true&si=dORlu9WWa9vbOWSeHXiQQ9ysoNY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:45.018Z"}
+{"level":"info","message":"fetching: /itm/191787376985","timestamp":"2016-01-27T17:40:45.667Z"}
+{"level":"info","message":"fetching: /itm/Parrot-Monkey-Baking-Powder-Tin-dated-1898-Super-Graphic-Paper-Label-Full-Seal-/191787376985?nma=true&si=3Q8TuZVa4E2Dwr5bxArVOntr%252BPs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:46.371Z"}
+{"level":"info","message":"fetching: /itm/401058107205","timestamp":"2016-01-27T17:40:47.011Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Medicine-LAXATIVE-Tin-ZYLAX-Full-Paper-Insert-RARE-/401058107205?nma=true&si=yc1ATRrP1RxY9CNPj%252FfHbGDW2GA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:47.737Z"}
+{"level":"info","message":"fetching: /itm/351634259545","timestamp":"2016-01-27T17:40:48.573Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Medicine-Tablets-ASPIRIN-Tin-ST-JOSEPHS-Empty-10-cents-Old-/351634259545?nma=true&si=RImc%252BPOaB8Umy7HwfISlsNIQfsg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:49.513Z"}
+{"level":"info","message":"fetching: /itm/252258351834","timestamp":"2016-01-27T17:40:50.183Z"}
+{"level":"info","message":"fetching: /itm/RARE-Alice-May-Ginger-Spice-Tin-Hudson-Grocery-Jersey-City-N-J-/252258351834?nma=true&si=C8xWUy7cB3FKW1n%252FgLtrrou%252FxbA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:50.855Z"}
+{"level":"info","message":"fetching: /itm/291666827449","timestamp":"2016-01-27T17:40:51.507Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Gramophone-Needles-Supraphon-Flamingo-Tin-200-needles-never-used-/291666827449?nma=true&si=FDwCKwOsTK354wrRYSIsHRdm5%252Fk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:52.106Z"}
+{"level":"info","message":"fetching: /itm/201508527845","timestamp":"2016-01-27T17:40:53.068Z"}
+{"level":"info","message":"fetching: /itm/RARE-Players-Navy-Cut-Cigarettes-Tin-Gold-with-King-and-Queen-Embossed-Front-/201508527845?nma=true&si=kAQwl4qtjYTu14ygm7i9K%252B8l2fg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:53.883Z"}
+{"level":"info","message":"fetching: /itm/262249370467","timestamp":"2016-01-27T17:40:54.523Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PRIDE-OF-VIRGINIA-CUT-PLUG-TOBACCO-TIN-/262249370467?nma=true&si=nz%252BeQBqEnF%252BpQZ%252BZLkneZnbC%252BIY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:55.243Z"}
+{"level":"info","message":"fetching: /itm/222000541382","timestamp":"2016-01-27T17:40:56.064Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-ADVERTISING-SPICE-TIN-BISTONS-COFFEE-CO-ST-LOUIS-NICE-/222000541382?nma=true&si=nnLsaIB0KHWRHttPUdWZMvX7B94%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:56.804Z"}
+{"level":"info","message":"fetching: /itm/262249700882","timestamp":"2016-01-27T17:40:57.549Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Iris-Spice-Tin-1-1-4-oz-Ground-Cayenne-/262249700882?nma=true&si=2s54uVnMVbSezq7zaczAZNEuc4Y%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:40:58.474Z"}
+{"level":"info","message":"fetching: /itm/311530398483","timestamp":"2016-01-27T17:40:59.330Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GOLLOTTS-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MISS-IMAGE-NOT-TIN-/311530398483?nma=true&si=X8b6IhdIgYlfxIzihh6V0I8iEVQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:00.055Z"}
+{"level":"info","message":"fetching: /itm/181997139219","timestamp":"2016-01-27T17:41:00.813Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GOLLOTTS-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MS-BOAT-IMAGE-NOT-TIN-/181997139219?nma=true&si=4tAlrXUaukErIhok0vJKBANwh2k%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:01.604Z"}
+{"level":"info","message":"fetching: /itm/311530409582","timestamp":"2016-01-27T17:41:02.398Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-CAPN-GOLLOT-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MS-MAN-IMAGE-NOT-TIN-/311530409582?nma=true&si=urB2EzcqmDn3dnHUSROUawyBCaU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:02.965Z"}
+{"level":"info","message":"fetching: /itm/311530374822","timestamp":"2016-01-27T17:41:03.714Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-WEST-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MISS-LIGHT-HOUSE-NOT-TIN-/311530374822?nma=true&si=zvKr20FPe9QBEXm6ormsNMk99Xs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:04.537Z"}
+{"level":"info","message":"fetching: /itm/252258349540","timestamp":"2016-01-27T17:41:05.177Z"}
+{"level":"info","message":"fetching: /itm/Molers-Dairy-Dayton-Ohio-Wax-Tin-Cottage-Cheese-Container-w-Metal-Lid-/252258349540?nma=true&si=9NSOShcRlqprsig3mRHDOxwGfQc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:05.784Z"}
+{"level":"info","message":"fetching: /itm/301852375862","timestamp":"2016-01-27T17:41:06.557Z"}
+{"level":"info","message":"fetching: /itm/Early-Blue-Ribbon-Pepper-Spice-Tin-Austin-Nichols-Co-N-Y-/301852375862?nma=true&si=NO7HslQqeeiAa0rLT2ljaUCfl%252BU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:07.477Z"}
+{"level":"info","message":"fetching: /itm/321981981108","timestamp":"2016-01-27T17:41:08.219Z"}
+{"level":"info","message":"fetching: /itm/MJB-Vintage-1924-coffee-tin-Black-label-/321981981108?nma=true&si=VUUlXa92HUhG4eF9MjxmLGHsaK8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:08.943Z"}
+{"level":"info","message":"fetching: /itm/161952946122","timestamp":"2016-01-27T17:41:09.955Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Rold-Gold-Butter-Tin-Cannister-Can-/161952946122?nma=true&si=E4E2cINxZgOwZAFU39HG30wHCJg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:10.594Z"}
+{"level":"info","message":"fetching: /itm/371538137944","timestamp":"2016-01-27T17:41:11.235Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Empty-3-lbs-Net-2-pc-Worlds-Navy-Plug-Smoking-Tobacco-Tin-/371538137944?nma=true&si=AU6FGjmqHyH1Hu%252BCtladBFiarns%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:12.053Z"}
+{"level":"info","message":"fetching: /itm/321981782566","timestamp":"2016-01-27T17:41:13.027Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-LORILLARD-OLD-GOLD-CIGARETTES-TIN-TOBACCO-CARDS-/321981782566?nma=true&si=RMiWlOMO4JqfID5tWySxNiUirMg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:14.265Z"}
+{"level":"info","message":"fetching: /itm/172069666069","timestamp":"2016-01-27T17:41:15.020Z"}
+{"level":"info","message":"fetching: /itm/drum-tobacco-can-tin-guyot-designs-nalgene-stainless-steel-bottle-/172069666069?nma=true&si=B1GsXcV0w0dV79R3uT0zLRq3jKw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:41:15.608Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T17:41:16.711Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_diffs","timestamp":"2016-01-27T17:41:16.711Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.468Z\",\n  \"requestId\": \"b24042d4-9f31-4bcd-ab9b-bceeab20fd83\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.477Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.484Z\",\n  \"requestId\": \"c6019d1d-975d-4858-8c0a-77d4e2b142d2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.489Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.924Z\",\n  \"requestId\": \"1878530f-19c6-4e56-8e3c-6da99c102417\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.925Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.927Z\",\n  \"requestId\": \"bc775e63-c53a-4897-b94c-518f522e911e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.928Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.933Z\",\n  \"requestId\": \"6571ddb5-1500-4e3a-bb99-7ce6c5b69e8f\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.936Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.939Z\",\n  \"requestId\": \"d0f8025f-5ebe-40ae-813f-2a8e1ac75a20\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.942Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.946Z\",\n  \"requestId\": \"afbda4af-6de7-4ae5-940e-6b5737980eb2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.948Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.950Z\",\n  \"requestId\": \"2e260a6b-eebd-4613-9a58-07f82492a0b1\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.953Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.956Z\",\n  \"requestId\": \"f1a64ead-62a5-4f01-a91b-d6333a4fb572\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.957Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.958Z\",\n  \"requestId\": \"20d01493-9cfc-4200-a79e-1adfa9cbbe2d\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.959Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.960Z\",\n  \"requestId\": \"1b385a0f-b548-4ac4-9651-94359c09de44\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.961Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.962Z\",\n  \"requestId\": \"b2b88906-dfb9-4129-805f-164275c6a21c\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.963Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.963Z\",\n  \"requestId\": \"c58b4fd3-2598-458f-a65c-7334e9d47e74\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.963Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.964Z\",\n  \"requestId\": \"4a9a14e9-6b30-43a9-86b5-b1e284c8626a\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.965Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.970Z\",\n  \"requestId\": \"14088d8e-8a58-489b-bb7b-ad4b3b0126d9\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.971Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.972Z\",\n  \"requestId\": \"43a0ed61-d4a1-47bc-8c27-eac37a9fcf76\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.972Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.973Z\",\n  \"requestId\": \"b7199bd1-32d4-48c3-8e95-6b429d0ff4cd\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.974Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.975Z\",\n  \"requestId\": \"bb9d3940-e130-4408-bf68-dd9b7b360e2c\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.975Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.976Z\",\n  \"requestId\": \"eb75c337-d702-4eda-ba20-a00294a64d32\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.976Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.976Z\",\n  \"requestId\": \"0cf54d7b-08ac-4d21-85e3-792ad015dc8b\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.977Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.978Z\",\n  \"requestId\": \"9a333156-a062-4220-8969-caa6874f45ab\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.979Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.979Z\",\n  \"requestId\": \"f9964d5d-f06c-4d94-b303-e2a8a32d9a20\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.980Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.980Z\",\n  \"requestId\": \"8344d953-122f-45ff-b328-ca89a9c782df\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.981Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.982Z\",\n  \"requestId\": \"5a7ebd1a-7af6-4f31-b8db-4ad546a51205\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.983Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.984Z\",\n  \"requestId\": \"22b1b990-e06b-4ee5-b7a0-0d5b2653b41c\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.984Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.985Z\",\n  \"requestId\": \"ad327cfe-ce85-448f-b74f-ea99ecd75cf2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.986Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.986Z\",\n  \"requestId\": \"43cd8747-6975-4df0-882f-d53832949572\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.986Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.987Z\",\n  \"requestId\": \"98dc7f29-bec9-4172-90c2-e40610a2d55d\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.987Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:26.988Z\",\n  \"requestId\": \"e6470cbe-92c1-4751-86f3-703b142551f9\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:26.989Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.022Z\",\n  \"requestId\": \"656c4aa4-26a1-4da2-a8ff-2342a9ebcb23\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.023Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.023Z\",\n  \"requestId\": \"cfbca0ed-4f9f-4e2f-800e-7bb6bc563ac9\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.024Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.024Z\",\n  \"requestId\": \"82902032-4931-4a13-afea-956dc96fdf0b\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.025Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.025Z\",\n  \"requestId\": \"155189a8-804d-494e-bb92-fc53f1e6233e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.026Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.026Z\",\n  \"requestId\": \"8d61484f-5bb2-4fc7-bb47-b0bffb8293d9\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.026Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.027Z\",\n  \"requestId\": \"a89aca28-6558-4cca-b490-4b87d27c9273\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.027Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.027Z\",\n  \"requestId\": \"a53d6930-0134-482f-a0e2-6438de2dd729\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.028Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.028Z\",\n  \"requestId\": \"7e199b38-c7cd-448c-9496-5e2a7152c1be\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.028Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.028Z\",\n  \"requestId\": \"72dea6eb-d480-446d-a01e-da4e414a2e2e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.029Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.029Z\",\n  \"requestId\": \"20defe9b-a250-4bdb-ac08-9f3bab732468\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.029Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.029Z\",\n  \"requestId\": \"b2c17ce5-34de-4750-b2b2-4ec6b151f017\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.030Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.030Z\",\n  \"requestId\": \"486f1fad-ee03-4fda-8377-84b9b838a21b\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.030Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.030Z\",\n  \"requestId\": \"817ac6b5-ddca-4ca9-bde7-0590632f0f9c\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.031Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.032Z\",\n  \"requestId\": \"11162aa8-4970-401a-8e57-f2602239f601\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.032Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.032Z\",\n  \"requestId\": \"4a60642e-fde5-41df-9794-8a02087ab197\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.033Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.033Z\",\n  \"requestId\": \"91891479-cbb7-4cd3-ae4d-9e42810b657e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.033Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.034Z\",\n  \"requestId\": \"317f20e9-8607-4bf5-a25b-321071b8c8b2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.034Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.034Z\",\n  \"requestId\": \"f74f6561-3f5e-428d-ba98-6974ed4f3871\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.034Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.035Z\",\n  \"requestId\": \"f6875d90-e5f1-46c9-9519-c8d78200b812\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.035Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.035Z\",\n  \"requestId\": \"b303e05f-e8ed-401d-8a5d-1b4d561e2e21\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.036Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.036Z\",\n  \"requestId\": \"eff39316-64ad-4df0-b532-35d6f6001964\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.036Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.037Z\",\n  \"requestId\": \"4b1edd9e-c1dd-4def-8c93-28eff6017cf0\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.037Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.037Z\",\n  \"requestId\": \"f4cb5d7d-5c6b-427d-939c-53fc89b1222b\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.038Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.038Z\",\n  \"requestId\": \"1b14a3a1-9162-447d-94d0-0cf6e7cc4187\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.038Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.038Z\",\n  \"requestId\": \"f510093a-bfc0-4d3a-92c0-847659861781\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.039Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.039Z\",\n  \"requestId\": \"bd5e40ff-941f-4afc-97f2-60bcce0f1007\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.039Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.040Z\",\n  \"requestId\": \"a44fd241-22dd-4f6b-98f6-3737363f3a8b\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.040Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.041Z\",\n  \"requestId\": \"5640c83f-12f2-4e45-9e1f-5676e1d15363\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.041Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.041Z\",\n  \"requestId\": \"347ef914-6262-4c48-9242-3900f4050827\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.042Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.042Z\",\n  \"requestId\": \"214e67ef-5f7d-4e44-8129-f27f7378c157\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.042Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.042Z\",\n  \"requestId\": \"49a5bf2c-d14a-4242-8d5c-00a3ced9949d\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.043Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"A value provided cannot be converted into a number\",\n  \"code\": \"ValidationException\",\n  \"time\": \"2016-01-27T17:42:27.043Z\",\n  \"requestId\": \"d9e39062-cbd8-443c-83bd-7eae47cbe6f1\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:42:27.043Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.354Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.359Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.415Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.418Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.421Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.423Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.467Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.469Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.473Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.476Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.478Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.480Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.482Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.486Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.488Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.490Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.495Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.498Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.505Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.512Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.516Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.518Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.529Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.542Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.582Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.671Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.674Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.677Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.679Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.682Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.684Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.687Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.701Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.706Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.711Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.764Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.766Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.783Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.803Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.813Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.818Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.824Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.834Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.836Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.838Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.845Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.848Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.851Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.864Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.872Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.882Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.893Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.910Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.913Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.918Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.921Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.926Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.930Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.939Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.948Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:43:47.956Z"}
+{"level":"info","message":"saving: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T17:43:58.765Z"}
+{"level":"info","message":"cotal count is: 3551","timestamp":"2016-01-27T17:43:58.767Z"}
+{"level":"info","message":"saving bulk import file: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T17:43:58.768Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:50:11.061Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:50:11.666Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T17:50:12.202Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_raw","timestamp":"2016-01-27T17:50:12.202Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:51:23.053Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T17:51:23.614Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T17:51:24.088Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_raw","timestamp":"2016-01-27T17:51:24.088Z"}
+{"level":"info","message":"diff - There are 61 new items added for 20160127","timestamp":"2016-01-27T17:52:36.026Z"}
+{"level":"info","message":"fetching: /itm/201507407771","timestamp":"2016-01-27T17:52:36.030Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Mustard-Spice-Tin-Marion-Indiana-Spencer-Hogin-/201507407771?nma=true&si=0XuQlVusOT%252F%252BEwdXpDTNEQcjncE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:36.778Z"}
+{"level":"info","message":"fetching: /itm/381524750843","timestamp":"2016-01-27T17:52:37.530Z"}
+{"level":"info","message":"fetching: /itm/Vintage-H-and-B-Brand-1-Gallon-Oyster-Can-C-W-Howeth-Crisfield-MD-VG-/381524750843?nma=true&si=d7kRb7y4htIn67G3VDdliC%252Bf5sc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:38.240Z"}
+{"level":"info","message":"fetching: /itm/381524773105","timestamp":"2016-01-27T17:52:38.954Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Cream-Tartar-Spice-Tin-Marion-Indiana-Spencer-Hogin-/381524773105?nma=true&si=ghyB%252FyXgArZe5hJWSLlrm%252BEUkg8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:39.905Z"}
+{"level":"info","message":"fetching: /itm/381524787977","timestamp":"2016-01-27T17:52:40.843Z"}
+{"level":"info","message":"fetching: /itm/Antique-Acorn-Brand-Ginger-Spice-Tin-Harnit-Hewitt-Co-Toledo-Ohio-Litho-Label-/381524787977?nma=true&si=OC35ApgFvVnK%252B6OZvT1IvXwY4%252Bk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:41.621Z"}
+{"level":"info","message":"fetching: /itm/141882443578","timestamp":"2016-01-27T17:52:42.528Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-JUICY-FRUIT-TIN-MATCH-HOLDER-/141882443578?nma=true&si=h3HhzTzwoQ5t26HpTY6YvcwsZBY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:44.852Z"}
+{"level":"info","message":"fetching: /itm/201507400634","timestamp":"2016-01-27T17:52:46.054Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Allspice-Spice-Tin-Marion-Indiana-Spencer-Hogin-/201507400634?nma=true&si=Gxfzy4o8NeUbI%252Bxa9CywT2nILeY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:46.930Z"}
+{"level":"info","message":"fetching: /itm/231816439582","timestamp":"2016-01-27T17:52:47.720Z"}
+{"level":"info","message":"fetching: /itm/Nice-Black-Bird-Brand-Golden-Table-Syrup-5-Pound-Tin-Can-Advertising-Nebraska-/231816439582?nma=true&si=LCP0aWye%252F2cXiIzK2d7vTUUNw1E%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:48.532Z"}
+{"level":"info","message":"fetching: /itm/231819651993","timestamp":"2016-01-27T17:52:49.394Z"}
+{"level":"info","message":"fetching: /itm/ROBERT-A-JOHNSTON-FULL-PAPER-LABEL-LARGE-WAFER-FLAKES-SALTED-BISCUIT-TIN-/231819651993?nma=true&si=7QXVQSJR95lG%252FB%252FEVfPNvatc0iM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:50.141Z"}
+{"level":"info","message":"fetching: /itm/201507400204","timestamp":"2016-01-27T17:52:50.758Z"}
+{"level":"info","message":"fetching: /itm/Antique-Arbuckles-Pure-Cream-Tartar-Spice-Tin-Chicago-New-York-Kansas-City-Pitts-/201507400204?nma=true&si=Ql7E%252FjvxQQpT1upbNs9jqliCyzQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:51.373Z"}
+{"level":"info","message":"fetching: /itm/291661715394","timestamp":"2016-01-27T17:52:52.103Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Stag-Cigarette-Pipe-Tobacco-Oval-Tin-w-Striker-P-Lorillard-Jersey-City-/291661715394?nma=true&si=9WATmLBg0fZQkV1yHPWvm8Q53YY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:53.101Z"}
+{"level":"info","message":"fetching: /itm/381524786960","timestamp":"2016-01-27T17:52:53.991Z"}
+{"level":"info","message":"fetching: /itm/Antique-Forbes-Brand-Mace-Spice-Tin-St-Louis-Mo-Full-Tin-/381524786960?nma=true&si=ATTSwWsCtUeaB54HUiD%252BqD1xe60%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:54.580Z"}
+{"level":"info","message":"fetching: /itm/172069824347","timestamp":"2016-01-27T17:52:58.174Z"}
+{"level":"info","message":"fetching: /itm/SAKAI-brand-gramophone-needle-tin-POLYDOR-COLUMBIA-VICTOR-JAPANESE-/172069824347?nma=true&si=VwUqrckLtOyRlk%252FcxhD8EHUhB2o%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:52:58.874Z"}
+{"level":"info","message":"fetching: /itm/301852779667","timestamp":"2016-01-27T17:52:59.665Z"}
+{"level":"info","message":"fetching: /itm/RARE-HTF-EARLY-1900s-BRACHS-SUPREME-MARSHMALLOW-5LB-TIN-/301852779667?nma=true&si=SDhQUrJZK90TPssq3WUAxvXfbWI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:00.466Z"}
+{"level":"info","message":"fetching: /itm/191787377998","timestamp":"2016-01-27T17:53:01.316Z"}
+{"level":"info","message":"fetching: /itm/Skippy-Peanut-Butter-EARLY-Glass-Jar-not-Tin-RARE-w-Label-Alameda-CA-RARE-/191787377998?nma=true&si=INkAt7hVywlap%252B0qAMBtwizBgaY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:01.909Z"}
+{"level":"info","message":"fetching: /itm/331759956622","timestamp":"2016-01-27T17:53:02.656Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-EARLY-4-LBS-HONEY-TIN-CAN-PAIL-WITH-NICE-BEEHIVE-AND-BEES-GRAPHICS-NICE-/331759956622?nma=true&si=Tpl8XdxxcC9cEIDMothS0u38QxY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:04.041Z"}
+{"level":"info","message":"fetching: /itm/172069820305","timestamp":"2016-01-27T17:53:04.813Z"}
+{"level":"info","message":"fetching: /itm/GRAND-OPERA-brand-gramophone-needle-tin-/172069820305?nma=true&si=3MsBsqZ7ZwUmQ3GqrSZ%252FxRNKePw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:05.473Z"}
+{"level":"info","message":"fetching: /itm/111880453462","timestamp":"2016-01-27T17:53:06.310Z"}
+{"level":"info","message":"fetching: /itm/PARROT-brand-gramophone-needle-tin-SHAPED-TRIANGLE-JAPANESE-/111880453462?nma=true&si=S26G7w96Wp2nYsS6FgE6AeMfKxk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:07.148Z"}
+{"level":"info","message":"fetching: /itm/191787372922","timestamp":"2016-01-27T17:53:07.865Z"}
+{"level":"info","message":"fetching: /itm/Dr-RS-Parkers-Sure-Kidney-Pills-Circa-1906-Medicine-Tin-Dr-Earl-Sloan-Boston-Ma-/191787372922?nma=true&si=M4qNBQBnGLFDMC8R3Pi%252FWBLkm0I%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:08.475Z"}
+{"level":"info","message":"fetching: /itm/201482529630","timestamp":"2016-01-27T17:53:09.329Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Fishing-Collectables-Lot-Tins-Rod-Reel-Lure-/201482529630?nma=true&si=qyigwm4QE7Oj%252BwRfYCWclwu6eds%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:10.042Z"}
+{"level":"info","message":"fetching: /itm/172069819528","timestamp":"2016-01-27T17:53:10.708Z"}
+{"level":"info","message":"fetching: /itm/APOLLON-brand-gramophone-needle-tin-JAPANESE-FIBRE-NEEDLES-/172069819528?nma=true&si=VhMYsrWP0IYNGdGkp7YuvBJR6q0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:11.297Z"}
+{"level":"info","message":"fetching: /itm/172069824082","timestamp":"2016-01-27T17:53:12.058Z"}
+{"level":"info","message":"fetching: /itm/PEACOCK-brand-gramophone-needle-tin-JAPANESE-/172069824082?nma=true&si=NDvfPywUuRNMCdO2AUWpldaFGig%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:12.989Z"}
+{"level":"info","message":"fetching: /itm/262249702295","timestamp":"2016-01-27T17:53:13.851Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Bacorns-Spice-Tin-Bacorn-Company-Paper-Label-Ginger-/262249702295?nma=true&si=XJ%252ByTeXlG82wXnt9%252BubvbrSSjAo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:14.793Z"}
+{"level":"info","message":"fetching: /itm/291664232222","timestamp":"2016-01-27T17:53:15.644Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rose-Bud-Sage-Spice-Tin-Litho-Can-Widlar-Products-Cleveland-Ohio-Oh-Rare-/291664232222?nma=true&si=xFC6y1Oc0v5gqSu9Lq8H6pYCs6M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:16.222Z"}
+{"level":"info","message":"fetching: /itm/201507398951","timestamp":"2016-01-27T17:53:16.861Z"}
+{"level":"info","message":"fetching: /itm/Antique-Little-Elf-Brand-Cream-Tartar-Spice-Tin-G-E-Bursley-Fort-Wayne-Indiana-/201507398951?nma=true&si=MqjCYBGVBdjF4k4wXKI5zYNYnZE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:17.475Z"}
+{"level":"info","message":"fetching: /itm/172069818250","timestamp":"2016-01-27T17:53:18.326Z"}
+{"level":"info","message":"fetching: /itm/1000-size-PEACOCK-brand-gramophone-needle-tin-JAPANESE-/172069818250?nma=true&si=AnCTzjzrcqhMLFI%252BAHYine962Qk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:19.054Z"}
+{"level":"info","message":"fetching: /itm/262249698352","timestamp":"2016-01-27T17:53:19.781Z"}
+{"level":"info","message":"fetching: /itm/j-w-ferguson-chesapeake-bay-gallon-oyster-tin-lid-remlik-virginia-/262249698352?nma=true&si=gv0tA4mMkB45dX0JTGdXDQ3%252Bp%252FI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:20.387Z"}
+{"level":"info","message":"fetching: /itm/172069819826","timestamp":"2016-01-27T17:53:21.182Z"}
+{"level":"info","message":"fetching: /itm/BEE-brand-gramophone-needle-tin-JAPANESE-/172069819826?nma=true&si=Y14bGXE2F5mmHsBeHu%252BzQZ11N54%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:22.160Z"}
+{"level":"info","message":"fetching: /itm/141883791082","timestamp":"2016-01-27T17:53:23.223Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-BAGDAD-SHORT-CUT-PIPE-SMOKING-TOBACCO-SHORT-POCKET-TIN-3-5-8-TALL-N-R-/141883791082?nma=true&si=Qm5ONYYB20kCZN6tfSoae3Xjy%252F8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:24.055Z"}
+{"level":"info","message":"fetching: /itm/191787377158","timestamp":"2016-01-27T17:53:25.093Z"}
+{"level":"info","message":"fetching: /itm/Purifina-Cut-Bruise-Bites-Ointment-Medicine-Remedy-Tin-w-Org-Box-RARE-EARLY-/191787377158?nma=true&si=a%252BQnWdqJaJfrv6Nb4G0wu9vdEMU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:25.706Z"}
+{"level":"info","message":"fetching: /itm/172069967212","timestamp":"2016-01-27T17:53:26.468Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PHILLIES-PHILADELPHIA-PERFECTO-CIGAR-TOBACCO-TIN-BOX-/172069967212?nma=true&si=upaKu1sM75LpDIscTjlcpnhKqdU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:27.172Z"}
+{"level":"info","message":"fetching: /itm/262249701831","timestamp":"2016-01-27T17:53:28.154Z"}
+{"level":"info","message":"fetching: /itm/CENTURY-POCKET-TOBACCO-ANTIQUE-RARE-TIN-P-LORILLARD-CO-JERSEY-CITY-NJ-/262249701831?nma=true&si=Z4JFZyxrPI%252F1VJfRKdlFBoa5hxU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:28.963Z"}
+{"level":"info","message":"fetching: /itm/172069820109","timestamp":"2016-01-27T17:53:29.839Z"}
+{"level":"info","message":"fetching: /itm/BON-AMI-brand-gramophone-needle-tin-/172069820109?nma=true&si=%252Faj2L%252BTmv8eHpV1hz0TYVuNXbIg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:30.517Z"}
+{"level":"info","message":"fetching: /itm/351634161423","timestamp":"2016-01-27T17:53:31.407Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Tin-Quality-Biscuit-Griggs-Cooper-Co-St-Paul-Minnesota-48-oz-/351634161423?nma=true&si=uIYYpHvUesurwnRi2YMOCDtQdpY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:32.092Z"}
+{"level":"info","message":"fetching: /itm/252261373658","timestamp":"2016-01-27T17:53:32.748Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-WHITE-VILLA-BRAND-2-OUNCE-CINNAMON-SPICE-TIN-CINCINNATI-DAYTON-OHIO-/252261373658?nma=true&si=2JZmJl693c9ntSVNy42H%252FUT2WzQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:33.434Z"}
+{"level":"info","message":"fetching: /itm/201507406801","timestamp":"2016-01-27T17:53:34.411Z"}
+{"level":"info","message":"fetching: /itm/Antique-Delicious-Brand-Cloves-Spice-Tin-Muncie-Indiana-Jos-A-Goddard-Co-/201507406801?nma=true&si=gK2LlKE%252FZNJjn4MfhxrB%252FH3qJic%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:35.620Z"}
+{"level":"info","message":"fetching: /itm/181997146625","timestamp":"2016-01-27T17:53:36.353Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-SUAREZ-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-SHELL-IMAGE-NOT-TIN-/181997146625?nma=true&si=k%252BqdXHxb%252BAKKQH3eJCVzwo4%252FML8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:37.224Z"}
+{"level":"info","message":"fetching: /itm/361472260626","timestamp":"2016-01-27T17:53:37.901Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Ben-Hur-Drip-Coffee-Can-Tin-/361472260626?nma=true&si=VLMzArLcr8RywTt2lwWFx%252FK9SWM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:38.567Z"}
+{"level":"info","message":"fetching: /itm/172071868296","timestamp":"2016-01-27T17:53:39.629Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Grisdale-Coffee-Tin-Antique-Advertising-Gristede-Brothers-New-York-/172071868296?nma=true&si=0KT1QzSxbe6gGEs0B%252F2wcvwltz4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:40.496Z"}
+{"level":"info","message":"fetching: /itm/311530415307","timestamp":"2016-01-27T17:53:41.355Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GULF-PRIDE-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-BOAT-IMAGE-NOT-TIN-/311530415307?nma=true&si=5HrSz0UtTc2NuDAMbzRvrPfGDOY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:41.876Z"}
+{"level":"info","message":"fetching: /itm/331756405099","timestamp":"2016-01-27T17:53:42.781Z"}
+{"level":"info","message":"fetching: /itm/Dunhill-Tobacco-Tin-Three-Year-Matured-Virginia-Mfg-Blended-in-England-/331756405099?nma=true&si=Jw4%252B2z666vuMu5RyMczjtfpevEM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:43.511Z"}
+{"level":"info","message":"fetching: /itm/321986606732","timestamp":"2016-01-27T17:53:44.242Z"}
+{"level":"info","message":"fetching: /itm/Tin-Sign-Green-Mountain-Coffee-Sign-/321986606732?nma=true&si=3s0VE9CfYCoOcvcArgW%252F6i5LiOg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:45.042Z"}
+{"level":"info","message":"fetching: /itm/191787376985","timestamp":"2016-01-27T17:53:46.100Z"}
+{"level":"info","message":"fetching: /itm/Parrot-Monkey-Baking-Powder-Tin-dated-1898-Super-Graphic-Paper-Label-Full-Seal-/191787376985?nma=true&si=5Omz671xiyY6veqSYo5J1osnfKc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:46.810Z"}
+{"level":"info","message":"fetching: /itm/401058107205","timestamp":"2016-01-27T17:53:47.730Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Medicine-LAXATIVE-Tin-ZYLAX-Full-Paper-Insert-RARE-/401058107205?nma=true&si=ufTsL81vJDQQgV%252B4HQlW6HJ0Tg0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:48.603Z"}
+{"level":"info","message":"fetching: /itm/351634259545","timestamp":"2016-01-27T17:53:49.567Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Medicine-Tablets-ASPIRIN-Tin-ST-JOSEPHS-Empty-10-cents-Old-/351634259545?nma=true&si=%252F066ubBWEjtXC%252FkSkBZHNBArQY8%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:50.363Z"}
+{"level":"info","message":"fetching: /itm/252258351834","timestamp":"2016-01-27T17:53:51.217Z"}
+{"level":"info","message":"fetching: /itm/RARE-Alice-May-Ginger-Spice-Tin-Hudson-Grocery-Jersey-City-N-J-/252258351834?nma=true&si=7WTHcXh5objvSejrDXZhHCFfqvE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:51.935Z"}
+{"level":"info","message":"fetching: /itm/291666827449","timestamp":"2016-01-27T17:53:52.920Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Gramophone-Needles-Supraphon-Flamingo-Tin-200-needles-never-used-/291666827449?nma=true&si=lriBjteVb8ITbPU6RXNkNcTS%252FPw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:53.702Z"}
+{"level":"info","message":"fetching: /itm/201508527845","timestamp":"2016-01-27T17:53:54.560Z"}
+{"level":"info","message":"fetching: /itm/RARE-Players-Navy-Cut-Cigarettes-Tin-Gold-with-King-and-Queen-Embossed-Front-/201508527845?nma=true&si=0WcpjPgix6A%252BNrPguo0DAJi7c78%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:55.165Z"}
+{"level":"info","message":"fetching: /itm/262249370467","timestamp":"2016-01-27T17:53:55.928Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PRIDE-OF-VIRGINIA-CUT-PLUG-TOBACCO-TIN-/262249370467?nma=true&si=WQg4f6bQ%252FDiVeJvkJ%252B99QX6Ne60%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:56.632Z"}
+{"level":"info","message":"fetching: /itm/222000541382","timestamp":"2016-01-27T17:53:57.391Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-ADVERTISING-SPICE-TIN-BISTONS-COFFEE-CO-ST-LOUIS-NICE-/222000541382?nma=true&si=Caf1dA%252F4D3MiJkF%252BYwAcqpIKmFw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:58.000Z"}
+{"level":"info","message":"fetching: /itm/262249700882","timestamp":"2016-01-27T17:53:58.979Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Iris-Spice-Tin-1-1-4-oz-Ground-Cayenne-/262249700882?nma=true&si=JKRCaXcu%252Fn6sa7Gi6wwSVAie7F0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:53:59.769Z"}
+{"level":"info","message":"fetching: /itm/311530398483","timestamp":"2016-01-27T17:54:00.421Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GOLLOTTS-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MISS-IMAGE-NOT-TIN-/311530398483?nma=true&si=MPAzXz8oMoQqoNQ62Wh0O8GlbPo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:01.033Z"}
+{"level":"info","message":"fetching: /itm/181997139219","timestamp":"2016-01-27T17:54:01.761Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GOLLOTTS-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MS-BOAT-IMAGE-NOT-TIN-/181997139219?nma=true&si=KNWtd6XgN3H0fen1lLfnqU4e0uA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:02.467Z"}
+{"level":"info","message":"fetching: /itm/311530409582","timestamp":"2016-01-27T17:54:03.231Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-CAPN-GOLLOT-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MS-MAN-IMAGE-NOT-TIN-/311530409582?nma=true&si=fxCBQjBuCqRs1JlXkOoEByZRQxQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:03.938Z"}
+{"level":"info","message":"fetching: /itm/311530374822","timestamp":"2016-01-27T17:54:04.590Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-WEST-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MISS-LIGHT-HOUSE-NOT-TIN-/311530374822?nma=true&si=zGoXMjFqhffS48HiciRXlhBpZKA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:05.310Z"}
+{"level":"info","message":"fetching: /itm/252258349540","timestamp":"2016-01-27T17:54:06.153Z"}
+{"level":"info","message":"fetching: /itm/Molers-Dairy-Dayton-Ohio-Wax-Tin-Cottage-Cheese-Container-w-Metal-Lid-/252258349540?nma=true&si=TYzfRR%252Fs7esi8EYf91JVToq0Ijs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:06.856Z"}
+{"level":"info","message":"fetching: /itm/301852375862","timestamp":"2016-01-27T17:54:07.628Z"}
+{"level":"info","message":"fetching: /itm/Early-Blue-Ribbon-Pepper-Spice-Tin-Austin-Nichols-Co-N-Y-/301852375862?nma=true&si=TOjBUmBco1p%252FfVCYWtncSi2II%252Fo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:08.553Z"}
+{"level":"info","message":"fetching: /itm/321981981108","timestamp":"2016-01-27T17:54:09.599Z"}
+{"level":"info","message":"fetching: /itm/MJB-Vintage-1924-coffee-tin-Black-label-/321981981108?nma=true&si=glgboXPw3redeKHzyFD1Wic86T4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:10.223Z"}
+{"level":"info","message":"fetching: /itm/161952946122","timestamp":"2016-01-27T17:54:11.053Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Rold-Gold-Butter-Tin-Cannister-Can-/161952946122?nma=true&si=lcdaEQTNQz7yQoY6XpHjZK%252BEwM0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:11.774Z"}
+{"level":"info","message":"fetching: /itm/371538137944","timestamp":"2016-01-27T17:54:12.414Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Empty-3-lbs-Net-2-pc-Worlds-Navy-Plug-Smoking-Tobacco-Tin-/371538137944?nma=true&si=CIcsDkeUKstc0Ow4XmpiXB36%252FcI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:13.096Z"}
+{"level":"info","message":"fetching: /itm/321981782566","timestamp":"2016-01-27T17:54:13.986Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-LORILLARD-OLD-GOLD-CIGARETTES-TIN-TOBACCO-CARDS-/321981782566?nma=true&si=ocJ0ejB46pz%252B27cOZBAnQLMj21g%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:14.800Z"}
+{"level":"info","message":"fetching: /itm/172069666069","timestamp":"2016-01-27T17:54:15.579Z"}
+{"level":"info","message":"fetching: /itm/drum-tobacco-can-tin-guyot-designs-nalgene-stainless-steel-bottle-/172069666069?nma=true&si=YhKK5GSfUqr9NGa1R7D7Vsy2fcc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T17:54:16.266Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T17:54:17.568Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_diffs","timestamp":"2016-01-27T17:54:17.568Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.609Z\",\n  \"requestId\": \"0aaebc2a-ac73-4724-a9a8-3cc611953818\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.614Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.616Z\",\n  \"requestId\": \"d4e916a0-f340-4f3c-a84c-b72bfb48b99c\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.617Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.618Z\",\n  \"requestId\": \"b5f9116e-ebf1-4bb5-8cd8-0c467c7b93ed\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.618Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.619Z\",\n  \"requestId\": \"2f14e8b4-945f-4498-ae40-1b0b08209eb8\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.619Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.775Z\",\n  \"requestId\": \"de054edb-4a3a-4a38-a8f3-711851290bb0\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.776Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.789Z\",\n  \"requestId\": \"18760e94-a763-4d46-ae13-95f37a99c883\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.789Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.792Z\",\n  \"requestId\": \"b479f7a0-ecee-49df-ac00-cea95bbeb5e9\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.793Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.795Z\",\n  \"requestId\": \"abdd5250-e919-477b-a962-046e2119f030\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.797Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.834Z\",\n  \"requestId\": \"b51fc69a-ecfe-43da-84a9-6f528e0992f6\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.835Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.837Z\",\n  \"requestId\": \"542ff3d2-eef0-4597-b0a6-e096d629312a\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.837Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.838Z\",\n  \"requestId\": \"6bf23338-1fa5-4a69-b019-085aca6bbe48\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.839Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.841Z\",\n  \"requestId\": \"5157874b-b397-4e91-b2dd-3ffbf19e2374\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.842Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.843Z\",\n  \"requestId\": \"162c710a-2cab-4fdd-b967-02ca98d0fa46\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.843Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.844Z\",\n  \"requestId\": \"db96c80c-c116-4ae6-808e-efcce74df844\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.844Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.845Z\",\n  \"requestId\": \"cfe32cef-812f-41fb-95e8-03bd84e27ece\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.846Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.847Z\",\n  \"requestId\": \"e2c06c4b-4467-49a6-a75b-f11db83e8955\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.847Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.849Z\",\n  \"requestId\": \"6e4f5d5a-4392-4291-9b25-598678136e44\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.849Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.850Z\",\n  \"requestId\": \"98505419-7c60-4984-839b-20243a90382f\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.850Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.850Z\",\n  \"requestId\": \"0953a3c9-8655-466a-9049-f3affb718423\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.851Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.851Z\",\n  \"requestId\": \"2713f771-98b7-4cc2-a5d4-3557dae895b9\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.851Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.851Z\",\n  \"requestId\": \"29f59d5d-a088-4cb6-8157-3f9ade5fd8df\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.852Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.852Z\",\n  \"requestId\": \"7ee3a53a-4be2-4559-a7ae-e1015bf70315\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.852Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.853Z\",\n  \"requestId\": \"499c9ea4-c0bb-4fec-99c6-588e8c251a15\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.853Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.853Z\",\n  \"requestId\": \"a0825008-4925-415d-8613-e4f47fc07a9e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.853Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.854Z\",\n  \"requestId\": \"d95dfa67-5400-42b3-abef-57e3773f89b3\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.854Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.854Z\",\n  \"requestId\": \"24bead13-c2fa-43db-96d3-81de0426c8d2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.854Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.855Z\",\n  \"requestId\": \"24c83ac9-7a0e-4db6-b08f-0d8646169057\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.855Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.855Z\",\n  \"requestId\": \"5be39a3d-d754-470b-b7a6-a35732ed6cab\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.855Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.856Z\",\n  \"requestId\": \"25bc298d-3cea-4f04-897a-f2b3b4ba9828\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.856Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.857Z\",\n  \"requestId\": \"f3d121e3-feaa-4bd5-9f81-17f21591fcde\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.858Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.858Z\",\n  \"requestId\": \"654a1a71-8787-4b4d-8896-3cd2139b7d87\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.858Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.859Z\",\n  \"requestId\": \"90c99cf0-5fbc-4f22-811a-a20e6a1594bb\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.859Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.863Z\",\n  \"requestId\": \"2120fc6d-722d-419b-afa4-b1172150ecd9\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.863Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.864Z\",\n  \"requestId\": \"6d70e5ad-c105-4979-89ac-8c57660a4e72\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.864Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.865Z\",\n  \"requestId\": \"2dcad3a6-dc56-4783-9148-08fa21396966\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.865Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.865Z\",\n  \"requestId\": \"71cd0532-a30e-4705-8d23-d235e8d406f8\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.866Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.866Z\",\n  \"requestId\": \"ad20c09c-ae98-473a-aa37-862d7bc53434\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.866Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.867Z\",\n  \"requestId\": \"599b5dd5-7c59-4ba0-8ce0-a6d60cdf6049\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.867Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.867Z\",\n  \"requestId\": \"21d9aa2f-0b74-4f6a-b8a6-358ab38fff0e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.867Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.867Z\",\n  \"requestId\": \"3357add9-9937-401a-ab86-cb8e0a46218d\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.868Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.868Z\",\n  \"requestId\": \"392812ef-c2dc-4d7d-a259-f8928ffd95f8\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.868Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.870Z\",\n  \"requestId\": \"34902103-91fb-4ce9-9346-7ed84884260e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.871Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.873Z\",\n  \"requestId\": \"46dc46b3-edd4-48a7-a982-ffa1dcdce8f2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.874Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.874Z\",\n  \"requestId\": \"b08993e0-6bb1-4f1d-9b6c-6704a4f54e2f\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.874Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.875Z\",\n  \"requestId\": \"0898508a-1ee7-473d-80ea-f06a92f8dd21\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.875Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.876Z\",\n  \"requestId\": \"01c49fd7-3aa1-4bb2-89c2-4e024d172214\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.876Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.876Z\",\n  \"requestId\": \"15af6f6c-434f-4d2a-bdc7-95d4717b75ed\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.876Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.877Z\",\n  \"requestId\": \"95867df2-d27d-4b33-821d-19cde2059bf6\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.877Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.877Z\",\n  \"requestId\": \"f06483a6-80c3-434d-8cb3-5086d302c972\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.877Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.877Z\",\n  \"requestId\": \"824ad9da-60fd-42ed-bd5e-f2f17b14fe11\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.878Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.880Z\",\n  \"requestId\": \"7a29e04c-7c09-4110-8c10-d77053645451\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.880Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.880Z\",\n  \"requestId\": \"cce2f061-9cb3-4834-9adc-2122ada8c2a0\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.880Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.883Z\",\n  \"requestId\": \"d49fc68c-98dc-415d-b5e9-652efce5883c\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.884Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.884Z\",\n  \"requestId\": \"aea3097f-ed3a-4925-b6f2-3186ed0183e0\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.884Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.885Z\",\n  \"requestId\": \"b1f0c6ea-7620-4db7-a9f8-e80bf64b2dd0\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.885Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.886Z\",\n  \"requestId\": \"edafcc00-46f4-4dac-bac3-06b1ef8fcbe1\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.886Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.886Z\",\n  \"requestId\": \"efafb4f1-2b6f-41aa-ac34-050880300af5\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.887Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.887Z\",\n  \"requestId\": \"01f4a98d-0da7-4973-b762-65f9a2d7dea7\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.887Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.887Z\",\n  \"requestId\": \"f5cc7b27-c291-41e8-a565-e55866215cac\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.888Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.888Z\",\n  \"requestId\": \"b740a7b8-a7a0-4c76-8d6e-68828db7aec3\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.888Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T17:55:10.889Z\",\n  \"requestId\": \"64a5c1c8-0234-4d65-847a-650a14300ff1\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T17:55:10.889Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.215Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.221Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.435Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.437Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.519Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.522Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.524Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.527Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.529Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.531Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.534Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.537Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.573Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.575Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.578Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.581Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.583Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.586Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.606Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.610Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.614Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.620Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.634Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.645Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.648Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.652Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.659Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.709Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.711Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.741Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.752Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.756Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.764Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.768Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.778Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.802Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.808Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.878Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.881Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.970Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.973Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.975Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.979Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.983Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.986Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.989Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.991Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.993Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:51.996Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.000Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.004Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.013Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.036Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.042Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.051Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.075Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.132Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.135Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.138Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.141Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T17:55:52.146Z"}
+{"level":"info","message":"saving: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T17:56:36.648Z"}
+{"level":"info","message":"cotal count is: 3551","timestamp":"2016-01-27T17:56:36.650Z"}
+{"level":"info","message":"saving bulk import file: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T17:56:36.650Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:30:11.667Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:30:12.191Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:32:37.184Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:32:37.688Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:34:58.133Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:34:58.627Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:35:15.895Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:35:16.418Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:39:33.745Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:39:34.271Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:56:11.948Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:56:12.483Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:56:40.627Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:56:41.204Z"}
+{"level":"error","message":"unable to save: advertising_tins_raw:20160127","timestamp":"2016-01-27T18:56:41.655Z"}
+{"level":"error","message":"unable to save to data: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T18:56:41.654Z\",\n  \"requestId\": \"4b3859ea-3ecc-48d7-bbee-9bbed94c8511\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T18:56:41.656Z"}
+{"level":"info","message":"fetching: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:57:09.595Z"}
+{"level":"info","message":"parsing: /ajax/category-auctions.php?id=1175&sort=completed&limit=1000&offset=0","timestamp":"2016-01-27T18:57:10.132Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T18:57:10.551Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_raw","timestamp":"2016-01-27T18:57:10.552Z"}
+{"level":"info","message":"diff - There are 62 new items added for 20160127","timestamp":"2016-01-27T18:58:15.301Z"}
+{"level":"info","message":"fetching: /itm/201507407771","timestamp":"2016-01-27T18:58:15.306Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Mustard-Spice-Tin-Marion-Indiana-Spencer-Hogin-/201507407771?nma=true&si=fODo0c9GnYrHWcGteZeOSlwJfr4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:16.166Z"}
+{"level":"info","message":"fetching: /itm/381524750843","timestamp":"2016-01-27T18:58:16.912Z"}
+{"level":"info","message":"fetching: /itm/Vintage-H-and-B-Brand-1-Gallon-Oyster-Can-C-W-Howeth-Crisfield-MD-VG-/381524750843?nma=true&si=23ZLHlbKcWD%252Bh7mVO3vyXxIPmw0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:17.738Z"}
+{"level":"info","message":"fetching: /itm/381524773105","timestamp":"2016-01-27T18:58:18.773Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Cream-Tartar-Spice-Tin-Marion-Indiana-Spencer-Hogin-/381524773105?nma=true&si=6wYENsCJm0IKD6Q0MSFsYPMFk3Q%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:19.682Z"}
+{"level":"info","message":"fetching: /itm/381524787977","timestamp":"2016-01-27T18:58:20.447Z"}
+{"level":"info","message":"fetching: /itm/Antique-Acorn-Brand-Ginger-Spice-Tin-Harnit-Hewitt-Co-Toledo-Ohio-Litho-Label-/381524787977?nma=true&si=2YK0CTxY6q3A%252B2bB7rfVCan02Yc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:21.052Z"}
+{"level":"info","message":"fetching: /itm/141882443578","timestamp":"2016-01-27T18:58:21.998Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-JUICY-FRUIT-TIN-MATCH-HOLDER-/141882443578?nma=true&si=oP%252B2hKE6e%252Ft%252FTG7AuiGCzs0p%252F1A%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:22.734Z"}
+{"level":"info","message":"fetching: /itm/201507400634","timestamp":"2016-01-27T18:58:23.481Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rare-Queen-Spices-Allspice-Spice-Tin-Marion-Indiana-Spencer-Hogin-/201507400634?nma=true&si=xV6VUGGOKxHlI1c1vvZkEOgXMGE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:24.311Z"}
+{"level":"info","message":"fetching: /itm/231816439582","timestamp":"2016-01-27T18:58:25.168Z"}
+{"level":"info","message":"fetching: /itm/Nice-Black-Bird-Brand-Golden-Table-Syrup-5-Pound-Tin-Can-Advertising-Nebraska-/231816439582?nma=true&si=85AZVgBvpoMz%252BGk%252Fd9%252BfihjR23g%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:25.863Z"}
+{"level":"info","message":"fetching: /itm/231819651993","timestamp":"2016-01-27T18:58:26.694Z"}
+{"level":"info","message":"fetching: /itm/ROBERT-A-JOHNSTON-FULL-PAPER-LABEL-LARGE-WAFER-FLAKES-SALTED-BISCUIT-TIN-/231819651993?nma=true&si=q3pXcB9ZA4ARdHfYBqzOsuyOIyM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:27.215Z"}
+{"level":"info","message":"fetching: /itm/201507400204","timestamp":"2016-01-27T18:58:27.891Z"}
+{"level":"info","message":"fetching: /itm/Antique-Arbuckles-Pure-Cream-Tartar-Spice-Tin-Chicago-New-York-Kansas-City-Pitts-/201507400204?nma=true&si=wEMhy9DZWe6C%252FOegQOR0ld7hgWM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:28.798Z"}
+{"level":"info","message":"fetching: /itm/291661715394","timestamp":"2016-01-27T18:58:29.448Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Stag-Cigarette-Pipe-Tobacco-Oval-Tin-w-Striker-P-Lorillard-Jersey-City-/291661715394?nma=true&si=ancmPV8TlAHgnxc%252F5MvGI0J4k88%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:30.249Z"}
+{"level":"info","message":"fetching: /itm/381524786960","timestamp":"2016-01-27T18:58:31.000Z"}
+{"level":"info","message":"fetching: /itm/Antique-Forbes-Brand-Mace-Spice-Tin-St-Louis-Mo-Full-Tin-/381524786960?nma=true&si=F1G1dOjp62NNFj79oWZBX8RxDJg%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:31.698Z"}
+{"level":"info","message":"fetching: /itm/172069824347","timestamp":"2016-01-27T18:58:32.501Z"}
+{"level":"info","message":"fetching: /itm/SAKAI-brand-gramophone-needle-tin-POLYDOR-COLUMBIA-VICTOR-JAPANESE-/172069824347?nma=true&si=7rqHk2dv3Ln2sPxiHsmM2W%252FjXj4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:33.179Z"}
+{"level":"info","message":"fetching: /itm/301852779667","timestamp":"2016-01-27T18:58:34.038Z"}
+{"level":"info","message":"fetching: /itm/RARE-HTF-EARLY-1900s-BRACHS-SUPREME-MARSHMALLOW-5LB-TIN-/301852779667?nma=true&si=6Op3hjrc41Z2Q4Kn66BGqPiSD7Q%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:34.648Z"}
+{"level":"info","message":"fetching: /itm/191787377998","timestamp":"2016-01-27T18:58:35.468Z"}
+{"level":"info","message":"fetching: /itm/Skippy-Peanut-Butter-EARLY-Glass-Jar-not-Tin-RARE-w-Label-Alameda-CA-RARE-/191787377998?nma=true&si=8q9X5s2P8pyS4zvvSQwWD6PixAQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:35.974Z"}
+{"level":"info","message":"fetching: /itm/331759956622","timestamp":"2016-01-27T18:58:36.731Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-EARLY-4-LBS-HONEY-TIN-CAN-PAIL-WITH-NICE-BEEHIVE-AND-BEES-GRAPHICS-NICE-/331759956622?nma=true&si=7w9SjhPXuTuzz7j14w1yG0tDJuI%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:37.484Z"}
+{"level":"info","message":"fetching: /itm/172069820305","timestamp":"2016-01-27T18:58:38.232Z"}
+{"level":"info","message":"fetching: /itm/GRAND-OPERA-brand-gramophone-needle-tin-/172069820305?nma=true&si=Kv2w76wpHP159mdLY0z%252FtLaPlqE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:38.924Z"}
+{"level":"info","message":"fetching: /itm/111880453462","timestamp":"2016-01-27T18:58:39.759Z"}
+{"level":"info","message":"fetching: /itm/PARROT-brand-gramophone-needle-tin-SHAPED-TRIANGLE-JAPANESE-/111880453462?nma=true&si=0d98JPuMDB97BpNG%252FRkET8OQVFs%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:40.473Z"}
+{"level":"info","message":"fetching: /itm/191787372922","timestamp":"2016-01-27T18:58:41.224Z"}
+{"level":"info","message":"fetching: /itm/Dr-RS-Parkers-Sure-Kidney-Pills-Circa-1906-Medicine-Tin-Dr-Earl-Sloan-Boston-Ma-/191787372922?nma=true&si=gNDsXI9USdznr%252F3Ei%252FeBSwhV%252FTw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:41.831Z"}
+{"level":"info","message":"fetching: /itm/201482529630","timestamp":"2016-01-27T18:58:42.467Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Fishing-Collectables-Lot-Tins-Rod-Reel-Lure-/201482529630?nma=true&si=yC%252BcM0xxv1vGUBwAjuf4uqfTIFk%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:43.220Z"}
+{"level":"info","message":"fetching: /itm/172069819528","timestamp":"2016-01-27T18:58:44.077Z"}
+{"level":"info","message":"fetching: /itm/APOLLON-brand-gramophone-needle-tin-JAPANESE-FIBRE-NEEDLES-/172069819528?nma=true&si=xuBj8yBZA1XmS88YNoVsPzV%252FNII%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:44.872Z"}
+{"level":"info","message":"fetching: /itm/172069824082","timestamp":"2016-01-27T18:58:45.729Z"}
+{"level":"info","message":"fetching: /itm/PEACOCK-brand-gramophone-needle-tin-JAPANESE-/172069824082?nma=true&si=K58S%252FbtdzSqDCcwgfQbZAm2GuJE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:46.316Z"}
+{"level":"info","message":"fetching: /itm/262249702295","timestamp":"2016-01-27T18:58:47.128Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Bacorns-Spice-Tin-Bacorn-Company-Paper-Label-Ginger-/262249702295?nma=true&si=3vBMhw%252FRpSf%252FfmJyrGl4eyLaAEE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:47.822Z"}
+{"level":"info","message":"fetching: /itm/291664232222","timestamp":"2016-01-27T18:58:48.569Z"}
+{"level":"info","message":"fetching: /itm/Antique-Rose-Bud-Sage-Spice-Tin-Litho-Can-Widlar-Products-Cleveland-Ohio-Oh-Rare-/291664232222?nma=true&si=fakHtGrxqOGfYxKtIxGzB9HDl3s%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:49.360Z"}
+{"level":"info","message":"fetching: /itm/201507398951","timestamp":"2016-01-27T18:58:50.114Z"}
+{"level":"info","message":"fetching: /itm/Antique-Little-Elf-Brand-Cream-Tartar-Spice-Tin-G-E-Bursley-Fort-Wayne-Indiana-/201507398951?nma=true&si=%252FfdgEFyIVzUZuuSR99Mzfl%252Fb4Jo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:50.961Z"}
+{"level":"info","message":"fetching: /itm/172069818250","timestamp":"2016-01-27T18:58:51.668Z"}
+{"level":"info","message":"fetching: /itm/1000-size-PEACOCK-brand-gramophone-needle-tin-JAPANESE-/172069818250?nma=true&si=QuCRz8mllaL9Az4CYKdskN9J5gA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:52.386Z"}
+{"level":"info","message":"fetching: /itm/262249698352","timestamp":"2016-01-27T18:58:53.364Z"}
+{"level":"info","message":"fetching: /itm/j-w-ferguson-chesapeake-bay-gallon-oyster-tin-lid-remlik-virginia-/262249698352?nma=true&si=JyIRBeakz6EsxvSgdscqWXdPJqA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:54.192Z"}
+{"level":"info","message":"fetching: /itm/172069819826","timestamp":"2016-01-27T18:58:54.917Z"}
+{"level":"info","message":"fetching: /itm/BEE-brand-gramophone-needle-tin-JAPANESE-/172069819826?nma=true&si=tfSxkBqYY1avzIcyj6s%252BkOytBtw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:55.506Z"}
+{"level":"info","message":"fetching: /itm/141883791082","timestamp":"2016-01-27T18:58:56.375Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-BAGDAD-SHORT-CUT-PIPE-SMOKING-TOBACCO-SHORT-POCKET-TIN-3-5-8-TALL-N-R-/141883791082?nma=true&si=RIxYYMRJZVotnJliz9iXmsQ3xAM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:57.091Z"}
+{"level":"info","message":"fetching: /itm/191787377158","timestamp":"2016-01-27T18:58:57.843Z"}
+{"level":"info","message":"fetching: /itm/Purifina-Cut-Bruise-Bites-Ointment-Medicine-Remedy-Tin-w-Org-Box-RARE-EARLY-/191787377158?nma=true&si=WnCY5oTpHvMUYR1%252BBgdyn5KsgiE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:58.588Z"}
+{"level":"info","message":"fetching: /itm/172069967212","timestamp":"2016-01-27T18:58:59.097Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PHILLIES-PHILADELPHIA-PERFECTO-CIGAR-TOBACCO-TIN-BOX-/172069967212?nma=true&si=qNMjf%252BT3LQWgUam9Bzh9696LOQc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:58:59.809Z"}
+{"level":"info","message":"fetching: /itm/262249701831","timestamp":"2016-01-27T18:59:00.672Z"}
+{"level":"info","message":"fetching: /itm/CENTURY-POCKET-TOBACCO-ANTIQUE-RARE-TIN-P-LORILLARD-CO-JERSEY-CITY-NJ-/262249701831?nma=true&si=fgwjikrWl5C%252BCt4pr79l5gAStBQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:01.472Z"}
+{"level":"info","message":"fetching: /itm/172069820109","timestamp":"2016-01-27T18:59:02.217Z"}
+{"level":"info","message":"fetching: /itm/BON-AMI-brand-gramophone-needle-tin-/172069820109?nma=true&si=kaZInfjUhIwrqew8aAohqqTfELU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:02.865Z"}
+{"level":"info","message":"fetching: /itm/351634161423","timestamp":"2016-01-27T18:59:03.606Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Tin-Quality-Biscuit-Griggs-Cooper-Co-St-Paul-Minnesota-48-oz-/351634161423?nma=true&si=Gt6oK4lmJlkEKZsorNGMv%252F2lg7Q%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:04.307Z"}
+{"level":"info","message":"fetching: /itm/252261373658","timestamp":"2016-01-27T18:59:04.947Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-WHITE-VILLA-BRAND-2-OUNCE-CINNAMON-SPICE-TIN-CINCINNATI-DAYTON-OHIO-/252261373658?nma=true&si=1EjutnK4eRjV88eLLwsI1w3UBNc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:05.662Z"}
+{"level":"info","message":"fetching: /itm/201507406801","timestamp":"2016-01-27T18:59:06.516Z"}
+{"level":"info","message":"fetching: /itm/Antique-Delicious-Brand-Cloves-Spice-Tin-Muncie-Indiana-Jos-A-Goddard-Co-/201507406801?nma=true&si=giR5UjVBpQOeNVcs%252Fq1qW%252BM0BL0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:07.105Z"}
+{"level":"info","message":"fetching: /itm/181997146625","timestamp":"2016-01-27T18:59:07.979Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-SUAREZ-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-SHELL-IMAGE-NOT-TIN-/181997146625?nma=true&si=errMWv8aaZiPIfDGhFbzhg8BMS0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:08.590Z"}
+{"level":"info","message":"fetching: /itm/361472260626","timestamp":"2016-01-27T18:59:09.328Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Ben-Hur-Drip-Coffee-Can-Tin-/361472260626?nma=true&si=Ui0Nz2oE1oDzeQ4nsS86MefFwi4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:09.961Z"}
+{"level":"info","message":"fetching: /itm/172071868296","timestamp":"2016-01-27T18:59:10.600Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Grisdale-Coffee-Tin-Antique-Advertising-Gristede-Brothers-New-York-/172071868296?nma=true&si=vq1g8r3KwDPlxseG4qQxZqRSUII%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:11.285Z"}
+{"level":"info","message":"fetching: /itm/311530415307","timestamp":"2016-01-27T18:59:12.095Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GULF-PRIDE-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-BOAT-IMAGE-NOT-TIN-/311530415307?nma=true&si=%252BxJA22owLuqQ7M0HHkKQyiRcCCw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:12.704Z"}
+{"level":"info","message":"fetching: /itm/331756405099","timestamp":"2016-01-27T18:59:13.521Z"}
+{"level":"info","message":"fetching: /itm/Dunhill-Tobacco-Tin-Three-Year-Matured-Virginia-Mfg-Blended-in-England-/331756405099?nma=true&si=6wZPyf5JoGTfmcOFdZzZ9H0PnGw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:14.101Z"}
+{"level":"info","message":"fetching: /itm/321986606732","timestamp":"2016-01-27T18:59:14.875Z"}
+{"level":"info","message":"fetching: /itm/Tin-Sign-Green-Mountain-Coffee-Sign-/321986606732?nma=true&si=gAeSP7mKt4M1poRe9RH5CMmE00c%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:15.503Z"}
+{"level":"info","message":"fetching: /itm/191787376985","timestamp":"2016-01-27T18:59:16.433Z"}
+{"level":"info","message":"fetching: /itm/Parrot-Monkey-Baking-Powder-Tin-dated-1898-Super-Graphic-Paper-Label-Full-Seal-/191787376985?nma=true&si=wlV5xgMkqvnrJnZVJrvUdz%252B1tGw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:17.041Z"}
+{"level":"info","message":"fetching: /itm/401058107205","timestamp":"2016-01-27T18:59:17.839Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Medicine-LAXATIVE-Tin-ZYLAX-Full-Paper-Insert-RARE-/401058107205?nma=true&si=pMveOhRJpWu%252FiOuZEfyI97%252F%252F30M%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:18.493Z"}
+{"level":"info","message":"fetching: /itm/351634259545","timestamp":"2016-01-27T18:59:19.369Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Advertising-Medicine-Tablets-ASPIRIN-Tin-ST-JOSEPHS-Empty-10-cents-Old-/351634259545?nma=true&si=nb3vtXGVnnvjhMKRY0tcu1JTs7E%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:20.081Z"}
+{"level":"info","message":"fetching: /itm/252258351834","timestamp":"2016-01-27T18:59:20.829Z"}
+{"level":"info","message":"fetching: /itm/RARE-Alice-May-Ginger-Spice-Tin-Hudson-Grocery-Jersey-City-N-J-/252258351834?nma=true&si=zWtqA2y8iX9g5gGwNifdQNRFpa4%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:21.421Z"}
+{"level":"info","message":"fetching: /itm/291666827449","timestamp":"2016-01-27T18:59:22.383Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Gramophone-Needles-Supraphon-Flamingo-Tin-200-needles-never-used-/291666827449?nma=true&si=bhb0k9QfGjh9q2N6gYTjKj2SxGQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:23.101Z"}
+{"level":"info","message":"fetching: /itm/172070129917","timestamp":"2016-01-27T18:59:23.753Z"}
+{"level":"info","message":"fetching: /itm/Antique-Schilling-Spice-Containers-Boxes-Tin-and-Cardboard-Plus-Extras-/172070129917?nma=true&si=6iQBGjEOc7%252BzGNXEoBv0P1b%252F0Xc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:24.755Z"}
+{"level":"info","message":"fetching: /itm/201508527845","timestamp":"2016-01-27T18:59:25.525Z"}
+{"level":"info","message":"fetching: /itm/RARE-Players-Navy-Cut-Cigarettes-Tin-Gold-with-King-and-Queen-Embossed-Front-/201508527845?nma=true&si=6eVlqHqGr%252F8FXROayrrJeeZvQ%252Fw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:26.226Z"}
+{"level":"info","message":"fetching: /itm/262249370467","timestamp":"2016-01-27T18:59:26.978Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-PRIDE-OF-VIRGINIA-CUT-PLUG-TOBACCO-TIN-/262249370467?nma=true&si=7eaDPCRzdIgdcGzeCmMziGJiybw%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:27.683Z"}
+{"level":"info","message":"fetching: /itm/222000541382","timestamp":"2016-01-27T18:59:28.565Z"}
+{"level":"info","message":"fetching: /itm/ANTIQUE-ADVERTISING-SPICE-TIN-BISTONS-COFFEE-CO-ST-LOUIS-NICE-/222000541382?nma=true&si=IXpoVZ8Kuj%252BG4TAjCsJDetOkjhU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:29.214Z"}
+{"level":"info","message":"fetching: /itm/262249700882","timestamp":"2016-01-27T18:59:30.015Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Iris-Spice-Tin-1-1-4-oz-Ground-Cayenne-/262249700882?nma=true&si=NwI0XQpHjD49a8dI7fyL86f93tQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:30.857Z"}
+{"level":"info","message":"fetching: /itm/311530398483","timestamp":"2016-01-27T18:59:31.954Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GOLLOTTS-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MISS-IMAGE-NOT-TIN-/311530398483?nma=true&si=r95Ikps1%252BfFbVcHrtfMqVLp1TI0%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:32.799Z"}
+{"level":"info","message":"fetching: /itm/181997139219","timestamp":"2016-01-27T18:59:33.698Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-GOLLOTTS-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MS-BOAT-IMAGE-NOT-TIN-/181997139219?nma=true&si=oOpVLxTqOfAOfj354jKXOCOYQqM%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:34.391Z"}
+{"level":"info","message":"fetching: /itm/311530409582","timestamp":"2016-01-27T18:59:35.177Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-CAPN-GOLLOT-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MS-MAN-IMAGE-NOT-TIN-/311530409582?nma=true&si=z4dDPos6rH8YgEiyZhKIsi4EqtE%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:35.843Z"}
+{"level":"info","message":"fetching: /itm/311530374822","timestamp":"2016-01-27T18:59:36.491Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-WEST-BRAND-OYSTER-SEAFOOD-JAR-BOTTLE-BILOXI-MISS-LIGHT-HOUSE-NOT-TIN-/311530374822?nma=true&si=FzV9ZbP67TcYYrqEsr9gvTaawjQ%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:37.217Z"}
+{"level":"info","message":"fetching: /itm/252258349540","timestamp":"2016-01-27T18:59:38.053Z"}
+{"level":"info","message":"fetching: /itm/Molers-Dairy-Dayton-Ohio-Wax-Tin-Cottage-Cheese-Container-w-Metal-Lid-/252258349540?nma=true&si=5WTca5H6Z7ajrKxMbxxWVmWMvfc%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:38.642Z"}
+{"level":"info","message":"fetching: /itm/301852375862","timestamp":"2016-01-27T18:59:39.325Z"}
+{"level":"info","message":"fetching: /itm/Early-Blue-Ribbon-Pepper-Spice-Tin-Austin-Nichols-Co-N-Y-/301852375862?nma=true&si=8%252FqKqx0UomXHiM%252BFmwTnttO4ncA%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:40.315Z"}
+{"level":"info","message":"fetching: /itm/321981981108","timestamp":"2016-01-27T18:59:41.220Z"}
+{"level":"info","message":"fetching: /itm/MJB-Vintage-1924-coffee-tin-Black-label-/321981981108?nma=true&si=33It8%252B7M8GNbZ9DR9oxH2a53duU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:41.896Z"}
+{"level":"info","message":"fetching: /itm/161952946122","timestamp":"2016-01-27T18:59:42.636Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Rold-Gold-Butter-Tin-Cannister-Can-/161952946122?nma=true&si=7tf3UBJ7s0FQ3%252Blk%252F9a86xYtTfo%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:43.351Z"}
+{"level":"info","message":"fetching: /itm/371538137944","timestamp":"2016-01-27T18:59:44.246Z"}
+{"level":"info","message":"fetching: /itm/Vintage-Empty-3-lbs-Net-2-pc-Worlds-Navy-Plug-Smoking-Tobacco-Tin-/371538137944?nma=true&si=aY%252FUkME4IN3axDcNJPpBIaksWuY%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:45.021Z"}
+{"level":"info","message":"fetching: /itm/321981782566","timestamp":"2016-01-27T18:59:45.802Z"}
+{"level":"info","message":"fetching: /itm/VINTAGE-LORILLARD-OLD-GOLD-CIGARETTES-TIN-TOBACCO-CARDS-/321981782566?nma=true&si=CKlWb9k8mrpJmmBmL5HArYYhfcU%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:46.413Z"}
+{"level":"info","message":"fetching: /itm/172069666069","timestamp":"2016-01-27T18:59:47.275Z"}
+{"level":"info","message":"fetching: /itm/drum-tobacco-can-tin-guyot-designs-nalgene-stainless-steel-bottle-/172069666069?nma=true&si=w%252BZP9gYuTlxzd3Y9DafDyjtn7Ao%253D&orig_cvip=true&rt=nc&_trksid=p2047675.l2557","timestamp":"2016-01-27T18:59:47.958Z"}
+{"level":"info","message":"saving to key: 20160127","timestamp":"2016-01-27T18:59:48.961Z"}
+{"level":"info","message":"saving to dynamo table: advertising_tins_diffs","timestamp":"2016-01-27T18:59:48.962Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.453Z\",\n  \"requestId\": \"027b405b-6160-4c73-8463-7ab66244cb0b\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.458Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.461Z\",\n  \"requestId\": \"3863ec3d-7e11-4109-8b6d-6f12dd05b69e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.463Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.463Z\",\n  \"requestId\": \"cab3927a-cf89-49d9-b5f0-6218f1bb7e19\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.464Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.479Z\",\n  \"requestId\": \"80e5fa99-1151-431d-97ea-edd5c5ce40a8\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.480Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.527Z\",\n  \"requestId\": \"ab73076c-875a-4618-a79d-81cbaf2c9781\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.528Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.528Z\",\n  \"requestId\": \"03ddb519-f2b3-494d-baca-58e510955b0e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.529Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.529Z\",\n  \"requestId\": \"77f88dc6-4583-47a0-a933-92edadfec66e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.529Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.530Z\",\n  \"requestId\": \"464bb8ca-c317-4b29-84a3-1ba7e0afc101\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.531Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.745Z\",\n  \"requestId\": \"5afc15e4-9981-4469-9473-3e4621b5a9a0\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.745Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.750Z\",\n  \"requestId\": \"f9ef6824-df8f-4bba-98ea-541a46b8ff17\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.750Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.751Z\",\n  \"requestId\": \"fdf456bd-b9c1-4e86-81b5-f09eeb6605f4\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.752Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.754Z\",\n  \"requestId\": \"5879e781-1b0e-4a83-8c41-721f77a0be2b\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.754Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.755Z\",\n  \"requestId\": \"ef944eed-8f97-411c-9682-5c9424514a39\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.756Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.758Z\",\n  \"requestId\": \"eae16f72-d38f-4ce5-b41d-ef2e40b47666\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.758Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.759Z\",\n  \"requestId\": \"edd4a913-4ae3-4942-959b-2769fb66ada5\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.759Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.760Z\",\n  \"requestId\": \"04ac5259-92d2-42d6-8205-b143baec4599\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.760Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.760Z\",\n  \"requestId\": \"c54617ae-bab3-4073-bf6a-ae4e29314235\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.761Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.761Z\",\n  \"requestId\": \"600252e3-e592-4d36-b8b5-4c4b2d3b8152\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.762Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.762Z\",\n  \"requestId\": \"bc562fb4-f14f-4c23-a637-24f22fe76625\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.762Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.763Z\",\n  \"requestId\": \"7eba2160-a94c-4784-97e2-40ffb08ab8ff\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.763Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.766Z\",\n  \"requestId\": \"30cadcfc-89bf-4316-a2d7-5ff4afdd0ccb\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.766Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.767Z\",\n  \"requestId\": \"e20fc543-d1c2-48c7-8aea-e32335f8bad1\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.767Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.768Z\",\n  \"requestId\": \"c76a4a26-c296-4ec1-ad36-2df1605d873f\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.769Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.769Z\",\n  \"requestId\": \"4422f6e2-46d1-4a4b-a0bf-2376df1c37c5\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.769Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.770Z\",\n  \"requestId\": \"fe1cac87-a4c4-4c92-a00d-ee00902c7285\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.770Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.771Z\",\n  \"requestId\": \"5bed3dd9-139a-4779-a815-741dc553910f\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.772Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.772Z\",\n  \"requestId\": \"373c3ec3-dd77-4620-b795-36e672762c7f\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.772Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.772Z\",\n  \"requestId\": \"d53b7e7a-3dd4-452b-a9d9-9bfa726dfbe4\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.772Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.773Z\",\n  \"requestId\": \"eb493ea0-d007-491f-8321-84fb64a22545\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.773Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.773Z\",\n  \"requestId\": \"5864b5c5-81d6-4f17-ba9d-b2b2d1e39efd\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.773Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:00:36.841Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.842Z\",\n  \"requestId\": \"38275558-9625-4e1f-8a79-f8b93276288d\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.842Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.843Z\",\n  \"requestId\": \"d45a0e3f-c8b6-45ea-bf0d-ba1a57b46b8c\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.843Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.847Z\",\n  \"requestId\": \"b28a5460-fc39-48d6-b670-9a781965e586\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.847Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.848Z\",\n  \"requestId\": \"5a982810-7671-4ba3-a37b-4ad25503f7f0\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.848Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.849Z\",\n  \"requestId\": \"e7cbd6f6-aa47-4617-9521-344faa3c3556\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.850Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.850Z\",\n  \"requestId\": \"924be5a2-c840-4951-91e7-3a994c88a707\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.850Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.851Z\",\n  \"requestId\": \"44e8f9a7-fc9c-48ab-ba8c-c4c913d6fa06\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.851Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.852Z\",\n  \"requestId\": \"94e477c5-074e-49fd-ac9c-de75f2d1a16f\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.852Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.852Z\",\n  \"requestId\": \"2334df7b-60cc-422d-ba6b-5603cf340a27\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.852Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.853Z\",\n  \"requestId\": \"32412638-9b8f-4617-8ad5-edd603ce4d30\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.853Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.853Z\",\n  \"requestId\": \"0212c4ed-ea92-4cc8-8a67-a0b11bde4ff7\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.853Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.854Z\",\n  \"requestId\": \"904eb375-927f-40a1-94d7-9938f1ed0c91\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.855Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.855Z\",\n  \"requestId\": \"77a6f09c-4393-438c-8b4a-6100a3b8f78b\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.855Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.859Z\",\n  \"requestId\": \"04d4faa7-ca0b-4adc-8bb3-5aae9fbd3604\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.859Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.859Z\",\n  \"requestId\": \"7dd47087-8bf2-4188-a571-86b8c760572a\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.860Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.860Z\",\n  \"requestId\": \"bb2a31c8-deb7-4786-982c-e7e5ad7670b7\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.860Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.861Z\",\n  \"requestId\": \"6fb138f1-dd51-4e6c-aba9-d9ab04fa7124\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.861Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.861Z\",\n  \"requestId\": \"779a7187-40af-4faa-aaaa-1e44f4a623a6\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.861Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.862Z\",\n  \"requestId\": \"e451a65a-19ee-4a61-82c8-9b4d64371392\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.862Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.862Z\",\n  \"requestId\": \"56b2242a-f532-4897-993c-886f1e85d5fe\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.862Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.862Z\",\n  \"requestId\": \"c078f04b-b298-46bb-a6a5-5dd4bf605483\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.863Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.863Z\",\n  \"requestId\": \"bc480705-cca8-4a54-b71d-32ea62e59304\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.863Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.863Z\",\n  \"requestId\": \"66d73fd8-0d36-408f-b6ad-9aae26bfebe2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.864Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.864Z\",\n  \"requestId\": \"5f0cf45a-7c27-4bb8-9e2f-bd8c74c147e2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.864Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.880Z\",\n  \"requestId\": \"cdb8c77f-c5c1-44a8-bbde-699d67ebe6cc\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.881Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.883Z\",\n  \"requestId\": \"9c68ce83-9068-4721-b2ee-beb726e43afb\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.883Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.886Z\",\n  \"requestId\": \"bac7eed9-98d9-41b5-9d83-722d13fb0f4f\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.886Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.887Z\",\n  \"requestId\": \"cc0d3ce7-ffe6-4c44-a559-f687a616d927\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.887Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.887Z\",\n  \"requestId\": \"87024cb6-716a-462b-a818-ddf0c66f461e\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.888Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.888Z\",\n  \"requestId\": \"52f69449-354c-4c4f-8691-eab9a9a06be2\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.888Z"}
+{"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T19:00:36.889Z\",\n  \"requestId\": \"7af20553-d149-46e2-b08e-06bcd5f5c719\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T19:00:36.889Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.559Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.569Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.571Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.572Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.574Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.576Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.577Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.578Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.579Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.580Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.581Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.624Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.631Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.636Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.637Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.640Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.642Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.645Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.648Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.664Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.677Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.684Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.696Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.723Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.728Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.735Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.792Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.794Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.808Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.820Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.836Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.854Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.894Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.923Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.925Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.927Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.929Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.937Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.942Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.946Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.954Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:04.965Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.040Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.042Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.046Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.049Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.052Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.055Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.058Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.071Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.072Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.072Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.079Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.086Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.105Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.108Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.129Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.138Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.142Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.159Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.163Z"}
+{"level":"info","message":"PutItem succeeded: ","timestamp":"2016-01-27T19:01:05.167Z"}
+{"level":"info","message":"saving: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T19:01:13.314Z"}
+{"level":"info","message":"cotal count is: 3552","timestamp":"2016-01-27T19:01:13.317Z"}
+{"level":"info","message":"saving bulk import file: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T19:01:13.317Z"}

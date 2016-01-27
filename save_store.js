@@ -33,6 +33,7 @@
 	}
 	
 	function save(table, items){
+
 		AWS.config.update({
 		    region: util.config.aws.region,
 		    endpoint: util.config.aws.dynamo.endpoint
@@ -41,7 +42,7 @@
 		var docClient = new AWS.DynamoDB.DocumentClient();
 
 		items.forEach(function(item) {
-			var date = parseInt(util.getDateString(item.meta.date.formatted),10),
+			var date = parseInt(util.getDateString(new Date(item.meta.date.formatted)),10),
 				params = {
 					TableName: table,
 					Item: {date: date, link:item.link, id:item.id, title:item.title, meta:item.meta, images: item.images, src: item.src},
