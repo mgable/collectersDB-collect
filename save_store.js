@@ -55,8 +55,8 @@
 					console.error("Unable to add item. Error JSON:", errorMsg);
 					util.logger.log("Unable to add item. Error JSON: " + errorMsg, 'error');
 				} else {
-					console.log("PutItem succeeded:");
-					util.logger.log("PutItem succeeded: " + data.Item.id);
+					console.log("PutItem succeeded:" + data);
+					util.logger.log("PutItem succeeded: ");
 				}
 			});
 		});

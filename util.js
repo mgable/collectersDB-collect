@@ -12,27 +12,15 @@
 		logger = require('./logging.js'),
 		config = require('./config.js'),
 		today = new Date(), 
-		diffTable = config.sys_config.diffTable || "_diffs",
-		rawTable = config.sys_config.rawTable || "_raw",
-		storeTable = config.sys_config.storeTable || "_store",
-		indexDirectory = config.sys_config.indexDirectory || "formatted/",
-		imageDirectory = config.sys_config.imageDirectory || "store/images/",
+		diffDirectory = config.sys_config.diffDirectory || "diffs/",
+		rawDirectory = config.sys_config.rawDirectory || "raw/",
+		storeDirectory = config.sys_config.storeDirectory || "store/",
+		indexDirectory = config.sys_config.indexDirectory || "index/",
 		category = config.category,
 		categoryName = category.name,
-		categoryDirectory = categoryName,
+		categoryDirectory = categoryName  + "/",
+		location = "local",
 		util = {};
-
-	// AWS Dynamo setup
-	AWS.config.credentials = credentials;
-	AWS.config.update({
-	    region: config.aws.region,
-	    endpoint: config.aws.dynamo.endpoint
-	});
-
-	var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}}),
-		docClient = new AWS.DynamoDB.DocumentClient(),
-		credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
-	// end setup
 
 	function fetchPage(options){
 		util.logger.log("fetching: " + options.path);
@@ -72,10 +60,6 @@
 		return ("0000" + (Math.random()*Math.pow(36,4) << 0).toString(36)).slice(-4); // jshint ignore:line
 	}
 
-	function generateHashCode(s){
-		return Math.abs(s.split("").reduce(function(a,b){a = ((a << 5) - a) + b.charCodeAt(0);return a & a}, 0));
-	}
-
 	function getFileName(suffix){
 		var suffix =  suffix || "json";
 		return categoryName + "." + suffix;
@@ -95,29 +79,38 @@
 		return makePathFromDateString(dateStr) + "/" + id + "/" + filename;
 	}
 
-	function getRawTable(){
-		return getRoot() + rawTable;
+	function getRawDataPath(fileOverwrite){
+		return  getRawDirectory() + makePathFromDateString(fileOverwrite || getDateString()) + "/";
 	}
 
-	function getStoreTable(){
-		return getRoot() + storeTable;
+	function getRawDirectory(){
+		return getRoot() + rawDirectory;
+	}
+
+	function getStoreFilePath(){
+		return getRoot() + storeDirectory;
 	}
 
 	function getImagePath(fileOverwrite){
-		return getRoot() + "/" + imageDirectory +  makePathFromDateString(fileOverwrite || getDateString()) + "/";
+		return getStoreFilePath() + "images/" +  makePathFromDateString(fileOverwrite || getDateString()) + "/";
 	}
 
-	function getDiffTable(){
-		return getRoot() + diffTable;
+	function getDiffPath(fileOverwrite){
+		return getDiffDirectory() + makePathFromDateString(fileOverwrite || getDateString()) + "/";
 	}
 
-	function getIndexPath(){
-		return "./" + indexDirectory;
-		//return getRoot() 
+	function getDiffDirectory(){
+		return getRoot() + diffDirectory;
+	}
+
+	function getFormattedFilePath(){
+		return getRoot() + indexDirectory;
 	}
 
 	function getRoot(){
+		var root = config[location].dataRoot;
 		return categoryDirectory;
+		//return root + categoryDirectory;
 	}
 
 	function makePathFromDateString(dateStr){
@@ -158,31 +151,13 @@
 		logger.log("saving: " + file);
 	}
 
-	function saveToDynamo(key, table, data){
-		var params = {
-			TableName: table,
-			Item: {date: key, items: data},
-			ExpressionAttributeNames:{"#date":"date"},
-			ConditionExpression: 'attribute_not_exists(#date)'
-		};
-
-		docClient.put(params, function(err/*, data*/) {
-			if (err) {
-				var errorMsg = JSON.stringify(err, null, 2);
-				console.error("Unable to add item. Error JSON:", errorMsg);
-				util.logger.log("unable to save: " + table + ":" + key , 'error');
-				util.logger.log("unable to save to data: " + errorMsg, 'error');
-			} else {
-				console.log("PutItem succeeded:");
-				util.logger.log("saving to key: " + key);
-				util.logger.log("saving to dynamo table: " + table);
-			}
-		});
-	}
-
 	function saveToS3(filename, path, file, data, contentType){
-		console.info("saving to S3");
+		console.info("saving");
+		var credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
+		AWS.config.credentials = credentials;
 
+		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
+		
 		s3bucket.upload({"Key": file, "Body": data, "ContentType": contentType}, function(err, data) { // jshint ignore:line
 			if (err) {
 				util.logger.log("ERROR - S3: " + file + ": " + err, 'error');
@@ -190,50 +165,6 @@
 				util.logger.log("saving - S3: " + file);
 			}
 		});
-	}
-
-	function getDataFromS3(uri){
-		var deferred = Q.defer();
-		console.info("getting S3 data from " + uri);
-
-		s3bucket.getObject({"Key": uri,  ResponseContentType: config.contentType.json}, function(err, data) { // jshint ignore:line
-			if (err) {
-				util.logger.log("ERROR - S3: " + uri + ": " + err, 'error');
-				return deferred.reject(err);
-			} else {
-				util.logger.log("getting - S3: " + uri);
-				return deferred.resolve(data.Body.toString());
-			}
-		});
-
-		return deferred.promise;
-
-	}
-
-	function getFromDynamo(keys, table){
-		var deferred = Q.defer(),
-			RequestItems = {};
-
-		console.info("getting from dynamo");
-		
-		RequestItems[table] = {Keys: keys, ConsistentRead: false};
-
-		var params = {
-		    RequestItems: RequestItems,
-		    ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
-		};
-		
-		docClient.batchGet(params, function(err, data) {
-		    if (err) {
-		    	//console.info(err); // an error occurred
-		    	return deferred.reject(err);
-			} else {
-				//console.info(data); // successful response
-				return deferred.resolve(data);
-			}
-		});
-
-		return deferred.promise;
 	}
 
 	function fileExists(filePath){
@@ -270,11 +201,31 @@
 		return options;
 	}
 
-	util.saveLocal = saveLocal;
-	util.saveToDynamo = saveToDynamo;
-	util.getFromDynamo = getFromDynamo;
+	function getDataFromS3(uri){
+		var deferred = Q.defer(),
+			credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
+		AWS.config.credentials = credentials;
+
+		var s3bucket = new AWS.S3({ params: {Bucket: config.aws.bucket}});
+
+		console.info("getting data from " + uri);
+
+		s3bucket.getObject({"Key": uri,  ResponseContentType: config.contentType.json}, function(err, data) { // jshint ignore:line
+			if (err) {
+				util.logger.log("ERROR - S3: " + uri + ": " + err, 'error');
+				return deferred.reject(err);
+			} else {
+				util.logger.log("getting - S3: " + uri);
+				return deferred.resolve(data.Body.toString());
+			}
+		});
+
+		return deferred.promise;
+
+	}
+
 	util.getDataFromS3 = getDataFromS3;
-	util.getIndexPath = getIndexPath;
+	util.getFormattedFilePath = getFormattedFilePath;
 	util.fetchPage = fetchPage;
 	util.fileExists = fileExists;
 	util.readDirectory = readDirectory;
@@ -282,15 +233,16 @@
 	util.getDateString = getDateString;
 	util.getFileContents = getFileContents;
 	util.getFileName = getFileName;
-	util.getRawTable = getRawTable;
-	util.getStoreTable = getStoreTable;
-	util.getDiffTable = getDiffTable;
+	util.getRawDataPath = getRawDataPath;
+	util.getRawDirectory = getRawDirectory;
+	util.getStoreFilePath = getStoreFilePath;
+	util.getDiffPath = getDiffPath;
+	util.getDiffDirectory = getDiffDirectory;
 	util.getImagePath = getImagePath;
 	util.getRequestObject = getRequestObject;
 	util.logger = logger;
 	util.save = save;
 	util.generateUID = generateUID;
-	util.generateHashCode = generateHashCode;
 	util.makeLocalImagePath = makeLocalImagePath;
 	util.makeDirectories = makeDirectories;
 	util.config = config;
