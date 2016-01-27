@@ -14,7 +14,7 @@
 	getDataFromDynamo(todayKey).then(function(data){
 		console.info("hello");
 		console.info(typeof data);
-		//diff = JSON.parse(data);
+		diff = data;
 		//console.info(diff);
 		totalItems = data.length;
 		console.info("hey!" + totalItems);

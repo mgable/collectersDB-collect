@@ -2440,3 +2440,10 @@
 {"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T14:35:53.555Z\",\n  \"requestId\": \"2ff488ea-522a-4e15-9b10-430276050746\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T14:35:53.555Z"}
 {"level":"error","message":"Unable to add item. Error JSON: {\n  \"message\": \"The conditional request failed\",\n  \"code\": \"ConditionalCheckFailedException\",\n  \"time\": \"2016-01-27T14:35:53.556Z\",\n  \"requestId\": \"f5a3ac44-90b9-4310-b351-da53528f9333\",\n  \"statusCode\": 400,\n  \"retryable\": false,\n  \"retryDelay\": 0\n}","timestamp":"2016-01-27T14:35:53.556Z"}
 {"level":"info","message":"fetched 55 thumbnails for 20160127","timestamp":"2016-01-27T14:40:07.549Z"}
+{"level":"info","message":"fetched 55 thumbnails for 20160127","timestamp":"2016-01-27T15:01:57.280Z"}
+{"level":"info","message":"fetched 0 additional images for 20160127","timestamp":"2016-01-27T15:02:00.922Z"}
+{"level":"info","message":"fetched 55 thumbnails for 20160127","timestamp":"2016-01-27T15:05:30.713Z"}
+{"level":"info","message":"fetched 300 additional images for 20160127","timestamp":"2016-01-27T15:07:11.434Z"}
+{"level":"info","message":"saving: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T16:03:55.687Z"}
+{"level":"info","message":"cotal count is: 3545","timestamp":"2016-01-27T16:03:55.689Z"}
+{"level":"info","message":"saving bulk import file: ./formatted/advertising_tins.formatted.json","timestamp":"2016-01-27T16:03:55.689Z"}

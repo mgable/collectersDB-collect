@@ -3,7 +3,7 @@
 	var util = require('./util.js'),
 		AWS = require('aws-sdk'),
 		Q = require("q"),
-		storeFile = util.getStoreFilePath();
+		storeFile = util.getStoreTable();
 
 	var results = [], count = 0;
 	var deferred = Q.defer();

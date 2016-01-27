@@ -1,14 +1,12 @@
 #!/bin/bash
 
-HOST="http://localhost:9200/"
-#HOST="https://search-mgable-es-ht4qtiycv6v543iujwxk6q5n3u.us-west-2.es.amazonaws.com/"
+
+HOST="https://search-mgable-es-ht4qtiycv6v543iujwxk6q5n3u.us-west-2.es.amazonaws.com/"
 #SOURCE="https://s3-us-west-1.amazonaws.com/collectors-db/advertising_tins/index/advertising_tins.formatted.json"
 BUCKET="collectorsdb"
 ACCOUNT="advertising_tins"
 INDEXFILE=$ACCOUNT".formatted.json"
-ROOT="/Users/markgable/Sites/projects/collectorsDB/collect/formatted/"
-#ROOT="/home/ec2-user/data/formatted/"
-#INDEXFILE="@/Users/markgable/Sites/data/collectorsDB/advertising_tins/index/advertising_tins.formatted.json"
+ROOT="/home/ec2-user/data/formatted/"
 URL=$HOST$BUCKET
 
 curl -XDELETE $URL
