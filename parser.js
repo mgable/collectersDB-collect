@@ -19,14 +19,15 @@
 
 	function myMap(data){
 		var obj = {};
-		obj.id = util.generateUID();
+		//obj.id = util.generateUID();
 		obj.title = removeDoubleEscape(data.children[1].data); //title
 		obj.link = decodeLink(data.attribs.href); //link to item
+		obj.id = util.generateHashCode(obj.link);
 		obj.meta = makeSaleData(removeDoubleEscape(data.attribs.x)); //selling price / time of sale / bids / watchers
 		obj.src = decodeLink(data.children[0].attribs.src); // image src
 
 		obj.meta.date = {
-			"formatted": getDate(obj.meta.date.replace(/^\-/,'').toLowerCase()),
+			"formatted": getDate(obj.meta.date.replace(/^\-/,'').toLowerCase()).toISOString(),
 			"origin": obj.meta.date
 		};
 
