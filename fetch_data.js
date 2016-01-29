@@ -16,7 +16,7 @@
 	}
 
 	function save(data){
-		var key = util.getDateString(),
+		var key = parseInt(util.getDateString(),10),
 			table = util.getRawTable();
 
 		util.saveToDynamo(key, table, data); //key, table, data

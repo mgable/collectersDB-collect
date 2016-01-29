@@ -5,7 +5,7 @@
 		fetch = require('./fetch_image_data.js'),
 		Q = require("q"),
 		imagePath = util.getImagePath(),
-		todayKey = util.getDateString(),
+		todayKey = parseInt(util.getDateString(),10),
 		totalItems = 0,
 		filesReceived = 0,
 		totalAdditionalImages = 0,
@@ -47,7 +47,7 @@
 		util.logger.log("fetched " + totalItems + " thumbnails for " + todayKey);
 	}
 
-	function thumbNailCallback(uri, imagePath, filename){
+	function thumbNailCallback(/* uri, imagePath, filename */){
 		console.info("getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
 			console.info("done getting " + totalItems + " thubmnails!");

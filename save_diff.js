@@ -19,7 +19,7 @@
 			yesterdayKey = getYesterdaysKey(todayKey),
 			rawTable = util.getRawTable(),
 			diffTable = util.getDiffTable(),
-			keys = [ {date: yesterdayKey},{date: todayKey}];
+			keys = [ {date: parseInt(yesterdayKey,10)},{date: parseInt(todayKey,10)}];
 
 		util.getFromDynamo(keys, rawTable).then(function(data){
 			var yesterday = data.Responses[rawTable][0].items,
@@ -27,7 +27,7 @@
 				diffItems = diff(today, yesterday);
 
 			fetchImageData(diffItems, key).then(function(data){
-				save(key, diffTable, data);
+				save(parseInt(key,10), diffTable, data);
 			});
 
 		});

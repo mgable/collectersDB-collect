@@ -13,7 +13,7 @@
 			"jpg": "image/jpeg"
 		};
 
-	aws.bucket = "test-collectors-db";
+	aws.bucket = "a-collectors-db";
 	aws.region = "us-west-2";
     aws.dynamo = {endpoint: "http://localhost:8000"};
 

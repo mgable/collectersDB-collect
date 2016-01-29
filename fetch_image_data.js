@@ -3,7 +3,7 @@
 (function(){
 
 	var Q = require("q"),
-		fs = require('fs'),
+		//fs = require('fs'),
 		request = require('request'),
 		cheerio = require('cheerio'),
 		url = require('url'),
@@ -22,23 +22,21 @@
 		//downloadToLocal(uri, imagePath, filename, callback)
 	}
 
-	function downloadToLocal(uri, imagePath, filename, callback){
-		var callback = callback || _.noop; // jshint ignore:line
+	// function downloadToLocal(uri, imagePath, filename, callback){
+	// 	var callback = callback || _.noop; // jshint ignore:line
 
-		console.info("downloading: " + uri + " : " + imagePath + filename);
-		request.head(uri, function(err /*, res, body*/){
-			if (err){
-				util.logger.log("ERROR - downloading image: " + uri + " : " + imagePath + filename, 'error');
-			} 
-			request(uri).pipe(fs.createWriteStream(imagePath + filename)).on('close', 
-				function(){callback(uri, imagePath, filename);}).on('error', function(err){
-				util.logger.log("ERROR IN PIPE:" + err, 'error');
-				callback(uri, imagePath, filename);
-			});
-		});
-	}
-
-
+	// 	console.info("downloading: " + uri + " : " + imagePath + filename);
+	// 	request.head(uri, function(err /*, res, body*/){
+	// 		if (err){
+	// 			util.logger.log("ERROR - downloading image: " + uri + " : " + imagePath + filename, 'error');
+	// 		} 
+	// 		request(uri).pipe(fs.createWriteStream(imagePath + filename)).on('close', 
+	// 			function(){callback(uri, imagePath, filename);}).on('error', function(err){
+	// 			util.logger.log("ERROR IN PIPE:" + err, 'error');
+	// 			callback(uri, imagePath, filename);
+	// 		});
+	// 	});
+	// }
 
 	function downloadToS3(uri, imagePath, filename, callback){
 		var callback = callback || _.noop; // jshint ignore:line

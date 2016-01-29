@@ -1,6 +1,8 @@
 #!/bin/bash
 
-USER_DIRECTORY="/home/ec2-user/data/"
+#USER_DIRECTORY="/home/ec2-user/data/"
+
+USER_DIRECTORY="/Users/markgable/Sites/projects/collectorsDB/collect/"
 
 /usr/local/bin/node "$USER_DIRECTORY"fetch_data.js
 
@@ -12,4 +14,6 @@ USER_DIRECTORY="/home/ec2-user/data/"
 
 /usr/local/bin/node "$USER_DIRECTORY"save_index.js
 
-"$USER_DIRECTORY"prime_elasticsearch_aws.sh
+#"$USER_DIRECTORY"prime_elasticsearch_aws.sh
+
+"$USER_DIRECTORY"prime_elasticsearch.sh

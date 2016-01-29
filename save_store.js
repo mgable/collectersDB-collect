@@ -3,6 +3,8 @@
 (function(){
 	var AWS = require('aws-sdk'),
 		program = require('commander'),
+		_ = require('underscore'),
+		Q = require("q"),
 		util = require("./util.js");
 
 	program
@@ -10,56 +12,87 @@
 		.option('-f, --full', 'make full index')
 		.parse(process.argv);
 
-	var	storeTable = util.getStoreTable();
+	var	storeTable = util.getStoreTable(),
+		errors = [],
+		requestItems = {},
+		params = {},
+		counter = 0,
+		totalItems = 0,
+		size = 25;
+
+	requestItems[storeTable] = [];
+	params.RequestItems = requestItems;
+	params.ReturnConsumedCapacity = 'NONE'; // optional (NONE | TOTAL | INDEXES)
+	params.ReturnItemCollectionMetrics = 'NONE'; // optional (NONE | SIZE)
+
+	AWS.config.update({
+		region: util.config.aws.region,
+		endpoint: util.config.aws.dynamo.endpoint
+	});
+
+	var docClient = new AWS.DynamoDB.DocumentClient();
 
 	init();
 
 	function init(){
-		getDataFromDynamo();
+		// the meat of the matter
+		getData().then(format).then(save);
 	}
 
-	function getDataFromDynamo(){
-		var todayKey = util.getDateString(),
-			keys = [ {date: todayKey}],
+	function getData(){
+		var todayKey = parseInt(util.getDateString(),10),
+			keys = [{date: todayKey}],
 			diffTable = util.getDiffTable();
 
-
-		util.getFromDynamo(keys, diffTable).then(function(data){
+		return util.getFromDynamo(keys, diffTable).then(function(data){
 			console.info("got diff file");
 			var newItems = data.Responses[diffTable][0].items;
 
-			save(storeTable, newItems);
+			return newItems;
 		});
 	}
-	
-	function save(table, items){
 
-		AWS.config.update({
-		    region: util.config.aws.region,
-		    endpoint: util.config.aws.dynamo.endpoint
-		});
-
-		var docClient = new AWS.DynamoDB.DocumentClient();
+	function format(items){
+		var results = [],
+			deferred = Q.defer();
 
 		items.forEach(function(item) {
-			var date = parseInt(util.getDateString(new Date(item.meta.date.formatted)),10),
-				params = {
-					TableName: table,
-					Item: {date: date, link:item.link, id:item.id, title:item.title, meta:item.meta, images: item.images, src: item.src},
-					ExpressionAttributeNames:{"#date":"date"},
-					ConditionExpression: 'attribute_not_exists(#date)'
-				};
+			var key = parseInt(util.getDateString(new Date(item.meta.date.formatted)),10),
+				param = {
+					PutRequest: {
+						Item: _.extend(item, {date: key})
+					}
+			};
+			results.push(param);
+		});
 
-			docClient.put(params, function(err, data) {
+		deferred.resolve(results);
+
+		return deferred.promise; 
+	}
+
+	function save(results){
+		if (results.length){
+			console.info("calling loading data: " + ++counter); // jshint ignore:line
+			requestItems[storeTable] = results.splice(0, size);
+
+			docClient.batchWrite(params, function(err, data) {
 				if (err) {
 					var errorMsg = JSON.stringify(err, null, 2);
 					console.error("Unable to add item. Error JSON:", errorMsg);
 					util.logger.log("Unable to add item. Error JSON: " + errorMsg, 'error');
 				} else {
 					console.log("PutItem succeeded:" + data);
-					util.logger.log("PutItem succeeded: ");
+					util.logger.log("PutItem succeeded");
 				}
+				save(results);
 			});
-		});
+		} else {
+			console.info("DONE!!!!!!!");
+			console.info("total items is " + totalItems);
+			console.info("counter is " + counter);
+			console.info("errors");
+			console.info(errors);
+		}
 	}
 })();
