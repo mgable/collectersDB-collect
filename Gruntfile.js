@@ -39,6 +39,7 @@ module.exports = function(grunt) {
                 'Gruntfile.js',
                 '*.js',
                 './lib/*.js',
+                './bin/*.js',
                 './config/*.js'
             ]
         }

@@ -16,3 +16,7 @@
 {"level":"info","message":"SAVED - raw file: 20160130","timestamp":"2016-01-31T20:09:37.111Z"}
 {"level":"error","message":"The conditional request failed","timestamp":"2016-01-31T20:10:04.724Z"}
 {"level":"error","message":"The conditional request failed","timestamp":"2016-01-31T20:16:27.039Z"}
+{"level":"error","message":"Missing region in config","timestamp":"2016-01-31T21:58:31.515Z"}
+{"level":"error","message":"Missing region in config","timestamp":"2016-01-31T22:03:54.977Z"}
+{"level":"error","message":"Missing region in config","timestamp":"2016-01-31T22:07:54.029Z"}
+{"level":"error","message":"Missing region in config","timestamp":"2016-01-31T22:08:55.911Z"}

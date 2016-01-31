@@ -8,7 +8,6 @@
 		diff = require('./lib/diff.js'),
 		save = require('./lib/save.js'),
 		make = require('./lib/make.js'),
-		append = require('./lib/append'),
 		
 		// definitions
 		fetchPage = fetch.fetchPage,
@@ -20,14 +19,13 @@
 		fetchImages = fetch.fetchImages,
 		makeIndex = make.makeIndex,
 		getRequest = util.getRequest,
-		appendItems = append.appendItems,
 
 		//assignments
 		categories = util.getCategories();
 
 	// the process
 	categories.forEach(function(category){
-		fetchPage(getRequest(category)).then(parse).then(saveRaw).then(makeDiff).then(fetchImageData).then(saveStore).then(fetchImages);//.then(makeIndex).then(appendItems);
+		fetchPage(getRequest(category)).then(parse).then(saveRaw).then(makeDiff).then(fetchImageData).then(saveStore).then(fetchImages); //.then(makeIndex);
 	});
 
 })();
