@@ -24,7 +24,7 @@
 		 } else {
 		 	console.info("TOTALLY DONE");
 		 	// TODO util.logger.log("fetched " + totalAdditionalImages + " additional images for");
-		 	deferred.resilve(diff);
+		 	deferred.resolve();
 		 }
 
 		 return deferred.promise;
@@ -40,7 +40,7 @@
 
 			upload.S3(largerImageUrl, imagePath, filename, function(){
 				if (++count === item.images.original.length){
-					console.info("Fetched all " + item.images.original.length + " images for " + item.id);
+					console.info("Fetched all " + item.images.original.length + " images for " + item.date + " : " + item.link);
 					deferred.resolve();
 				}
 			});

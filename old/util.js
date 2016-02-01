@@ -145,7 +145,7 @@
 	}
 
 
-	function saveLocal(filename, path, file, data){
+	function saveLocal(path, file, data){
 		makeDirectories(path); 
 		fs.writeFileSync(file, data);
 		logger.log("saving: " + file);

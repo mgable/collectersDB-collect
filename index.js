@@ -25,7 +25,7 @@
 
 	// the process
 	categories.forEach(function(category){
-		fetchPage(getRequest(category)).then(parse).then(saveRaw).then(makeDiff).then(fetchImageData).then(saveStore).then(fetchImages); //.then(makeIndex);
+		fetchPage(getRequest(category)).then(parse).then(saveRaw).then(makeDiff).then(fetchImageData).then(saveStore).then(fetchImages).then(makeIndex);
 	});
 
 })();
