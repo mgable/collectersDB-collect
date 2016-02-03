@@ -14,7 +14,8 @@
 
 	// assignments
 	var deferred = Q.defer(),
-		table = "advertising_tins_raw",
+		table = "advertising_tins_store",
+		filename = table + ".json",
 		startKey,
 		results = [],
 		count = 0;
@@ -22,7 +23,7 @@
 	// the process
 	getDataFromDynamo(table, startKey).then(function(data){
 		console.info("saving %s items", data.length);
-		saveLocal("./", "advertising_tins_raw.json", JSON.stringify(data));
+		saveLocal("./", filename, JSON.stringify(data));
 	})
 
 	function getDataFromDynamo(table, startKey){

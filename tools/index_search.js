@@ -10,7 +10,7 @@
 		fs = require('fs');
 
 	// assignments
-	var items = JSON.parse(fs.readFileSync('./advertising_tins.json', 'utf8'));
+	var items = JSON.parse(fs.readFileSync('./advertising_tins_store.json', 'utf8'));
 
 	// the process
 	make.makeIndex(items, null, true).then(function(data){
