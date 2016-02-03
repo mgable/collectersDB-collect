@@ -1,2 +1,2 @@
 # launch data collection for advertising tins
-0 18 * * * /home/ec2-user/data/collect/start.sh 
+0 18 * * * /home/ec2-user/collectorsDB-collect/start.sh 
