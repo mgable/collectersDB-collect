@@ -5,6 +5,7 @@
 
 	// includes
 	var Q = require('q'),
+		util = require('../lib/util.js'),
 		upload = require('./upload.js');
 
 	// assignments
@@ -16,14 +17,13 @@
 		if(diff.length){
 			var item = diff.shift();
 
-			console.info("getting " + item.images.original.length + " images for " + item.id);
+			util.logger.log("info", "Fetching Images", {itemID:item.id, imageCount:item.images.original.length});
 
 			totalAdditionalImages += item.images.original.length;
 			additionalImagesCallback(item, imagePath).then(function(){fetchImages(diff, imagePath);});
 
 		 } else {
-		 	console.info("TOTALLY DONE");
-		 	// TODO util.logger.log("fetched " + totalAdditionalImages + " additional images for");
+		 	util.logger.log("info", "Fetch Images Completed");
 		 	deferred.resolve();
 		 }
 
@@ -40,7 +40,7 @@
 
 			upload.S3(largerImageUrl, imagePath, filename, function(){
 				if (++count === item.images.original.length){
-					console.info("Fetched all " + item.images.original.length + " images for " + item.date + " : " + item.link);
+					util.logger.log("info", "Fetched All Images", {itemID:item.id, imageCount:item.images.original.length});
 					deferred.resolve();
 				}
 			});

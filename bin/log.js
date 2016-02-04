@@ -1,11 +1,14 @@
 "use strict";
 (function(){
-	var winston = require('winston'),
-	_ = require('underscore'),
-		logger = {};
+	var exports = {};
 
+	// includes
+	var winston = require('winston');
+
+	// assignments
 	winston.level = 'debug';
 
+	// public methods
 	function addLogFile(filename){
 		console.info("adding log file " + filename);
 		var infoFile = __dirname + '/../logs/' + filename + "-info.log",
@@ -15,18 +18,12 @@
 		winston.add(winston.transports.File, { filename: infoFile, name:"info file", level: 'info' });
 	}
 
-	// function log(message, type){
-	// 	var type = type || 'info'; // jshint ignore:line
-	// 	winston.log(type, message);
-	// }
-
 	function log(type, message, meta){
 		winston.log(type, message, meta || "");
 	}
 
+	exports.addLogFile = addLogFile;
+	exports.log = log;
 
-	logger.addLogFile = addLogFile;
-	logger.log = log;
-
-	module.exports = logger;
+	module.exports = exports;
 })();

@@ -4,6 +4,7 @@
 	var exports = {};
 
 	var Q = require('q'),
+		util = require('../lib/util.js'),
 		upload = require('./upload.js');
 
 	var filesReceived = 0,
@@ -12,19 +13,18 @@
 		deferred = Q.defer();
 
 	function fetchImages(data, imagePath){
-		// download thumbnails
+		// set class variables
 		items = data;
-
 		totalItems = items.length;
 
+		// download thumbnails
 		items.forEach(function(item){
 			var filename = item.src.local.replace(/^\d{4}\/\d{2}\/\d{2}\//, "");
 
 			upload.S3(item.src.original, imagePath, filename, thumbNailCallback);
 		});
 
-		console.info("fetched " + totalItems + " thumbnails for " + imagePath);
-		//util.logger.log("fetched " + totalItems + " thumbnails for " + imagePath);
+		util.logger.log("info", "Fetching Thumbnails", {imageCount: totalItems, imagePath: imagePath});
 
 		return deferred.promise;
 	}
@@ -32,8 +32,7 @@
 	function thumbNailCallback(/* uri, imagePath, filename */){
 		console.info("getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
-			console.info("done getting " + totalItems + " thubmnails!");
-			//additionalImagesCallback();
+			util.logger.log("info", "Fetched Thumbnails", {imageCount: totalItems});
 			deferred.resolve(items);
 		}
 	}

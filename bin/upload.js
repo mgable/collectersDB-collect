@@ -31,17 +31,15 @@
 			});
 
 			upload.on('error', function (error) {
-				console.log(error);
+				util.logger.log('error', error, {filename: __filename, method: "S3 - upload"});
 			});
 
 			upload.on('uploaded', function () {
-				//console.log(details);
-				console.info("done!!!!");
 				callback(uri, imagePath, filename);
 			});
 
-		 	request(uri).pipe(upload).on('close', function(){console.info("pipe close callback");callback(uri, imagePath, filename);}).on('error', function(err){
-				util.logger.log(err, 'error');
+		 	request(uri).pipe(upload).on('close', function(){callback(uri, imagePath, filename);}).on('error', function(err){
+				util.logger.log(err, 'error', {filename: __filename, method: "S3 - rquest(uri)"});
 			});
 		});
 	}
