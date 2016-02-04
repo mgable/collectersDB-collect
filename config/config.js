@@ -15,10 +15,10 @@
 		'jpg': 'image/jpeg'
 	};
 	exports.aws = {};
-	exports.aws.bucket = 'collectors-db';
+	exports.aws.bucket = 'a-collectors-db';
 	exports.aws.region = 'us-west-1';
-	//exports.aws.dynamo = {endpoint: 'https://dynamodb.us-west-1.amazonaws.com'};
-	exports.aws.dynamo = {endpoint: 'http://localhost:8000'};
+	exports.aws.dynamo = {endpoint: 'https://dynamodb.us-west-1.amazonaws.com'};
+	//exports.aws.dynamo = {endpoint: 'http://localhost:8000'};
 	exports.system = "aws";
 	//exports.mode = false;
 	exports.mode = "_test";
