@@ -6,11 +6,16 @@
 	var mail = require('./mail.js'),
 		util = require('../lib/util.js');
 
-	function sendReport(data){
-		mail.sendMail(JSON.stringify(data));
+
+	function makeReport(data){
+		_sendReport(data);
 	}
 
-	exports.sendReport = sendReport;
+	function _sendReport(report){
+		mail.sendMail(report);
+	}
+
+	exports.makeReport = makeReport;
 
 	module.exports = exports;
 })();

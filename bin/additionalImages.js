@@ -17,7 +17,7 @@
 		if(diff.length){
 			var item = diff.shift();
 
-			util.logger.log("info", "Fetching Images", {itemID:item.id, imageCount:item.images.original.length});
+			util.logger.log("verbose", "Fetching Images", {itemID:item.id, imageCount:item.images.original.length});
 
 			totalAdditionalImages += item.images.original.length;
 			additionalImagesCallback(item, imagePath).then(function(){fetchImages(diff, imagePath);});
@@ -40,7 +40,7 @@
 
 			upload.S3(largerImageUrl, imagePath, filename, function(){
 				if (++count === item.images.original.length){
-					util.logger.log("info", "Fetched All Images", {itemID:item.id, imageCount:item.images.original.length});
+					util.logger.log("verbose", "Fetched All Images", {itemID:item.id, imageCount:item.images.original.length});
 					deferred.resolve();
 				}
 			});
