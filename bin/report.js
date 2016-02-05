@@ -12,7 +12,7 @@
 	}
 
 	function _sendReport(report){
-		mail.sendMail(report);
+		mail.sendMail(JSON.stringify(report));
 	}
 
 	exports.makeReport = makeReport;
