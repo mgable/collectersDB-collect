@@ -9,6 +9,7 @@
 		save = require('./lib/save.js'),
 		make = require('./lib/make.js'),
 		start = require('./lib/start.js'),
+		finish = require('./lib/finish.js'),
 		
 		// definitions
 		fetchPage = fetch.fetchPage,
@@ -20,13 +21,14 @@
 		fetchImages = fetch.fetchImages,
 		makeIndex = make.makeIndex,
 		startProcess = start.startProcess,
+		finish = finish.finish,
 
 		//assignments
 		categories = util.getCategories();
 
 	// the process
 	categories.forEach(function(category){
-		startProcess(category).then(fetchPage).then(parse).then(saveRaw).then(makeDiff).then(fetchImageData).then(saveStore).then(fetchImages).then(makeIndex);
+		startProcess(category).then(fetchPage).then(parse).then(saveRaw).then(makeDiff).then(fetchImageData).then(saveStore).then(fetchImages).then(makeIndex).then(finish);
 	});
 
 })();
