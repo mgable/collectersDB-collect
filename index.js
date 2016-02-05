@@ -28,7 +28,16 @@
 
 	// the process
 	categories.forEach(function(category){
-		startProcess(category).then(fetchPage).then(parse).then(saveRaw).then(makeDiff).then(fetchImageData).then(saveStore).then(fetchImages).then(makeIndex).then(finish);
+		startProcess(category)
+		.then(fetchPage)
+		.then(parse)
+		.then(saveRaw)
+		.then(makeDiff)
+		.then(fetchImageData)
+		.then(saveStore)
+		.then(fetchImages)
+		.then(makeIndex)
+		.then(finish);
 	});
 
 })();
