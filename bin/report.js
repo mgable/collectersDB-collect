@@ -5,7 +5,6 @@
 	// includes
 	var _ = require("underscore"),
 		mail = require('./mail.js'),
-		util = require('../lib/util.js'),
 		startTime,
 		endTime,
 		dataStore;
@@ -99,7 +98,7 @@
 		errors.forEach(function(error){
 			var error = _.omit(error, 'level');
 			for (var prop in error){
-				str += "<div style='padding:0 0 0 20px'>" + prop + ": " + error[prop] + "</div>";
+				str += "<div style='padding:0 0 0 20px'>" + prop + ": " + JSON.stringify(error[prop]) + "</div>";
 			}
 			str += "<br/>";
 		});

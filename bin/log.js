@@ -28,8 +28,8 @@
 	function report(){
 		var deferred = Q.defer(),
 			options = {
-			from:   new Date - (24 * 60 * 60 * 1000) * 2,
-			until:  new Date,
+			from:   new Date() - (24 * 60 * 60 * 1000) * 2,
+			until:  new Date(),
 			limit:  10000,
 			start:  0,
 			order:  'asc',
