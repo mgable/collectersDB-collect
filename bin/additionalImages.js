@@ -34,18 +34,23 @@
 		var deferred = Q.defer(),
 			count = 0;
 
-		item.images.original.forEach(function(image, index){
-			var filename = item.images.local[index].replace(/^\d{4}\/\d{2}\/\d{2}\//, ""),
-				largerImageUrl = _makeLargerImageUrl(image);
+		if(item.images.original && item.images.original.length){
+			item.images.original.forEach(function(image, index){
+				var filename = item.images.local[index].replace(/^\d{4}\/\d{2}\/\d{2}\//, ""),
+					largerImageUrl = _makeLargerImageUrl(image);
 
-			upload.S3(largerImageUrl, imagePath, filename, function(){
-				if (++count === item.images.original.length){
-					util.logger.log("verbose", "Fetched All Images", {itemID:item.id, imageCount:item.images.original.length});
-					deferred.resolve();
-				}
+				upload.S3(largerImageUrl, imagePath, filename, function(){
+					if (++count === item.images.original.length){
+						util.logger.log("verbose", "Fetched All Images", {itemID:item.id, imageCount:item.images.original.length});
+						deferred.resolve();
+					}
+				});
+
 			});
-
-		});
+		} else {
+			util.logger.log('error', "no additional images", {itemID:item.id});
+			deferred.resolve();
+		}
 
 		return deferred.promise;
 	}

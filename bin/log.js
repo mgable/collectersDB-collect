@@ -28,9 +28,9 @@
 	function report(){
 		var deferred = Q.defer(),
 			options = {
-			// from:   new Date - 24 * 60 * 60 * 1000,
-			// until:  new Date,
-			limit:  100000,
+			from:   new Date - (24 * 60 * 60 * 1000) * 2,
+			until:  new Date,
+			limit:  10000,
 			start:  0,
 			order:  'asc',
 			//fields: ['message', 'meta']
@@ -38,6 +38,7 @@
 
 		winston.query(options, function (err, result) {
 			if (err) {
+				console.info("error");
 				deferred.reject(err);
 			} else {
 				deferred.resolve(_parse(result));
