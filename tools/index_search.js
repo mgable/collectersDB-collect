@@ -11,7 +11,7 @@
 
 	// assignments
 	var items = JSON.parse(fs.readFileSync(__dirname + '/advertising_tins_store.json', 'utf8')),
-		index = "test-collectorsdb";
+		index = "collectorsdb";
 
 	// the process
 	make.makeIndex(items, index, true).then(function(data){

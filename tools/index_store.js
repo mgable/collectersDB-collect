@@ -17,7 +17,7 @@
 		.parse(process.argv);
 
 	// assignments
-	var source = program.args[0] || './advertising_tins.json',
+	var source = program.args[0] || './advertising_tins_store.json',
 		table = program.args[1] || 'advertising_tins_store',
 		items = JSON.parse(fs.readFileSync(source, 'utf8'));
 

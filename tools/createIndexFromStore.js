@@ -18,12 +18,13 @@
 		filename = table + ".json",
 		startKey,
 		results = [],
-		count = 0;
+		count = 0,
+		docClient = util.docClient;
 
 	// the process
 	getDataFromDynamo(table, startKey).then(function(data){
 		console.info("saving %s items", data.length);
-		saveLocal("./", filename, JSON.stringify(data));
+		saveLocal(__dirname, filename, JSON.stringify(data));
 	})
 
 	function getDataFromDynamo(table, startKey){
@@ -37,8 +38,6 @@
 			console.info("fetching more data");
 			params.ExclusiveStartKey = startKey;
 		}
-
-		var docClient = util.docClient;
 
 		docClient.scan(params, function(err, data) {
 			if (err) {
