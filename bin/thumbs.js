@@ -33,7 +33,7 @@
 	}
 
 	function makeSmallerImageUrl(url){
-		return url.replace(/(?!s\-l)\d{2,3}/, "140");
+		return url.replace(/\d{3}\.jpg$/, "140.jpg");
 	}
 
 	// private methods
