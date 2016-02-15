@@ -98,6 +98,7 @@
 		errors.forEach(function(error){
 			var error = _.omit(error, 'level');
 			for (var prop in error){
+				if (prop === "data") { continue; }
 				str += "<div style='padding:0 0 0 20px'>" + prop + ": " + JSON.stringify(error[prop]) + "</div>";
 			}
 			str += "<br/>";
