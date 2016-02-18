@@ -27,7 +27,7 @@
 	exports.storeTable = "_store";
 	exports.imageDirectory = "store/images/";
 
-	exports.mappings = {"properties":{"title":{"type":"string"},"link":{"type":"string"},"id":{"type":"string"},"src":{"type":"object","properties":{"origin":{"type":"string"},"local":{"type":"string"}}},"meta":{"type":"object","properties":{"price":{"type":"integer"},"bids":{"type":"integer"},"watchers":{"type":"integer"},"date":{"type":"object","properties":{"formatted":{"type":"date"},"origin":{"type":"string"}}}}}}};
+	exports.mappings = {"properties":{"title":{"type":"string", "analyzer": "snowball"},"link":{"type":"string"},"id":{"type":"string"},"src":{"type":"object","properties":{"origin":{"type":"string"},"local":{"type":"string"}}},"meta":{"type":"object","properties":{"price":{"type":"integer"},"bids":{"type":"integer"},"watchers":{"type":"integer"},"date":{"type":"object","properties":{"formatted":{"type":"date"},"origin":{"type":"string"}}}}}}};
 
 	module.exports = exports;
 })();

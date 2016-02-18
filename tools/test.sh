@@ -1,0 +1,3 @@
+USER_DIRECTORY="Foo"
+
+echo $USER_DIRECTORY
