@@ -6,7 +6,7 @@
 	var util = require('../lib/util.js'),
 		AWS = require('aws-sdk'),
 		Q = require("q"),
-		KEY = 20160206;
+		KEY = 20160218;
 
 	getData(KEY).then(saveRaw);
 
@@ -25,7 +25,7 @@
 	function saveRaw(items){
 		var key = KEY,
 			params = {
-				TableName: "advertising_tins_test_raw",
+				TableName: "advertising_tins_raw",
 				Item: {date: key, items: items},
 				ExpressionAttributeNames: {"#date": "date"},
 				ConditionExpression: 'attribute_not_exists(#date)'
@@ -37,11 +37,10 @@
 
 	// private methods
 	function _putData(params, key, items){
-		console.info("ssssssss");
+
 		var deferred = Q.defer(),
 			docClient = _getDocClient();
 
-console.info("here!!!");
 		docClient.put(params, function(err /*, data*/) {
 			if (err) {
 				if (err.message === "The conditional request failed"){
