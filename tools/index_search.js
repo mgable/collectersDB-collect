@@ -10,7 +10,7 @@
 		fs = require('fs');
 
 	// assignments
-	var items = JSON.parse(fs.readFileSync(__dirname + '/advertising_tins_store.json', 'utf8')),
+	var items = JSON.parse(fs.readFileSync(__dirname + '/TEST.data.json', 'utf8')),
 		index = "collectorsdb";
 
 	// the process
