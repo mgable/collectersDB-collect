@@ -48,12 +48,11 @@
 		return deferred.promise;
 	}
 
-	// private methods
+	//private methods
 	function _parse(report){
 		return report;
 	}
 
-	// exports
 	exports.addLogFile = addLogFile;
 	exports.report = report;
 	exports.log = log;
