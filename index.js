@@ -25,19 +25,27 @@
 		finishProcess = finish.finishProcess;
 
 	// the process
-	util.getConfiguation().then(function(categories){
-		categories.forEach(function(category){
-			startProcess(category)
-			.then(fetchData)
-			.then(parseData)
-			.then(saveData)
-			.then(makeDiff)
-			.then(saveDiff)
-			.then(fetchImageData)
-			.then(saveStore)
-			.then(fetchImages)
-			.then(makeIndex)
-			.then(finishProcess);
+	util.init().then(function(){
+		util.getCategories()
+		.then(function(categories){
+			categories.forEach(function(category){
+				startProcess(category)
+				.then(fetchData)
+				.then(parseData)
+				.then(saveData)
+				.then(makeDiff)
+				.then(saveDiff)
+				.then(fetchImageData)
+				.then(saveStore)
+				.then(fetchImages)
+				.then(makeIndex)
+				.then(finishProcess);
+			});
 		});
 	});
+	
 })();
+
+
+/*;
+	*/
