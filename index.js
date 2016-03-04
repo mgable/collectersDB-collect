@@ -1,8 +1,9 @@
-"use strict";
-
 (function(){
+	"use strict";
+
 	// includes
-	var util = require('./bin/util.js'),
+	var configuration = require('./lib/configuration.js'),
+		util = require('./bin/util.js'),
 		start = require('./lib/start_process.js'),
 		fetch = require('./lib/fetch_data.js'),
 		parser = require('./lib/parse_data.js'),
@@ -11,7 +12,7 @@
 		make = require('./lib/make_index.js'),
 		finish = require('./lib/finish_process.js'),
 		
-		// definitions
+		//definitions
 		startProcess = start.startProcess,
 		fetchData = fetch.fetchData,
 		parseData = parser.parseData,
@@ -25,27 +26,26 @@
 		finishProcess = finish.finishProcess;
 
 	// the process
-	util.init().then(function(){
-		util.getCategories()
-		.then(function(categories){
-			categories.forEach(function(category){
-				startProcess(category)
-				.then(fetchData)
-				.then(parseData)
-				.then(saveData)
-				.then(makeDiff)
-				.then(saveDiff)
-				.then(fetchImageData)
-				.then(saveStore)
-				.then(fetchImages)
-				.then(makeIndex)
-				.then(finishProcess);
+	configuration.init().then(function(config){
+		util.setConfig(config).then(function(){
+			util.getCategories()
+			.then(function(categories){
+				categories.forEach(function(category){
+					startProcess(category)
+					.then(fetchData)
+					.then(parseData)
+					.then(saveData)
+					// .then(makeDiff)
+					// .then(saveDiff)
+					// .then(fetchImageData)
+					// .then(saveStore)
+					// .then(fetchImages)
+					// .then(makeIndex)
+					// .then(finishProcess);
+				});
 			});
 		});
+		
 	});
 	
 })();
-
-
-/*;
-	*/

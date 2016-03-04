@@ -15,7 +15,13 @@
 		fetch = require('./fetch.js');
 
 	// assignments
-	var config;
+	var config,
+		currentCategory,
+		rawTable,
+		diffTable,
+		storeTable,
+		imageDirectory,
+		searchHostIndex
 
 	// program configuration
 	program
@@ -38,7 +44,61 @@
 
 	function init(){
 		logger.addLogFile(_getDateString()); //'./logs/201601.log'
-		return _getConfiguation();
+	}
+
+	function getConfigValue(value){
+		return config[value];
+	}
+
+	function getSysConfigValue(value){
+		return sysConfig[value];
+	}
+
+	function makeOptions(urlstr, contentType){
+		var urlObj = (url.parse(_addProtocal(urlstr)));
+
+		var	options = {
+			host: urlObj.hostname,
+			port: urlObj.port || 80,
+			path: urlObj.path,
+			method: 'GET',
+			agent: false,
+			contentType: contentType || getSysConfigValue("contentTypes").html
+		};
+
+		return options;
+	}
+
+	function setConfig(_config){
+		var deferred = Q.defer();
+
+		config = _config;
+		deferred.resolve(config);
+		_makeDirectories();
+
+		return deferred.promise;
+	}
+
+	function getRequest(category){
+		// set the category for system wide retreival
+		currentCategory = category;
+		return makeOptions(getConfigValue("source").domain + _getPageTemplate(category.id), getSysConfigValue("contentTypes").json);
+	}
+
+	function getTodaysKey(){
+		return parseInt(_getDateString(), 10);
+	}
+
+	function getRawTable(){
+		return _getRoot() + rawTable;
+	}
+
+	function getDiffTable(){
+		return _getRoot() + diffTable;
+	}
+
+	function generateHashCode(s){
+		return Math.abs(s.split("").reduce(function(a,b){a = ((a << 5) - a) + b.charCodeAt(0);return a & a;}, 0)); // jshint ignore:line
 	}
 
 	// private methods
@@ -64,25 +124,8 @@
 		}
 	}
 
-	function _getConfiguation(){
-		return fetch.fetch(_makeOptions(sysConfig.boss), logger).then(function(_config){
-			config = (JSON.parse(_config));
-			return config;
-		});
-	}
-
-	function _makeOptions(urlstr){
-		var urlObj = (url.parse(urlstr));
-
-		var	options = {
-			host: urlObj.hostname,
-			port: urlObj.port || 80,
-			path: urlObj.path,
-			method: 'GET',
-			agent: false
-		};
-
-		return options;
+	function _getPageTemplate(id){
+		return getConfigValue("source").pageUrlTemplate.replace(/( \*{3}) config\.category\.id (\*{3} )/, id);
 	}
 
 	function _getDateString(d){
@@ -94,11 +137,44 @@
 		return ("00" + date).slice(-2);
 	}
 
+	function _getRoot(){
+		var root = currentCategory && currentCategory.name ? currentCategory.name : config.source.categories[0].name;
+		return root;
+	}
+
+	function _makeDirectories(){
+		var c = config.output.directories,
+			testPrefix = "test";
+
+		rawTable = program.test ? "_" + testPrefix  + c.rawTable : c.rawTable;
+		storeTable =  "_" + program.test ? testPrefix + c.storeTable : c.storeTable;
+		diffTable = "_" + program.test ? testPrefix + c.diffTable : c.diffTable;
+		imageDirectory = "_" + program.test ? testPrefix + c.imageDirectory : c.imageDirectory;
+		searchHostIndex = "-" + program.test ? testPrefix + config.aws.ES.index : config.aws.ES.index;
+	}
+
+	function _addProtocal(url){
+		if (/^http\:\/\//.test(url)){
+			return url;
+		} else {
+			return "http://" + url;
+		}
+	}
+
 	//exports
 	exports.program = program;
+	exports.setConfig = setConfig;
+	exports.makeOptions = makeOptions;
 	exports.getCategories = getCategories;
 	exports.init = init;
 	exports.logger = logger;
+	exports.getConfigValue = getConfigValue;
+	exports.getSysConfigValue = getSysConfigValue;
+	exports.getTodaysKey = getTodaysKey;
+	exports.getRawTable = getRawTable;
+	exports.getDiffTable = getDiffTable;
+	exports.getRequest = getRequest;
+	exports.generateHashCode = generateHashCode;
 
 	module.exports = exports;
 

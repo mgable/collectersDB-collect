@@ -5,10 +5,11 @@
 
 	//includes
 	var http = require('http'),
-		Q = require('q');
+		Q = require('q'),
+		util = require('./util.js');
 
 	// public methods
-	function fetch(page, logger, data){
+	function fetchData(page, data){
 		var deferred = Q.defer(),	
 			container = "";
 
@@ -24,13 +25,13 @@
 				});
 
 				res.on('error', function(error){
-					logger.log("error", "Could Not Fetch Page: " + error, {filename: __filename, method: "fetch - res.on", page: page});
+					util.logger.log("error", "Could Not Fetch Page: " + error, {filename: __filename, method: "fetch - res.on", page: page});
 					deferred.reject(error);
 				});
 			});
 
 		req.on('error', function(error) {
-			logger.log("error", "Could Not Fetch Page: " + error, {filename: __filename, method: "fetch - req.on", page: page});
+			util.logger.log("error", "Could Not Fetch Page: " + error, {filename: __filename, method: "fetch - req.on", page: page});
 			deferred.reject(error);
 		});
 
@@ -44,7 +45,7 @@
 	}
 
 	//exports
-	exports.fetch = fetch;
+	exports.fetchData = fetchData;
 
 	module.exports = exports;
 }());

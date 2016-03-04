@@ -4,10 +4,16 @@
 	var exports = {};
 
 	// assignments
-	var boss = "http://localhost:3000/users";
+	var boss = "http://localhost:3000/users",
+		contentTypes = {
+			"html": "text/html; charset=UTF-8",
+			"json": "application/json; charset=UTF-8",
+			"jpg": "image/jpeg"
+		};
 
 	// exports
 	exports.boss = boss;
+	exports.contentTypes = contentTypes;
 
 	module.exports = exports;
 }());
