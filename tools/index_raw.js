@@ -3,10 +3,10 @@
 (function(){
 	var exports = {};
 
-	var util = require('../lib/util.js'),
+	var util = require('../old/lib/util.js'),
 		AWS = require('aws-sdk'),
 		Q = require("q"),
-		KEY = 20160218;
+		KEY = 20160304;
 
 	getData(KEY).then(saveRaw);
 
@@ -23,10 +23,10 @@
 	}
 
 	function saveRaw(items){
-		var key = KEY,
+		var key = 20160303, //KEY,
 			params = {
-				TableName: "advertising_tins_raw",
-				Item: {date: key, items: items},
+				TableName: "advertising_tins_test_raw",
+				Item: {date: key, items: items.slice(5)},
 				ExpressionAttributeNames: {"#date": "date"},
 				ConditionExpression: 'attribute_not_exists(#date)'
 			};
@@ -63,7 +63,7 @@
 		console.info("get doc client");
 		AWS.config.update({
 			region: 'us-west-1',
-			endpoint: 'http://localhost:8000'
+			endpoint: "https://dynamodb.us-west-1.amazonaws.com"
 		});
 
 		var credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});

@@ -5,13 +5,12 @@
 
 	// includes
 	var Q = require('q'),
-		AWS = require('aws-sdk'),
 		util = require('./util.js');
 
 
 	//public methods
 	function getData(keys, table){
-		var docClient = _getDocClient(),
+		var dynamoClient = util.getDynamoClient(),
 			deferred = Q.defer(),
 			RequestItems = {};
 		
@@ -22,7 +21,7 @@
 		    ReturnConsumedCapacity: 'NONE'
 		};
 		
-		docClient.batchGet(params, function(err, data) {
+		dynamoClient.batchGet(params, function(err, data) {
 		    if (err) {
 		    	util.logger.log("error", "could not get data", err)
 		    	deferred.reject(err);
@@ -33,21 +32,6 @@
 		});
 
 		return deferred.promise;
-	}
-
-	// private methods
-	function _getDocClient(){
-		var localConfig = util.getConfigValue("aws");
-		// AWS configuration
-		AWS.config.update({
-			region: localConfig.dynamo.region,
-			endpoint: localConfig.dynamo.endpoint
-		});
-
-		var credentials = new AWS.SharedIniFileCredentials({profile: localConfig.profile});
-		AWS.config.credentials = credentials;
-
-		return new AWS.DynamoDB.DocumentClient();
 	}
 
 	// exports

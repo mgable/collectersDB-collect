@@ -8,6 +8,8 @@
 		Q = require('q'),
 		AWS = require('aws-sdk'),
 		url = require('url');
+		// datejs extends date prototype
+		require('datejs');
 
 	// includes - mine
 	var	logger = require('./log.js'),
@@ -89,6 +91,10 @@
 		return parseInt(_getDateString(), 10);
 	}
 
+	function getYesterdaysKey(){
+		return parseInt(_getDateString(Date.today().add(-1).days()), 10);
+	}
+
 	function getRawTable(){
 		return _getRoot() + rawTable;
 	}
@@ -99,6 +105,21 @@
 
 	function generateHashCode(s){
 		return Math.abs(s.split("").reduce(function(a,b){a = ((a << 5) - a) + b.charCodeAt(0);return a & a;}, 0)); // jshint ignore:line
+	}
+
+	function getDynamoClient(){
+		var localConfig = getConfigValue("aws");
+		
+		// AWS configuration
+		AWS.config.update({
+			region: localConfig.dynamo.region,
+			endpoint: localConfig.dynamo.endpoint
+		});
+
+		var credentials = new AWS.SharedIniFileCredentials({profile: localConfig.profile});
+		AWS.config.credentials = credentials;
+
+		return new AWS.DynamoDB.DocumentClient();
 	}
 
 	// private methods
@@ -147,10 +168,10 @@
 			testPrefix = "test";
 
 		rawTable = program.test ? "_" + testPrefix  + c.rawTable : c.rawTable;
-		storeTable =  "_" + program.test ? testPrefix + c.storeTable : c.storeTable;
-		diffTable = "_" + program.test ? testPrefix + c.diffTable : c.diffTable;
-		imageDirectory = "_" + program.test ? testPrefix + c.imageDirectory : c.imageDirectory;
-		searchHostIndex = "-" + program.test ? testPrefix + config.aws.ES.index : config.aws.ES.index;
+		storeTable = program.test ? "_" + testPrefix + c.storeTable : c.storeTable;
+		diffTable = program.test ? "_" + testPrefix + c.diffTable : c.diffTable;
+		imageDirectory = program.test ? "_" +  testPrefix + c.imageDirectory : c.imageDirectory;
+		searchHostIndex = program.test ? "-" +  testPrefix + config.aws.ES.index : config.aws.ES.index;
 	}
 
 	function _addProtocal(url){
@@ -171,10 +192,12 @@
 	exports.getConfigValue = getConfigValue;
 	exports.getSysConfigValue = getSysConfigValue;
 	exports.getTodaysKey = getTodaysKey;
+	exports.getYesterdaysKey = getYesterdaysKey;
 	exports.getRawTable = getRawTable;
 	exports.getDiffTable = getDiffTable;
 	exports.getRequest = getRequest;
 	exports.generateHashCode = generateHashCode;
+	exports.getDynamoClient = getDynamoClient;
 
 	module.exports = exports;
 
