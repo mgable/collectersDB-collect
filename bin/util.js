@@ -13,8 +13,7 @@
 
 	// includes - mine
 	var	logger = require('./log.js'),
-		sysConfig = require('../config/config.js'),
-		fetch = require('./fetch.js');
+		sysConfig = require('../config/config.js');
 
 	// assignments
 	var config,
@@ -23,7 +22,7 @@
 		diffTable,
 		storeTable,
 		imageDirectory,
-		searchHostIndex
+		searchHostIndex;
 
 	// program configuration
 	program
@@ -122,6 +121,12 @@
 		return new AWS.DynamoDB.DocumentClient();
 	}
 
+	function makePathFromDateString(dateStr){
+		var date = dateStr.toString().match(/(\d{4})(\d{2})(\d{2})/);
+		date.shift();
+		return date.join("/");
+	}
+
 	// private methods
 	function _init(){
 		if (program.test){
@@ -198,6 +203,7 @@
 	exports.getRequest = getRequest;
 	exports.generateHashCode = generateHashCode;
 	exports.getDynamoClient = getDynamoClient;
+	exports.makePathFromDateString = makePathFromDateString;
 
 	module.exports = exports;
 

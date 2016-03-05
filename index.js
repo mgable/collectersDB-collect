@@ -19,7 +19,7 @@
 		saveData = save.saveData,
 		makeDiff = diff.makeDiff,
 		saveDiff = save.saveDiff,
-		fetchImageData = fetch.fetchImageData,
+		fetchAdditionData = fetch.fetchAdditionData,
 		saveStore = save.saveStore,
 		fetchImages = fetch.fetchImages,
 		makeIndex = make.makeIndex,
@@ -37,7 +37,8 @@
 					.then(saveData)
 					.then(makeDiff)
 					.then(saveDiff)
-					// .then(fetchImageData)
+					.then(fetchAdditionData)
+					.then(saveDiff)
 					// .then(saveStore)
 					// .then(fetchImages)
 					// .then(makeIndex)

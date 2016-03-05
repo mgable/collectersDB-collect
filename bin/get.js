@@ -23,10 +23,10 @@
 		
 		dynamoClient.batchGet(params, function(err, data) {
 		    if (err) {
-		    	util.logger.log("error", "could not get data", err)
+		    	util.logger.log("error", "could not get data", err);
 		    	deferred.reject(err);
 			} else {
-				util.logger.log("verbose", "get data was a success")
+				util.logger.log("verbose", "get data was a success");
 				deferred.resolve(data.Responses[table]);
 			}
 		});

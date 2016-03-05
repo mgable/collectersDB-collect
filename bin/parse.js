@@ -4,9 +4,7 @@
 	var exports = {};
 
 	//includes
-	var Q = require("q"),
-		cheerio = require('cheerio'),
-		_ = require('underscore'),
+	var cheerio = require('cheerio'),
 		util = require('./util.js');
 
 		// extends date prototype
@@ -31,6 +29,7 @@
 	// private methods
 	function _remap(data){
 		var obj = {};
+		obj.source = {"provider": "eBay", listedIn: []};
 		obj.title = _removeDoubleEscape(data.children[1].data); //title
 		obj.link = _decodeLink(data.attribs.href); //link to item
 		obj.id = util.generateHashCode(obj.link);
