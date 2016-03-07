@@ -5,7 +5,9 @@
 
 	//includes
 	var Q = require('q'),
-		util = require('./util.js');
+		_ = require('underscore'),
+		util = require('./util.js'),
+		save = require('./bin/save.js');
 
 
 	// public methods
@@ -30,8 +32,36 @@
 		return deferred.promise;
 	}
 
+	
+	function saveBulkData(diff){
+		var deferred = Q.defer();
+		save.saveToDynamo(_formatData(diff), deferred);
+		return deferred.promise;
+	} 
+
+	//private methods
+	function _formatData(items){
+		var results = [];
+		items.forEach(function(item) {
+
+			if (item){
+				var key = util.getTodaysKey(new Date(item.meta.date.formatted)),
+					param = {
+						PutRequest: {
+							Item: _.extend(item, {date: key})
+						}
+				};
+				results.push(param);
+			}
+		});
+
+		return results;
+	}
+	
+
 	//exports
 	exports.saveData = saveData;
+	exports.saveBulkData = saveBulkData;
 
 	module.exports = exports;
 }());

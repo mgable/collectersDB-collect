@@ -7,7 +7,6 @@
 	var Q = require("q"),
 		_ = require("underscore"),
 		get = require('./get.js'),
-		save = require('./save.js'),
 		util = require('./util.js');
 
 	// public methods

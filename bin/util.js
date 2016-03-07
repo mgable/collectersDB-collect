@@ -86,8 +86,8 @@
 		return makeOptions(getConfigValue("source").domain + _getPageTemplate(category.id), getSysConfigValue("contentTypes").json);
 	}
 
-	function getTodaysKey(){
-		return parseInt(_getDateString(), 10);
+	function getTodaysKey(d){
+		return parseInt(_getDateString(d), 10);
 	}
 
 	function getYesterdaysKey(){
@@ -100,6 +100,10 @@
 
 	function getDiffTable(){
 		return _getRoot() + diffTable;
+	}
+
+	function getStoreTable(){
+		return _getRoot() + storeTable;
 	}
 
 	function generateHashCode(s){
@@ -200,6 +204,7 @@
 	exports.getYesterdaysKey = getYesterdaysKey;
 	exports.getRawTable = getRawTable;
 	exports.getDiffTable = getDiffTable;
+	exports.getStoreTable =getStoreTable;
 	exports.getRequest = getRequest;
 	exports.generateHashCode = generateHashCode;
 	exports.getDynamoClient = getDynamoClient;

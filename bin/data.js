@@ -58,10 +58,10 @@
 							results.push(item);
 						} else {
 							if (item.images.fail) {
-								util.logger.log('error', 'Failed to fetch additional image (no additional images found) - abort', {itemID: item.id, link: item.source.originalUrl});
+								util.logger.log('error', 'Failed to fetch additional data (no additional images) - abort', {itemID: item.id, link: item.source.originalUrl});
 							} else {
 								item.images.fail = true;
-								util.logger.log('warn', 'Failed to fetch additional image (no additional images found) - retry', {itemID: item.id, link: item.source.originalUrl});
+								util.logger.log('warn', 'Failed to fetch additional data (no additional images) - retry', {itemID: item.id, link: item.source.originalUrl});
 								items.push(item);
 							}
 						}
@@ -69,9 +69,9 @@
 					});
 				} else {
 					if(item.failed) {
-						util.logger.log("error", "Failed to fetch additional images (invalid link) - abort", {itemID: item.id} );
+						util.logger.log("error", "Failed to fetch additional data (invalid link) - abort", {itemID: item.id} );
 					} else {
-						util.logger.log("warn", "Failed to fetch additional images (invalid link) - retry", {itemID: item.id} );
+						util.logger.log("warn", "Failed to fetch additional data (invalid link) - retry", {itemID: item.id} );
 						item.failed = true;
 						items.push(item);
 					}
@@ -107,7 +107,7 @@
 
 		} else {
 			util.logger.log("error", "No data", {itemID: item.id, link: item.link});
-			return false;
+			return item;
 		}
 	}
 

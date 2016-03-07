@@ -1,0 +1,36 @@
+{
+  "aggs": {
+    "top-terms-aggregation": {
+      "terms": {
+        "field": "title",
+        "size": 20,
+        "exclude": [
+          "tin",
+          "vintag",
+          "old",
+          "can",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "0",
+          "antiqu",
+          "advertis",
+          "rare",
+          "co",
+          "cut",
+          "s",
+          "lot",
+          "box",
+          "nice",
+          "lb"
+        ]
+      }
+    }
+  }
+}
