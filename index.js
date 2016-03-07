@@ -40,7 +40,7 @@
 					.then(fetchAdditionData)
 					.then(saveDiff)
 					.then(saveStore)
-					// .then(fetchImages)
+					.then(fetchImages)
 					// .then(makeIndex)
 					// .then(finishProcess);
 				});

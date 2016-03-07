@@ -102,6 +102,10 @@
 		return _getRoot() + diffTable;
 	}
 
+	function getImagePath(){
+		return _getRoot() + "/" + imageDirectory +  makePathFromDateString(_getDateString()) + "/";
+	}
+
 	function getStoreTable(){
 		return _getRoot() + storeTable;
 	}
@@ -204,7 +208,8 @@
 	exports.getYesterdaysKey = getYesterdaysKey;
 	exports.getRawTable = getRawTable;
 	exports.getDiffTable = getDiffTable;
-	exports.getStoreTable =getStoreTable;
+	exports.getStoreTable = getStoreTable;
+	exports.getImagePath = getImagePath;
 	exports.getRequest = getRequest;
 	exports.generateHashCode = generateHashCode;
 	exports.getDynamoClient = getDynamoClient;

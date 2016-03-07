@@ -31,7 +31,7 @@
 
 	// public methods
 	function saveToDynamo(items, promise){
-		diff = totalItems;
+		diff = items;
 		totalItems = diff.length;
 		storeTable = util.getStoreTable();
 		storeDeferred = promise;
@@ -50,7 +50,7 @@
 	// private methods
 	function _saveToDynamo(results){
 		if (results.length){
-			util.looger.log("verbose", "calling loading data: %s", ++counter); /* jshint ignore:line*/
+			util.logger.log("verbose", "calling loading data: %s", ++counter); /* jshint ignore:line*/
 			requestItems[storeTable] = results.splice(0, size);
 			dynamoClient.batchWrite(params, function(err, data) {
 				if (err) {
