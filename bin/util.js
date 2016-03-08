@@ -115,8 +115,28 @@
 		return S3Bucket;
 	}
 
+	function getSearchHost(){
+		return config.aws.ES.endpoint;
+	}
+
+	function getSearchHostIndex(){
+		return searchHostIndex;
+	}
+
+	function getIndexType(){
+		return _getRoot();
+	}
+
 	function generateHashCode(s){
 		return Math.abs(s.split("").reduce(function(a,b){a = ((a << 5) - a) + b.charCodeAt(0);return a & a;}, 0)); // jshint ignore:line
+	}
+
+	function getMapping(){
+		var obj = {},
+			type = getIndexType();
+
+		obj[type] = config.aws.ES.mappings;
+		return obj;
 	}
 
 	function getDynamoClient(){
@@ -221,6 +241,10 @@
 	exports.generateHashCode = generateHashCode;
 	exports.getDynamoClient = getDynamoClient;
 	exports.makePathFromDateString = makePathFromDateString;
+	exports.getSearchHostIndex = getSearchHostIndex;
+	exports.getSearchHost = getSearchHost;
+	exports.getIndexType = getIndexType;
+	exports.getMapping = getMapping;
 
 	module.exports = exports;
 

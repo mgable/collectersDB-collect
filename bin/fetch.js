@@ -54,15 +54,18 @@
 	}
 
 	function thumbnails(diff, imagePath){
+		console.info("1");
 		// set class variables
 		items = diff;
 		totalItems = items.length;
-
+		console.info("2");
 		// download thumbnails
 		items.forEach(function(item){
 			var filename = item.src.local.replace(/^\d{4}\/\d{2}\/\d{2}\//, "");
 
+			console.info(filename);
 			upload.S3(item.src.original, imagePath, filename, _thumbNailCallback);
+			console.info("4");
 		});
 
 		util.logger.log("info", "Fetching Thumbnails", {imageCount: totalItems, imagePath: imagePath});

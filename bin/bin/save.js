@@ -4,7 +4,8 @@
 	var exports = {};
 
 	//includes
-	var util = require('../util.js');
+	var Q = require('q'),
+		util = require('../util.js');
 
 	// assignments
 	var	storeTable,
@@ -13,7 +14,7 @@
 		unprocessTries = 0,
 		counter = 0,
 		totalItems = 0,
-		storeDeferred,
+		storeDeferred, // = Q.defer(),
 		items,
 		requestItems = {},
 		dynamoClient,
@@ -34,8 +35,9 @@
 		items = diff.slice(0);
 		totalItems = diff.length;
 		storeTable = util.getStoreTable();
-		storeDeferred = promise;
 		requestItems[storeTable] = [];
+
+		storeDeferred = promise;
 
 		var config = util.getConfigValue("aws");
 		dynamoClient  = util.getDynamoClient(),

@@ -40,8 +40,8 @@
 					// .then(fetchAdditionData)
 					// .then(saveDiff)
 					// .then(saveStore)
-					.then(fetchImages)
-					// .then(makeIndex)
+					// .then(fetchImages)
+					.then(makeIndex)
 					// .then(finishProcess);
 				});
 			});
