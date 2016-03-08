@@ -18,7 +18,10 @@
 
 		_init();
 
-		request.head(uri, function(){
+		request.head(uri, function(err, res, body){
+
+			console.log('content-type:', res.headers['content-type']);
+    		console.log('content-length:', res.headers['content-length']);
 
 			var upload = s3Stream.upload({
 				"Bucket": util.getS3Bucket(),

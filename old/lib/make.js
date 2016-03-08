@@ -18,10 +18,6 @@
 		deferred = Q.defer(),
 		totalItems = 0;
 
-		console.info(myCredentials);
-
-
-
 	//public methods
 	function makeIndex(diff, index, complete, host){
 		var index = index || util.getSearchHostIndex();

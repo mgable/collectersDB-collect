@@ -36,13 +36,13 @@
 					.then(parseData)
 					.then(saveData)
 					.then(makeDiff)
-					// .then(saveDiff)
-					// .then(fetchAdditionData)
-					// .then(saveDiff)
-					// .then(saveStore)
-					// .then(fetchImages)
+					.then(saveDiff)
+					.then(fetchAdditionData)
+					.then(saveDiff)
+					.then(saveStore)
+					.then(fetchImages)
 					.then(makeIndex)
-					// .then(finishProcess);
+					.then(finishProcess);
 				});
 			});
 		});

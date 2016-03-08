@@ -11,7 +11,7 @@
 
 	// public methods
 	function addLogFile(filename){
-		console.info("adding log file " + filename);
+		util.logger.log("verbose", "adding log file", {filename: filename});
 		var infoFile = __dirname + '/../logs/' + filename + "-info.log",
 			errorFile = __dirname + '/../logs/' + filename + "-error.log",
 			verboseFile  = __dirname + '/../logs/' + filename + "-verbose.log";
@@ -38,7 +38,7 @@
 
 		winston.query(options, function (err, result) {
 			if (err) {
-				console.info("error");
+				util.logger.log("error", "winston query error", err);
 				deferred.reject(err);
 			} else {
 				deferred.resolve(_parse(result));

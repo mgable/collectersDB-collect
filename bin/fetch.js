@@ -13,7 +13,8 @@
 	var filesReceived = 0,
 		totalItems,
 		items,
-		deferred = Q.defer();
+		thumbnailDeferred = Q.defer(),
+		additionalDeferred = Q.defer();
 
 	var totalAdditionalImages = 0;
 
@@ -54,23 +55,21 @@
 	}
 
 	function thumbnails(diff, imagePath){
-		console.info("1");
 		// set class variables
 		items = diff;
 		totalItems = items.length;
-		console.info("2");
+
 		// download thumbnails
 		items.forEach(function(item){
 			var filename = item.src.local.replace(/^\d{4}\/\d{2}\/\d{2}\//, "");
 
-			console.info(filename);
 			upload.S3(item.src.original, imagePath, filename, _thumbNailCallback);
-			console.info("4");
+
 		});
 
 		util.logger.log("info", "Fetching Thumbnails", {imageCount: totalItems, imagePath: imagePath});
 
-		return deferred.promise;
+		return thumbnailDeferred.promise;
 	}
 
 	function additionalImages(diff, imagePath){
@@ -84,10 +83,10 @@
 
 		 } else {
 		 	util.logger.log("info", "Fetch Images Completed");
-		 	deferred.resolve(totalAdditionalImages);
+		 	additionalDeferred.resolve(totalAdditionalImages);
 		 }
 
-		 return deferred.promise;
+		 return additionalDeferred.promise;
 	}
 
 	// private methods
@@ -95,7 +94,7 @@
 		util.logger.log("verbose", "getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
 			util.logger.log("info", "Fetched Thumbnails", {imageCount: totalItems});
-			deferred.resolve(items);
+			thumbnailDeferred.resolve(items);
 		}
 	}
 

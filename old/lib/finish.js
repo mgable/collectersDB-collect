@@ -11,6 +11,8 @@
 		//util.logger.addLogFile(util.getDateString());
 		util.logger.log("info", "End Process");
 		util.logger.report().then(function(data){
+			console.info("report");
+			console.info(data);
 			report.makeReport(data);
 		});
 	}
