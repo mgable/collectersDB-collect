@@ -54,7 +54,6 @@
 	}
 
 	function thumbnails(diff, imagePath){
-
 		// set class variables
 		items = diff;
 		totalItems = items.length;
@@ -82,7 +81,7 @@
 
 		 } else {
 		 	util.logger.log("info", "Fetch Images Completed");
-		 	deferred.resolve();
+		 	deferred.resolve(totalAdditionalImages);
 		 }
 
 		 return deferred.promise;

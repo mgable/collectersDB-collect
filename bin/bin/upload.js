@@ -23,7 +23,7 @@
 			var upload = s3Stream.upload({
 				"Bucket": util.getS3Bucket(),
 				"Key": imagePath + filename,
-				"ContentType": util.contentTypes('contentTypes').jpg
+				"ContentType": util.getSysConfigValue('contentTypes').jpg
 			});
 
 			upload.on('error', function (error) {

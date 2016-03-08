@@ -21,6 +21,7 @@
 		rawTable,
 		diffTable,
 		storeTable,
+		S3Bucket,
 		imageDirectory,
 		searchHostIndex;
 
@@ -110,6 +111,10 @@
 		return _getRoot() + storeTable;
 	}
 
+	function getS3Bucket(){
+		return S3Bucket;
+	}
+
 	function generateHashCode(s){
 		return Math.abs(s.split("").reduce(function(a,b){a = ((a << 5) - a) + b.charCodeAt(0);return a & a;}, 0)); // jshint ignore:line
 	}
@@ -183,8 +188,9 @@
 		rawTable = program.test ? "_" + testPrefix  + c.rawTable : c.rawTable;
 		storeTable = program.test ? "_" + testPrefix + c.storeTable : c.storeTable;
 		diffTable = program.test ? "_" + testPrefix + c.diffTable : c.diffTable;
-		imageDirectory = program.test ? "_" +  testPrefix + c.imageDirectory : c.imageDirectory;
-		searchHostIndex = program.test ? "-" +  testPrefix + config.aws.ES.index : config.aws.ES.index;
+		imageDirectory = c.imageDirectory;
+		searchHostIndex = program.test ? testPrefix + "-" +  config.aws.ES.index : config.aws.ES.index;
+		S3Bucket = program.test ? testPrefix + "-" + config.aws.S3.bucket : config.aws.S3.bucket;
 	}
 
 	function _addProtocal(url){
@@ -210,6 +216,7 @@
 	exports.getDiffTable = getDiffTable;
 	exports.getStoreTable = getStoreTable;
 	exports.getImagePath = getImagePath;
+	exports.getS3Bucket = getS3Bucket;
 	exports.getRequest = getRequest;
 	exports.generateHashCode = generateHashCode;
 	exports.getDynamoClient = getDynamoClient;

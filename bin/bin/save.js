@@ -14,7 +14,7 @@
 		counter = 0,
 		totalItems = 0,
 		storeDeferred,
-		diff,
+		items,
 		requestItems = {},
 		dynamoClient,
 		params = {};
@@ -30,8 +30,8 @@
 	params.ReturnItemCollectionMetrics = 'NONE'; // optional (NONE | SIZE)
 
 	// public methods
-	function saveToDynamo(items, promise){
-		diff = items;
+	function saveToDynamo(diff, promise){
+		items = diff.slice(0);
 		totalItems = diff.length;
 		storeTable = util.getStoreTable();
 		storeDeferred = promise;
@@ -88,7 +88,7 @@
 				if (errors.length){
 					util.logger.log("error", errors, {filename: __filename, method: "_saveToDynamo"});
 				}
-				storeDeferred.resolve(diff);
+				storeDeferred.resolve(items);
 			}
 		}
 	}
