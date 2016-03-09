@@ -6,17 +6,25 @@
 
 (function(){
 	// includes
-	var make = require('../lib/make.js'),
+	var make = require('../lib/make_index.js'),
+		configuration = require('../lib/configuration.js'),
+		util = require('../bin/util.js'),
 		fs = require('fs');
 
 	// assignments
-	var items = JSON.parse(fs.readFileSync(__dirname + '/advertising_tins_store.json', 'utf8')),
-		host = "http://search-collectors-db-k6k76eedtz272dx3t5eqsmo2wq.us-west-1.es.amazonaws.com/",
-		index = "collectorsdb";
+	var items = JSON.parse(fs.readFileSync(__dirname + '/TEST.data.json', 'utf8')),
+		host = "search-mgable-es-ht4qtiycv6v543iujwxk6q5n3u.us-west-2.es.amazonaws.com/",
+		index = "test-collectorsdb";
 
 	// the process
-	make.makeIndex(items, index, true, host).then(function(data){
-		console.info("done!!!");
+	configuration.init().then(function(config){
+		util.setConfig(config).then(function(){
+			make.makeIndex(items, index, host, true).then(function(data){
+				console.info("done!!!");
+			});
+		});
 	});
 
 })();
+
+//makeIndex(_diff, index, host, complete){

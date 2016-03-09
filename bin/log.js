@@ -11,7 +11,6 @@
 
 	// public methods
 	function addLogFile(filename){
-		util.logger.log("verbose", "adding log file", {filename: filename});
 		var infoFile = __dirname + '/../logs/' + filename + "-info.log",
 			errorFile = __dirname + '/../logs/' + filename + "-error.log",
 			verboseFile  = __dirname + '/../logs/' + filename + "-verbose.log";
@@ -19,6 +18,8 @@
 		winston.add(winston.transports.File, { filename: errorFile, name:"error_file", level: 'error'});
 		winston.add(winston.transports.File, { filename: infoFile, name:"info_file", level: 'info'});
 		winston.add(winston.transports.File, { filename: verboseFile, name:"verbose_file", level: 'verbose'});
+
+		log("verbose", "adding log file", {filename: filename});
 	}
 
 	function log(type, message, meta){

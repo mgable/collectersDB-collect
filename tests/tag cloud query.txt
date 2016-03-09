@@ -6,7 +6,7 @@
         "size": 20,
         "exclude": [
           "tin",
-          "vintag",
+          "vintage",
           "old",
           "can",
           "1",
@@ -19,8 +19,8 @@
           "8",
           "9",
           "0",
-          "antiqu",
-          "advertis",
+          "antique",
+          "advertising",
           "rare",
           "co",
           "cut",
@@ -28,7 +28,10 @@
           "lot",
           "box",
           "nice",
-          "lb"
+          "lb",
+          "of",
+          "with",
+          "w"
         ]
       }
     }
