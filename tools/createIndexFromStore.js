@@ -10,7 +10,8 @@
 		AWS = require('aws-sdk'),
 		fs = require('fs'),
 		nodefs = require("node-fs"),
-		util  = require('../lib/util.js');
+		util  = require('../bin/util.js'),
+		Configuration = require('../lib/configuration.js');
 
 	// assignments
 	var deferred = Q.defer(),
@@ -19,13 +20,19 @@
 		startKey,
 		results = [],
 		count = 0,
-		docClient = util.docClient;
+		docClient;
 
 	// the process
-	getDataFromDynamo(table, startKey).then(function(data){
-		console.info("saving %s items", data.length);
-		saveLocal(__dirname, filename, JSON.stringify(data));
-	})
+	Configuration.init().then(function(config){
+		util.setConfig(config).then(function(){
+			docClient = util.getDynamoClient();
+			getDataFromDynamo(table, startKey).then(function(data){
+				console.info("saving %s items", data.length);
+				saveLocal(__dirname, filename, JSON.stringify(data));
+			});
+		});
+	});
+	
 
 	function getDataFromDynamo(table, startKey){
 		var params = {

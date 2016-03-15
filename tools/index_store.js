@@ -6,9 +6,11 @@
 
 	// includes
 	var program = require('commander'),
-		save = require('../lib/save.js'),
 		fs = require('fs'),
-		_ = require("underscore");
+		_ = require("underscore"),
+		save = require('../bin/save.js'),
+		util = require('../bin/util.js'),
+		Configuration = require('../lib/configuration.js');
 
 	// program configuration
 	program
@@ -17,13 +19,18 @@
 		.parse(process.argv);
 
 	// assignments
-	var source = program.args[0] || './advertising_tins_store.json',
-		table = program.args[1] || 'advertising_tins_store',
+	var source = program.args[0] || './fiesta_test_store.json',
+		table = program.args[1] || 'fiesta_store',
 		items = JSON.parse(fs.readFileSync(source, 'utf8'));
 
 	// the process
-	save.saveStore(items, table).then(function(data){
-		console.info("done");
-	})
-
+	Configuration.init().then(function(config){
+		util.setConfig(config).then(function(){
+			save.saveBulkData(items, table).then(function(){
+				console.info("done!!!!");
+				deferred.resolve(diff);
+			})
+		});
+	});
+	
 })();

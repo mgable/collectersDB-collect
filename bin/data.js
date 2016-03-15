@@ -129,11 +129,11 @@
 			results.push(v.attribs.src);
 		});
 
-		if (!results.length){
+		if (!results.length && $('#icImg').attr("src")){
 			results.push($('#icImg').attr("src"));
 		}
 
-		return results;
+		return _.compact(results);
 	}
 
 	function _getAdditionalImageData(item, additionalImages){

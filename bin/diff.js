@@ -7,7 +7,8 @@
 	var Q = require("q"),
 		_ = require("underscore"),
 		get = require('./get.js'),
-		util = require('./util.js');
+		util = require('./util.js'),
+		save = require('../lib/save_data.js');
 
 	// public methods
 	function makeDiff(items){
@@ -17,8 +18,9 @@
 			diffTable = util.getDiffTable(),
 			keys = [{date: todayKey}];
 
-		_getData(diffTable, keys).then(function(data){
+		_getBulkData(diffTable, keys).then(function(data){
 			if (data){// there is a diff file
+				save.setDiffSaved(true);
 				deferred.resolve(data);
 				util.logger.log("warn", "Existing Diff file - Skipping");
 			} else { // no diff file
@@ -59,6 +61,14 @@
 	function _getData(table, keys){
 		return get.getData(keys, table).then(function(data){
 			return (data[0] && data[0].items) ? data[0].items : false;
+		});
+	}
+
+	function _getBulkData(table, keys){
+		return get.getBulkData(table, null).then(function(diff){
+			console.info("getting the diff");
+			console.info(diff.length);
+			return diff && diff.length ? diff : false;
 		});
 	}
 

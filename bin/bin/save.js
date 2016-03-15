@@ -31,11 +31,12 @@
 	params.ReturnItemCollectionMetrics = 'NONE'; // optional (NONE | SIZE)
 
 	// public methods
-	function saveToDynamo(diff, promise){
+	function saveToDynamo(diff, promise, table){
 		items = diff.slice(0);
 		totalItems = diff.length;
-		storeTable = util.getStoreTable();
+		storeTable = table;
 		requestItems[storeTable] = [];
+		counter = 0;
 
 		storeDeferred = promise;
 
@@ -54,6 +55,7 @@
 		if (results.length){
 			util.logger.log("verbose", "calling loading data: %s", ++counter); /* jshint ignore:line*/
 			requestItems[storeTable] = results.splice(0, size);
+
 			dynamoClient.batchWrite(params, function(err, data) {
 				if (err) {
 					util.logger.log("error", err); // an error occurred

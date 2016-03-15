@@ -4,7 +4,7 @@
 	var exports = {};
 
 	// assignments
-	var boss = "http://localhost:3000/users",
+	var boss = "http://54.67.31.82:3000/users",
 		contentTypes = {
 			"html": "text/html; charset=UTF-8",
 			"json": "application/json; charset=UTF-8",

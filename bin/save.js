@@ -33,9 +33,9 @@
 	}
 
 	
-	function saveBulkData(diff){
+	function saveBulkData(diff, table){
 		var deferred = Q.defer();
-		save.saveToDynamo(_formatData(diff), deferred);
+		save.saveToDynamo(_formatData(diff), deferred, table);
 		return deferred.promise;
 	} 
 
@@ -45,7 +45,7 @@
 		items.forEach(function(item) {
 
 			if (item){
-				var key = util.getTodaysKey(new Date(item.meta.date.formatted)),
+				var key = util.getTodaysKey(),
 					param = {
 						PutRequest: {
 							Item: _.extend(item, {date: key})
