@@ -42,7 +42,7 @@
 
 		var config = util.getConfigValue("aws");
 		dynamoClient  = util.getDynamoClient(),
-		size = config.dynamo.settings.size || 25,
+		size = config.dynamo.settings.size || 10,
 		startingDelay = config.dynamo.settings.startingDelay || 3000,
 		increment = config.dynamo.settings.increment || 500,
 		delay = startingDelay;

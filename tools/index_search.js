@@ -19,8 +19,8 @@
 	// the process
 	configuration.init().then(function(config){
 		util.setConfig(config).then(function(){
-			var host = util.getSearchHost(),
-				index = util.getSearchHostIndex(),
+			var host = "https://search-mgable-es-ht4qtiycv6v543iujwxk6q5n3u.us-west-2.es.amazonaws.com", //util.getSearchHost(),
+				index = "test-collectorsdb", //util.getSearchHostIndex(),
 				type = "fiesta";
 			make.makeIndex(items, index, host, type, false).then(function(data){
 				console.info("done!!!");

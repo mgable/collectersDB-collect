@@ -38,15 +38,27 @@
 		return deferred.promise;
 	}
 
-	function getBulkData(table, startKey){
-		var dynamoClient = util.getDynamoClient(),
-			deferred = Q.defer(),
-			params = {
-				TableName: table,
-				ConsistentRead: false, // optional (true | false)
-				ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
-			}
+	var dynamoClient,
+		params,
+		deferred = Q.defer();
 
+	function getBulkData(table, key){
+		dynamoClient = util.getDynamoClient()
+		params = {
+			TableName: table,
+			FilterExpression: "#date = :date",
+		    ExpressionAttributeValues: {":date": key},
+		    ExpressionAttributeNames: {"#date":"date"},
+			ConsistentRead: false, // optional (true | false)
+			ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
+		}
+
+		_getBulkData(table, null, key);
+
+		return deferred.promise;
+	}
+
+	function _getBulkData(table, startKey, key){
 		if (startKey){
 			console.info("fetching more data");
 			params.ExclusiveStartKey = startKey;
@@ -55,20 +67,19 @@
 		dynamoClient.scan(params, function(err, data) {
 			if (err) {
 				console.info(err); // an error occurred
-				return deferred.reject(err);
+				deferred.reject(err);
 			} else {
 				results = results.concat(data.Items);
 				count += data.Count;
 				console.info("got %s items", count);
+				console.info(data);
 				if (data.LastEvaluatedKey){	
-					getBulkData(table, data.LastEvaluatedKey);
+					_getBulkData(table, data.LastEvaluatedKey, key);
 				} else {
-					return deferred.resolve(results);
+					deferred.resolve(results);
 				}
 			} 
 		});
-
-		return deferred.promise;
 	}
 
 	// exports

@@ -79,8 +79,8 @@
 	function _getParams(type){
 		var params =  {
 			ProvisionedThroughput: {       
-				ReadCapacityUnits: 5, 
-				WriteCapacityUnits: 5
+				ReadCapacityUnits: 10, 
+				WriteCapacityUnits: 10
 			}
 		};
 

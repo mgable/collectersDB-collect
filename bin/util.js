@@ -211,6 +211,7 @@
 		imageDirectory = c.imageDirectory;
 		searchHostIndex = program.test ? testPrefix + "-" +  config.aws.ES.index : config.aws.ES.index;
 		S3Bucket = program.test ? testPrefix + "-" + config.aws.S3.bucket : config.aws.S3.bucket;
+		//S3Bucket =  config.aws.S3.bucket;
 	}
 
 	function _addProtocal(url){

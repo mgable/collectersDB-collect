@@ -9,6 +9,7 @@
 		fs = require('fs'),
 		_ = require("underscore"),
 		save = require('../bin/save.js'),
+		//save = require('../lib/save_data.js'),
 		util = require('../bin/util.js'),
 		Configuration = require('../lib/configuration.js');
 
@@ -19,8 +20,8 @@
 		.parse(process.argv);
 
 	// assignments
-	var source = program.args[0] || './fiesta_test_store.json',
-		table = program.args[1] || 'fiesta_store',
+	var source = program.args[0] || '../advertising_tin_store.json',
+		table = program.args[1] || 'advertising_tins_test_raw',
 		items = JSON.parse(fs.readFileSync(source, 'utf8'));
 
 	// the process
@@ -30,6 +31,10 @@
 				console.info("done!!!!");
 				deferred.resolve(diff);
 			})
+
+			// save.saveData(items).then(function(){
+			// 	console.info("done!!");
+			// });
 		});
 	});
 	

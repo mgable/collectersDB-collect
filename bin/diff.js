@@ -18,7 +18,7 @@
 			diffTable = util.getDiffTable(),
 			keys = [{date: todayKey}];
 
-		_getBulkData(diffTable, keys).then(function(data){
+		_getBulkData(diffTable, todayKey).then(function(data){
 			if (data){// there is a diff file
 				save.setDiffSaved(true);
 				deferred.resolve(data);
@@ -65,9 +65,7 @@
 	}
 
 	function _getBulkData(table, keys){
-		return get.getBulkData(table, null).then(function(diff){
-			console.info("getting the diff");
-			console.info(diff.length);
+		return get.getBulkData(table, keys).then(function(diff){
 			return diff && diff.length ? diff : false;
 		});
 	}
