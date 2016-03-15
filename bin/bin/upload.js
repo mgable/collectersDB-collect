@@ -13,15 +13,15 @@
 
 
 	// public methods
-	function S3(uri, imagePath, filename, callback){
+	function S3(item, diff, imagePath, filename, callback){
 		var callback = callback || function(){}; // jshint ignore:line
 
-		_init();
+		if(! credentials) {_init();}
 
-		request.head(uri, function(err, res, body){
+		request.head(item.src.original, function(err, res, body){
+			var fileSize = res.headers['content-length'];
 
-			console.log('content-type:', res.headers['content-type']);
-    		console.log('content-length:', res.headers['content-length']);
+    		console.log('content-length:', fileSize);
 
 			var upload = s3Stream.upload({
 				"Bucket": util.getS3Bucket(),
@@ -34,10 +34,10 @@
 			});
 
 			upload.on('uploaded', function () {
-				callback(uri, imagePath, filename);
+				callback(diff, item);
 			});
 
-		 	request(uri).pipe(upload).on('close', function(){callback(uri, imagePath, filename);}).on('error', function(err){
+		 	request(item.src.original).pipe(upload).on('close', function(){callback(diff, item);}).on('error', function(err){
 				util.logger.log(err, 'error', {filename: __filename, method: "S3 - rquest(uri)"});
 			});
 		});

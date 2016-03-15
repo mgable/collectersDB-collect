@@ -4,7 +4,7 @@
   var exports = {};
 
   var fs = require('fs'),
-      fetch = require('../lib/fetch_data.js'),
+      fetch = require('../bin/fetch.js'),
       Configuration = require('../lib/configuration.js'),
       util = require('../bin/util.js'),
       source = "./fiesta_test_store.json",
@@ -13,7 +13,8 @@
 
 Configuration.init().then(function(config){
     util.setConfig(config).then(function(){
-      fetch.fetchImages(diff).then(function(data){
+      var imagePath = util.getImagePath();
+      fetch.thumbnails(diff, imagePath).then(function(data){
         console.info("done!!!");
         console.info(data.length);
       });

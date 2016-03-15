@@ -5,12 +5,12 @@
 		"categories": [{"name": "fiesta","id": 650}]
 	},
 	"aws": {
-		"location": "local",
+		"location": "remote",
 		"profile": "mgable",
 		"S3": {
 			"endpoint": null,
 			"region": null,
-			"bucket": "test-collectors-db"
+			"bucket": "a-collectors-db"
 		},
 		"dynamo": {
 			"endpoint": "https://localhost:9200",
