@@ -13,6 +13,7 @@
 	var filesReceived = 0,
 		totalItems,
 		items,
+		diff,
 		thumbnailDeferred = Q.defer(),
 		additionalDeferred = Q.defer(),
 		totalAdditionalImages = 0,
@@ -55,9 +56,10 @@
 		return deferred.promise;
 	}
 
-	function thumbnails(diff, _imagePath){
+	function thumbnails(_diff, _imagePath){
 		// set class variables
-		items = diff;
+		items = _diff.slice(0);
+		diff = _diff;
 		totalItems = items.length;
 		imagePath = _imagePath;
 
@@ -87,13 +89,13 @@
 	}
 
 	// private methods
-	function _fetchThumbnails(diff){
+	function _fetchThumbnails(){
 
 		if (diff.length){
 			var item = diff.pop(),
 				filename = item.src.local.replace(re, "");
 
-			upload.S3(item, diff, imagePath, filename, _thumbNailCallback);
+			upload.S3(item.src.original, imagePath, filename, _thumbNailCallback);
 		}
 	}
 

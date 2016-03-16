@@ -13,12 +13,12 @@
 
 
 	// public methods
-	function S3(item, diff, imagePath, filename, callback){
+	function S3(uri, imagePath, filename, callback){
 		var callback = callback || function(){}; // jshint ignore:line
 
 		if(! credentials) {_init();}
 
-		request.head(item.src.original, function(err, res, body){
+		request.head(uri, function(err, res, body){
 			var fileSize = res.headers['content-length'];
 
     		console.log('content-length:', fileSize);
@@ -34,10 +34,10 @@
 			});
 
 			upload.on('uploaded', function () {
-				callback(diff, item);
+				callback(uri, imagePath, filename);
 			});
 
-		 	request(item.src.original).pipe(upload).on('close', function(){callback(diff, item);}).on('error', function(err){
+		 	request(uri).pipe(upload).on('close', function(){callback(uri, imagePath, filename);}).on('error', function(err){
 				util.logger.log(err, 'error', {filename: __filename, method: "S3 - rquest(uri)"});
 			});
 		});

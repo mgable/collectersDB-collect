@@ -4,17 +4,16 @@
   var exports = {};
 
   var fs = require('fs'),
-      fetch = require('../bin/fetch.js'),
+      fetch = require('../lib/fetch_data.js'),
       Configuration = require('../lib/configuration.js'),
       util = require('../bin/util.js'),
-      source = "./fiesta_test_store.json",
+      source = "./fiesta_test_diffs_20160316.json",
       diff = JSON.parse(fs.readFileSync(source, 'utf8'));
 
 
 Configuration.init().then(function(config){
     util.setConfig(config).then(function(){
-      var imagePath = util.getImagePath();
-      fetch.thumbnails(diff, imagePath).then(function(data){
+      fetch.fetchImages(diff).then(function(data){
         console.info("done!!!");
         console.info(data.length);
       });

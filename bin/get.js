@@ -43,7 +43,9 @@
 		deferred = Q.defer();
 
 	function getBulkData(table, key){
-		dynamoClient = util.getDynamoClient()
+		console.info("getting bulk data");
+		dynamoClient = util.getDynamoClient();
+
 		params = {
 			TableName: table,
 			FilterExpression: "#date = :date",
@@ -51,7 +53,8 @@
 		    ExpressionAttributeNames: {"#date":"date"},
 			ConsistentRead: false, // optional (true | false)
 			ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
-		}
+		};
+
 
 		_getBulkData(table, null, key);
 
@@ -60,7 +63,6 @@
 
 	function _getBulkData(table, startKey, key){
 		if (startKey){
-			console.info("fetching more data");
 			params.ExclusiveStartKey = startKey;
 		}
 
@@ -72,7 +74,6 @@
 				results = results.concat(data.Items);
 				count += data.Count;
 				console.info("got %s items", count);
-				console.info(data);
 				if (data.LastEvaluatedKey){	
 					_getBulkData(table, data.LastEvaluatedKey, key);
 				} else {

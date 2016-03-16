@@ -87,6 +87,10 @@
 		return makeOptions(getConfigValue("source").domain + _getPageTemplate(category.id), getSysConfigValue("contentTypes").json);
 	}
 
+	function getCurrentCategory(){
+		return currentCategory;
+	}
+
 	function getTodaysKey(d){
 		return parseInt(_getDateString(d), 10);
 	}
@@ -246,6 +250,7 @@
 	exports.getSearchHost = getSearchHost;
 	exports.getIndexType = getIndexType;
 	exports.getMapping = getMapping;
+	exports.getCurrentCategory = getCurrentCategory;
 
 	module.exports = exports;
 
