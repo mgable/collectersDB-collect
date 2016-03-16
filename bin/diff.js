@@ -15,8 +15,7 @@
 		util.logger.log("info", "Starting Diff", {itemCount: items.length});
 		var deferred = Q.defer(),
 			todayKey = util.getTodaysKey(),
-			diffTable = util.getDiffTable(),
-			keys = [{date: todayKey}];
+			diffTable = util.getDiffTable();
 
 		_getBulkData(diffTable, todayKey).then(function(data){
 			if (data){// there is a diff file

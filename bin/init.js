@@ -25,16 +25,16 @@
 	function createTables(){
 		var config = util.getConfigValue("output"),
 			category = util.program.args[0] || util.getIndexType(),
-			rawTableName = category + util.getConfigValue("output").directories.rawTable,
-			diffTableName = category + util.getConfigValue("output").directories.diffTable,
-			storeTableName = category + util.getConfigValue("output").directories.storeTable,
+			rawTableName = category + config.directories.rawTable,
+			diffTableName = category + config.directories.diffTable,
+			storeTableName = category + config.directories.storeTable,
 			tables = [{"name":rawTableName, "type": "raw"}, {"name": diffTableName, "type": "store"}, {"name": storeTableName, "type": "store"}];
 
 		if (util.program.test){
 			var mode = "_test",
-				testRawTableName = category + mode + util.getConfigValue("output").directories.rawTable,
-				testDiffTableName = category + mode + util.getConfigValue("output").directories.diffTable,
-				testStoreTableName = category + mode + util.getConfigValue("output").directories.storeTable;
+				testRawTableName = category + mode + config.directories.rawTable,
+				testDiffTableName = category + mode + config.directories.diffTable,
+				testStoreTableName = category + mode + config.directories.storeTable;
 
 			tables.push({"name": testRawTableName, "type": "raw"});
 			tables.push({"name": testDiffTableName, "type": "store"});
@@ -53,7 +53,7 @@
 			console.info(table);
 			_createTable(table, tables).then(_process);
 		} else {
-			deferred.resolve("done!!!")
+			deferred.resolve("done!!!");
 		}
 	}
 
@@ -104,7 +104,7 @@
 
 
 
-		return params
+		return params;
 	}
 
 	// exports

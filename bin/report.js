@@ -4,8 +4,10 @@
 
 	// includes
 	var _ = require("underscore"),
-		mail = require('./mail.js'),
-		startTime,
+		mail = require('./mail.js');
+
+	// assignments
+	var startTime,
 		endTime,
 		dataStore;
 
@@ -41,6 +43,7 @@
 		_sendReport(results);
 	}
 
+	//private methods
 	function _findMessage(message){
 		return _.find(dataStore, {"message": message});
 	}

@@ -9,7 +9,10 @@
 
 	//asignments
 	var results = [],
-		count = 0;
+		count = 0,
+		dynamoClient,
+		params,
+		deferred = Q.defer();
 
 
 	//public methods
@@ -38,12 +41,9 @@
 		return deferred.promise;
 	}
 
-	var dynamoClient,
-		params,
-		deferred = Q.defer();
 
 	function getBulkData(table, key){
-		console.info("getting bulk data");
+		_reset();
 		dynamoClient = util.getDynamoClient();
 
 		params = {
@@ -59,6 +59,13 @@
 		_getBulkData(table, null, key);
 
 		return deferred.promise;
+	}
+
+	// private methods
+	function _reset(){
+		results = [];
+		count = 0;
+		deferred = Q.defer();
 	}
 
 	function _getBulkData(table, startKey, key){

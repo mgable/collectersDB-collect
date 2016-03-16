@@ -7,8 +7,10 @@
 	var request = require('request'),
 		s3UploadStream = require('s3-upload-stream'),
 		util = require('../util.js'),
-		AWS = require('aws-sdk'),
-		credentials,
+		AWS = require('aws-sdk');
+
+	// assignments
+	var credentials,
 		s3Stream;
 
 

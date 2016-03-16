@@ -57,6 +57,7 @@
 	}
 
 	function thumbnails(_diff, _imagePath){
+		_reset();
 		// set class variables
 		items = _diff.slice(0);
 		diff = _diff;
@@ -64,7 +65,7 @@
 		imagePath = _imagePath;
 
 		// download thumbnails
-		_fetchThumbnails(diff)
+		_fetchThumbnails(diff);
 
 		util.logger.log("info", "Fetching Thumbnails", {imageCount: totalItems, imagePath: imagePath});
 
@@ -89,6 +90,13 @@
 	}
 
 	// private methods
+	function _reset(){
+		filesReceived = 0;
+		thumbnailDeferred = Q.defer();
+		additionalDeferred = Q.defer();
+		totalAdditionalImages = 0;
+	}
+
 	function _fetchThumbnails(){
 
 		if (diff.length){
@@ -99,7 +107,7 @@
 		}
 	}
 
-	function _thumbNailCallback(diff, item){
+	function _thumbNailCallback(diff){
 		util.logger.log("verbose", "getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
 			util.logger.log("info", "Fetched Thumbnails", {imageCount: totalItems});

@@ -39,7 +39,7 @@
 
 		winston.query(options, function (err, result) {
 			if (err) {
-				util.logger.log("error", "winston query error", err);
+				log("error", "winston query error", err);
 				deferred.reject(err);
 			} else {
 				deferred.resolve(_parse(result));

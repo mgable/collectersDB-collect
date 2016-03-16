@@ -45,7 +45,7 @@
 	}
 
 	function init(){
-		logger.addLogFile(_getDateString()); //'./logs/201601.log'
+		logger.addLogFile(getIndexType() + "_" + _getDateString()); //'./logs/category_20160101-type.log'
 	}
 
 	function getConfigValue(value){
@@ -215,7 +215,6 @@
 		imageDirectory = c.imageDirectory;
 		searchHostIndex = program.test ? testPrefix + "-" +  config.aws.ES.index : config.aws.ES.index;
 		S3Bucket = program.test ? testPrefix + "-" + config.aws.S3.bucket : config.aws.S3.bucket;
-		//S3Bucket =  config.aws.S3.bucket;
 	}
 
 	function _addProtocal(url){

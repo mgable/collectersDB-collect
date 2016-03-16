@@ -35,11 +35,17 @@
 	}
 
 	function fetchAdditionalData(diff){
+		_reset();
 		_process(diff);
 		return additionalData.promise;
 	}
 
 	// private methods
+	function _reset(){
+		additionalData = Q.defer();
+		results = [];
+	}
+
 	function _getFileName(id, suffix){
 		return   "t." + suffix;
 	}
