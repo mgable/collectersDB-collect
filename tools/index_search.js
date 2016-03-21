@@ -12,7 +12,7 @@
 		fs = require('fs');
 
 	// assignments
-	var items = JSON.parse(fs.readFileSync(__dirname + '/advertising_tins_store.json', 'utf8')); //,
+	var items = JSON.parse(fs.readFileSync(__dirname + '/fiesta_test_store_20160321.json', 'utf8')); //,
 		// host = "search-mgable-es-ht4qtiycv6v543iujwxk6q5n3u.us-west-2.es.amazonaws.com/",
 		// index = "test-collectorsdb";
 
@@ -21,9 +21,9 @@
 		util.setConfig(config).then(function(){
 			util.getCategories().then(function(categories){
 				util.setCategory(categories[0]);
-				var host = "http://localhost:9200", //util.getSearchHost(),
-				index = "collectorsdb", //util.getSearchHostIndex(),
-				type = "advertising_tins";
+				var host = util.getSearchHost(),
+				index = util.getSearchHostIndex(),
+				type = "fiesta";
 				make.makeIndex(items, index, host, type, false).then(function(data){
 					console.info("done!!!");
 				});

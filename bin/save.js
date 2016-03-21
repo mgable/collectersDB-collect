@@ -35,6 +35,7 @@
 	
 	function saveBulkData(diff, table){
 		var deferred = Q.defer();
+		console.info("a");
 		save.saveToDynamo(_formatData(diff), deferred, table);
 		return deferred.promise;
 	} 

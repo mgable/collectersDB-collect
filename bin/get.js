@@ -61,6 +61,22 @@
 		return deferred.promise;
 	}
 
+	function getBulkDataAll(table){
+		_reset();
+		dynamoClient = util.getDynamoClient();
+
+		params = {
+			TableName: table,
+			ConsistentRead: false, // optional (true | false)
+			ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
+		};
+
+
+		_getBulkData(table, null, null);
+
+		return deferred.promise;
+	}
+
 	// private methods
 	function _reset(){
 		results = [];
@@ -93,6 +109,7 @@
 	// exports
 	exports.getData = getData;
 	exports.getBulkData = getBulkData;
+	exports.getBulkDataAll = getBulkDataAll;
 
 	module.exports = exports;
 }());

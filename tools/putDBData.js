@@ -8,8 +8,8 @@
 	var program = require('commander'),
 		fs = require('fs'),
 		_ = require("underscore"),
-		//save = require('../bin/save.js'),
-		save = require('../lib/save_data.js'),
+		save = require('../bin/save.js'), // bulk data save
+		//save = require('../lib/save_data.js'), // raw save
 		util = require('../bin/util.js'),
 		Configuration = require('../lib/configuration.js');
 
@@ -20,21 +20,21 @@
 		.parse(process.argv);
 
 	// assignments
-	var source = program.args[0] || './advertising_tin_raw_2016316.json',
-		table = program.args[1] || 'advertising_tins_test_raw',
+	var source = './fiesta_test_store_20160321.json',
+		table = 'fiesta_store',
 		items = JSON.parse(fs.readFileSync(source, 'utf8'));
 
 	// the process
 	Configuration.init().then(function(config){
 		util.setConfig(config).then(function(){
-			// save.saveBulkData(items, table).then(function(){
-			// 	console.info("done!!!!");
-			// 	deferred.resolve(diff);
-			// })
-
-			save.saveData(items).then(function(){
-				console.info("done!!");
+			save.saveBulkData(items, table).then(function(){
+				console.info("done!!!!");
+				deferred.resolve(diff);
 			});
+
+			// save.saveData(items).then(function(){
+			// 	console.info("done!!");
+			// });
 		});
 	});
 	
