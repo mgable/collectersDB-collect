@@ -35,10 +35,7 @@
 
 				function _process(categories){
 					if (categories.length){
-						console.info("start!!!!");
 						var category = categories.pop();
-						console.info("category is");
-						console.info(category);
 
 						startProcess(category)
 						.then(fetchData)
@@ -53,7 +50,7 @@
 						.then(makeIndex)
 						.then(finishProcess)
 						.then(function(){
-							_process(categories)
+							_process(categories);
 						});
 					} else {
 						console.info("completely done!!!!!!");

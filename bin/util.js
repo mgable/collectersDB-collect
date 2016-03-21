@@ -41,8 +41,6 @@
 
 		deferred.resolve(config.source.categories);
 
-		console.info("there are " + config.source.categories.length + " categories");
-
 		return deferred.promise;
 	}
 

@@ -58,7 +58,6 @@
 	function _process(tables){
 		if (tables.length){
 			var table = tables.pop();
-			console.info(table);
 			_createTable(table, tables).then(_process);
 		} else {
 			deferred.resolve("done!!!");
@@ -72,7 +71,7 @@
 		params.TableName = options.name;
 
 		if (!dynamodb) {
-			_init()
+			_init();
 		}
 
 
