@@ -9,17 +9,8 @@
 		util = require('./util.js');
 
 	// assignments
-	var deferred = Q.defer();
-
-	AWS.config.update({
-	    region: "us-west-1",
-	    endpoint: "https://dynamodb.us-west-1.amazonaws.com"
-	});
-
-	var credentials = new AWS.SharedIniFileCredentials({profile: 'mgable'});
-	AWS.config.credentials = credentials;
-
-	var dynamodb = new AWS.DynamoDB();
+	var deferred = Q.defer(),
+		dynamodb;
 
 	// public methods
 	function createTables(){
@@ -43,10 +34,27 @@
 
 		_process(tables);
 
+		deferred = Q.defer();
+
 		return deferred.promise;
 	}
 
 	// private methods
+	function _init(){
+		var localConfig = util.getConfigValue("aws");
+		
+		// AWS configuration
+		AWS.config.update({
+			region: localConfig.dynamo.region,
+			endpoint: localConfig.dynamo.endpoint
+		});
+
+		var credentials = new AWS.SharedIniFileCredentials({profile: localConfig.profile});
+		AWS.config.credentials = credentials;
+
+		dynamodb = new AWS.DynamoDB();
+	}
+
 	function _process(tables){
 		if (tables.length){
 			var table = tables.pop();
@@ -62,6 +70,10 @@
 			deferred = Q.defer();
 
 		params.TableName = options.name;
+
+		if (!dynamodb) {
+			_init()
+		}
 
 
 		dynamodb.createTable(params, function(err, data) {

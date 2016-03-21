@@ -32,22 +32,19 @@
 
 	// public methods
 	function saveToDynamo(diff, promise, table){
-		var config = util.getConfigValue("aws");
-
 		items = diff.slice(0);
 		totalItems = diff.length;
 		storeTable = table;
-		requestItems = {};
 		requestItems[storeTable] = [];
 		counter = 0;
-		errors = [];
-		unprocessItems = [];
-		unprocessTries = 0;
+
 		storeDeferred = promise;
-		dynamoClient  = util.getDynamoClient();
-		size = config.dynamo.settings.size || 10;
-		startingDelay = config.dynamo.settings.startingDelay || 3000;
-		increment = config.dynamo.settings.increment || 500;
+
+		var config = util.getConfigValue("aws");
+		dynamoClient  = util.getDynamoClient(),
+		size = config.dynamo.settings.size || 10,
+		startingDelay = config.dynamo.settings.startingDelay || 3000,
+		increment = config.dynamo.settings.increment || 500,
 		delay = startingDelay;
 
 		_saveToDynamo(diff);

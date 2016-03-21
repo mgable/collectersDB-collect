@@ -17,8 +17,13 @@
 	// the process
 	configuration.init().then(function(config){
 		util.setConfig(config).then(function(){
-			var todayKey = util.getYesterdaysKey(),
+			// raw file
+			 var todayKey = util.getTodaysKey(),
 				table = util.getRawTable();
+
+			// diff file
+			// var todayKey = util.getTodaysKey(),
+			// 	table = util.getDiffTable();
 
 				console.info(todayKey);
 				console.info(table);

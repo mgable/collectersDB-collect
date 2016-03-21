@@ -7,7 +7,7 @@
 		Q = require('q');
 
 	// assignments
-	winston.level = 'debug';
+	var logger;
 
 	// public methods
 	function addLogFile(filename){
@@ -15,15 +15,27 @@
 			errorFile = __dirname + '/../logs/' + filename + "-error.log",
 			verboseFile  = __dirname + '/../logs/' + filename + "-verbose.log";
 
-		winston.add(winston.transports.File, { filename: errorFile, name:"error_file", level: 'error'});
-		winston.add(winston.transports.File, { filename: infoFile, name:"info_file", level: 'info'});
-		winston.add(winston.transports.File, { filename: verboseFile, name:"verbose_file", level: 'verbose'});
+		logger = new (winston.Logger)({
+			transports: [
+				new (winston.transports.Console)(),
+				new (winston.transports.File)({ filename: errorFile, name:"error_file", level: 'error'}),
+				new (winston.transports.File)({ filename: infoFile, name:"info_file", level: 'info'}),
+				new (winston.transports.File)({ filename: verboseFile, name:"verbose_file", level: 'verbose'})
+			]
+		  });
+
+		winston.level = 'debug';
+		logger.level = 'debug';
 
 		log("verbose", "adding log file", {filename: filename});
 	}
 
 	function log(type, message, meta){
-		winston.log(type, message, meta || {});
+		if(logger) {
+			logger.log(type, message, meta || {});
+		} else {
+			winston.log(type, message, meta || {});
+		}
 	}
 
 	function report(){
@@ -37,7 +49,7 @@
 			//fields: ['message', 'meta']
 		};
 
-		winston.query(options, function (err, result) {
+		logger.query(options, function (err, result) {
 			if (err) {
 				log("error", "winston query error", err);
 				deferred.reject(err);

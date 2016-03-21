@@ -30,20 +30,36 @@
 		util.setConfig(config).then(function(){
 			util.getCategories()
 			.then(function(categories){
-				categories.forEach(function(category){
-					startProcess(category)
-					.then(fetchData)
-					.then(parseData)
-					.then(saveData)
-					.then(makeDiff)
-					.then(saveDiff)
-					.then(fetchAdditionData)
-					.then(saveDiff)
-					.then(saveStore)
-					.then(fetchImages)
-					.then(makeIndex)
-					.then(finishProcess);
-				});
+
+				_process(categories);
+
+				function _process(categories){
+					if (categories.length){
+						console.info("start!!!!");
+						var category = categories.pop();
+						console.info("category is");
+						console.info(category);
+
+						startProcess(category)
+						.then(fetchData)
+						.then(parseData)
+						.then(saveData)
+						.then(makeDiff)
+						.then(saveDiff)
+						.then(fetchAdditionData)
+						.then(saveDiff)
+						.then(saveStore)
+						.then(fetchImages)
+						.then(makeIndex)
+						.then(finishProcess)
+						.then(function(){
+							_process(categories)
+						});
+					} else {
+						console.info("completely done!!!!!!");
+					}
+					
+				}
 			});
 		});
 	});

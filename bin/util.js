@@ -41,6 +41,8 @@
 
 		deferred.resolve(config.source.categories);
 
+		console.info("there are " + config.source.categories.length + " categories");
+
 		return deferred.promise;
 	}
 
@@ -82,9 +84,11 @@
 	}
 
 	function getRequest(category){
-		// set the category for system wide retreival
-		currentCategory = category;
 		return makeOptions(getConfigValue("source").domain + _getPageTemplate(category.id), getSysConfigValue("contentTypes").json);
+	}
+
+	function setCategory(category){
+		currentCategory = category;
 	}
 
 	function getCurrentCategory(){
@@ -136,11 +140,11 @@
 	}
 
 	function getMapping(){
-		var obj = {},
-			type = getIndexType();
+		// var obj = {},
+		// 	type = getIndexType();
 
-		obj[type] = config.aws.ES.mappings;
-		return obj;
+		// obj[type] = config.aws.ES.mappings;
+		return config.aws.ES.mappings;
 	}
 
 	function getDynamoClient(){
@@ -250,6 +254,7 @@
 	exports.getIndexType = getIndexType;
 	exports.getMapping = getMapping;
 	exports.getCurrentCategory = getCurrentCategory;
+	exports.setCategory = setCategory;
 
 	module.exports = exports;
 
