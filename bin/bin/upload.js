@@ -21,9 +21,8 @@
 		if(! credentials) {_init();}
 
 		request.head(uri, function(err, res, body){
-			var fileSize = res.headers['content-length'];
-
-    		console.log('content-length:', fileSize);
+			// var fileSize = res.headers['content-length'];
+			// console.log('content-length:', fileSize);
 
 			var upload = s3Stream.upload({
 				"Bucket": util.getS3Bucket(),
@@ -33,14 +32,18 @@
 
 			upload.on('error', function (error) {
 				util.logger.log('error', error, {filename: __filename, method: "S3 - upload"});
+				callback(uri, imagePath, filename);
 			});
 
 			upload.on('uploaded', function () {
 				callback(uri, imagePath, filename);
 			});
 
-		 	request(uri).pipe(upload).on('close', function(){callback(uri, imagePath, filename);}).on('error', function(err){
-				util.logger.log(err, 'error', {filename: __filename, method: "S3 - rquest(uri)"});
+		 	request(uri).pipe(upload)
+		 		.on('close', function(){callback(uri, imagePath, filename);})
+		 		.on('error', function(err){
+					util.logger.log(err, 'error', {filename: __filename, method: "S3 - rquest(uri)"});
+					callback(uri, imagePath, filename);
 			});
 		});
 	}
