@@ -1,0 +1,47 @@
+{
+	"source": {
+		"domain": "www.collectorsweekly.com",
+		"pageUrlTemplate": "/ajax/category-auctions.php?id= *** config.category.id *** &sort=completed&limit=1000&offset=0",
+		"categories": [{"name": "advertising_tins","id": 1175, "stopWords":[]}]
+	},
+	"aws": {
+		"location": "remote",
+		"profile": "mgable",
+		"S3": {
+			"endpoint": null,
+			"region": null,
+			"bucket": "collectors-db"
+		},
+		"dynamo": {
+			"endpoint": "https://dynamodb.us-west-1.amazonaws.com",
+			"region": "us-west-1",
+			"settings": {
+				"size": 10,
+				"startingDelay": 3000,
+				"increment": 500
+			}
+		},
+		"ES": {
+			"endpoint": "https://search-mgable-es-ht4qtiycv6v543iujwxk6q5n3u.us-west-2.es.amazonaws.com",
+			"region": "us-west-2",
+			"index": "collectorsdb",
+			"mappings": {"_timestamp":{"enabled":true},"properties":{"date":{"type":"long"},"failed":{"type":"boolean"},"id":{"type":"string"},"images":{"properties":{"local":{"type":"string"},"original":{"type":"string"}}},"link":{"type":"string"},"meta":{"properties":{"bids":{"type":"integer"},"date":{"properties":{"formatted":{"type":"date","format":"dateOptionalTime"},"origin":{"type":"string"}}},"price":{"type":"integer"},"watchers":{"type":"integer"}}},"source":{"properties":{"listedIn":{"type":"string"},"originalUrl":{"type":"string"},"provider":{"type":"string"}}},"src":{"properties":{"local":{"type":"string"},"origin":{"type":"string"},"original":{"type":"string"}}},"suggest":{"type":"completion","analyzer":"simple","payloads":false,"preserve_separators":true,"preserve_position_increments":true,"max_input_length":50,"context":{"type":{"type":"category","path":"_type"}}},"title":{"type":"string","fields":{"touched":{"type":"string","analyzer":"snowball"},"untouched":{"type":"string","index":"not_analyzed"}}}}}
+		}
+	},
+	"output": {
+		"directories": {
+			"diffTable": "_diffs",
+			"rawTable": "_raw",
+			"storeTable": "_store",
+			"imageDirectory": "store/images/"
+		},
+		"images": {
+			"thumbnail": "140",
+			"additional": "400"
+		},
+		"stopWords": {
+			"global": ["vintage", "antique", "rare", "the", "with", "co", "old", "the", "nice", "good", "of", "early", "you"]
+		}
+	},
+	"nothing": [{"name": "advertising_tins","id": 1175, "stopWords":[]}, {"name": "fiesta","id": 650, "stopWords":[]}]
+}

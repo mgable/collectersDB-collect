@@ -1,43 +1,67 @@
-"use strict";
-
 (function(){
+	"use strict";
+
 	// includes
-	var util = require('./lib/util.js'),
-		fetch = require('./lib/fetch.js'),
-		parser = require('./lib/parser.js'),
-		diff = require('./lib/diff.js'),
-		save = require('./lib/save.js'),
-		make = require('./lib/make.js'),
-		start = require('./lib/start.js'),
-		finish = require('./lib/finish.js'),
+	var configuration = require('./lib/configuration.js'),
+		util = require('./bin/util.js'),
+		start = require('./lib/start_process.js'),
+		fetch = require('./lib/fetch_data.js'),
+		parser = require('./lib/parse_data.js'),
+		save = require('./lib/save_data.js'),
+		diff = require('./lib/make_diff.js'),
+		make = require('./lib/make_index.js'),
+		finish = require('./lib/finish_process.js'),
 		
-		// definitions
-		fetchPage = fetch.fetchPage,
-		parse = parser.parse,
+		//definitions
+		startProcess = start.startProcess,
+		fetchData = fetch.fetchData,
+		parseData = parser.parseData,
+		saveData = save.saveData,
 		makeDiff = diff.makeDiff,
-		fetchImageData = fetch.fetchImageData,
+		saveDiff = save.saveDiff,
+		fetchAdditionData = fetch.fetchAdditionData,
 		saveStore = save.saveStore,
-		saveRaw = save.saveRaw,
 		fetchImages = fetch.fetchImages,
 		makeIndex = make.makeIndex,
-		startProcess = start.startProcess,
-		finish = finish.finish,
-
-		//assignments
-		categories = util.getCategories();
+		finishProcess = finish.finishProcess;
 
 	// the process
-	categories.forEach(function(category){
-		startProcess(category)
-		.then(fetchPage)
-		.then(parse)
-		.then(saveRaw)
-		.then(makeDiff)
-		.then(fetchImageData)
-		.then(saveStore)
-		.then(fetchImages)
-		.then(makeIndex)
-		.then(finish);
-	});
+	configuration.init().then(function(config){
+		util.setConfig(config).then(function(){
+			util.getCategories()
+			.then(function(categories){
 
+				_process(categories);
+
+				function _process(categories){
+					if (categories.length){
+						console.info("start!!!!");
+						var category = categories.pop();
+						console.info("category is");
+						console.info(category);
+
+						startProcess(category)
+						.then(fetchData)
+						.then(parseData)
+						.then(saveData)
+						.then(makeDiff)
+						.then(saveDiff)
+						.then(fetchAdditionData)
+						.then(saveDiff)
+						.then(saveStore)
+						.then(fetchImages)
+						.then(makeIndex)
+						.then(finishProcess)
+						.then(function(){
+							_process(categories)
+						});
+					} else {
+						console.info("completely done!!!!!!");
+					}
+					
+				}
+			});
+		});
+	});
+	
 })();

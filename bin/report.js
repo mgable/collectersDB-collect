@@ -4,12 +4,14 @@
 
 	// includes
 	var _ = require("underscore"),
-		mail = require('./mail.js'),
-		startTime,
+		mail = require('./mail.js');
+
+	// assignments
+	var startTime,
 		endTime,
 		dataStore;
 
-
+	// public methods
 	function makeReport(data){
 		var results = "";
 
@@ -41,6 +43,7 @@
 		_sendReport(results);
 	}
 
+	//private methods
 	function _findMessage(message){
 		return _.find(dataStore, {"message": message});
 	}
@@ -67,7 +70,7 @@
 
 	function _reportCompleted(report){
 		endTime = report.timestamp;
-		return "<h3>End Process: " + endTime + "<br/>Total Time: " + msToTime(new Date(endTime) - new Date(startTime)) + "</h3>";
+		return "<h3>End Process: " + endTime + "<br/>Total Time: " + _msToTime(new Date(endTime) - new Date(startTime)) + "</h3>";
 	}
 
 	function _reportSystemDetails(report){
@@ -82,7 +85,7 @@
 		return "<h3>Errors: <span style='color:red'> " + errors.length + "</span></h3>" + _format(errors);
 	}
 
-	function msToTime(s) {
+	function _msToTime(s) {
 		var ms = s % 1000;
 		s = (s - ms) / 1000;
 		var secs = s % 60;
@@ -107,6 +110,7 @@
 		return str;
 	}
 
+	// exports
 	exports.makeReport = makeReport;
 
 	module.exports = exports;

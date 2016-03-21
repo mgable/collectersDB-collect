@@ -35,7 +35,6 @@
 
     function _callback(){
     	console.info("I sent the mail");
-    	console.info(arguments);
     }
 
     exports.sendMail = sendMail;

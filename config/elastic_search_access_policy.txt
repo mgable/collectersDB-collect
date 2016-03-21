@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "es:ESHttpGet",
+      "Resource": "arn:aws:es:us-west-1:727578435510:domain/collectors-db/*"
+    },
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::727578435510:user/mgable"
+      },
+      "Action": "es:*",
+      "Resource": "arn:aws:es:us-west-1:727578435510:domain/collectors-db/*"
+    }
+  ]
+}
