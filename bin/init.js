@@ -15,7 +15,7 @@
 	// public methods
 	function createTables(){
 		var config = util.getConfigValue("output"),
-			category = util.program.args[0] || util.getIndexType(),
+			category =  util.getIndexType(),
 			rawTableName = category + config.directories.rawTable,
 			diffTableName = category + config.directories.diffTable,
 			storeTableName = category + config.directories.storeTable,

@@ -18,27 +18,27 @@
 	configuration.init().then(function(config){
 		util.setConfig(config).then(function(){
 			// raw file
-			 // var todayKey = util.getTodaysKey(),
-				// table = util.getRawTable();
+			 var todayKey = util.getTodaysKey(),
+				table = util.getRawTable();
 
 			// diff file
 			// var todayKey = util.getTodaysKey(),
 			// 	table = util.getDiffTable();
 
-			// store file
-			var todayKey = util.getTodaysKey(),
-				table = util.getStoreTable();
+			//store file
+			// var todayKey = util.getTodaysKey(),
+			// 	table = util.getStoreTable();
 
 				console.info(todayKey);
 				console.info(table);
 
-			// get.getBulkData(table, todayKey).then(function(diff){
-			// 	fs.writeFileSync(table + "_" + todayKey + ".json", JSON.stringify(diff));
-			// });
-
-			get.getBulkDataAll(table).then(function(diff){
+			get.getBulkData(table, todayKey).then(function(diff){
 				fs.writeFileSync(table + "_" + todayKey + ".json", JSON.stringify(diff));
 			});
+
+			// get.getBulkDataAll(table).then(function(diff){
+			// 	fs.writeFileSync(table + "_" + todayKey + ".json", JSON.stringify(diff));
+			// });
 		});
 	});
 

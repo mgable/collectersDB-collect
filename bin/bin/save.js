@@ -32,20 +32,20 @@
 
 	// public methods
 	function saveToDynamo(diff, promise, table){
-		items = diff.slice(0);
-		totalItems = diff.length;
-		storeTable = table;
-		requestItems[storeTable] = [];
-		counter = 0;
-
-		storeDeferred = promise;
-
 		var config = util.getConfigValue("aws");
 		dynamoClient  = util.getDynamoClient(),
 		size = config.dynamo.settings.size || 10,
 		startingDelay = config.dynamo.settings.startingDelay || 3000,
 		increment = config.dynamo.settings.increment || 500,
 		delay = startingDelay;
+
+		_reset();
+
+		items = diff.slice(0);
+		totalItems = diff.length;
+		storeTable = table;
+		requestItems[storeTable] = [];
+		storeDeferred = promise;
 
 		_saveToDynamo(diff);
 	}
@@ -54,6 +54,7 @@
 	function _saveToDynamo(results){
 		if (results.length){
 			util.logger.log("verbose", "calling loading data: %s", ++counter); /* jshint ignore:line*/
+			util.logger.log("verbose", "request size", {size: size});
 			requestItems[storeTable] = results.splice(0, size);
 
 			dynamoClient.batchWrite(params, function(err, data) {
@@ -95,6 +96,19 @@
 				storeDeferred.resolve(items);
 			}
 		}
+	}
+
+	function _reset(){
+		errors = [];
+		unprocessItems = [];
+		unprocessTries = 0;
+		counter = 0;
+		totalItems = 0;
+		params = {};
+		requestItems = {};
+		params.RequestItems = requestItems;
+		params.ReturnConsumedCapacity = 'NONE'; // optional (NONE | TOTAL | INDEXES)
+		params.ReturnItemCollectionMetrics = 'NONE'; // optional (NONE | SIZE)
 	}
 
 	// exports
