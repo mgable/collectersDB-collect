@@ -18,12 +18,12 @@
 	configuration.init().then(function(config){
 		util.setConfig(config).then(function(){
 			// raw file
-			 var todayKey = util.getTodaysKey(),
-				table = util.getRawTable();
+			 // var todayKey = util.getTodaysKey(),
+				// table = util.getRawTable();
 
 			// diff file
-			// var todayKey = util.getTodaysKey(),
-			// 	table = util.getDiffTable();
+			var todayKey = util.getTodaysKey(),
+				table = util.getDiffTable();
 
 			//store file
 			// var todayKey = util.getTodaysKey(),

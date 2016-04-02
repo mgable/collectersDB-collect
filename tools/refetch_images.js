@@ -7,7 +7,7 @@
       fetch = require('../lib/fetch_data.js'),
       Configuration = require('../lib/configuration.js'),
       util = require('../bin/util.js'),
-      source = "./fiesta_diffs_20160321.json",
+      source = "./fiesta_diffs_20160329.json",
       diff = JSON.parse(fs.readFileSync(source, 'utf8'));
 
 

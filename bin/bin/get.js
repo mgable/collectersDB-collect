@@ -39,6 +39,15 @@
 		}
 	}
 
+	function reserveNotMet($, item){
+		// get reserved price not met
+		var rnm = $(".rsvnm");
+
+		if (rnm && rnm.length){
+			item.meta.reserveNotMet = true
+		}
+	}
+
 	function originalLink($, item){
 		// get original link
 		var originalItemLink = $("a:contains('See original listing')");
@@ -60,6 +69,7 @@
 	exports.thumbnail = thumbnail;
 	exports.listedIn = listedIn;
 	exports.originalLink = originalLink;
+	exports.reserveNotMet = reserveNotMet;
 
 	module.exports = exports;
 }());

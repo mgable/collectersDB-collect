@@ -120,16 +120,18 @@
 	function _getAdditionalData(completedLink, item){
 		var deferred = Q.defer();
 		fetch.fetchData(util.makeOptions(completedLink)).then(function (originalPage){
-			var additionalImages = _collectAdditionalImageUrls(originalPage);
+			var $ = cheerio.load(originalPage),
+				additionalImages = _collectAdditionalImageUrls($);
+
+			get.reserveNotMet($, item);
 			return deferred.resolve(_getAdditionalImageData(item, additionalImages));
 		});
 
 		return deferred.promise;
 	}
 
-	function _collectAdditionalImageUrls(data){
-		var $ = cheerio.load(data),
-			results = [];
+	function _collectAdditionalImageUrls($){
+		var results = [];
 
 		$(".lst.icon").first().find("li img").each(function(i,v){
 			results.push(v.attribs.src);
