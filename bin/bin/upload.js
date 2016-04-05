@@ -4,7 +4,7 @@
 	var exports = {};
 
 	// includes
-	var request = require('request'),
+	var request = require('request').defaults({ encoding: null }),
 		s3UploadStream = require('s3-upload-stream'),
 		util = require('../util.js'),
 		AWS = require('aws-sdk');
@@ -42,7 +42,7 @@
 		 	request(uri).pipe(upload)
 		 		.on('close', function(){callback(uri, imagePath, filename);})
 		 		.on('error', function(err){
-					util.logger.log(err, 'error', {filename: __filename, method: "S3 - rquest(uri)"});
+					util.logger.log('error', {error: err, filename: __filename, method: "S3 - rquest(uri)"});
 					callback(uri, imagePath, filename);
 			});
 		});

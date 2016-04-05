@@ -107,13 +107,13 @@
 		}
 	}
 
-	function _thumbNailCallback(diff){
+	function _thumbNailCallback(){
 		util.logger.log("verbose", "getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
 			util.logger.log("info", "Fetched Thumbnails", {imageCount: totalItems});
 			thumbnailDeferred.resolve(items);
 		} else {
-			_fetchThumbnails(diff);
+			_fetchThumbnails();
 		}
 	}
 
@@ -145,7 +145,8 @@
 
 	// private methods
 	function _makeLargerImageUrl(url){
-		return url.replace(/(?!s\-l)64/, util.getConfigValue("output").images.additional);
+		//return url.replace(/(?!s\-l)64/, util.getConfigValue("output").images.additional);
+		return url.replace(/s\-l64\.jpg$/, "s-l" + util.getConfigValue("output").images.additional + ".jpg");
 	}
 
 	//exports
