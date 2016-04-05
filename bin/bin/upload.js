@@ -21,9 +21,15 @@
 		if(! credentials) {_init();}
 
 		request.head(uri, function(err, res, body){
-			// var fileSize = res.headers['content-length'];
-			// console.log('content-length:', fileSize);
 
+			if (res && res.headers && res.headers['content-length']){
+				var fileSize = parseInt(res.headers['content-length'],10);
+				util.loggoer.log('verbose', {filename: filename, uri: uri, imagesSize: fileSize});
+				if (fileSize < 300){
+					util.logger.log('error', "image size error", {filename: filename, uri: uri, imagesSize: fileSize});
+				}
+			}
+			
 			var upload = s3Stream.upload({
 				"Bucket": util.getS3Bucket(),
 				"Key": imagePath + filename,
@@ -32,7 +38,7 @@
 
 			upload.on('error', function (error) {
 				util.logger.log('error', error, {filename: __filename, method: "S3 - upload"});
-				callback(uri, imagePath, filename);
+				callback(uri, imagePath, filename, error);
 			});
 
 			upload.on('uploaded', function () {
@@ -41,9 +47,9 @@
 
 		 	request(uri).pipe(upload)
 		 		.on('close', function(){callback(uri, imagePath, filename);})
-		 		.on('error', function(err){
-					util.logger.log(err, 'error', {filename: __filename, method: "S3 - rquest(uri)"});
-					callback(uri, imagePath, filename);
+		 		.on('error', function(error){
+					util.logger.log('error', error, {filename: __filename, method: "S3 - rquest(uri)"});
+					callback(uri, imagePath, filename, error);
 			});
 		});
 	}
