@@ -40,6 +40,7 @@
 		delay = startingDelay;
 		size = config.dynamo.settings.size;
 
+		util.logger.log("info", "Starting clean-up", {table: table, date: date});
 		dynamoClient.scan(scanParams, _onScan);
 
 		return deferred.promise;

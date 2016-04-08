@@ -98,7 +98,11 @@
 	}
 
 	function getYesterdaysKey(){
-		return parseInt(_getDateString(Date.today().add(-1).days()), 10);
+		return getKey(1)
+	}
+
+	function getKey(daysAgo){
+		return parseInt(_getDateString(Date.today().add(-daysAgo).days()), 10);
 	}
 
 	function getRawTable(){
@@ -238,6 +242,7 @@
 	exports.getSysConfigValue = getSysConfigValue;
 	exports.getTodaysKey = getTodaysKey;
 	exports.getYesterdaysKey = getYesterdaysKey;
+	exports.getKey = getKey;
 	exports.getRawTable = getRawTable;
 	exports.getDiffTable = getDiffTable;
 	exports.getStoreTable = getStoreTable;

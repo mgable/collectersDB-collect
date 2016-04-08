@@ -17,13 +17,13 @@
 		util.setConfig(config).then(function(){
 
 			//store file
-			var key = util.getYesterdaysKey(),
+			var key = util.getKey(90),
 				table = util.getDiffTable();
 
 				console.info(key);
 				console.info(table);
 
-			del.remove(table, key);
+			//del.remove(table, key);
 
 		});
 	});
