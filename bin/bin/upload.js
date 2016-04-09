@@ -13,7 +13,6 @@
 	var credentials,
 		s3Stream;
 
-
 	// public methods
 	function S3(uri, imagePath, filename, callback){
 		var callback = callback || function(){}; // jshint ignore:line
@@ -21,8 +20,6 @@
 		if(! credentials) {_init();}
 
 		request.head(uri, function(err, res, body){
-			// var fileSize = res.headers['content-length'];
-			// console.log('content-length:', fileSize);
 
 			var upload = s3Stream.upload({
 				"Bucket": util.getS3Bucket(),

@@ -145,7 +145,6 @@
 
 	// private methods
 	function _makeLargerImageUrl(url){
-		//return url.replace(/(?!s\-l)64/, util.getConfigValue("output").images.additional);
 		return url.replace(/s\-l64\.jpg$/, "s-l" + util.getConfigValue("output").images.additional + ".jpg");
 	}
 

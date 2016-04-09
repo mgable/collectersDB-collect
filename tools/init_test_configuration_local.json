@@ -2,7 +2,7 @@
 	"source": {
 		"domain": "www.collectorsweekly.com",
 		"pageUrlTemplate": "/ajax/category-auctions.php?id= *** config.category.id *** &sort=completed&limit=1000&offset=0",
-		"categories": [{"name": "advertising_tins","id": 1175, "stopWords":[]}, {"name": "fiesta","id": 650, "stopWords":[]}]
+		"categories": [{"name": "fiesta","id": 650, "stopWords":[]}]
 	},
 	"aws": {
 		"location": "local",
@@ -16,7 +16,7 @@
 			"endpoint": "http://localhost:8000",
 			"region": "us-west-1",
 			"settings": {
-				"size": 10,
+				"size": 25,
 				"startingDelay": 3000,
 				"increment": 500
 			}
@@ -40,7 +40,7 @@
 			"additional": "400"
 		},
 		"stopWords": {
-			"global": ["vintage", "antique", "rare", "the", "with", "co", "old", "the", "nice", "good", "of", "early", "you"]
+			"global": ["vintage", "antique", "rare", "the", "with", "co", "old", "nice", "good", "of", "early", "you"]
 		}
 	},
 	"nothing": [{"name": "advertising_tins","id": 1175, "stopWords":[]}, {"name": "fiesta","id": 650, "stopWords":[]}]
