@@ -4,8 +4,7 @@
 	var exports = {};
 
 	// includes
-	var AWS = require("aws-sdk"),
-		Q = require("q");
+	var Q = require("q");
 
 	var util = require("./util.js");
 
@@ -64,7 +63,7 @@
 			items = items.concat(data.Items);
 
 			// continue scanning if we have more items
-			if (typeof data.LastEvaluatedKey != "undefined") {
+			if (typeof data.LastEvaluatedKey !== "undefined") {
 				util.logger.log("verbose", "Scanning for more...");
 				scanParams.ExclusiveStartKey = data.LastEvaluatedKey;
 				dynamoClient.scan(scanParams, _onScan);
@@ -118,9 +117,9 @@
 			util.logger.log("error", "Unable to scan the table. Error JSON", {error: err});
 		} else {
 
-			util.logger.log("verbose", "delete succeed")
+			util.logger.log("verbose", "delete succeed");
 			// continue scanning if we have more items
-			if (typeof data.LastEvaluatedKey != "undefined") {
+			if (typeof data.LastEvaluatedKey !== "undefined") {
 				deleteParams.ExclusiveStartKey = data.LastEvaluatedKey;
 				dynamoClient.BatchWrite(deleteParams, _onDelete);
 			} else {

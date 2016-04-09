@@ -98,7 +98,7 @@
 	}
 
 	function getYesterdaysKey(){
-		return getKey(1)
+		return getKey(1);
 	}
 
 	function getKey(daysAgo){
