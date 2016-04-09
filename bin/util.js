@@ -32,7 +32,7 @@
 		.option('-m, --noimages', 'do not download images')
 		.option('-i, --init', 'initalize new indexes')
 		.option('-x, --nosave', 'do not save or index')
-		.option('-p, --program', 'program mode')
+		.option('-F, --File [url]', 'load configuration from file [url]')
 		.parse(process.argv);
 
 	// public methods
