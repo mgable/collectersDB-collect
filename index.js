@@ -26,10 +26,10 @@
 		finishProcess = finish.finishProcess;
 
 	// the process
-	configuration.init().then(function(config){
-		util.setConfig(config).then(function(){
+	configuration.init().then(config => {
+		util.setConfig(config).then(() => {
 			util.getCategories()
-			.then(function(categories){
+			.then(categories => {
 
 				_process(categories);
 
@@ -49,7 +49,7 @@
 						.then(fetchImages)
 						.then(makeIndex)
 						.then(finishProcess)
-						.then(function(){
+						.then(() => {
 							_process(categories);
 						});
 					} else {
