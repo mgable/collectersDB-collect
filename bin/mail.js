@@ -3,16 +3,17 @@
     var exports = {};
 
     // includes
-    var nodemailer = require('nodemailer');
+    var nodemailer = require('nodemailer'),
+        credentials = require('../config/credentials.js')
 
     // assignments
     var smtpConfig = {
-            host: 'smtp.gmail.com',
+            host: credentials.smtp.host,
             port: 465,
             secure: true, // use SSL
             auth: {
-                user: 'collectorsdb@gmail.com',
-                pass: 'collecting'
+                user: credentials.smtp.user,
+                pass: credentials.smtp.pass
             }
         },
         transporter = nodemailer.createTransport(smtpConfig);
