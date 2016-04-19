@@ -30,7 +30,7 @@
 	function _remap(data){
 		var obj = {};
 		obj.source = {"provider": "eBay", listedIn: []};
-		obj.title = _removeDoubleEscape(data.children[1].data); //title
+		obj.title = _removeDoubleEscape(_removeUnicode(data.children[1].data)); //title
 		obj.link = _decodeLink(data.attribs.href); //link to item
 		obj.id = util.generateHashCode(obj.link);
 		obj.meta = _makeSaleData(_removeDoubleEscape(data.attribs.x)); //selling price / time of sale / bids / watchers
@@ -54,6 +54,10 @@
 
 	function _removeDoubleEscape(link){
 		return link.replace(/\\(.)/g,"$1");
+	}
+
+	function _removeUnicode(str){
+		return str.replace(/u201(c|d)/ig,"&quot;").replace(/u00ae/ig, "&reg;");
 	}
 
 	function _makeSaleData(line){
