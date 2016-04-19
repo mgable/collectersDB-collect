@@ -59,7 +59,7 @@
 			var item = items.shift();
 			_getOriginalPage(item).then(function(item){
 				if (item && item.source && item.source.originalUrl){
-					return _getAdditionalData(item.source.originalUrl, item).then(function(item){
+					return _getAdditionalData(item.source.originalUrl, item).then(function(item){ //success
 						if(item.images.original.length) {
 							results.push(item);
 						} else {
@@ -72,7 +72,19 @@
 							}
 						}
 						_process(items);
-					});
+					},
+						function(item){ // fail
+							if (item.fail){
+								util.logger.log("error", "Failed to get additional data - abort", {item: item});
+							} else {
+								util.logger.log("warn", "Failed to get additional data - retry", {item: item});
+								item.fail = true;
+								items.push(item);
+							}
+
+							_process(items);
+						}
+					);
 				} else {
 					if(item.failed) {
 						util.logger.log("error", "Failed to fetch additional data (invalid link) - abort", {itemID: item.id} );
@@ -83,16 +95,32 @@
 					}
 					_process(items);
 				}
-			});
+			},
+				function(item){
+					if (item.fail){
+						util.logger.error("error", "Failed to get additional data - abort", {item: item});
+					} else {
+						util.logger.log("warn", "Failed to get additional data - retry", {item: item});
+						item.fail = true;
+						items.push(item);
+					}
+					_process(items);
+				}
+			);
 		} else {
 			additionalData.resolve(results);
 		}
 	}
 
 	function _getOriginalPage(item){
-		return fetch.fetchData(util.makeOptions(_getCompletedItemUrl(item.link))).then(function (data){
-			return _getOriginalItemUrl(data, item);
-		});
+		return fetch.fetchData(util.makeOptions(_getCompletedItemUrl(item.link))).then(
+			function (data){ // success
+				return _getOriginalItemUrl(data, item);
+			},
+			function (error){ // fail
+				return item;
+			}
+		);
 	}
 
 	function _getCompletedItemUrl(urlstr){
@@ -125,7 +153,11 @@
 
 			get.reserveNotMet($, item);
 			return deferred.resolve(_getAdditionalImageData(item, additionalImages));
-		});
+		},
+			function(error){
+				return item;
+			}
+		);
 
 		return deferred.promise;
 	}
