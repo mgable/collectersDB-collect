@@ -21,16 +21,16 @@
 			 // var todayKey = util.getTodaysKey(),
 				// table = util.getRawTable();
 
-			var todayKey = util.getYesterdaysKey(),
-				table = util.getRawTable();
+			// var todayKey = util.getYesterdaysKey(),
+			// 	table = util.getRawTable();
 
 			// diff file
 			// var todayKey = util.getTodaysKey(),
 			// 	table = util.getDiffTable();
 
 			//store file
-			// var todayKey = util.getTodaysKey(),
-			// 	table = util.getStoreTable();
+			var todayKey = util.getTodaysKey(),
+				table = util.getStoreTable();
 
 				console.info(todayKey);
 				console.info(table);
