@@ -5,7 +5,7 @@
 
     // includes
     var nodemailer = require('nodemailer'),
-        credentials = require('../config/credentials.js')
+        credentials = require('../config/credentials.js');
 
     // assignments
     var smtpConfig = {

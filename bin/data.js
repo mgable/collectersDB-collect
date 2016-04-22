@@ -118,6 +118,7 @@
 				return _getOriginalItemUrl(data, item);
 			},
 			function (error){ // fail
+				util.logger.log("error", "error getting original page", {error, item});
 				return item;
 			}
 		);
@@ -155,6 +156,7 @@
 			return deferred.resolve(_getAdditionalImageData(item, additionalImages));
 		},
 			function(error){
+				util.logger.log("error", "error getting additional data", {error, item, completedLink});
 				return item;
 			}
 		);

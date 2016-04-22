@@ -13,7 +13,6 @@
 	var filesReceived = 0,
 		totalItems,
 		items,
-		diff,
 		thumbnailDeferred = Q.defer(),
 		additionalDeferred = Q.defer(),
 		totalAdditionalImages = 0,
@@ -58,14 +57,13 @@
 
 	function thumbnails(_diff, _imagePath){
 		_reset();
-		// set class variables
+		// items will be returned on resolve
 		items = _diff.slice(0);
-		diff = _diff;
 		totalItems = items.length;
 		imagePath = _imagePath;
 
 		// download thumbnails
-		_fetchThumbnails(diff);
+		_fetchThumbnails(_diff);
 
 		util.logger.log("info", "Fetching Thumbnails", {imageCount: totalItems, imagePath: imagePath});
 
@@ -97,23 +95,24 @@
 		totalAdditionalImages = 0;
 	}
 
-	function _fetchThumbnails(){
+	function _fetchThumbnails(diff){
 
 		if (diff.length){
 			var item = diff.pop(),
 				filename = item.src.local.replace(re, "");
 
-			upload.S3(item.src.original, imagePath, filename, _thumbNailCallback);
+			upload.S3(item.src.original, imagePath, filename, function(/*uri, imagePath, filename*/){_thumbNailCallback(diff);});
+			util.logger.log("verbose", "fetching thumbnail", {itemID:item.id, filename:filename});
 		}
 	}
 
-	function _thumbNailCallback(){
+	function _thumbNailCallback(diff){
 		util.logger.log("verbose", "getting callback " + (filesReceived + 1) + " out of " + totalItems);
 		if (++filesReceived === totalItems){
 			util.logger.log("info", "Fetched Thumbnails", {imageCount: totalItems});
 			thumbnailDeferred.resolve(items);
 		} else {
-			_fetchThumbnails();
+			_fetchThumbnails(diff);
 		}
 	}
 

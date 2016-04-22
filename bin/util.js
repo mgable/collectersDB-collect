@@ -7,7 +7,8 @@
 	var program = require('commander'),
 		Q = require('q'),
 		AWS = require('aws-sdk'),
-		url = require('url');
+		url = require('url'),
+		nodefs = require("node-fs");
 		// datejs extends date prototype
 		require('datejs');
 
@@ -33,6 +34,7 @@
 		.option('-i, --init', 'initalize new indexes')
 		.option('-x, --nosave', 'do not save or index')
 		.option('-F, --File [url]', 'load configuration from file [url]')
+		.option('-l, --localsave', 'save to local filesystem')
 		.parse(process.argv);
 
 	// public methods
@@ -69,6 +71,11 @@
 		};
 
 		return options;
+	}
+
+	function makeDirectories(path){
+		nodefs.mkdirSync(path, "41777", true);
+		return path + "/";
 	}
 
 	function setConfig(_config){
@@ -191,6 +198,10 @@
 		if (program.program){
 			logger.log("warn", "Running in PROGRAM mode");
 		}
+
+		if (program.localsave){
+			logger.log("warn", "Running in LOCAL SAVE mode");
+		}
 	}
 
 	function _getPageTemplate(id){
@@ -258,6 +269,7 @@
 	exports.getMapping = getMapping;
 	exports.getCurrentCategory = getCurrentCategory;
 	exports.setCategory = setCategory;
+	exports.makeDirectories = makeDirectories;
 
 	module.exports = exports;
 
