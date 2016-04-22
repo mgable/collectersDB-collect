@@ -36,12 +36,12 @@
 			}
 
 			if (util.program.localsave){
-				var imagePath = "/Users/markgable/Sites/data/";
+				var localImagePath = "/Users/markgable/Sites/data/";
 				filename = filename.replace("/", "-");
-				util.makeDirectories(imagePath);
-				util.logger.log("verbose", "saving locally", {filename, imagePath});
-				request(uri).pipe(fs.createWriteStream(imagePath + filename)).on('close', callback).on('error', function(err){
-					util.logger.log("error", "imagedownload error", {error:err, imagePath: imagePath, filename: filename});
+				util.makeDirectories(localImagePath);
+				util.logger.log("verbose", "saving locally", {filename, localImagePath});
+				request(uri).pipe(fs.createWriteStream(localImagePath + filename)).on('close', callback).on('error', function(err){
+					util.logger.log("error", "imagedownload error", {err, localImagePath, filename});
 				});
 			} else {
 
