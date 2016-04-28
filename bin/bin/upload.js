@@ -56,7 +56,13 @@
 					callback(uri, imagePath, filename);
 				});
 
-				upload.on('uploaded', function () {
+				upload.on('uploaded', function (details) {
+					util.logger.log('verbose', "image uploaded", {uri, imagePath, filename, details});
+					callback(uri, imagePath, filename);
+				});
+
+				upload.on('part', function (details) {
+					util.logger.log('verbose', "image on-part", {uri, imagePath, filename, details});
 					callback(uri, imagePath, filename);
 				});
 
