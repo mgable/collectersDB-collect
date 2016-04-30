@@ -23,7 +23,7 @@
 		deferred;
 
 	// public methods
-	function remove(_table, _date){
+	function removeAll(_table, _date){
 		var config = util.getConfigValue("aws");
 
 		table = _table;
@@ -45,6 +45,24 @@
 		return deferred.promise;
 	}
 
+	// public methods
+	function remove(_table, _date){
+		var config = util.getConfigValue("aws");
+
+		table = _table;
+		date = _date;
+
+
+		deferred = Q.defer();
+		dynamoClient = util.getDynamoClient();
+
+		util.logger.log("info", "Starting clean-up", {table: table, date: date});
+
+		_delete( _makeParam(table,date));
+
+		return deferred.promise;
+	}
+
 	// private methods
 	function _makeParams(table, date){ // for scan
 		return {
@@ -53,6 +71,13 @@
 			ExpressionAttributeNames: {"#date": "date"},
 			ExpressionAttributeValues: {":date": date}
 		};
+	}
+
+	function _makeParam(table, key){
+		return {
+    		TableName: table,
+    		Key: {"date": key}
+    	};
 	}
 
 	function _onScan(err, data) {
@@ -69,12 +94,24 @@
 				dynamoClient.scan(scanParams, _onScan);
 			} else {
 				util.logger.log("verbose", "Finished Scaning", {count: count});
-				_delete(items);
+				_deleteAll(items);
 			}
 		}
 	}
 
-	function _delete(items){
+	function _delete(params){
+		dynamoClient.delete(params, (err, data) => {
+			if (err) {
+				util.logger.log("error", "delete error", {params});
+				deferred.resolve(false);
+			} else {
+				util.logger.log("verbose", "deleted item", {params});
+				deferred.resolve(true);
+			} 
+		});
+	}
+
+	function _deleteAll(items){
 		var processItems = _makeItems(items),
 			obj = {};
 
@@ -130,6 +167,7 @@
 
 	//exports
 	exports.remove = remove;
+	exports.removeAll = removeAll;
 
 	module.exports = exports;
 }());

@@ -21,26 +21,27 @@
 			if (data){// there is a diff file
 				save.setDiffSaved(true);
 				deferred.resolve(data);
-				util.logger.log("warn", "Existing Diff file - Skipping");
+				util.logger.log("warn", "Existing Diff file - Skipping", {itemCount: data.length});
 			} else { // no diff file
 				util.logger.log("verbose", "no saved diff file for today");
-				var yesterdayKey = util.getYesterdaysKey(),
+				var yesterdayKey = util.getYesterdaysKey().toString(),
 					rawTable = util.getRawTable(),
-					keys = [{date: yesterdayKey}];
-				 _getData(rawTable, keys).then(function(yesterdaysRawData){
-				 	util.logger.log("verbose", "got yesterdays raw data");
+					key = {date: yesterdayKey};
+				 _getData(rawTable, key).then(function(yesterdaysRawData){
+				 	util.logger.log("verbose", "looking for yesterdays raw data");
 				 	if(!yesterdaysRawData){ // no raw data from yesterday
 				 		util.logger.log("verbose", "no raw file from yesterday");
 				 		if (util.program.init){ // if init flag is set pass in an empty array to start store
 				 			util.logger.log("info", "Creating new index");
 				 			return items;
 				 		} else {
-				 			util.logger.log("error", "Can not find yesterdays raw data", {file: __filename, method: "makeDiff", todayKey: todayKey});
+				 			util.logger.log("error", "Can not find yesterdays raw data", {file: __filename, method: "makeDiff", yesterdayKey});
 				 			util.logger.log("error", "No initialization flag so no new index");
 				 			util.logger.log("error", "NOT CONTINUING");
 				 			deferred.reject(false);
 				 		}
 				 	} else {
+				 		util.logger.log("verbose", "found yesterdays raw file", {itemCount: yesterdaysRawData.length});
 						return _diff(items, yesterdaysRawData ); // _.initial(items, 50)
 					}
 				}).then(function(diff){
@@ -57,9 +58,9 @@
 	}
 
 	// private methods
-	function _getData(table, keys){
-		return get.getData(keys, table).then(function(data){
-			return (data[0] && data[0].items) ? data[0].items : false;
+	function _getData(table, key){
+		return get.getItem(table, key).then(function(data){
+			return (data && data.Item && data.Item.items ) ? data.Item.items : false;
 		});
 	}
 

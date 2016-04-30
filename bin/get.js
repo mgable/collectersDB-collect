@@ -30,11 +30,35 @@
 		
 		dynamoClient.batchGet(params, function(err, data) {
 		    if (err) {
-		    	util.logger.log("error", "could not get data", err);
+		    	util.logger.log("error", "could not get data", {err, keys, table});
 		    	deferred.reject(err);
 			} else {
 				util.logger.log("verbose", "get data was a success");
 				deferred.resolve(data.Responses[table]);
+			}
+		});
+
+		return deferred.promise;
+	}
+
+	function getItem(table, key){
+		_reset();
+		dynamoClient = util.getDynamoClient();
+
+		params = {
+			TableName: table,
+			Key: key,
+			ConsistentRead: false, // optional (true | false)
+			ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)
+		};
+
+		dynamoClient.get(params, function(err, data) {
+			if (err) {
+				util.logger.log("error", "there was an error getting an item", {err, table, key});
+				deferred.reject(err);
+			} else { 
+				util.logger.log("info", "got item", {table, key});
+				deferred.resolve(data);
 			}
 		});
 
@@ -96,7 +120,6 @@
 			} else {
 				results = results.concat(data.Items);
 				count += data.Count;
-				console.info("got %s items", count);
 				if (data.LastEvaluatedKey){	
 					_getBulkData(table, data.LastEvaluatedKey, key);
 				} else {
@@ -108,6 +131,7 @@
 
 	// exports
 	exports.getData = getData;
+	exports.getItem = getItem;
 	exports.getBulkData = getBulkData;
 	exports.getBulkDataAll = getBulkDataAll;
 

@@ -2,7 +2,7 @@
 	"source": {
 		"domain": "www.collectorsweekly.com",
 		"pageUrlTemplate": "/ajax/category-auctions.php?id= *** config.category.id *** &sort=completed&limit=1000&offset=0",
-		"categories": [{"name": "fiesta","id": 650, "stopWords":[]}]
+		"categories": [{"name": "advertising_tins","id": 1175, "stopWords":[]}, {"name": "fiesta","id": 650, "stopWords":[]}]
 	},
 	"aws": {
 		"location": "local",

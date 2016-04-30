@@ -30,9 +30,11 @@
 	program
 		.version('0.0.1')
 		.option('-t, --test', 'test mode')
+		.option('-c, --create', 'create table')
 		.option('-m, --noimages', 'do not download images')
 		.option('-i, --init', 'initalize new indexes')
-		.option('-x, --nosave', 'do not save or index')
+		.option('-x, --nosave', 'do not save')
+		.option('-z, --noindex', 'do not index')
 		.option('-F, --File [url]', 'load configuration from file [url]')
 		.option('-l, --localsave', 'save to local filesystem')
 		.parse(process.argv);

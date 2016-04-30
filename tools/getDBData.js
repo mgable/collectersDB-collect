@@ -17,9 +17,9 @@
 	// the process
 	configuration.init().then(function(config){
 		util.setConfig(config).then(function(){
-			// raw file
-			 // var todayKey = util.getTodaysKey(),
-				// table = util.getRawTable();
+			//raw file
+			 var todayKey = util.getTodaysKey(),
+				table = util.getRawTable();
 
 			// var todayKey = util.getYesterdaysKey(),
 			// 	table = util.getRawTable();
@@ -29,13 +29,14 @@
 			// 	table = util.getDiffTable();
 
 			//store file
-			var todayKey = util.getTodaysKey(),
-				table = util.getStoreTable();
+			// var todayKey = util.getTodaysKey(),
+			// 	table = util.getStoreTable();
 
 				console.info(todayKey);
 				console.info(table);
 
-			get.getBulkData(table, todayKey).then(function(diff){
+			get.getItem(table, {date: todayKey}).then(function(diff){
+				console.info("diff");
 				fs.writeFileSync(table + "_" + todayKey + ".json", JSON.stringify(diff));
 			});
 

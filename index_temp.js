@@ -44,7 +44,7 @@
 						.then(makeDiff)
 						.then(saveDiff)
 						.then(fetchAdditionData)
-						// .then(saveDiff)
+						.then(saveDiff)
 						.then(saveStore)
 						.then(fetchImages)
 						.then(makeIndex)
