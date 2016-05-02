@@ -21,6 +21,7 @@
 		if(! credentials) {_init();}
 
 		request.head(uri, function(err, res, body){
+			var imageSize;
 
 			if (err){
 				console.error (err);
@@ -28,10 +29,10 @@
 			}
 
 			if (res && res.headers && res.headers['content-length']){
-				var imageSize = parseInt(res.headers['content-length'],10);
+				imageSize = parseInt(res.headers['content-length'],10);
 				util.logger.log('verbose', {filename, uri, imageSize});
 				if (imageSize < 300){
-					util.logger.log('error', "image size error", {filename, uri, imageSize});
+					util.logger.log('warn', "small image size (< 300)", {filename, uri, imageSize});
 				}
 			}
 
@@ -63,6 +64,11 @@
 
 				upload.on('part', function (details) {
 					util.logger.log('verbose', "image on-part", {uri, imagePath, filename, details});
+					if (imageSize > details.uploadedSize) {
+						util.logger.log("error", "image size error: header size is greater than upload size", {uri, imagePath, filename, details});
+					} else  if (imageSize < details.uploadedSize) {
+						util.logger.log("warn", "image size warning: header size is less than upload size", {uri, imagePath, filename, details});
+					}
 					callback(uri, imagePath, filename);
 				});
 
